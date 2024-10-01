@@ -1,0 +1,32 @@
+{
+	"name": "alfred-apex-documentation",
+	"version": "1.0.0",
+	"description": "",
+	"type": "module",
+	"exports": "./index.js",
+	"scripts": {
+		"postinstall": "alfy-init",
+		"preuninstall": "alfy-cleanup",
+		"test": "ava"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"devDependencies": {
+		"@biomejs/biome": "^1.9.3",
+		"alfy-test": "^0.4.2",
+		"ava": "^6.1.3"
+	},
+	"dependencies": {
+		"alfy": "^2.1.0",
+		"fuzzysort": "^3.0.2",
+		"yargs-parser": "^21.1.1"
+	},
+	"engines": {
+		"node": ">=20"
+	},
+	"files": [
+		"index.js",
+		"sql/data.json"
+	]
+}

@@ -1,0 +1,16 @@
+{
+	"data": [
+		{
+			"name": "Text Button",
+			"snippet": "<button type=\"button\" class=\"t-Button\">My Button</button>"
+		},
+		{
+			"name": "Text with Icon Button",
+			"snippet": "<button type=\"button\" class=\"t-Button t-Button--icon t-Button--iconLeft\"><span aria-hidden=\"true\" class=\"t-Icon t-Icon--left fa fa-check-circle\"></span>My Button</button>"
+		},
+		{
+			"name": "Icon Button",
+			"snippet": "<button type=\"button\" title=\"My Button\" aria-label=\"My Button\" class=\"t-Button t-Button--noLabel t-Button--icon\"><span aria-hidden=\"true\" class=\"t-Icon fa fa-check-circle\"></span></button>"
+		}
+	]
+}

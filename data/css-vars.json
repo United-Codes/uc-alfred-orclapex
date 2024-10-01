@@ -1,0 +1,168 @@
+{
+	"data": [
+		{
+			"name": "u-color-1",
+			"description": "Color palette variable 1"
+		},
+		{
+			"name": "u-color-2",
+			"description": "Color palette variable 2"
+		},
+		{
+			"name": "u-color-3",
+			"description": "Color palette variable 3"
+		},
+		{
+			"name": "u-color-4",
+			"description": "Color palette variable 4"
+		},
+		{
+			"name": "u-color-5",
+			"description": "Color palette variable 5"
+		},
+		{
+			"name": "ut-palette-primary",
+			"description": "Primary color in the palette"
+		},
+		{
+			"name": "ut-palette-primary-contrast",
+			"description": "Contrast color for primary palette color"
+		},
+		{
+			"name": "ut-palette-primary-shade",
+			"description": "Shade of the primary palette color"
+		},
+		{
+			"name": "ut-palette-danger",
+			"description": "Danger color in the palette"
+		},
+		{
+			"name": "ut-palette-danger-contrast",
+			"description": "Contrast color for danger palette color"
+		},
+		{
+			"name": "ut-palette-danger-shade",
+			"description": "Shade of the danger palette color"
+		},
+		{
+			"name": "ut-palette-warning",
+			"description": "Warning color in the palette"
+		},
+		{
+			"name": "ut-palette-warning-contrast",
+			"description": "Contrast color for warning palette color"
+		},
+		{
+			"name": "ut-palette-warning-shade",
+			"description": "Shade of the warning palette color"
+		},
+		{
+			"name": "ut-palette-success",
+			"description": "Success color in the palette"
+		},
+		{
+			"name": "ut-palette-success-contrast",
+			"description": "Contrast color for success palette color"
+		},
+		{
+			"name": "ut-palette-success-shade",
+			"description": "Shade of the success palette color"
+		},
+		{
+			"name": "ut-palette-info",
+			"description": "Info color in the palette"
+		},
+		{
+			"name": "ut-palette-info-contrast",
+			"description": "Contrast color for info palette color"
+		},
+		{
+			"name": "ut-palette-info-shade",
+			"description": "Shade of the info palette color"
+		},
+		{
+			"name": "ut-component-background-color",
+			"description": "Component Background Color"
+		},
+		{
+			"name": "ut-component-border-color",
+			"description": "Component Border Color"
+		},
+		{
+			"name": "ut-component-border-width",
+			"description": "Component Border Width"
+		},
+		{
+			"name": "ut-component-border-radius",
+			"description": "Component Border Radius"
+		},
+		{
+			"name": "ut-component-box-shadow",
+			"description": "Component Shadow"
+		},
+		{
+			"name": "ut-component-highlight-background-color",
+			"description": "Component Highlight Background Color (example: hover state)"
+		},
+		{
+			"name": "ut-component-toolbar-background-color",
+			"description": "Component Toolbar Background Color"
+		},
+		{
+			"name": "ut-component-inner-border-width",
+			"description": "Component Inner Border Width"
+		},
+		{
+			"name": "ut-component-inner-border-color",
+			"description": "Component Inner Border Color"
+		},
+		{
+			"name": "ut-component-text-default-color",
+			"description": "Component Default Text Color"
+		},
+		{
+			"name": "ut-component-text-title-color",
+			"description": "Component Default Title Color"
+		},
+		{
+			"name": "ut-component-text-subtitle-color",
+			"description": "Component Default Subtitle Color"
+		},
+		{
+			"name": "ut-component-text-muted-color",
+			"description": "Component Default Muted Color (example: description text)"
+		},
+		{
+			"name": "ut-component-icon-background-color",
+			"description": "Component Icon Background Color"
+		},
+		{
+			"name": "ut-component-icon-color",
+			"description": "Component Icon Color"
+		},
+		{
+			"name": "ut-component-badge-background-color",
+			"description": "Component Badge Background Color"
+		},
+		{
+			"name": "ut-component-badge-text-color",
+			"description": "Component Badge Text Color"
+		},
+		{
+			"name": "ut-component-badge-border-radius",
+			"description": "Component Badge Border Radius"
+		},
+		{
+			"name": "ut-shadow-sm",
+			"description": "Shadow Small"
+		},
+		{
+			"name": "ut-shadow-md",
+			"description": "Shadow Medium"
+		},
+		{
+			"name": "ut-shadow-lg",
+			"description": "Shadow Large"
+		}
+	]
+}
