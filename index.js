@@ -3,6 +3,7 @@ import yargsParser from "yargs-parser";
 import {
 	processCssItems,
 	processDocItems,
+	processIconItems,
 	processViewItems,
 } from "./getOptions.js";
 
@@ -19,6 +20,9 @@ async function main(args) {
 			break;
 		case "views":
 			items = await processViewItems(input);
+			break;
+		case "icons":
+			items = await processIconItems(input);
 			break;
 		default: // "doc"
 			items = await processDocItems(input);

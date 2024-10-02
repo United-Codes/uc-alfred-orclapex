@@ -21,6 +21,19 @@
 				<false/>
 			</dict>
 		</array>
+		<key>5E8288A0-4459-4880-B584-086C75DCC183</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>8D387517-DBF0-468F-BA36-62AE0B2B9DCB</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
 		<key>5F0334A2-0E3D-49E2-8616-6B612E099A00</key>
 		<array>
 			<dict>
@@ -282,6 +295,82 @@ end run</string>
 			<key>version</key>
 			<integer>2</integer>
 		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>68</integer>
+				<key>script</key>
+				<string>on run argv
+	tell application "System Events"
+		keystroke "{query}"
+	end tell
+end run</string>
+				<key>scriptargtype</key>
+				<integer>0</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>6</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>8D387517-DBF0-468F-BA36-62AE0B2B9DCB</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>alfredfiltersresults</key>
+				<false/>
+				<key>alfredfiltersresultsmatchmode</key>
+				<integer>0</integer>
+				<key>argumenttreatemptyqueryasnil</key>
+				<true/>
+				<key>argumenttrimmode</key>
+				<integer>0</integer>
+				<key>argumenttype</key>
+				<integer>0</integer>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>keyword</key>
+				<string>apx icons</string>
+				<key>queuedelaycustom</key>
+				<integer>3</integer>
+				<key>queuedelayimmediatelyinitially</key>
+				<true/>
+				<key>queuedelaymode</key>
+				<integer>0</integer>
+				<key>queuemode</key>
+				<integer>1</integer>
+				<key>runningsubtext</key>
+				<string></string>
+				<key>script</key>
+				<string>./node_modules/.bin/run-node index.js "$1" --mode icons</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>subtext</key>
+				<string></string>
+				<key>title</key>
+				<string>APEX Icons</string>
+				<key>type</key>
+				<integer>0</integer>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.scriptfilter</string>
+			<key>uid</key>
+			<string>5E8288A0-4459-4880-B584-086C75DCC183</string>
+			<key>version</key>
+			<integer>3</integer>
+		</dict>
 	</array>
 	<key>readme</key>
 	<string></string>
@@ -301,12 +390,26 @@ end run</string>
 			<key>ypos</key>
 			<real>315</real>
 		</dict>
+		<key>5E8288A0-4459-4880-B584-086C75DCC183</key>
+		<dict>
+			<key>xpos</key>
+			<real>150</real>
+			<key>ypos</key>
+			<real>595</real>
+		</dict>
 		<key>5F0334A2-0E3D-49E2-8616-6B612E099A00</key>
 		<dict>
 			<key>xpos</key>
 			<real>145</real>
 			<key>ypos</key>
 			<real>315</real>
+		</dict>
+		<key>8D387517-DBF0-468F-BA36-62AE0B2B9DCB</key>
+		<dict>
+			<key>xpos</key>
+			<real>365</real>
+			<key>ypos</key>
+			<real>595</real>
 		</dict>
 		<key>BAC63ADD-0912-406D-A473-031080B8C8FE</key>
 		<dict>

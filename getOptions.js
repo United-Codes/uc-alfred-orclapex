@@ -6,6 +6,9 @@ const FILE_PREFIX = "./data/";
 const DOC_FILE = `${FILE_PREFIX}doc.json`;
 const CSS_FILE = `${FILE_PREFIX}css-vars.json`;
 const VIEWS_FILE = `${FILE_PREFIX}views.json`;
+const ICONS_FILE = `${FILE_PREFIX}icons.json`;
+
+const RESULT_SIZE = 50;
 
 async function readJsonFile(filePath) {
 	try {
@@ -52,7 +55,7 @@ export async function processDocItems(input) {
 
 	const results = fuzzysort.go(input, docItems, {
 		keys: ["title", "submatcher"],
-		limit: 10,
+		limit: RESULT_SIZE,
 	});
 
 	const items = results.map((el) => ({
@@ -85,7 +88,7 @@ export async function processCssItems(input) {
 
 	const results = fuzzysort.go(input, cssItems, {
 		keys: ["name", "description"],
-		limit: 10,
+		limit: RESULT_SIZE,
 	});
 
 	const items = results.map((el) => ({
@@ -113,13 +116,51 @@ export async function processViewItems(input) {
 
 	const results = fuzzysort.go(input, viewItems, {
 		keys: ["name", "description"],
-		limit: 10,
+		limit: RESULT_SIZE,
 	});
 
 	const items = results.map((el) => ({
 		uid: el.obj.name,
 		title: el.obj.name,
 		subtitle: `${el.obj.description}${el.obj.parentView ? ` | parent: ${el.obj.parentView}` : ""}`,
+		arg: el.obj.name,
+	}));
+
+	return items;
+}
+
+export async function processIconItems(input) {
+	const data = await readJsonFileCache(ICONS_FILE);
+
+	/**
+	 * @typedef {Object} CssItem
+	 * @property {string} name
+	 * @property {string} category
+	 * @property {string} [search]
+	 */
+
+	/** @type {CssItem[]} */
+	const iconItems = data.results[0].items;
+
+	for (const item of iconItems) {
+		item.search = item.search || "";
+		item.categoryText = item.category ? `Category: ${item.category}` : "";
+		item.searchCriterias = item.search ? `Criterias: ${item.search}` : "";
+		item.description =
+			item.categoryText && item.searchCriterias
+				? `${item.categoryText} | ${item.searchCriterias}`
+				: item.categoryText || item.searchCriterias;
+	}
+
+	const results = fuzzysort.go(input, iconItems, {
+		keys: ["name", "search"],
+		limit: RESULT_SIZE,
+	});
+
+	const items = results.map((el) => ({
+		uid: el.obj.name,
+		title: el.obj.name,
+		subtitle: el.obj.description,
 		arg: el.obj.name,
 	}));
 
