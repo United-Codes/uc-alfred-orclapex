@@ -1,0 +1,292 @@
+{"results":[{"columns":[{"name":"name","type":"VARCHAR2"},{"name":"description","type":"VARCHAR2"},{"name":"parentView","type":"VARCHAR2"}],"items":
+[
+{"name":"APEX_DEBUG_MESSAGES","description":"Debug messages that were recorded for page views"}
+,{"name":"APEX_DG_BLUEPRINT_SAMPLES","description":"Sample JSON representations of blueprints"}
+,{"name":"APEX_DG_BUILTINS","description":"Table describing available builtin data"}
+,{"name":"APEX_DG_BUILTIN_2D_SHAPES","description":"Sample data related to 2d shapes"}
+,{"name":"APEX_DG_BUILTIN_3D_SHAPES","description":"Sample data related to 3d shapes"}
+,{"name":"APEX_DG_BUILTIN_AIRPORTS","description":"Sample data related to airports"}
+,{"name":"APEX_DG_BUILTIN_ANIMALS","description":"Sample data related to animals"}
+,{"name":"APEX_DG_BUILTIN_BOOLEANS","description":"Sample data related to booleans"}
+,{"name":"APEX_DG_BUILTIN_CARS","description":"Sample data related to cars"}
+,{"name":"APEX_DG_BUILTIN_COLORS","description":"Sample data related to colors"}
+,{"name":"APEX_DG_BUILTIN_COMPANY_NAMES","description":"Sample data related to company names"}
+,{"name":"APEX_DG_BUILTIN_COUNTRIES","description":"Sample data related to countries"}
+,{"name":"APEX_DG_BUILTIN_DEPTS","description":"Sample data related to departments"}
+,{"name":"APEX_DG_BUILTIN_ELEMENTS","description":"Sample data related to elements, e.g Oxygen"}
+,{"name":"APEX_DG_BUILTIN_FONTAPEX","description":"Font APEX icon data"}
+,{"name":"APEX_DG_BUILTIN_FOODS","description":"Sample data related to foods"}
+,{"name":"APEX_DG_BUILTIN_GENERIC_PRODS","description":"Sample data related to generic products"}
+,{"name":"APEX_DG_BUILTIN_ICD_DIAGS","description":"Sample data related to ICD diagnostic codes"}
+,{"name":"APEX_DG_BUILTIN_ICD_PROCS","description":"Sample data related to ICD procedure codes"}
+,{"name":"APEX_DG_BUILTIN_INDUSTRIES","description":"Sample data related to industries"}
+,{"name":"APEX_DG_BUILTIN_ISLANDS","description":"Sample data related to islands"}
+,{"name":"APEX_DG_BUILTIN_LANGUAGES","description":"Sample data related to languages"}
+,{"name":"APEX_DG_BUILTIN_LATIN_TEXTS","description":"Sample lorem ipsum text strings"}
+,{"name":"APEX_DG_BUILTIN_LOCATIONS","description":"Sample data related to locations"}
+,{"name":"APEX_DG_BUILTIN_OCCUPATIONS","description":"Sample data related to occupations"}
+,{"name":"APEX_DG_BUILTIN_PERSONS","description":"Sample data related to persons"}
+,{"name":"APEX_DG_BUILTIN_PETS","description":"Sample data related to pets"}
+,{"name":"APEX_DG_BUILTIN_PLANTS","description":"Sample data related to plants"}
+,{"name":"APEX_DG_BUILTIN_PRODUCTS","description":"Sample data related to products"}
+,{"name":"APEX_DG_BUILTIN_PROD_REVIEWS","description":"Sample data related to product reviews"}
+,{"name":"APEX_DG_BUILTIN_SCHOOLS","description":"Sample data related to schools"}
+,{"name":"APEX_DG_BUILTIN_STATUS","description":"Sample data related to status"}
+,{"name":"APEX_DG_HELPER_DATA","description":"Sample data grouped by DOMAIN. Typically referenced within an APEX_AD_BUILTIN view"}
+,{"name":"APEX_DG_HELPER_PERSONS","description":"Sample data related to persons. Typically referenced within an APEX_DG_BUILTIN view."}
+,{"name":"APEX_DG_META_TAB_COL_EXAMPLES","description":"Examples of generated data"}
+,{"name":"APEX_DG_POWERSET_LATIN_TEXTS","description":"A cartesian product of the apex_dg_builtin_latin_texts data."}
+,{"name":"APEX_DG_POWERSET_PERSONS","description":"A cartesian product of the apex_dg_builtin_persons data. Dramatically expands name combinations."}
+,{"name":"APEX_THEMES","description":"List of APEX built-in, public and workspace themes"}
+,{"name":"APEX_UI_DEFAULTS_ATTR_DICT","description":"The Attribute Dictionary is specific to a workspace.  It is part of User Interface Defaults and can be used in report and form creation."}
+,{"name":"APEX_UI_DEFAULTS_COLUMNS","description":"The User Interface Defaults for the columns within this schema."}
+,{"name":"APEX_UI_DEFAULTS_GROUPS","description":"The User Interface Defaults for the groups within the tables in this schema.  Used by the wizards when generating applications."}
+,{"name":"APEX_UI_DEFAULTS_LOV_DATA","description":"If you create a form, report, or tabular form that includes this column and if the appropriate Display As Type is set to use a list of values (Radio Group or Select List) then a Named List of Values will be created within the application and will be referenced by the resulting item or report column."}
+,{"name":"APEX_UI_DEFAULTS_TABLES","description":"The User Interface Defaults for the tables within this schema.  Used by the wizards when generating applications."}
+,{"name":"APEX_WEBSERVICE_LOG","description":"Identifies web service requests in the APEX instance."}
+,{"name":"APEX_WORKSPACES","description":"Available Oracle APEX workspaces"}
+,{"name":"APEX_APPLICATIONS","description":"Applications defined in the current workspace or database user.","parentview":"APEX_WORKSPACES"}
+,{"name":"APEX_APPLICATION_ALL_AUTH","description":"All authorization schemes for all components by Application","parentview":"APEX_APPLICATIONS"}
+,{"name":"APEX_APPLICATION_AUTH","description":"Identifies the available Authentication Schemes defined for an Application","parentview":"APEX_APPLICATIONS"}
+,{"name":"APEX_APPLICATION_AUTHORIZATION","description":"Identifies Authorization Schemes which can be applied at the application, page or component level","parentview":"APEX_APPLICATIONS"}
+,{"name":"APEX_APPLICATION_BC_ENTRIES","description":"Identifies Breadcrumb Entries which map to a Page and identify a pages parent","parentview":"APEX_APPLICATIONS"}
+,{"name":"APEX_APPLICATION_BREADCRUMBS","description":"Identifies the definition of a collection of Breadcrumb Entries which are used to identify a page Hierarchy","parentview":"APEX_APPLICATIONS"}
+,{"name":"APEX_APPLICATION_BUILD_OPTIONS","description":"Identifies Build Options available to an application","parentview":"APEX_APPLICATIONS"}
+,{"name":"APEX_APPLICATION_CACHING","description":"Applications defined in the current workspace or database user.","parentview":"APEX_APPLICATIONS"}
+,{"name":"APEX_APPLICATION_COMPUTATIONS","description":"Identifies Application Computations which can run for every page or on login","parentview":"APEX_APPLICATIONS"}
+,{"name":"APEX_APPLICATION_GROUPS","description":"Application Groups defined per workspace.  Applications can be associated with an application group.","parentview":"APEX_APPLICATIONS"}
+,{"name":"APEX_APPLICATION_ITEMS","description":"Identifies Application Items used to maintain session state that are not associated with a page","parentview":"APEX_APPLICATIONS"}
+,{"name":"APEX_APPLICATION_LISTS","description":"Identifies a named collection of Application List Entries which can be included on any page using a region of type List.  Display attributes are controlled using a List Template.","parentview":"APEX_APPLICATIONS"}
+,{"name":"APEX_APPLICATION_LIST_ENTRIES","description":"Identifies the List Entries which define a List.  List Entries can be hierarchical or flat.","parentview":"APEX_APPLICATION_LISTS"}
+,{"name":"APEX_APPLICATION_LOCKED_PAGES","description":"Locked pages of an application","parentview":"APEX_APPLICATIONS"}
+,{"name":"APEX_APPLICATION_LOVS","description":"Identifies a shared list of values that can be referenced by a Page Item or Report Column","parentview":"APEX_APPLICATIONS"}
+,{"name":"APEX_APPLICATION_LOV_COLS","description":"Identifies column metadata for a shared list of values.","parentview":"APEX_APPLICATION_LOVS"}
+,{"name":"APEX_APPLICATION_LOV_ENTRIES","description":"Identifies the List of Values Entries which comprise a shared List of Values","parentview":"APEX_APPLICATION_LOVS"}
+,{"name":"APEX_APPLICATION_NAV_BAR","description":"Identifies navigation bar entries displayed on pages that use a Page Template that include a #NAVIGATION_BAR# substitution string","parentview":"APEX_APPLICATIONS"}
+,{"name":"APEX_APPLICATION_PAGES","description":"A Page definition is the basic building block of page. Page components including regions, items, buttons, computations, branches, validations, and processes further define the definition of a page.","parentview":"APEX_APPLICATIONS"}
+,{"name":"APEX_APPLICATION_PAGE_BRANCHES","description":"Identifies branch processing associated with a page.  A branch is a directive to navigate to a page or URL which is run at the conclusion of page accept processing.","parentview":"APEX_APPLICATION_PAGES"}
+,{"name":"APEX_APPLICATION_PAGE_COMP","description":"Identifies the computation of Item Session State","parentview":"APEX_APPLICATION_PAGES"}
+,{"name":"APEX_APPLICATION_PAGE_DA","description":"Identifies Dynamic Actions associated with a Page","parentview":"APEX_APPLICATION_PAGES"}
+,{"name":"APEX_APPLICATION_PAGE_DA_ACTS","description":"Identifies the Actions of a Dynamic Action associated with a Page","parentview":"APEX_APPLICATION_PAGE_DA"}
+,{"name":"APEX_APPLICATION_PAGE_DB_ITEMS","description":"Identifies Page Items which are associated with Database Table Columns.  This view represents a subset of the items in the APEX_APPLICATION_PAGE_ITEMS view.","parentview":"APEX_APPLICATION_PAGES"}
+,{"name":"APEX_APPLICATION_PAGE_GROUPS","description":"Identifies page groups","parentview":"APEX_APPLICATION_PAGES"}
+,{"name":"APEX_APPLICATION_PAGE_MAP","description":"Identifies the full breadcrumb path for each page with a breadcrumb entry","parentview":"APEX_APPLICATION_PAGES"}
+,{"name":"APEX_APPLICATION_PAGE_PROC","description":"Identifies SQL or PL\/SQL processing associated with a page","parentview":"APEX_APPLICATION_PAGES"}
+,{"name":"APEX_APPLICATION_PAGE_REGIONS","description":"Identifies a content container associated with a Page and displayed within a position defined by the Page Template","parentview":"APEX_APPLICATION_PAGES"}
+,{"name":"APEX_APPLICATION_PAGE_CHARTS","description":"Identifies a chart associated with a Page and Region.","parentview":"APEX_APPLICATION_PAGE_REGIONS"}
+,{"name":"APEX_APPLICATION_PAGE_CHART_A","description":"Identifies a chart axis associated with a chart on a Page and Region.","parentview":"APEX_APPLICATION_PAGE_CHARTS"}
+,{"name":"APEX_APPLICATION_PAGE_CHART_S","description":"Identifies a chart series associated with a chart on a Page and Region.","parentview":"APEX_APPLICATION_PAGE_CHARTS"}
+,{"name":"APEX_APPLICATION_PAGE_IR","description":"Identifies attributes of an interactive report","parentview":"APEX_APPLICATION_PAGE_REGIONS"}
+,{"name":"APEX_APPLICATION_PAGE_IR_CAT","description":"Report column category definitions for interactive report columns","parentview":"APEX_APPLICATION_PAGE_IR"}
+,{"name":"APEX_APPLICATION_PAGE_IR_CGRPS","description":"Column group definitions for interactive report columns","parentview":"APEX_APPLICATION_PAGE_IR"}
+,{"name":"APEX_APPLICATION_PAGE_IR_COL","description":"Report column definitions for interactive report columns","parentview":"APEX_APPLICATION_PAGE_IR"}
+,{"name":"APEX_APPLICATION_PAGE_IR_RPT","description":"Identifies user-level report settings for an interactive report","parentview":"APEX_APPLICATION_PAGE_IR"}
+,{"name":"APEX_APPLICATION_PAGE_IR_COMP","description":"Identifies computations defined in user-level report settings for an interactive report","parentview":"APEX_APPLICATION_PAGE_IR_RPT"}
+,{"name":"APEX_APPLICATION_PAGE_IR_COND","description":"Identifies filters and highlights defined in user-level report settings for an interactive report","parentview":"APEX_APPLICATION_PAGE_IR_RPT"}
+,{"name":"APEX_APPLICATION_PAGE_IR_GRPBY","description":"Identifies group by view defined in user-level report settings for an interactive report","parentview":"APEX_APPLICATION_PAGE_IR_RPT"}
+,{"name":"APEX_APPLICATION_PAGE_IR_PIVOT","description":"Identifies pivot view defined in user-level report settings for an interactive report","parentview":"APEX_APPLICATION_PAGE_IR_RPT"}
+,{"name":"APEX_APPLICATION_PAGE_IR_PVAGG","description":"Identifies aggregates defined for a pivot view in user-level report settings for an interactive report","parentview":"APEX_APPLICATION_PAGE_IR_RPT"}
+,{"name":"APEX_APPLICATION_PAGE_IR_PVSRT","description":"Identifies sorts defined for a pivot view in user-level report settings for an interactive report","parentview":"APEX_APPLICATION_PAGE_IR_RPT"}
+,{"name":"APEX_APPLICATION_PAGE_IR_SUB","description":"Identifies subscriptions scheduled in saved reports for an interactive report","parentview":"APEX_APPLICATION_PAGE_IR_RPT"}
+,{"name":"APEX_APPLICATION_PAGE_REG_COLS","description":"Region column definitions used for regions","parentview":"APEX_APPLICATION_PAGE_REGIONS"}
+,{"name":"APEX_APPLICATION_PAGE_RPT","description":"Printing attributes for regions that are reports","parentview":"APEX_APPLICATION_PAGE_REGIONS"}
+,{"name":"APEX_APPLICATION_PAGE_RPT_COLS","description":"Report column definitions used for Classic Reports, Tabular Forms and Interactive Reports","parentview":"APEX_APPLICATION_PAGE_RPT"}
+,{"name":"APEX_APPLICATION_PAGE_TREES","description":"Deprecated. Use apex_application_page_regions instead.","parentview":"APEX_APPLICATION_PAGE_REGIONS"}
+,{"name":"APEX_APPL_PAGE_CARD_ACTIONS","description":"Card actions definitions","parentview":"APEX_APPL_PAGE_CARDS"}
+,{"name":"APEX_APPL_PAGE_IGS","description":"Interactive grid definitions","parentview":"APEX_APPLICATION_PAGE_REGIONS"}
+,{"name":"APEX_APPL_PAGE_IG_RPT_AGGS","description":"Interactive grid report aggregate definitions","parentview":"APEX_APPL_PAGE_IG_RPT_VIEWS"}
+,{"name":"APEX_APPL_PAGE_IG_RPT_CHT_COLS","description":"Interactive grid report chart column definitions","parentview":"APEX_APPL_PAGE_IG_RPT_VIEWS"}
+,{"name":"APEX_APPL_PAGE_IG_RPT_COLUMNS","description":"Interactive grid report column definitions","parentview":"APEX_APPL_PAGE_IG_RPT_VIEWS"}
+,{"name":"APEX_APPL_PAGE_IG_RPT_HIGHLTS","description":"Interactive grid report highlight definitions","parentview":"APEX_APPL_PAGE_IG_RPT_VIEWS"}
+,{"name":"APEX_APPL_PAGE_IG_RPT_COMPUTES","description":"Interactive grid report computed column definitions","parentview":"APEX_APPL_PAGE_IG_RPTS"}
+,{"name":"APEX_APPL_PAGE_IG_RPT_FILTERS","description":"Interactive grid report filter definitions","parentview":"APEX_APPL_PAGE_IG_RPTS"}
+,{"name":"APEX_APPL_PAGE_IG_RPT_VIEWS","description":"Interactive grid report view definitions","parentview":"APEX_APPL_PAGE_IG_RPTS"}
+,{"name":"APEX_APPL_PAGE_IG_COLUMNS","description":"Interactive grid column definitions","parentview":"APEX_APPL_PAGE_IGS"}
+,{"name":"APEX_APPL_PAGE_IG_COL_GROUPS","description":"Interactive grid column group definitions","parentview":"APEX_APPL_PAGE_IGS"}
+,{"name":"APEX_APPL_PAGE_IG_RPTS","description":"Interactive grid report definitions","parentview":"APEX_APPL_PAGE_IGS"}
+,{"name":"APEX_APPL_PAGE_MAP_LAYERS","description":"Map layer definitions","parentview":"APEX_APPL_PAGE_MAPS"}
+,{"name":"APEX_APPL_PAGE_SEARCH_SOURCES","description":"Stores the meta data for Search Configuration usages within a search region.","parentview":"APEX_APPLICATION_PAGE_REGIONS"}
+,{"name":"APEX_APPL_PAGE_CARDS","description":"Cards definitions","parentview":"APEX_APPLICATION_PAGE_REGIONS"}
+,{"name":"APEX_APPL_PAGE_MAPS","description":"Map region definitions","parentview":"APEX_APPLICATION_PAGE_REGIONS"}
+,{"name":"APEX_APPLICATION_PAGE_VAL","description":"Identifies Validations associated with an Application Page","parentview":"APEX_APPLICATION_PAGES"}
+,{"name":"APEX_APPL_PAGE_CALENDARS","description":"Identifies Application Calendars","parentview":"APEX_APPLICATION_PAGES"}
+,{"name":"APEX_APPL_PAGE_COMP_ACTIONS","description":"Action definitions for page components","parentview":"APEX_APPLICATION_PAGES"}
+,{"name":"APEX_APPL_PAGE_MENU_ENTRIES","description":"Menu Entry definitions for actions of a region or IR column","parentview":"APEX_APPL_PAGE_COMP_ACTIONS"}
+,{"name":"APEX_APPL_PAGE_META_TAGS","description":"Identifies page meta tags","parentview":"APEX_APPLICATION_PAGES"}
+,{"name":"APEX_APPL_PAGE_BG_PROC_STATUS","description":"Identifies page processing running in the background","parentview":"APEX_APPLICATION_PAGE_PROC"}
+,{"name":"APEX_APPLICATION_PAGE_BUTTONS","description":"Identifies buttons associated with a Page and Region","parentview":"APEX_APPLICATION_PAGE_REGIONS"}
+,{"name":"APEX_APPLICATION_PAGE_ITEMS","description":"Identifies Page Items which are used to render HTML form content.  Items automatically maintain session state which can be accessed using bind variables or substitution stings.","parentview":"APEX_APPLICATION_PAGE_REGIONS"}
+,{"name":"APEX_APPL_PAGE_FILTERS","description":"Identifies Filters which are used within a Faceted Search or Smart Filters region.","parentview":"APEX_APPLICATION_PAGE_REGIONS"}
+,{"name":"APEX_APPL_PAGE_FILTER_GROUPS","description":"Identifies filter groups on a page.","parentview":"APEX_APPLICATION_PAGE_REGIONS"}
+,{"name":"APEX_APPLICATION_PARENT_TABS","description":"Identifies a collection of tabs called a Tab Set.  Each tab is part of a tab set and can be current for one or more pages.  Each tab can also have a corresponding Parent Tab if two levels of Tabs are defined.","parentview":"APEX_APPLICATIONS"}
+,{"name":"APEX_APPLICATION_PROCESSES","description":"Identifies Application Processes which can run for every page, on login or upon demand","parentview":"APEX_APPLICATIONS"}
+,{"name":"APEX_APPLICATION_RPT_LAYOUTS","description":"Identifies report layout which can be referenced by report queries and classic reports","parentview":"APEX_APPLICATIONS"}
+,{"name":"APEX_APPLICATION_RPT_QUERIES","description":"Identifies report queries, which are printable documents that can be integrated with an application using buttons, list items, branches","parentview":"APEX_APPLICATIONS"}
+,{"name":"APEX_APPL_RPT_QRY_SOURCES","description":"Identifies inidividual report sources, which are part of a report query","parentview":"APEX_APPLICATION_RPT_QUERIES"}
+,{"name":"APEX_APPLICATION_SETTINGS","description":"Identifies application settings typically used by applications to manage configuration parameter names and values","parentview":"APEX_APPLICATIONS"}
+,{"name":"APEX_APPLICATION_SHORTCUTS","description":"Identifies Application Shortcuts which can be referenced \"MY_SHORTCUT\" syntax","parentview":"APEX_APPLICATIONS"}
+,{"name":"APEX_APPLICATION_STATIC_FILES","description":"Stores the files like CSS, images, javascript files, ... of an application.","parentview":"APEX_APPLICATIONS"}
+,{"name":"APEX_APPLICATION_SUBSTITUTIONS","description":"Application level definitions of substitution strings.","parentview":"APEX_APPLICATIONS"}
+,{"name":"APEX_APPLICATION_SUPP_OBJECTS","description":"Identifies the Supporting Object installation messages","parentview":"APEX_APPLICATIONS"}
+,{"name":"APEX_APPLICATION_SUPP_OBJ_BOPT","description":"Identifies the Application Build Options that will be exposed to the Supporting Object installation","parentview":"APEX_APPLICATION_SUPP_OBJECTS"}
+,{"name":"APEX_APPLICATION_SUPP_OBJ_CHCK","description":"Identifies the Supporting Object pre-installation checks to ensure the database is compatible with the objects to be installed","parentview":"APEX_APPLICATION_SUPP_OBJECTS"}
+,{"name":"APEX_APPLICATION_SUPP_OBJ_SCR","description":"Identifies the Supporting Object installation SQL Scripts","parentview":"APEX_APPLICATION_SUPP_OBJECTS"}
+,{"name":"APEX_APPLICATION_TABS","description":"Identifies a set of tabs collected into tab sets which are associated with a Standard Tab Entry","parentview":"APEX_APPLICATIONS"}
+,{"name":"APEX_APPLICATION_THEMES","description":"Identifies a named collection of Templates","parentview":"APEX_APPLICATIONS"}
+,{"name":"APEX_APPLICATION_TEMPLATES","description":"Identifies reference counts for templates of all types","parentview":"APEX_APPLICATION_THEMES"}
+,{"name":"APEX_APPLICATION_TEMP_BC","description":"Identifies the HTML template markup used to render a Breadcrumb","parentview":"APEX_APPLICATION_THEMES"}
+,{"name":"APEX_APPLICATION_TEMP_BUTTON","description":"Identifies the HTML template markup used to display a Button","parentview":"APEX_APPLICATION_THEMES"}
+,{"name":"APEX_APPLICATION_TEMP_CALENDAR","description":"Identifies the HTML template markup used to display a Calendar","parentview":"APEX_APPLICATION_THEMES"}
+,{"name":"APEX_APPLICATION_TEMP_LABEL","description":"Identifies a Page Item Label HTML template display attributes","parentview":"APEX_APPLICATION_THEMES"}
+,{"name":"APEX_APPLICATION_TEMP_LIST","description":"Identifies HTML template markup used to render a List with List Elements","parentview":"APEX_APPLICATION_THEMES"}
+,{"name":"APEX_APPLICATION_TEMP_PAGE","description":"The Page Template which identifies the HTML used to organized and render a page content","parentview":"APEX_APPLICATION_THEMES"}
+,{"name":"APEX_APPL_TEMP_PAGE_DP","description":"The Page Template Slots identify the available slots in a page template","parentview":"APEX_APPLICATION_TEMP_PAGE"}
+,{"name":"APEX_APPLICATION_TEMP_POPUPLOV","description":"Identifies the HTML template markup and some functionality of all Popup List of Values controls for this application","parentview":"APEX_APPLICATION_THEMES"}
+,{"name":"APEX_APPLICATION_TEMP_REGION","description":"Identifies a regions HTML template display attributes","parentview":"APEX_APPLICATION_THEMES"}
+,{"name":"APEX_APPL_TEMP_REGION_DP","description":"The Region Template Slots identify the available slots in a region template","parentview":"APEX_APPLICATION_TEMP_REGION"}
+,{"name":"APEX_APPLICATION_TEMP_REPORT","description":"Identifies the HTML template markup used to render a Report Headings and Rows","parentview":"APEX_APPLICATION_THEMES"}
+,{"name":"APEX_APPLICATION_THEME_STYLES","description":"The Theme Style identifies the CSS file URLs which should be used for a theme","parentview":"APEX_APPLICATION_THEMES"}
+,{"name":"APEX_APPL_TEMPLATE_OPTIONS","description":"The Template Options identify available CSS classes for pages, regions, report, breadcrumbs, lists, items and buttons","parentview":"APEX_APPLICATION_THEMES"}
+,{"name":"APEX_APPL_TEMPLATE_OPT_GROUPS","description":"The Template Option Groups identify groups associated with tempalte options","parentview":"APEX_APPLICATION_THEMES"}
+,{"name":"APEX_APPLICATION_THEME_FILES","description":"Stores the files like CSS, images, javascript files, ... of a theme.","parentview":"APEX_APPLICATION_THEMES"}
+,{"name":"APEX_APPLICATION_TRANSLATIONS","description":"Identifies message primary language text and translated text","parentview":"APEX_APPLICATIONS"}
+,{"name":"APEX_APPLICATION_TRANS_DYNAMIC","description":"Application dynamic translations.  These are created in the Translation section of Shared Components, and referenced at runtime via the function APEX_LANG.LANG.","parentview":"APEX_APPLICATIONS"}
+,{"name":"APEX_APPLICATION_TRANS_MAP","description":"Application Groups defined per workspace.  Applications can be associated with an application group.","parentview":"APEX_APPLICATIONS"}
+,{"name":"APEX_APPLICATION_TRANS_REPOS","description":"Repository of translation strings.  These are populated from the translation seeding process.","parentview":"APEX_APPLICATIONS"}
+,{"name":"APEX_APPLICATION_TREES","description":"Identifies a tree control which can be referenced and displayed by creating a region with a source of this tree","parentview":"APEX_APPLICATIONS"}
+,{"name":"APEX_APPLICATION_WEB_SERVICES","description":"Web Services referenceable from this Application","parentview":"APEX_APPLICATIONS"}
+,{"name":"APEX_APPL_ACL_ROLES","description":"Identifies Application Roles, which are workspace groups that are tied to a specific application","parentview":"APEX_APPLICATIONS"}
+,{"name":"APEX_APPL_ACL_USERS","description":"Identifies Application Users used to map application users to application roles","parentview":"APEX_APPLICATIONS"}
+,{"name":"APEX_APPL_ACL_USER_ROLES","description":"Identifies Application Users used to map application users to application roles","parentview":"APEX_APPL_ACL_USERS"}
+,{"name":"APEX_APPL_AUTOMATIONS","description":"Stores the meta data for automations of an application.","parentview":"APEX_APPLICATIONS"}
+,{"name":"APEX_AUTOMATION_LOG","description":"Log of automation executions.","parentview":"APEX_APPL_AUTOMATIONS"}
+,{"name":"APEX_AUTOMATION_MSG_LOG","description":"Messages of an automation execution.","parentview":"APEX_AUTOMATION_LOG"}
+,{"name":"APEX_APPL_AUTOMATION_ACTIONS","description":"Identifies actions associated with an automation","parentview":"APEX_APPLICATIONS"}
+,{"name":"APEX_APPL_COMPONENT_GROUPS","description":"Identifies a named collection of components which can be bulk copied or subscribed from one application to another.","parentview":"APEX_APPLICATIONS"}
+,{"name":"APEX_APPL_COMP_GRP_COMPONENTS","description":"Identifies components that are part of a component group.","parentview":"APEX_APPL_COMPONENT_GROUPS"}
+,{"name":"APEX_APPL_CONCATENATED_FILES","description":"Concatenated files of a user interface","parentview":"APEX_APPLICATIONS"}
+,{"name":"APEX_APPL_DATA_LOADS","description":"Identifies Application Data Load definitions","parentview":"APEX_APPLICATIONS"}
+,{"name":"APEX_APPL_DATA_PROFILES","description":"Available Data Profiles used for parsing CSV, XLSX, JSON, XML and other data","parentview":"APEX_APPLICATIONS"}
+,{"name":"APEX_APPL_DATA_PROFILE_COLS","description":"Data Profile columns used for parsing JSON, XML and other data","parentview":"APEX_APPLICATIONS"}
+,{"name":"APEX_APPL_DEVELOPER_COMMENTS","description":"Developer comments of an application","parentview":"APEX_APPLICATIONS"}
+,{"name":"APEX_APPL_EMAIL_TEMPLATES","description":"Stores the meta data for the email templates of an application.","parentview":"APEX_APPLICATIONS"}
+,{"name":"APEX_APPL_INVOKE_API_PARAMS","description":"Invoke API parameter values for individual APEX components","parentview":"APEX_APPLICATIONS"}
+,{"name":"APEX_APPL_LOAD_TABLES","description":"Identifies Application Legacy Data Loading definitions","parentview":"APEX_APPLICATIONS"}
+,{"name":"APEX_APPL_LOAD_TABLE_LOOKUPS","description":"Identifies a the collection of key lookups of the data loading tables","parentview":"APEX_APPLICATIONS"}
+,{"name":"APEX_APPL_LOAD_TABLE_RULES","description":"Identifies a collection of transformation rules that are to be used on the load tables.","parentview":"APEX_APPLICATIONS"}
+,{"name":"APEX_APPL_MAP_BACKGROUNDS","description":"Map background definitions","parentview":"APEX_APPLICATIONS"}
+,{"name":"APEX_APPL_PLUGINS","description":"Stores the meta data for the plug-ins of an application.","parentview":"APEX_APPLICATIONS"}
+,{"name":"APEX_APPL_PLUGIN_ACT_POSITIONS","description":"Stores the meta data for the action positions of a Template Component plug-in.","parentview":"APEX_APPL_PLUGINS"}
+,{"name":"APEX_APPL_PLUGIN_ACT_TEMPLATES","description":"Stores the meta data for the action templates of a Template Component plug-in.","parentview":"APEX_APPL_PLUGINS"}
+,{"name":"APEX_APPL_PLUGIN_ATTRIBUTES","description":"Stores the meta data for the dynamic attributes of a plug-in.","parentview":"APEX_APPL_PLUGINS"}
+,{"name":"APEX_APPL_PLUGIN_ATTR_VALUES","description":"Stores the possible values of a plug-in attribute if it's of type selectlist.","parentview":"APEX_APPL_PLUGIN_ATTRIBUTES"}
+,{"name":"APEX_APPL_PLUGIN_ATTR_GROUPS","description":"Stores the group titles for the plug-in attributes.","parentview":"APEX_APPL_PLUGINS"}
+,{"name":"APEX_APPL_PLUGIN_EVENTS","description":"Stores which events can be triggered by this plug-in. This events are used for binding dynamic actions.","parentview":"APEX_APPL_PLUGINS"}
+,{"name":"APEX_APPL_PLUGIN_FILES","description":"Stores the files like CSS, images, javascript files, ... of a plug-in.","parentview":"APEX_APPL_PLUGINS"}
+,{"name":"APEX_APPL_PLUGIN_SLOTS","description":"Stores the meta data for the slots of a Template Component plug-in.","parentview":"APEX_APPL_PLUGINS"}
+,{"name":"APEX_APPL_PLUGIN_STD_ATTRS","description":"Stores additional meta data for plug-in standard attributes.","parentview":"APEX_APPL_PLUGINS"}
+,{"name":"APEX_APPL_PLUGIN_SETTINGS","description":"Stores the values of custom attribute of scope \"application\" of a plug-in.","parentview":"APEX_APPLICATIONS"}
+,{"name":"APEX_APPL_PUSH_SUBSCRIPTIONS","description":"Push notification subscriptions defined per application.","parentview":"APEX_APPLICATIONS"}
+,{"name":"APEX_APPL_PWA_SCREENSHOTS","description":"PWA Screenshots defined per application.","parentview":"APEX_APPLICATIONS"}
+,{"name":"APEX_APPL_PWA_SHORTCUTS","description":"PWA Shortcuts defined per application.","parentview":"APEX_APPLICATIONS"}
+,{"name":"APEX_APPL_SEARCH_CONFIGS","description":"Stores the meta data for Search Configurations of an application.","parentview":"APEX_APPLICATIONS"}
+,{"name":"APEX_APPL_TASKDEFS","description":"Stores the meta data for task definitions of an application.","parentview":"APEX_APPLICATIONS"}
+,{"name":"APEX_PURGEABLE_TASKS","description":"Stores the purgeable task instances for applications in this workspace","parentview":"APEX_APPL_TASKDEFS"}
+,{"name":"APEX_TASKS","description":"Stores the task instances for applications in this workspace","parentview":"APEX_APPL_TASKDEFS"}
+,{"name":"APEX_PURGEABLE_TASK_COMMENTS","description":"Stores the purgeable task instance comments for applications in this workspace","parentview":"APEX_PURGEABLE_TASKS"}
+,{"name":"APEX_PURGEABLE_TASK_HISTORY","description":"Stores the purgeable task instance history for applications in this workspace","parentview":"APEX_PURGEABLE_TASKS"}
+,{"name":"APEX_PURGEABLE_TASK_PARAMETERS","description":"Stores the purgeable task instance parameters for applications in this workspace","parentview":"APEX_PURGEABLE_TASKS"}
+,{"name":"APEX_TASK_COMMENTS","description":"Stores the task instance comments for applications in this workspace","parentview":"APEX_TASKS"}
+,{"name":"APEX_TASK_HISTORY","description":"Stores the task instance history for applications in this workspace","parentview":"APEX_TASKS"}
+,{"name":"APEX_TASK_PARAMETERS","description":"Stores the task instance parameters for applications in this workspace","parentview":"APEX_TASKS"}
+,{"name":"APEX_TASK_PARTICIPANTS","description":"Stores the task instance participants for applications in this workspace","parentview":"APEX_TASKS"}
+,{"name":"APEX_APPL_TASKDEF_ACTIONS","description":"Identifies actions associated with a task definition","parentview":"APEX_APPLICATIONS"}
+,{"name":"APEX_APPL_TASKDEF_COMP_PARAMS","description":"Task Definition parameter values for individual APEX components","parentview":"APEX_APPLICATIONS"}
+,{"name":"APEX_APPL_TASKDEF_PARAMS","description":"Parameters for Task Definition Payload","parentview":"APEX_APPLICATIONS"}
+,{"name":"APEX_APPL_TASKDEF_PARTICIPANTS","description":"Task Definition Participants","parentview":"APEX_APPLICATIONS"}
+,{"name":"APEX_APPL_USER_INTERFACES","description":"(Obsolete) User interfaces of an application","parentview":"APEX_APPLICATIONS"}
+,{"name":"APEX_APPL_WEB_SRC_MODULES","description":"Available REST Data Sources within an application","parentview":"APEX_APPLICATIONS"}
+,{"name":"APEX_APPL_WEB_SRC_OPERATIONS","description":"Available REST Source Operations","parentview":"APEX_APPL_WEB_SRC_MODULES"}
+,{"name":"APEX_APPL_WEB_SRC_COMP_PARAMS","description":"REST Source parameter values for individual APEX components","parentview":"APEX_APPL_WEB_SRC_PARAMETERS"}
+,{"name":"APEX_APPL_WEB_SRC_PARAMETERS","description":"Input and Output parameters for REST Source Operations","parentview":"APEX_APPL_WEB_SRC_OPERATIONS"}
+,{"name":"APEX_APPL_WEB_SRC_SYNC_STEPS","description":"Synchronization Steps for REST Data Sources","parentview":"APEX_APPL_WEB_SRC_MODULES"}
+,{"name":"APEX_APPL_WORKFLOWS","description":"Stores the workflows for applications in this workspace","parentview":"APEX_APPLICATIONS"}
+,{"name":"APEX_PURGEABLE_WORKFLOWS","description":"Stores the purgeable workflow instances for applications in this workspace","parentview":"APEX_APPL_WORKFLOW_VERSIONS"}
+,{"name":"APEX_WORKFLOWS","description":"Stores the workflow instances for applications in this workspace","parentview":"APEX_APPL_WORKFLOW_VERSIONS"}
+,{"name":"APEX_PURGEABLE_WF_ACTIVITIES","description":"Stores the purgeable workflow instance activities for applications in this workspace","parentview":"APEX_PURGEABLE_WORKFLOWS"}
+,{"name":"APEX_PURGEABLE_WF_AUDIT","description":"Stores the purgeable workflow audit for applications in this workspace"}
+,{"name":"APEX_PURGEABLE_WF_PARTICIPANT","description":"Stores the purgeable workflow participants for applications in this workspace","parentview":"APEX_PURGEABLE_WORKFLOWS"}
+,{"name":"APEX_PURGEABLE_WF_VARIABLES","description":"Stores the purgeable workflow instance variables for applications in this workspace","parentview":"APEX_PURGEABLE_WORKFLOWS"}
+,{"name":"APEX_WORKFLOW_ACTIVITIES","description":"Stores the workflow instance activities for applications in this workspace","parentview":"APEX_WORKFLOWS"}
+,{"name":"APEX_WORKFLOW_ACTIVITY_VARS","description":"Stores the workflow activity variables for applications in this workspace","parentview":"APEX_WORKFLOW_ACTIVITIES"}
+,{"name":"APEX_WORKFLOW_AUDIT","description":"Stores the workflow audit for applications in this workspace","parentview":"APEX_WORKFLOWS"}
+,{"name":"APEX_WORKFLOW_PARAMETERS","description":"Stores the workflow instance parameters for applications in this workspace","parentview":"APEX_WORKFLOWS"}
+,{"name":"APEX_WORKFLOW_PARTICIPANTS","description":"Stores the workflow participants for applications in this workspace","parentview":"APEX_WORKFLOWS"}
+,{"name":"APEX_WORKFLOW_VARIABLES","description":"Stores the workflow instance variables for applications in this workspace","parentview":"APEX_WORKFLOWS"}
+,{"name":"APEX_APPL_WORKFLOW_ACTIVITIES","description":"Stores the workflow activities for applications in this workspace","parentview":"APEX_APPLICATIONS"}
+,{"name":"APEX_APPL_WORKFLOW_ACT_VARS","description":"Stores the workflow activity variables for applications in this workspace","parentview":"APEX_APPLICATIONS"}
+,{"name":"APEX_APPL_WORKFLOW_BRANCHES","description":"Stores the workflow branches for applications in this workspace","parentview":"APEX_APPLICATIONS"}
+,{"name":"APEX_APPL_WORKFLOW_COMP_PARAMS","description":"Workflow parameter values for individual APEX components","parentview":"APEX_APPLICATIONS"}
+,{"name":"APEX_APPL_WORKFLOW_PARAMS","description":"Stores the workflow parameters for applications in this workspace","parentview":"APEX_APPLICATIONS"}
+,{"name":"APEX_APPL_WORKFLOW_PARTICIPANT","description":"Stores the Workflow Participants for applications in this workspace","parentview":"APEX_APPLICATIONS"}
+,{"name":"APEX_APPL_WORKFLOW_TRANSITIONS","description":"Stores the workflow transitions for applications in this workspace","parentview":"APEX_APPLICATIONS"}
+,{"name":"APEX_APPL_WORKFLOW_VARIABLES","description":"Stores the workflow variables for applications in this workspace","parentview":"APEX_APPLICATIONS"}
+,{"name":"APEX_APPL_WORKFLOW_VERSIONS","description":"Stores the workflow versions for applications in this workspace","parentview":"APEX_APPLICATIONS"}
+,{"name":"APEX_USED_DB_OBJECTS","description":"Database object referenced by an application","parentview":"APEX_APPLICATIONS"}
+,{"name":"APEX_USED_DB_OBJECT_COMP_PROPS","description":"Application code fragment analysed for database object dependencies","parentview":"APEX_APPLICATIONS"}
+,{"name":"APEX_USED_DB_OBJ_DEPENDENCIES","description":"Database object referenced by an application component","parentview":"APEX_APPLICATIONS"}
+,{"name":"APEX_DG_BLUEPRINTS","description":"Blueprint for data generation. See the apex_dg_data_gen API","parentview":"APEX_WORKSPACES"}
+,{"name":"APEX_DG_BP_DATA_SOURCES","description":"Custom locations to obtain data for a blueprint. See the apex_dg_data_gen API","parentview":"APEX_DG_BLUEPRINTS"}
+,{"name":"APEX_DG_BP_TABLES","description":"Defintion of output tables for data generation. Must be unique within a blueprint. See the apex_dg_data_gen API.","parentview":"APEX_DG_BLUEPRINTS"}
+,{"name":"APEX_DG_BP_TAB_COLUMNS","description":"Defintion of output columns for data generation. Must be unique within a blueprint. See the apex_dg_data_gen API.","parentview":"APEX_DG_BP_TABLES"}
+,{"name":"APEX_ISSUES","description":"All Issues logged within the APEX ISSUE system.","parentview":"APEX_WORKSPACES"}
+,{"name":"APEX_ISSUE_ATTACHMENTS","description":"Attachments associated with a given issue.","parentview":"APEX_ISSUES"}
+,{"name":"APEX_ISSUE_COMMENTS","description":"Lists all comments for a spcific issue.","parentview":"APEX_ISSUES"}
+,{"name":"APEX_ISSUE_EVENTS","description":"All events linked to either an ISSUE_ID or COMMENT_ID.","parentview":"APEX_ISSUES"}
+,{"name":"APEX_ISSUE_LABEL_RELATION","description":"A list of Issues and associated labels.","parentview":"APEX_ISSUES"}
+,{"name":"APEX_ISSUE_MILESTONE_RELATION","description":"A list of Issues and associated Milestones.","parentview":"APEX_ISSUES"}
+,{"name":"APEX_ISSUE_NOTIFICATIONS","description":"Issue system notifications for a given user.","parentview":"APEX_ISSUES"}
+,{"name":"APEX_ISSUE_STAKEHOLDERS","description":"Stakeholders (ASSIGNEES or SUBSCRIBERS) for a given issue","parentview":"APEX_ISSUES"}
+,{"name":"APEX_ISSUE_EMAIL_PREFS","description":"A list of Issues and associated Milestones.","parentview":"APEX_WORKSPACES"}
+,{"name":"APEX_ISSUE_LABEL_GROUPS","description":"All Label Groups available to the issues system.","parentview":"APEX_WORKSPACES"}
+,{"name":"APEX_ISSUE_LABELS","description":"All Labels available to the issues system.","parentview":"APEX_ISSUE_LABEL_GROUPS"}
+,{"name":"APEX_ISSUE_MILESTONES","description":"All milestones available to the issues system.","parentview":"APEX_WORKSPACES"}
+,{"name":"APEX_REST_CATALOG_PLUGINS","description":"REST Source Plug-Ins used by services in a REST Source Catalog","parentview":"APEX_REST_CATALOGS"}
+,{"name":"APEX_REST_CATALOG_SERVICES","description":"Services within a REST Source Catalog","parentview":"APEX_REST_CATALOGS"}
+,{"name":"APEX_REST_CATALOG_GROUPS","description":"Groups of REST Source Catalogs","parentview":"APEX_WORKSPACES"}
+,{"name":"APEX_REST_CATALOGS","description":"REST Source Catalogs","parentview":"APEX_REST_CATALOG_GROUPS"}
+,{"name":"APEX_REST_RESOURCE_HANDLERS","description":"RESTful services resource handler","parentview":"APEX_WORKSPACES"}
+,{"name":"APEX_REST_RESOURCE_MODULES","description":"RESTful services modules","parentview":"APEX_WORKSPACES"}
+,{"name":"APEX_REST_RESOURCE_PARAMETERS","description":"RESTful services resource parameters","parentview":"APEX_WORKSPACES"}
+,{"name":"APEX_REST_RESOURCE_TEMPLATES","description":"RESTful services resource templates","parentview":"APEX_WORKSPACES"}
+,{"name":"APEX_REST_SOURCE_SYNC_LOG","description":"Identifies web service requests in the APEX instance.","parentview":"APEX_WORKSPACES"}
+,{"name":"APEX_TEAM_FEEDBACK","description":"Identifies user feedback.","parentview":"APEX_WORKSPACES"}
+,{"name":"APEX_TEAM_FEEDBACK_FOLLOWUP","description":"Identifies user feedback followup.","parentview":"APEX_TEAM_FEEDBACK"}
+,{"name":"APEX_WORKSPACE_ACCESS_LOG","description":"One row is logged for each login attempt.","parentview":"APEX_WORKSPACES"}
+,{"name":"APEX_WORKSPACE_ACTIVITY_LOG","description":"Page view activity log detail.  One row is logged for each page view for application with logging enabled.","parentview":"APEX_WORKSPACES"}
+,{"name":"APEX_WORKSPACE_LOG_ARCHIVE","description":"Page view activity is a daily summary of workspace acitivity that is retained until physically purged","parentview":"APEX_WORKSPACE_ACTIVITY_LOG"}
+,{"name":"APEX_WORKSPACE_LOG_SUMMARY","description":"Page view activity log summarized by application for the last 14 days","parentview":"APEX_WORKSPACE_ACTIVITY_LOG"}
+,{"name":"APEX_WORKSPACE_LOG_SUMMARY_USR","description":"Page view activity log summarized by user for the last two weeks","parentview":"APEX_WORKSPACE_ACTIVITY_LOG"}
+,{"name":"APEX_WORKSPACE_AI_SERVICES","description":"Generative AI Services configured within an application.","parentview":"APEX_WORKSPACES"}
+,{"name":"APEX_WORKSPACE_APEX_USERS","description":"Oracle APEX workspace users","parentview":"APEX_WORKSPACES"}
+,{"name":"APEX_WORKSPACE_CLICKS","description":"Clicks in Oracle APEX that are tracked by using APEX_UTIL.COUNT_CLICKS","parentview":"APEX_WORKSPACES"}
+,{"name":"APEX_WORKSPACE_COUNT","description":"Instance workspace count","parentview":"APEX_WORKSPACES"}
+,{"name":"APEX_WORKSPACE_CREDENTIALS","description":"Identifies the credentials within a workspace","parentview":"APEX_WORKSPACES"}
+,{"name":"APEX_WORKSPACE_DEVELOPERS","description":"Oracle APEX workspace developers, APEX users with privilege to develop applications","parentview":"APEX_WORKSPACES"}
+,{"name":"APEX_WORKSPACE_EXTENSION_GRANT","description":"Extension Links Grants configured in APEX workspaces","parentview":"APEX_WORKSPACES"}
+,{"name":"APEX_WORKSPACE_EXTENSION_LINKS","description":"Extension Links configured in APEX workspaces","parentview":"APEX_WORKSPACES"}
+,{"name":"APEX_WORKSPACE_FILES","description":"Identifies uploaded files belonging to the workspace in the modplsql or EPG documents table","parentview":"APEX_WORKSPACES"}
+,{"name":"APEX_WORKSPACE_GROUPS","description":"Oracle APEX workspace groups\/application roles","parentview":"APEX_WORKSPACES"}
+,{"name":"APEX_WORKSPACE_GROUP_GROUPS","description":"Oracle APEX workspace group\/application role to group\/role relationship","parentview":"APEX_WORKSPACES"}
+,{"name":"APEX_WORKSPACE_GROUP_USERS","description":"Oracle APEX workspace users and groups relationship","parentview":"APEX_WORKSPACES"}
+,{"name":"APEX_WORKSPACE_PREFERENCES","description":"Oracle APEX workspace preferences","parentview":"APEX_WORKSPACES"}
+,{"name":"APEX_WORKSPACE_PRINT_SERVERS","description":"Print servers configured within an application","parentview":"APEX_WORKSPACES"}
+,{"name":"APEX_WORKSPACE_REMOTE_SERVERS","description":"Remote servers configured within an application","parentview":"APEX_WORKSPACES"}
+,{"name":"APEX_WORKSPACE_RESTENABLED_SQL","description":"Remote servers configured within an application","parentview":"APEX_WORKSPACES"}
+,{"name":"APEX_WORKSPACE_SCHEMAS","description":"Database Schemas mapped to APEX workspaces","parentview":"APEX_WORKSPACES"}
+,{"name":"APEX_WORKSPACE_SESSIONS","description":"Oracle APEX sessions by workspace and APEX user","parentview":"APEX_WORKSPACES"}
+,{"name":"APEX_WORKSPACE_SESSION_GROUPS","description":"Oracle APEX groups that are dynamically assigned to sessions","parentview":"APEX_WORKSPACES"}
+,{"name":"APEX_WORKSPACE_SQL_SCRIPTS","description":"Identifies SQL Scripts used to execute SQL and PL\/SQL commands","parentview":"APEX_WORKSPACES"}
+,{"name":"APEX_WORKSPACE_STATIC_FILES","description":"Stores the files like CSS, images, javascript files, ... of a workspace.","parentview":"APEX_WORKSPACES"}
+,{"name":"APEX_WORKSPACE_UI_TYPES","description":"(Obsolete) The UI Types identify the available user interface types of a workspace","parentview":"APEX_WORKSPACES"}
+]}]}

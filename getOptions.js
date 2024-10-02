@@ -5,6 +5,7 @@ import { readFile } from "node:fs/promises";
 const FILE_PREFIX = "./data/";
 const DOC_FILE = `${FILE_PREFIX}doc.json`;
 const CSS_FILE = `${FILE_PREFIX}css-vars.json`;
+const VIEWS_FILE = `${FILE_PREFIX}views.json`;
 
 async function readJsonFile(filePath) {
 	try {
@@ -92,6 +93,34 @@ export async function processCssItems(input) {
 		title: el.obj.name,
 		subtitle: el.obj.description,
 		arg: el.obj.copyValue,
+	}));
+
+	return items;
+}
+
+export async function processViewItems(input) {
+	const data = await readJsonFileCache(VIEWS_FILE);
+
+	/**
+	 * @typedef {Object} CssItem
+	 * @property {string} name
+	 * @property {string} description
+	 * @property {string} [parentView]
+	 */
+
+	/** @type {CssItem[]} */
+	const viewItems = data.results[0].items;
+
+	const results = fuzzysort.go(input, viewItems, {
+		keys: ["name", "description"],
+		limit: 10,
+	});
+
+	const items = results.map((el) => ({
+		uid: el.obj.name,
+		title: el.obj.name,
+		subtitle: `${el.obj.description}${el.obj.parentView ? ` | parent: ${el.obj.parentView}` : ""}`,
+		arg: el.obj.name,
 	}));
 
 	return items;

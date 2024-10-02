@@ -1,6 +1,10 @@
 import alfy from "alfy";
 import yargsParser from "yargs-parser";
-import { processCssItems, processDocItems } from "./getOptions.js";
+import {
+	processCssItems,
+	processDocItems,
+	processViewItems,
+} from "./getOptions.js";
 
 async function main(args) {
 	// alfy.log("args", args);
@@ -12,6 +16,9 @@ async function main(args) {
 	switch (args.mode) {
 		case "css":
 			items = await processCssItems(input);
+			break;
+		case "views":
+			items = await processViewItems(input);
 			break;
 		default: // "doc"
 			items = await processDocItems(input);
