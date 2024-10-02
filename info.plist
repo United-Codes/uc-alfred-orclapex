@@ -21,6 +21,19 @@
 				<false/>
 			</dict>
 		</array>
+		<key>5F0334A2-0E3D-49E2-8616-6B612E099A00</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>06253CC6-4D7C-40B2-B91C-B20DB37BB2C8</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
 	</dict>
 	<key>createdby</key>
 	<string>Philipp Hartenfeller</string>
@@ -32,29 +45,6 @@
 	<string>Oracle APEX Documentation</string>
 	<key>objects</key>
 	<array>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>concurrently</key>
-				<false/>
-				<key>escaping</key>
-				<integer>102</integer>
-				<key>script</key>
-				<string>open $1</string>
-				<key>scriptargtype</key>
-				<integer>1</integer>
-				<key>scriptfile</key>
-				<string></string>
-				<key>type</key>
-				<integer>0</integer>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.action.script</string>
-			<key>uid</key>
-			<string>E8D3BDC5-CA89-4C88-B4C2-E8B6E17D865A</string>
-			<key>version</key>
-			<integer>2</integer>
-		</dict>
 		<dict>
 			<key>config</key>
 			<dict>
@@ -83,7 +73,7 @@
 				<key>runningsubtext</key>
 				<string></string>
 				<key>script</key>
-				<string>./node_modules/.bin/run-node index.js "$1"</string>
+				<string>./node_modules/.bin/run-node index.js "$1" --mode doc</string>
 				<key>scriptargtype</key>
 				<integer>1</integer>
 				<key>scriptfile</key>
@@ -104,6 +94,105 @@
 			<key>version</key>
 			<integer>3</integer>
 		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>script</key>
+				<string>open $1</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>E8D3BDC5-CA89-4C88-B4C2-E8B6E17D865A</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>68</integer>
+				<key>script</key>
+				<string>on run argv
+	tell application "System Events"
+		keystroke "{query}"
+	end tell
+end run</string>
+				<key>scriptargtype</key>
+				<integer>0</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>6</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>06253CC6-4D7C-40B2-B91C-B20DB37BB2C8</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>alfredfiltersresults</key>
+				<false/>
+				<key>alfredfiltersresultsmatchmode</key>
+				<integer>0</integer>
+				<key>argumenttreatemptyqueryasnil</key>
+				<true/>
+				<key>argumenttrimmode</key>
+				<integer>0</integer>
+				<key>argumenttype</key>
+				<integer>0</integer>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>keyword</key>
+				<string>apx css</string>
+				<key>queuedelaycustom</key>
+				<integer>3</integer>
+				<key>queuedelayimmediatelyinitially</key>
+				<true/>
+				<key>queuedelaymode</key>
+				<integer>0</integer>
+				<key>queuemode</key>
+				<integer>1</integer>
+				<key>runningsubtext</key>
+				<string></string>
+				<key>script</key>
+				<string>./node_modules/.bin/run-node index.js "$1" --mode css</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>subtext</key>
+				<string></string>
+				<key>title</key>
+				<string>APEX CSS Variables</string>
+				<key>type</key>
+				<integer>0</integer>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.scriptfilter</string>
+			<key>uid</key>
+			<string>5F0334A2-0E3D-49E2-8616-6B612E099A00</string>
+			<key>version</key>
+			<integer>3</integer>
+		</dict>
 	</array>
 	<key>readme</key>
 	<string></string>
@@ -112,16 +201,30 @@
 		<key>01525FDC-EF95-4FD0-A430-7D0C39660C54</key>
 		<dict>
 			<key>xpos</key>
-			<real>140</real>
+			<real>145</real>
 			<key>ypos</key>
-			<real>150</real>
+			<real>170</real>
+		</dict>
+		<key>06253CC6-4D7C-40B2-B91C-B20DB37BB2C8</key>
+		<dict>
+			<key>xpos</key>
+			<real>360</real>
+			<key>ypos</key>
+			<real>315</real>
+		</dict>
+		<key>5F0334A2-0E3D-49E2-8616-6B612E099A00</key>
+		<dict>
+			<key>xpos</key>
+			<real>145</real>
+			<key>ypos</key>
+			<real>315</real>
 		</dict>
 		<key>E8D3BDC5-CA89-4C88-B4C2-E8B6E17D865A</key>
 		<dict>
 			<key>xpos</key>
-			<real>350</real>
+			<real>355</real>
 			<key>ypos</key>
-			<real>150</real>
+			<real>170</real>
 		</dict>
 	</dict>
 	<key>userconfigurationconfig</key>

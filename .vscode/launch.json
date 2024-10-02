@@ -1,10 +1,10 @@
 {
-	"type": "node",
-	"request": "launch",
-	"name": "Debug AVA test file",
-	"program": "${workspaceFolder}/node_modules/ava/entrypoints/cli.mjs",
-	"args": ["${file}"],
-	"outputCapture": "std",
-	"console": "integratedTerminal", // optional
-	"skipFiles": ["<node_internals>/**/*.js"]
+  "type": "node",
+  "request": "launch",
+  "name": "Debug AVA test file",
+  "program": "${workspaceFolder}/node_modules/ava/entrypoints/cli.mjs",
+  "args": ["${file}"],
+  "outputCapture": "std",
+  "console": "integratedTerminal",
+  "skipFiles": ["<node_internals>/**/*.js"]
 }

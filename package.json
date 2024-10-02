@@ -11,7 +11,7 @@
 	},
 	"keywords": [],
 	"author": "",
-	"license": "ISC",
+	"license": "MIT",
 	"devDependencies": {
 		"@biomejs/biome": "^1.9.3",
 		"alfy-test": "^0.4.2",
@@ -25,8 +25,9 @@
 	"engines": {
 		"node": ">=20"
 	},
-	"files": [
-		"index.js",
-		"sql/data.json"
-	]
+	"files": ["index.js", "data/*.json"],
+	"ava": {
+		"files": ["test/*.js"],
+		"require": []
+	}
 }
