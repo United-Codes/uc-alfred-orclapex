@@ -1,0 +1,92 @@
+{
+  "data": [
+    {
+      "name": "Forum",
+      "url": "https://apex.oracle.com/forum"
+    },
+    {
+      "name": "Events",
+      "url": "https://apex.oracle.com/go/events"
+    },
+    {
+      "name": "Ideas/Feature Requests",
+      "url": "https://apex.oracle.com/ideas"
+    },
+    {
+      "name": "Accessibility Guide",
+      "url": "https://apex.oracle.com/accessibility"
+    },
+    {
+      "name": "Roadmap",
+      "url": "https: //apex.oracle.com/roadmap"
+    },
+    {
+      "name": "Universal Theme Reference",
+      "url": "https://apex.oracle.com/ut"
+    },
+    {
+      "name": "Sample App: Cards",
+      "url": "https://apex.oracle.com/go/sample_cards"
+    },
+    {
+      "name": "Sample App: Charts",
+      "url": "https://apex.oracle.com/go/sample_charts"
+    },
+    {
+      "name": "Sample App: Maps",
+      "url": "https://www.apexrnd.be"
+    },
+    {
+      "name": "Sample App: PWA",
+      "url": "https://apex.oracle.com/go/pwa"
+    },
+    {
+      "name": "Social: #orclAPEX on Twitter/X",
+      "url": "https://x.com/hashtag/orclapex"
+    },
+    {
+      "name": "Social: #orclAPEX on LinkedIn",
+      "url": "https://www.linkedin.com/feed/hashtag/?keywords=orclapex"
+    },
+    {
+      "name": "apex.world (community hub)",
+      "url": "https://apex.world"
+    },
+    {
+      "name": "Plug-in repository",
+      "url": "https://apex.world/ords/f?p=100:700"
+    },
+    {
+      "name": "Conference Call for Papers",
+      "url": "https://clocwise.org"
+    },
+    {
+      "name": "Support Timeline",
+      "url": "https://endoflife.date/oracle-apex"
+    },
+    {
+      "name": "Template Studio | Template Directives",
+      "url": "https://ats.unitedcodes.com"
+    },
+    {
+      "name": "APEX Office Print | PDF printing and Excel generation",
+      "url": "https://www.apexofficeprint.com"
+    },
+    {
+      "name": "Gallery of websites built with APEX",
+      "url": "https://builtwithapex.com"
+    },
+    {
+      "name": "Blog Aggregator",
+      "url": "https://apps.cloudnueva.com/apexblogs"
+    },
+    {
+      "name": "FlowsForAPEX | BPMN 2.0 Engine",
+      "url": "https://flowsforapex.org"
+    },
+    {
+      "name": "Pretius Developer Tool | Developer enhanceement plug-in",
+      "url": "https://apex.world/ords/f?p=100:710:::::P710_PLG_ID:COM.PRETIUS.APEX.DEVTOOL"
+    }
+  ]
+}
