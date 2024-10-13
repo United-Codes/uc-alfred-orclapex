@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>bundleid</key>
-	<string>dev.hartenfeller.apex-docs</string>
+	<string>com.united-codes.apex-alfred</string>
 	<key>category</key>
 	<string>Internet</string>
 	<key>connections</key>
@@ -12,7 +12,7 @@
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>E8D3BDC5-CA89-4C88-B4C2-E8B6E17D865A</string>
+				<string>9A29D9E0-78A1-4657-AFC5-A2E4BCB2153E</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -25,7 +25,7 @@
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>8D387517-DBF0-468F-BA36-62AE0B2B9DCB</string>
+				<string>9A29D9E0-78A1-4657-AFC5-A2E4BCB2153E</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -36,6 +36,31 @@
 		</array>
 		<key>5F0334A2-0E3D-49E2-8616-6B612E099A00</key>
 		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>9A29D9E0-78A1-4657-AFC5-A2E4BCB2153E</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>9A29D9E0-78A1-4657-AFC5-A2E4BCB2153E</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>E8D3BDC5-CA89-4C88-B4C2-E8B6E17D865A</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>sourceoutputuid</key>
+				<string>F5913617-080B-4FC5-B0EC-659C9668329A</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
 			<dict>
 				<key>destinationuid</key>
 				<string>06253CC6-4D7C-40B2-B91C-B20DB37BB2C8</string>
@@ -51,7 +76,46 @@
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>BAC63ADD-0912-406D-A473-031080B8C8FE</string>
+				<string>9A29D9E0-78A1-4657-AFC5-A2E4BCB2153E</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>D6C196DD-270D-4D0A-A220-B17F4C3E7C76</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>9A29D9E0-78A1-4657-AFC5-A2E4BCB2153E</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>DE136B60-0AAB-4434-A24D-9A418A586FB7</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>9A29D9E0-78A1-4657-AFC5-A2E4BCB2153E</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>EC2CDB8F-D413-43E3-A2DC-EC8419402BEA</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>9A29D9E0-78A1-4657-AFC5-A2E4BCB2153E</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -62,13 +126,13 @@
 		</array>
 	</dict>
 	<key>createdby</key>
-	<string>Philipp Hartenfeller</string>
+	<string>phartenfeller@united-codes.com</string>
 	<key>description</key>
-	<string></string>
+	<string>Quick reference for Oracle APEX related stuff</string>
 	<key>disabled</key>
 	<false/>
 	<key>name</key>
-	<string>Oracle APEX Documentation</string>
+	<string>Oracle APEX Reference</string>
 	<key>objects</key>
 	<array>
 		<dict>
@@ -87,7 +151,56 @@
 				<key>escaping</key>
 				<integer>102</integer>
 				<key>keyword</key>
-				<string>apx doc</string>
+				<string>apex</string>
+				<key>queuedelaycustom</key>
+				<integer>3</integer>
+				<key>queuedelayimmediatelyinitially</key>
+				<true/>
+				<key>queuedelaymode</key>
+				<integer>0</integer>
+				<key>queuemode</key>
+				<integer>1</integer>
+				<key>runningsubtext</key>
+				<string></string>
+				<key>script</key>
+				<string>./node_modules/.bin/run-node index.js "$1" --mode all</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>subtext</key>
+				<string></string>
+				<key>title</key>
+				<string>Search all APEX resources</string>
+				<key>type</key>
+				<integer>0</integer>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.scriptfilter</string>
+			<key>uid</key>
+			<string>EC2CDB8F-D413-43E3-A2DC-EC8419402BEA</string>
+			<key>version</key>
+			<integer>3</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>alfredfiltersresults</key>
+				<false/>
+				<key>alfredfiltersresultsmatchmode</key>
+				<integer>0</integer>
+				<key>argumenttreatemptyqueryasnil</key>
+				<true/>
+				<key>argumenttrimmode</key>
+				<integer>0</integer>
+				<key>argumenttype</key>
+				<integer>0</integer>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>keyword</key>
+				<string>apex doc</string>
 				<key>queuedelaycustom</key>
 				<integer>3</integer>
 				<key>queuedelayimmediatelyinitially</key>
@@ -107,7 +220,7 @@
 				<key>subtext</key>
 				<string></string>
 				<key>title</key>
-				<string>APEX Documentation</string>
+				<string>APEX Documentation / API</string>
 				<key>type</key>
 				<integer>0</integer>
 				<key>withspace</key>
@@ -117,6 +230,55 @@
 			<string>alfred.workflow.input.scriptfilter</string>
 			<key>uid</key>
 			<string>01525FDC-EF95-4FD0-A430-7D0C39660C54</string>
+			<key>version</key>
+			<integer>3</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>alfredfiltersresults</key>
+				<false/>
+				<key>alfredfiltersresultsmatchmode</key>
+				<integer>0</integer>
+				<key>argumenttreatemptyqueryasnil</key>
+				<true/>
+				<key>argumenttrimmode</key>
+				<integer>0</integer>
+				<key>argumenttype</key>
+				<integer>0</integer>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>keyword</key>
+				<string>apex css vars</string>
+				<key>queuedelaycustom</key>
+				<integer>3</integer>
+				<key>queuedelayimmediatelyinitially</key>
+				<true/>
+				<key>queuedelaymode</key>
+				<integer>0</integer>
+				<key>queuemode</key>
+				<integer>1</integer>
+				<key>runningsubtext</key>
+				<string></string>
+				<key>script</key>
+				<string>./node_modules/.bin/run-node index.js "$1" --mode css-vars</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>subtext</key>
+				<string></string>
+				<key>title</key>
+				<string>APEX CSS Variables</string>
+				<key>type</key>
+				<integer>0</integer>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.scriptfilter</string>
+			<key>uid</key>
+			<string>5F0334A2-0E3D-49E2-8616-6B612E099A00</string>
 			<key>version</key>
 			<integer>3</integer>
 		</dict>
@@ -146,33 +308,6 @@
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>concurrently</key>
-				<false/>
-				<key>escaping</key>
-				<integer>68</integer>
-				<key>script</key>
-				<string>on run argv
-	tell application "System Events"
-		keystroke "{query}"
-	end tell
-end run</string>
-				<key>scriptargtype</key>
-				<integer>0</integer>
-				<key>scriptfile</key>
-				<string></string>
-				<key>type</key>
-				<integer>6</integer>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.action.script</string>
-			<key>uid</key>
-			<string>06253CC6-4D7C-40B2-B91C-B20DB37BB2C8</string>
-			<key>version</key>
-			<integer>2</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
 				<key>alfredfiltersresults</key>
 				<false/>
 				<key>alfredfiltersresultsmatchmode</key>
@@ -186,7 +321,7 @@ end run</string>
 				<key>escaping</key>
 				<integer>102</integer>
 				<key>keyword</key>
-				<string>apx css</string>
+				<string>apex css classes</string>
 				<key>queuedelaycustom</key>
 				<integer>3</integer>
 				<key>queuedelayimmediatelyinitially</key>
@@ -198,7 +333,7 @@ end run</string>
 				<key>runningsubtext</key>
 				<string></string>
 				<key>script</key>
-				<string>./node_modules/.bin/run-node index.js "$1" --mode css</string>
+				<string>./node_modules/.bin/run-node index.js "$1" --mode css-classes</string>
 				<key>scriptargtype</key>
 				<integer>1</integer>
 				<key>scriptfile</key>
@@ -206,7 +341,7 @@ end run</string>
 				<key>subtext</key>
 				<string></string>
 				<key>title</key>
-				<string>APEX CSS Variables</string>
+				<string>APEX CSS Classes</string>
 				<key>type</key>
 				<integer>0</integer>
 				<key>withspace</key>
@@ -215,9 +350,41 @@ end run</string>
 			<key>type</key>
 			<string>alfred.workflow.input.scriptfilter</string>
 			<key>uid</key>
-			<string>5F0334A2-0E3D-49E2-8616-6B612E099A00</string>
+			<string>D6C196DD-270D-4D0A-A220-B17F4C3E7C76</string>
 			<key>version</key>
 			<integer>3</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>conditions</key>
+				<array>
+					<dict>
+						<key>inputstring</key>
+						<string></string>
+						<key>matchcasesensitive</key>
+						<false/>
+						<key>matchmode</key>
+						<integer>4</integer>
+						<key>matchstring</key>
+						<string>^https?:</string>
+						<key>outputlabel</key>
+						<string>Is website</string>
+						<key>uid</key>
+						<string>F5913617-080B-4FC5-B0EC-659C9668329A</string>
+					</dict>
+				</array>
+				<key>elselabel</key>
+				<string>write text</string>
+				<key>hideelse</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.conditional</string>
+			<key>uid</key>
+			<string>9A29D9E0-78A1-4657-AFC5-A2E4BCB2153E</string>
+			<key>version</key>
+			<integer>1</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -235,7 +402,7 @@ end run</string>
 				<key>escaping</key>
 				<integer>102</integer>
 				<key>keyword</key>
-				<string>apx views</string>
+				<string>apex views</string>
 				<key>queuedelaycustom</key>
 				<integer>3</integer>
 				<key>queuedelayimmediatelyinitially</key>
@@ -291,34 +458,7 @@ end run</string>
 			<key>type</key>
 			<string>alfred.workflow.action.script</string>
 			<key>uid</key>
-			<string>BAC63ADD-0912-406D-A473-031080B8C8FE</string>
-			<key>version</key>
-			<integer>2</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>concurrently</key>
-				<false/>
-				<key>escaping</key>
-				<integer>68</integer>
-				<key>script</key>
-				<string>on run argv
-	tell application "System Events"
-		keystroke "{query}"
-	end tell
-end run</string>
-				<key>scriptargtype</key>
-				<integer>0</integer>
-				<key>scriptfile</key>
-				<string></string>
-				<key>type</key>
-				<integer>6</integer>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.action.script</string>
-			<key>uid</key>
-			<string>8D387517-DBF0-468F-BA36-62AE0B2B9DCB</string>
+			<string>06253CC6-4D7C-40B2-B91C-B20DB37BB2C8</string>
 			<key>version</key>
 			<integer>2</integer>
 		</dict>
@@ -338,7 +478,7 @@ end run</string>
 				<key>escaping</key>
 				<integer>102</integer>
 				<key>keyword</key>
-				<string>apx icons</string>
+				<string>apex icons</string>
 				<key>queuedelaycustom</key>
 				<integer>3</integer>
 				<key>queuedelayimmediatelyinitially</key>
@@ -371,6 +511,104 @@ end run</string>
 			<key>version</key>
 			<integer>3</integer>
 		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>alfredfiltersresults</key>
+				<false/>
+				<key>alfredfiltersresultsmatchmode</key>
+				<integer>0</integer>
+				<key>argumenttreatemptyqueryasnil</key>
+				<true/>
+				<key>argumenttrimmode</key>
+				<integer>0</integer>
+				<key>argumenttype</key>
+				<integer>0</integer>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>keyword</key>
+				<string>apex links</string>
+				<key>queuedelaycustom</key>
+				<integer>3</integer>
+				<key>queuedelayimmediatelyinitially</key>
+				<true/>
+				<key>queuedelaymode</key>
+				<integer>0</integer>
+				<key>queuemode</key>
+				<integer>1</integer>
+				<key>runningsubtext</key>
+				<string></string>
+				<key>script</key>
+				<string>./node_modules/.bin/run-node index.js "$1" --mode icons</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>subtext</key>
+				<string></string>
+				<key>title</key>
+				<string>APEX Links / Resources</string>
+				<key>type</key>
+				<integer>0</integer>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.scriptfilter</string>
+			<key>uid</key>
+			<string>DE136B60-0AAB-4434-A24D-9A418A586FB7</string>
+			<key>version</key>
+			<integer>3</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>alfredfiltersresults</key>
+				<false/>
+				<key>alfredfiltersresultsmatchmode</key>
+				<integer>0</integer>
+				<key>argumenttreatemptyqueryasnil</key>
+				<true/>
+				<key>argumenttrimmode</key>
+				<integer>0</integer>
+				<key>argumenttype</key>
+				<integer>2</integer>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>keyword</key>
+				<string>apex contribute</string>
+				<key>queuedelaycustom</key>
+				<integer>3</integer>
+				<key>queuedelayimmediatelyinitially</key>
+				<true/>
+				<key>queuedelaymode</key>
+				<integer>0</integer>
+				<key>queuemode</key>
+				<integer>1</integer>
+				<key>runningsubtext</key>
+				<string></string>
+				<key>script</key>
+				<string>open https://github.com/phartenfeller</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>subtext</key>
+				<string></string>
+				<key>title</key>
+				<string>APEX Alfred Workflow - Contribute on GitHub</string>
+				<key>type</key>
+				<integer>0</integer>
+				<key>withspace</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.scriptfilter</string>
+			<key>uid</key>
+			<string>A5F5BC15-8C3A-42F9-95CD-16B78A12ED53</string>
+			<key>version</key>
+			<integer>3</integer>
+		</dict>
 	</array>
 	<key>readme</key>
 	<string></string>
@@ -381,61 +619,86 @@ end run</string>
 			<key>xpos</key>
 			<real>145</real>
 			<key>ypos</key>
-			<real>170</real>
+			<real>175</real>
 		</dict>
 		<key>06253CC6-4D7C-40B2-B91C-B20DB37BB2C8</key>
 		<dict>
+			<key>note</key>
+			<string>Write text</string>
 			<key>xpos</key>
-			<real>360</real>
+			<real>570</real>
 			<key>ypos</key>
-			<real>315</real>
+			<real>580</real>
 		</dict>
 		<key>5E8288A0-4459-4880-B584-086C75DCC183</key>
 		<dict>
 			<key>xpos</key>
-			<real>150</real>
+			<real>145</real>
 			<key>ypos</key>
-			<real>595</real>
+			<real>650</real>
 		</dict>
 		<key>5F0334A2-0E3D-49E2-8616-6B612E099A00</key>
 		<dict>
 			<key>xpos</key>
 			<real>145</real>
 			<key>ypos</key>
-			<real>315</real>
+			<real>295</real>
 		</dict>
-		<key>8D387517-DBF0-468F-BA36-62AE0B2B9DCB</key>
+		<key>9A29D9E0-78A1-4657-AFC5-A2E4BCB2153E</key>
 		<dict>
 			<key>xpos</key>
-			<real>365</real>
+			<real>405</real>
 			<key>ypos</key>
-			<real>595</real>
+			<real>450</real>
 		</dict>
-		<key>BAC63ADD-0912-406D-A473-031080B8C8FE</key>
+		<key>A5F5BC15-8C3A-42F9-95CD-16B78A12ED53</key>
 		<dict>
 			<key>xpos</key>
-			<real>365</real>
+			<real>145</real>
 			<key>ypos</key>
-			<real>455</real>
+			<real>925</real>
 		</dict>
 		<key>D07A9122-685C-4F46-A66E-EBBE5754EE01</key>
 		<dict>
 			<key>xpos</key>
-			<real>150</real>
+			<real>145</real>
 			<key>ypos</key>
-			<real>455</real>
+			<real>530</real>
+		</dict>
+		<key>D6C196DD-270D-4D0A-A220-B17F4C3E7C76</key>
+		<dict>
+			<key>xpos</key>
+			<real>145</real>
+			<key>ypos</key>
+			<real>415</real>
+		</dict>
+		<key>DE136B60-0AAB-4434-A24D-9A418A586FB7</key>
+		<dict>
+			<key>xpos</key>
+			<real>145</real>
+			<key>ypos</key>
+			<real>765</real>
 		</dict>
 		<key>E8D3BDC5-CA89-4C88-B4C2-E8B6E17D865A</key>
 		<dict>
+			<key>note</key>
+			<string>Open link in browser</string>
 			<key>xpos</key>
-			<real>355</real>
+			<real>565</real>
 			<key>ypos</key>
-			<real>170</real>
+			<real>390</real>
+		</dict>
+		<key>EC2CDB8F-D413-43E3-A2DC-EC8419402BEA</key>
+		<dict>
+			<key>xpos</key>
+			<real>145</real>
+			<key>ypos</key>
+			<real>55</real>
 		</dict>
 	</dict>
 	<key>userconfigurationconfig</key>
 	<array/>
 	<key>webaddress</key>
-	<string>https://hartenfeller.dev</string>
+	<string>https://united-codes.com</string>
 </dict>
 </plist>

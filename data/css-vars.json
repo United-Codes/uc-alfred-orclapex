@@ -2,23 +2,27 @@
 	"data": [
 		{
 			"name": "u-color-1",
-			"description": "Color palette variable 1"
+			"description": "Color palette #1 (up to 45)"
 		},
 		{
 			"name": "u-color-2",
-			"description": "Color palette variable 2"
+			"description": "Color palette #2 (up to 45)"
 		},
 		{
 			"name": "u-color-3",
-			"description": "Color palette variable 3"
+			"description": "Color palette #3 (up to 45)"
 		},
 		{
-			"name": "u-color-4",
-			"description": "Color palette variable 4"
+			"name": "u-color-1-contrast",
+			"description": "Color palette #1 contrast (up to 45)"
 		},
 		{
-			"name": "u-color-5",
-			"description": "Color palette variable 5"
+			"name": "u-color-2-contrast",
+			"description": "Color palette #2 contrast (up to 45)"
+		},
+		{
+			"name": "u-color-3-contrast",
+			"description": "Color palette #3 contrast (up to 45)"
 		},
 		{
 			"name": "ut-palette-primary",

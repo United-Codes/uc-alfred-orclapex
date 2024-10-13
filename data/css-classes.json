@@ -1,0 +1,694 @@
+{
+	"data": [
+		{
+			"name": "col-xxs-[1-12]",
+			"description": "CSS class prefix for extra extra small screens (479px and below)",
+			"category": "Grid Layout / Responsive"
+		},
+		{
+			"name": "col-xs-[1-12]",
+			"description": "CSS class prefix for extra small screens (480px to 639px)",
+			"category": "Grid Layout / Responsive"
+		},
+		{
+			"name": "col-sm-[1-12]",
+			"description": "CSS class prefix for small screens (640px to 767px)",
+			"category": "Grid Layout / Responsive"
+		},
+		{
+			"name": "col-md-[1-12]",
+			"description": "CSS class prefix for medium screens (768px to 991px)",
+			"category": "Grid Layout / Responsive"
+		},
+		{
+			"name": "col-lg-[1-12]",
+			"description": "CSS class prefix for large screens (992px to 1199px)",
+			"category": "Grid Layout / Responsive"
+		},
+		{
+			"name": "col-xl-[1-12]",
+			"description": "CSS class prefix for extra large screens (1200px to 1399px)",
+			"category": "Grid Layout / Responsive"
+		},
+		{
+			"name": "col-xxl-[1-12]",
+			"description": "CSS class prefix for extra extra large screens (1400px and above)",
+			"category": "Grid Layout / Responsive"
+		},
+		{
+			"name": "hidden-xxs-down",
+			"description": "Hides content on extra extra small screens and smaller",
+			"category": "Grid Layout / Responsive"
+		},
+		{
+			"name": "hidden-xs-down",
+			"description": "Hides content on extra small screens and smaller",
+			"category": "Grid Layout / Responsive"
+		},
+		{
+			"name": "hidden-sm-down",
+			"description": "Hides content on small screens and smaller",
+			"category": "Grid Layout / Responsive"
+		},
+		{
+			"name": "hidden-md-down",
+			"description": "Hides content on medium screens and smaller",
+			"category": "Grid Layout / Responsive"
+		},
+		{
+			"name": "hidden-lg-down",
+			"description": "Hides content on large screens and smaller",
+			"category": "Grid Layout / Responsive"
+		},
+		{
+			"name": "hidden-xxs-up",
+			"description": "Hides content on extra extra small screens and larger",
+			"category": "Grid Layout / Responsive"
+		},
+		{
+			"name": "hidden-xs-up",
+			"description": "Hides content on extra small screens and larger",
+			"category": "Grid Layout / Responsive"
+		},
+		{
+			"name": "hidden-sm-up",
+			"description": "Hides content on small screens and larger",
+			"category": "Grid Layout / Responsive"
+		},
+		{
+			"name": "hidden-md-up",
+			"description": "Hides content on medium screens and larger",
+			"category": "Grid Layout / Responsive"
+		},
+		{
+			"name": "hidden-lg-up",
+			"description": "Hides content on large screens and larger",
+			"category": "Grid Layout / Responsive"
+		},
+		{
+			"name": "u-color-1",
+			"description": "Applies Color palette #1 as a block color (up to 45)",
+			"category": "Color and Status Modifiers"
+		},
+		{
+			"name": "u-color-1-text",
+			"description": "Applies Color palette #1 to text (up to 45)",
+			"category": "Color and Status Modifiers"
+		},
+		{
+			"name": "u-color-1-bg",
+			"description": "Applies Color palette #1 as a background color (up to 45)",
+			"category": "Color and Status Modifiers"
+		},
+		{
+			"name": "u-color-1-border",
+			"description": "Applies Color palette #1 as a border color (up to 45)",
+			"category": "Color and Status Modifiers"
+		},
+		{
+			"name": "u-color-2",
+			"description": "Applies Color palette #2 as a block color (up to 45)",
+			"category": "Color and Status Modifiers"
+		},
+		{
+			"name": "u-color-2-text",
+			"description": "Applies Color palette #2 to text (up to 45)",
+			"category": "Color and Status Modifiers"
+		},
+		{
+			"name": "u-color-2-bg",
+			"description": "Applies Color palette #2 as a background color (up to 45)",
+			"category": "Color and Status Modifiers"
+		},
+		{
+			"name": "u-color-2-border",
+			"description": "Applies Color palette #2 as a border color (up to 45)",
+			"category": "Color and Status Modifiers"
+		},
+		{
+			"name": "u-color-3",
+			"description": "Applies Color palette #3 as a block color (up to 45)",
+			"category": "Color and Status Modifiers"
+		},
+		{
+			"name": "u-color-3-text",
+			"description": "Applies Color palette #3 to text (up to 45)",
+			"category": "Color and Status Modifiers"
+		},
+		{
+			"name": "u-color-3-bg",
+			"description": "Applies Color palette #3 as a background color (up to 45)",
+			"category": "Color and Status Modifiers"
+		},
+		{
+			"name": "u-color-3-border",
+			"description": "Applies Color palette #3 as a border color (up to 45)",
+			"category": "Color and Status Modifiers"
+		},
+		{
+			"name": "u-normal",
+			"description": "Applies normal state color as a block color",
+			"category": "Color and Status Modifiers"
+		},
+		{
+			"name": "u-normal-text",
+			"description": "Applies normal state color to text",
+			"category": "Color and Status Modifiers"
+		},
+		{
+			"name": "u-normal-bg",
+			"description": "Applies normal state color as a background color",
+			"category": "Color and Status Modifiers"
+		},
+		{
+			"name": "u-normal-border",
+			"description": "Applies normal state color as a border color",
+			"category": "Color and Status Modifiers"
+		},
+		{
+			"name": "u-hot",
+			"description": "Applies hot state color as a block color",
+			"category": "Color and Status Modifiers"
+		},
+		{
+			"name": "u-hot-text",
+			"description": "Applies hot state color to text",
+			"category": "Color and Status Modifiers"
+		},
+		{
+			"name": "u-hot-bg",
+			"description": "Applies hot state color as a background color",
+			"category": "Color and Status Modifiers"
+		},
+		{
+			"name": "u-hot-border",
+			"description": "Applies hot state color as a border color",
+			"category": "Color and Status Modifiers"
+		},
+		{
+			"name": "u-warning",
+			"description": "Applies warning state color as a block color",
+			"category": "Color and Status Modifiers"
+		},
+		{
+			"name": "u-warning-text",
+			"description": "Applies warning state color to text",
+			"category": "Color and Status Modifiers"
+		},
+		{
+			"name": "u-warning-bg",
+			"description": "Applies warning state color as a background color",
+			"category": "Color and Status Modifiers"
+		},
+		{
+			"name": "u-warning-border",
+			"description": "Applies warning state color as a border color",
+			"category": "Color and Status Modifiers"
+		},
+		{
+			"name": "u-danger",
+			"description": "Applies danger state color as a block color",
+			"category": "Color and Status Modifiers"
+		},
+		{
+			"name": "u-danger-text",
+			"description": "Applies danger state color to text",
+			"category": "Color and Status Modifiers"
+		},
+		{
+			"name": "u-danger-bg",
+			"description": "Applies danger state color as a background color",
+			"category": "Color and Status Modifiers"
+		},
+		{
+			"name": "u-danger-border",
+			"description": "Applies danger state color as a border color",
+			"category": "Color and Status Modifiers"
+		},
+		{
+			"name": "u-info",
+			"description": "Applies info state color as a block color",
+			"category": "Color and Status Modifiers"
+		},
+		{
+			"name": "u-info-text",
+			"description": "Applies info state color to text",
+			"category": "Color and Status Modifiers"
+		},
+		{
+			"name": "u-info-bg",
+			"description": "Applies info state color as a background color",
+			"category": "Color and Status Modifiers"
+		},
+		{
+			"name": "u-info-border",
+			"description": "Applies info state color as a border color",
+			"category": "Color and Status Modifiers"
+		},
+		{
+			"name": "u-success",
+			"description": "Applies success state color as a block color",
+			"category": "Color and Status Modifiers"
+		},
+		{
+			"name": "u-success-text",
+			"description": "Applies success state color to text",
+			"category": "Color and Status Modifiers"
+		},
+		{
+			"name": "u-success-bg",
+			"description": "Applies success state color as a background color",
+			"category": "Color and Status Modifiers"
+		},
+		{
+			"name": "u-success-border",
+			"description": "Applies success state color as a border color",
+			"category": "Color and Status Modifiers"
+		},
+		{
+			"name": "u-opacity-10",
+			"description": "Applies 10% opacity to an element",
+			"category": "Color and Status Modifiers"
+		},
+		{
+			"name": "u-opacity-20",
+			"description": "Applies 20% opacity to an element",
+			"category": "Color and Status Modifiers"
+		},
+		{
+			"name": "u-opacity-30",
+			"description": "Applies 30% opacity to an element",
+			"category": "Color and Status Modifiers"
+		},
+		{
+			"name": "u-opacity-40",
+			"description": "Applies 40% opacity to an element",
+			"category": "Color and Status Modifiers"
+		},
+		{
+			"name": "u-opacity-50",
+			"description": "Applies 50% opacity to an element",
+			"category": "Color and Status Modifiers"
+		},
+		{
+			"name": "u-opacity-60",
+			"description": "Applies 60% opacity to an element",
+			"category": "Color and Status Modifiers"
+		},
+		{
+			"name": "u-opacity-70",
+			"description": "Applies 70% opacity to an element",
+			"category": "Color and Status Modifiers"
+		},
+		{
+			"name": "u-opacity-80",
+			"description": "Applies 80% opacity to an element",
+			"category": "Color and Status Modifiers"
+		},
+		{
+			"name": "u-opacity-90",
+			"description": "Applies 90% opacity to an element",
+			"category": "Color and Status Modifiers"
+		},
+		{
+			"name": "u-opacity-100",
+			"description": "Applies 100% opacity to an element",
+			"category": "Color and Status Modifiers"
+		},
+		{
+			"name": "u-pullLeft",
+			"description": "Float to left",
+			"category": "Layout Modifiers"
+		},
+		{
+			"name": "u-pullRight",
+			"description": "Float to right",
+			"category": "Layout Modifiers"
+		},
+		{
+			"name": "u-alignTop",
+			"description": "Vertically align to the top",
+			"category": "Layout Modifiers"
+		},
+		{
+			"name": "u-alignMiddle",
+			"description": "Vertically align to the middle",
+			"category": "Layout Modifiers"
+		},
+		{
+			"name": "u-alignBaseline",
+			"description": "Vertically align to the text baseline",
+			"category": "Layout Modifiers"
+		},
+		{
+			"name": "u-alignBottom",
+			"description": "Vertically align to the bottom",
+			"category": "Layout Modifiers"
+		},
+		{
+			"name": "u-flex",
+			"description": "Treat the element as a flex container and its children as flex items",
+			"category": "Layout Modifiers"
+		},
+		{
+			"name": "u-flex-item",
+			"description": "Size item according to its width and height properties, but grow to absorb any extra free space in the flex container and shrink to its minimum size to fit the container",
+			"category": "Layout Modifiers"
+		},
+		{
+			"name": "u-flex-direction-column",
+			"description": "Direction in which lines of text are stacked. Aligns items in columns as opposed to rows",
+			"category": "Layout Modifiers"
+		},
+		{
+			"name": "u-flex-wrap",
+			"description": "Break flex items into multiple lines",
+			"category": "Layout Modifiers"
+		},
+		{
+			"name": "u-flex-wrap-nowrap",
+			"description": "Lay flex items out in a single line which may cause the flex container to overflow",
+			"category": "Layout Modifiers"
+		},
+		{
+			"name": "u-flex-basis-auto",
+			"description": "Set the size of the element relative to the width and height of the content of the element",
+			"category": "Layout Modifiers"
+		},
+		{
+			"name": "u-flex-basis-100",
+			"description": "Set the size of the element(s) to 100% of the available space in the parent container",
+			"category": "Layout Modifiers"
+		},
+		{
+			"name": "u-flex-basis-0",
+			"description": "Prevent the element(s) from taking up the available space in the parent container",
+			"category": "Layout Modifiers"
+		},
+		{
+			"name": "u-flex-grow-1",
+			"description": "Allow the item to grow to fit available space",
+			"category": "Layout Modifiers"
+		},
+		{
+			"name": "u-flex-grow-0",
+			"description": "Do not allow the item to grow to fit available space",
+			"category": "Layout Modifiers"
+		},
+		{
+			"name": "u-flex-shrink-1",
+			"description": "Allow the item to shrink to fit available space",
+			"category": "Layout Modifiers"
+		},
+		{
+			"name": "u-flex-shrink-0",
+			"description": "Prevent the item from shrinking to fit available space",
+			"category": "Layout Modifiers"
+		},
+		{
+			"name": "u-order-0",
+			"description": "Set the order to lay out an item in a flex container (order 0)",
+			"category": "Layout Modifiers"
+		},
+		{
+			"name": "u-order-1",
+			"description": "Set the order to lay out an item in a flex container (order 1)",
+			"category": "Layout Modifiers"
+		},
+		{
+			"name": "u-order-2",
+			"description": "Set the order to lay out an item in a flex container (order 2)",
+			"category": "Layout Modifiers"
+		},
+		{
+			"name": "u-order-3",
+			"description": "Set the order to lay out an item in a flex container (order 3)",
+			"category": "Layout Modifiers"
+		},
+		{
+			"name": "u-order-4",
+			"description": "Set the order to lay out an item in a flex container (order 4)",
+			"category": "Layout Modifiers"
+		},
+		{
+			"name": "u-order-5",
+			"description": "Set the order to lay out an item in a flex container (order 5)",
+			"category": "Layout Modifiers"
+		},
+		{
+			"name": "u-justify-content-flex-start",
+			"description": "Horizontally align (justify) content to the start of the div",
+			"category": "Layout Modifiers"
+		},
+		{
+			"name": "u-justify-content-flex-end",
+			"description": "Horizontally align (justify) content to the end of the div",
+			"category": "Layout Modifiers"
+		},
+		{
+			"name": "u-justify-content-center",
+			"description": "Horizontally align (justify) content to the center of the div",
+			"category": "Layout Modifiers"
+		},
+		{
+			"name": "u-justify-content-space-between",
+			"description": "Distribute content evenly with the first item flush with the start and the last item flush with the end",
+			"category": "Layout Modifiers"
+		},
+		{
+			"name": "u-justify-content-space-around",
+			"description": "Distribute content evenly with a half-size space on either end of items",
+			"category": "Layout Modifiers"
+		},
+		{
+			"name": "u-justify-content-stretch",
+			"description": "Distribute content evenly by stretching 'auto'-sized items to fit the container",
+			"category": "Layout Modifiers"
+		},
+		{
+			"name": "u-align-items-flex-start",
+			"description": "Vertical alignment. The cross-start margin edges of the flex items are flushed with the cross-start edge of the line",
+			"category": "Layout Modifiers"
+		},
+		{
+			"name": "u-align-items-flex-end",
+			"description": "Vertical alignment. The cross-end margin edges of the flex items are flushed with the cross-end edge of the line",
+			"category": "Layout Modifiers"
+		},
+		{
+			"name": "u-align-items-start",
+			"description": "Vertical alignment. Pack items flush to each other toward the start edge of the alignment container in the appropriate axis",
+			"category": "Layout Modifiers"
+		},
+		{
+			"name": "u-align-items-center",
+			"description": "Vertically align all items to the center of the div",
+			"category": "Layout Modifiers"
+		},
+		{
+			"name": "u-align-items-end",
+			"description": "Vertical alignment. Pack items flush to each other toward the end edge of the alignment container in the appropriate axis",
+			"category": "Layout Modifiers"
+		},
+		{
+			"name": "u-align-self-flex-start",
+			"description": "Vertical alignment of individual flex item. Flush the cross-start margin edges of the flex item with the cross-start edge of the line",
+			"category": "Layout Modifiers"
+		},
+		{
+			"name": "u-align-self-flex-end",
+			"description": "Vertical alignment of individual flex item. Flush the cross-end margin edges of the flex item with the cross-end edge of the line",
+			"category": "Layout Modifiers"
+		},
+		{
+			"name": "u-align-self-start",
+			"description": "Vertical alignment of individual flex item. Pack the item flush to the edge of the alignment container of the start side of the item, in the appropriate axis",
+			"category": "Layout Modifiers"
+		},
+		{
+			"name": "u-align-self-center",
+			"description": "Vertically align individual flex item to the center of the div",
+			"category": "Layout Modifiers"
+		},
+		{
+			"name": "u-align-self-end",
+			"description": "Vertical alignment of individual flex item. Pack the item flush to the edge of the alignment container of the end side of the item, in the appropriate axis",
+			"category": "Layout Modifiers"
+		},
+		{
+			"name": "u-align-self-stretch",
+			"description": "Vertical alignment of individual flex item. Stretch flex item such that the cross-size of the item margin box is the same as the line while respecting widget and height constraints",
+			"category": "Layout Modifiers"
+		},
+		{
+			"name": "margin-none",
+			"description": "No margin",
+			"category": "Layout Modifiers"
+		},
+		{
+			"name": "margin-sm",
+			"description": "8 px margin | Specify direction like this: margin-left-sm",
+			"category": "Layout Modifiers"
+		},
+		{
+			"name": "margin-md",
+			"description": "16 px margin | Specify direction like this: margin-left-md",
+			"category": "Layout Modifiers"
+		},
+		{
+			"name": "margin-lg",
+			"description": "32 px margin | Specify direction like this: margin-left-lg",
+			"category": "Layout Modifiers"
+		},
+		{
+			"name": "margin-auto",
+			"description": "Aligns content into the center",
+			"category": "Layout Modifiers"
+		},
+		{
+			"name": "padding-none",
+			"description": "No padding",
+			"category": "Layout Modifiers"
+		},
+		{
+			"name": "padding-sm",
+			"description": "8 px padding | Specify direction like this: padding-left-sm",
+			"category": "Layout Modifiers"
+		},
+		{
+			"name": "padding-md",
+			"description": "16 px padding | Specify direction like this: padding-left-md",
+			"category": "Layout Modifiers"
+		},
+		{
+			"name": "padding-lg",
+			"description": "32 px padding | Specify direction like this: padding-left-lg",
+			"category": "Layout Modifiers"
+		},
+		{
+			"name": "w[10-800]",
+			"description": "Width to specified value in pixels. Sizes in 10px increments",
+			"category": "Layout Modifiers"
+		},
+		{
+			"name": "w[5-100]p",
+			"description": "Width to specified percentage. Percentages in 5% increments",
+			"category": "Layout Modifiers"
+		},
+		{
+			"name": "mnw[10-800]",
+			"description": "Min-width to specified value in pixels. Sizes in 10px increments",
+			"category": "Layout Modifiers"
+		},
+		{
+			"name": "mxw[10-800]",
+			"description": "Max-width to specified value in pixels. Sizes in 10px increments",
+			"category": "Layout Modifiers"
+		},
+		{
+			"name": "h[10-800]",
+			"description": "Height to specified value in pixels. Sizes in 10px increments",
+			"category": "Layout Modifiers"
+		},
+		{
+			"name": "mxh[10-800]",
+			"description": "Max-height to specified value in pixels. Sizes in 10px increments",
+			"category": "Layout Modifiers"
+		},
+		{
+			"name": "u-textStart",
+			"description": "Align text to the start of the container",
+			"category": "Content Modifiers"
+		},
+		{
+			"name": "u-textCenter",
+			"description": "Align text to the center of the container",
+			"category": "Content Modifiers"
+		},
+		{
+			"name": "u-textEnd",
+			"description": "Align text to the end of the container",
+			"category": "Content Modifiers"
+		},
+		{
+			"name": "u-textUpper",
+			"description": "Sets the text to use all uppercase",
+			"category": "Content Modifiers"
+		},
+		{
+			"name": "u-textLower",
+			"description": "Sets the text to use all lowercase",
+			"category": "Content Modifiers"
+		},
+		{
+			"name": "u-textInitCap",
+			"description": "Sets the first letter in each word to use uppercase",
+			"category": "Content Modifiers"
+		},
+		{
+			"name": "u-bold",
+			"description": "Bold text",
+			"category": "Content Modifiers"
+		},
+		{
+			"name": "u-italics",
+			"description": "Italicize text",
+			"category": "Content Modifiers"
+		},
+		{
+			"name": "u-underline",
+			"description": "Underline text",
+			"category": "Content Modifiers"
+		},
+		{
+			"name": "u-fixedFont",
+			"description": "Use a fixed-letter-space font",
+			"category": "Content Modifiers"
+		},
+		{
+			"name": "u-hidden",
+			"description": "Hide text",
+			"category": "Content Modifiers"
+		},
+		{
+			"name": "u-visible",
+			"description": "Show text",
+			"category": "Content Modifiers"
+		},
+		{
+			"name": "u-nowrap",
+			"description": "Text stays on one line and does not wrap",
+			"category": "Content Modifiers"
+		},
+		{
+			"name": "u-lineclamp-1",
+			"description": "Limit text to 1 line, adding ellipsis if it exceeds",
+			"category": "Content Modifiers"
+		},
+		{
+			"name": "u-lineclamp-2",
+			"description": "Limit text to 2 lines, adding ellipsis if it exceeds",
+			"category": "Content Modifiers"
+		},
+		{
+			"name": "u-lineclamp-3",
+			"description": "Limit text to 3 lines, adding ellipsis if it exceeds",
+			"category": "Content Modifiers"
+		},
+		{
+			"name": "u-lineclamp-4",
+			"description": "Limit text to 4 lines, adding ellipsis if it exceeds",
+			"category": "Content Modifiers"
+		},
+		{
+			"name": "u-lineclamp-5",
+			"description": "Limit text to 5 lines, adding ellipsis if it exceeds",
+			"category": "Content Modifiers"
+		},
+		{
+			"name": "u-VisuallyHidden",
+			"description": "Make text visually hidden, but still accessible for assistive technologies",
+			"category": "Content Modifiers"
+		}
+	]
+}
