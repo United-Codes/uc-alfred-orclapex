@@ -7,6 +7,7 @@ import {
   processDocItems,
   processHTMLSnippets,
   processIconItems,
+  processIconModifierSnippets,
   processViewItems,
   processWebsiteItems,
 } from "./getOptions.js";
@@ -33,6 +34,9 @@ async function main(args) {
 			break;
 		case "icons":
 			items = await processIconItems(input);
+			break;
+		case "icon-modifiers":
+			items = await processIconModifierSnippets(input);
 			break;
 		case "doc":
 			items = await processDocItems(input);

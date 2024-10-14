@@ -10,6 +10,7 @@ const VIEWS_FILE = `${FILE_PREFIX}views.json`;
 const ICONS_FILE = `${FILE_PREFIX}icons.json`;
 const WEBSITES_FILE = `${FILE_PREFIX}websites.json`;
 const HTML_SNIPPETS = `${FILE_PREFIX}html-snippets.json`;
+const ICON_MODIFIERS = `${FILE_PREFIX}icon-modifiers.json`;
 
 const RESULT_SIZE = 50;
 
@@ -254,6 +255,32 @@ export async function processHTMLSnippets(input) {
 	return items;
 }
 
+export async function processIconModifierSnippets(input) {
+	const data = await readJsonFileCache(ICON_MODIFIERS);
+
+	/**
+	 * @typedef {Object} IconModItem
+	 * @property {string} name
+	 * @property {string} description
+	 */
+
+	/** @type {IconModItem[]} */
+	const htmlSnipItems = data.data;
+	const results = fuzzysort.go(input, htmlSnipItems, {
+		keys: ["name", "description"],
+		limit: RESULT_SIZE,
+	});
+
+	const items = results.map((el) => ({
+		uid: el.obj.name,
+		title: el.obj.name,
+		subtitle: el.obj.description,
+		arg: el.obj.name,
+	}));
+
+	return items;
+}
+
 export async function processAll(input) {
 	let items = [];
 
@@ -264,6 +291,7 @@ export async function processAll(input) {
 	items = items.concat(await processIconItems(input));
 	items = items.concat(await processWebsiteItems(input));
 	items = items.concat(await processHTMLSnippets(input));
+	items = items.concat(await processIconModifierSnippets(input));
 
 	const results = fuzzysort.go(input, items, {
 		keys: ["title", "subtitle"],

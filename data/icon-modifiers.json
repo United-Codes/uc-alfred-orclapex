@@ -1,0 +1,176 @@
+{
+  "data": [
+    {
+      "name": "fa-lg",
+      "description": "Apply the large icon size"
+    },
+    {
+      "name": "fa-2x",
+      "description": "Scale up the icon (up to 5x)"
+    },
+    {
+      "name": "fa-2x",
+      "description": "Scale up the icon (up to 5x)"
+    },
+    {
+      "name": "fa-anim-spin",
+      "description": "Animation: Spin"
+    },
+    {
+      "name": "fa-anim-spin-step",
+      "description": "Animation: Spin in Steps"
+    },
+    {
+      "name": "fa-anim-flash",
+      "description": "Animation: Flash"
+    },
+    {
+      "name": "fa-anim-horizontal-shake",
+      "description": "Animation: Horizontal Shake"
+    },
+    {
+      "name": "fa-anim-vertical-shake",
+      "description": "Animation: Vertical Shake"
+    },
+    {
+      "name": "fa-flip-horizontal",
+      "description": "Rotate: Flip Horizontal"
+    },
+    {
+      "name": "fa-flip-vertical",
+      "description": "Rotate: Flip Vertical"
+    },
+    {
+      "name": "fa-rotate-180",
+      "description": "Rotate: 180°"
+    },
+    {
+      "name": "fa-rotate-270",
+      "description": "Rotate: 270°"
+    },
+    {
+      "name": "fa-rotate-90",
+      "description": "Rotate: 90°"
+    },
+    {
+      "name": "fam-25-percent",
+      "description": "Modifier: 25%"
+    },
+    {
+      "name": "fam-50-percent",
+      "description": "Modifier: 50%"
+    },
+    {
+      "name": "fam-75-percent",
+      "description": "Modifier: 75%"
+    },
+    {
+      "name": "fam-100-percent",
+      "description": "Modifier: 100%"
+    },
+    {
+      "name": "fam-arrow-down",
+      "description": "Modifier: Arrow down"
+    },
+    {
+      "name": "fam-arrow-left",
+      "description": "Modifier: Arrow left"
+    },
+    {
+      "name": "fam-arrow-right",
+      "description": "Modifier: Arrow right"
+    },
+    {
+      "name": "fam-arrow-up",
+      "description": "Modifier: Arrow up"
+    },
+    {
+      "name": "fam-blank",
+      "description": "Modifier: Blank (circle)"
+    },
+    {
+      "name": "fam-check",
+      "description": "Modifier: Checkmark"
+    },
+    {
+      "name": "fam-circle",
+      "description": "Modifier: Circle (donut)"
+    },
+    {
+      "name": "fam-clock",
+      "description": "Modifier: Clock"
+    },
+    {
+      "name": "fam-ellipsis-h",
+      "description": "Modifier: Horizontal Ellipsis (...)"
+    },
+    {
+      "name": "fam-ellipsis-v",
+      "description": "Modifier: Vertical Ellipsis (...)"
+    },
+    {
+      "name": "fam-heart",
+      "description": "Modifier: Heart"
+    },
+    {
+      "name": "fam-information",
+      "description": "Modifier: Information (i)"
+    },
+    {
+      "name": "fam-minus",
+      "description": "Modifier: Minus"
+    },
+    {
+      "name": "fam-pause",
+      "description": "Modifier: Pause"
+    },
+    {
+      "name": "fam-play",
+      "description": "Modifier: Play (▶)"
+    },
+    {
+      "name": "fam-plus",
+      "description": "Modifier: Plus"
+    },
+    {
+      "name": "fam-sleep",
+      "description": "Modifier: Sleep (☾)"
+    },
+    {
+      "name": "fam-star",
+      "description": "Modifier: Star (*)"
+    },
+    {
+      "name": "fam-stop",
+      "description": "Modifier: Stop"
+    },
+    {
+      "name": "fam-warning",
+      "description": "Modifier: Warning (!)"
+    },
+    {
+      "name": "fam-x",
+      "description": "Modifier: X"
+    },
+    {
+      "name": "fam-is-success",
+      "description": "Modifier Style: success (green)"
+    },
+    {
+      "name": "fam-is-warning",
+      "description": "Modifier Style: warning (yellow)"
+    },
+    {
+      "name": "fam-is-danger",
+      "description": "Modifier Style: danger (red)"
+    },
+    {
+      "name": "fam-is-info",
+      "description": "Modifier Style: info (primary color)"
+    },
+    {
+      "name": "fam-is-disabled",
+      "description": "Modifier Style: disabled (gray)"
+    }
+  ]
+}
