@@ -5,6 +5,7 @@ import {
   processCssClassItems,
   processCssVarItems,
   processDocItems,
+  processHTMLSnippets,
   processIconItems,
   processViewItems,
   processWebsiteItems,
@@ -38,6 +39,9 @@ async function main(args) {
 			break;
 		case "websites":
 			items = await processWebsiteItems(input);
+			break;
+		case "html-snippets":
+			items = await processHTMLSnippets(input);
 			break;
 		default:
 			alfy.error(`Invalid mode: "${args.mode}"`);

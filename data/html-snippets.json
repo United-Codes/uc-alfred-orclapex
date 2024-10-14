@@ -11,6 +11,10 @@
 		{
 			"name": "Icon Button",
 			"snippet": "<button type=\"button\" title=\"My Button\" aria-label=\"My Button\" class=\"t-Button t-Button--noLabel t-Button--icon\"><span aria-hidden=\"true\" class=\"t-Icon fa fa-check-circle\"></span></button>"
+		},
+		{
+			"name": "Icon span",
+			"snippet": "<span class=\"fa fa-check\" aria-hidden=\"true\"></span>"
 		}
 	]
 }
