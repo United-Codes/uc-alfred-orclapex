@@ -37,6 +37,14 @@ async function readJsonFileCache(key) {
 	return data;
 }
 
+function getFuzzyOptions(keys) {
+	return {
+		keys,
+		limit: RESULT_SIZE,
+		all: true,
+	};
+}
+
 export async function processDocItems(input) {
 	const data = await readJsonFileCache(DOC_FILE);
 	/**
@@ -57,10 +65,11 @@ export async function processDocItems(input) {
 		item.parent_title = item.parent_title || "";
 	}
 
-	const results = fuzzysort.go(input, docItems, {
-		keys: ["title", "submatcher"],
-		limit: RESULT_SIZE,
-	});
+	const results = fuzzysort.go(
+		input,
+		docItems,
+		getFuzzyOptions(["title", "submatcher"]),
+	);
 
 	const items = results.map((el) => ({
 		uid: el.obj.url,
@@ -90,10 +99,11 @@ export async function processCssVarItems(input) {
 		item.copyValue = `--${item.name}`;
 	}
 
-	const results = fuzzysort.go(input, cssItems, {
-		keys: ["name", "description"],
-		limit: RESULT_SIZE,
-	});
+	const results = fuzzysort.go(
+		input,
+		cssItems,
+		getFuzzyOptions(["name", "description"]),
+	);
 
 	const items = results.map((el) => ({
 		uid: el.obj.name,
@@ -118,10 +128,11 @@ export async function processCssClassItems(input) {
 	/** @type {CssItem[]} */
 	const cssItems = data.data;
 
-	const results = fuzzysort.go(input, cssItems, {
-		keys: ["name", "description", "category"],
-		limit: RESULT_SIZE,
-	});
+	const results = fuzzysort.go(
+		input,
+		cssItems,
+		getFuzzyOptions(["name", "description", "category"]),
+	);
 
 	const items = results.map((el) => ({
 		uid: el.obj.name,
@@ -148,10 +159,11 @@ export async function processViewItems(input) {
 	/** @type {CssItem[]} */
 	const viewItems = data.results[0].items;
 
-	const results = fuzzysort.go(input, viewItems, {
-		keys: ["name", "description"],
-		limit: RESULT_SIZE,
-	});
+	const results = fuzzysort.go(
+		input,
+		viewItems,
+		getFuzzyOptions(["name", "description"]),
+	);
 
 	const items = results.map((el) => ({
 		uid: el.obj.name,
@@ -188,10 +200,11 @@ export async function processIconItems(input) {
 				: item.categoryText || item.searchCriterias;
 	}
 
-	const results = fuzzysort.go(input, iconItems, {
-		keys: ["name", "search"],
-		limit: RESULT_SIZE,
-	});
+	const results = fuzzysort.go(
+		input,
+		iconItems,
+		getFuzzyOptions(["name", "search"]),
+	);
 
 	const items = results.map((el) => ({
 		uid: el.obj.name,
@@ -214,10 +227,11 @@ export async function processWebsiteItems(input) {
 
 	/** @type {WebsiteItem[]} */
 	const webItems = data.data;
-	const results = fuzzysort.go(input, webItems, {
-		keys: ["name", "url"],
-		limit: RESULT_SIZE,
-	});
+	const results = fuzzysort.go(
+		input,
+		webItems,
+		getFuzzyOptions(["name", "url"]),
+	);
 
 	const items = results.map((el) => ({
 		uid: el.obj.url,
@@ -240,10 +254,11 @@ export async function processHTMLSnippets(input) {
 
 	/** @type {HTMLsnippetItem[]} */
 	const htmlSnipItems = data.data;
-	const results = fuzzysort.go(input, htmlSnipItems, {
-		keys: ["name", "snippet"],
-		limit: RESULT_SIZE,
-	});
+	const results = fuzzysort.go(
+		input,
+		htmlSnipItems,
+		getFuzzyOptions(["name", "snippet"]),
+	);
 
 	const items = results.map((el) => ({
 		uid: el.obj.name,
@@ -266,10 +281,11 @@ export async function processIconModifierSnippets(input) {
 
 	/** @type {IconModItem[]} */
 	const htmlSnipItems = data.data;
-	const results = fuzzysort.go(input, htmlSnipItems, {
-		keys: ["name", "description"],
-		limit: RESULT_SIZE,
-	});
+	const results = fuzzysort.go(
+		input,
+		htmlSnipItems,
+		getFuzzyOptions(["name", "description"]),
+	);
 
 	const items = results.map((el) => ({
 		uid: el.obj.name,
