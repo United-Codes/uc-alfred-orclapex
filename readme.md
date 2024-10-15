@@ -19,7 +19,9 @@ This is an [Alfred](https://alfred.app/) workflow for quickly accessing Oracle A
 
 ## Installation
 
-TODO
+```
+npm i -g uc-alfred-orclapex
+```
 
 ## Usage
 

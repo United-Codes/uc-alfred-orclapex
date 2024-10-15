@@ -1,0 +1,7 @@
+/test/
+/.vscode/
+/assets/
+/data/*.sql
+/node_modules/
+.gitignore
+biome.json
