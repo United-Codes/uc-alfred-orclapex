@@ -152,9 +152,9 @@
 		</array>
 	</dict>
 	<key>createdby</key>
-	<string>phartenfeller@united-codes.com</string>
+	<string>Philipp Hartenfeller</string>
 	<key>description</key>
-	<string>Quick reference for Oracle APEX related stuff</string>
+	<string>Oracle APEX utility commands for Alfred</string>
 	<key>disabled</key>
 	<false/>
 	<key>name</key>
@@ -238,7 +238,7 @@
 				<key>runningsubtext</key>
 				<string></string>
 				<key>script</key>
-				<string>open https://github.com/phartenfeller</string>
+				<string>open https://github.com/United-Codes/uc-alfred-orclapex</string>
 				<key>scriptargtype</key>
 				<integer>1</integer>
 				<key>scriptfile</key>
@@ -872,8 +872,8 @@ https://united-codes.com</string>
 		</dict>
 	</array>
 	<key>version</key>
-	<string>24.1</string>
+	<string>1.24.1</string>
 	<key>webaddress</key>
-	<string>https://united-codes.com</string>
+	<string></string>
 </dict>
 </plist>
