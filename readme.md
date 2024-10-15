@@ -3,8 +3,8 @@
 This is an [Alfred](https://alfred.app/) workflow for quickly accessing Oracle APEX related resources. These include:
 
 - API Reference / Documentation (PL/SQL and JS)
-- Icons
-- Views
+- Icons + icon modifiers
+- APEX Views
 - CSS Classes
 - CSS Variables
 - Useful Links and Websites
