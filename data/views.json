@@ -151,17 +151,19 @@
 ,{"name":"APEX_APPLICATION_THEME_FILES","description":"Stores the files like CSS, images, javascript files, ... of a theme.","parentview":"APEX_APPLICATION_THEMES"}
 ,{"name":"APEX_APPLICATION_TRANSLATIONS","description":"Identifies message primary language text and translated text","parentview":"APEX_APPLICATIONS"}
 ,{"name":"APEX_APPLICATION_TRANS_DYNAMIC","description":"Application dynamic translations.  These are created in the Translation section of Shared Components, and referenced at runtime via the function APEX_LANG.LANG.","parentview":"APEX_APPLICATIONS"}
-,{"name":"APEX_APPLICATION_TRANS_MAP","description":"Application Groups defined per workspace.  Applications can be associated with an application group.","parentview":"APEX_APPLICATIONS"}
+,{"name":"APEX_APPLICATION_TRANS_MAP","description":"Identifies language mappings configured for applications","parentview":"APEX_APPLICATIONS"}
 ,{"name":"APEX_APPLICATION_TRANS_REPOS","description":"Repository of translation strings.  These are populated from the translation seeding process.","parentview":"APEX_APPLICATIONS"}
 ,{"name":"APEX_APPLICATION_TREES","description":"Identifies a tree control which can be referenced and displayed by creating a region with a source of this tree","parentview":"APEX_APPLICATIONS"}
 ,{"name":"APEX_APPLICATION_WEB_SERVICES","description":"Web Services referenceable from this Application","parentview":"APEX_APPLICATIONS"}
 ,{"name":"APEX_APPL_ACL_ROLES","description":"Identifies Application Roles, which are workspace groups that are tied to a specific application","parentview":"APEX_APPLICATIONS"}
 ,{"name":"APEX_APPL_ACL_USERS","description":"Identifies Application Users used to map application users to application roles","parentview":"APEX_APPLICATIONS"}
 ,{"name":"APEX_APPL_ACL_USER_ROLES","description":"Identifies Application Users used to map application users to application roles","parentview":"APEX_APPL_ACL_USERS"}
+,{"name":"APEX_APPL_AI_CONFIGS","description":"AI configurations within an application","parentview":"APEX_APPLICATIONS"}
+,{"name":"APEX_APPL_AI_CONFIG_RAG_SRCS","description":"RAG sources of an AI configuration","parentview":"APEX_APPL_AI_CONFIGS"}
 ,{"name":"APEX_APPL_AUTOMATIONS","description":"Stores the meta data for automations of an application.","parentview":"APEX_APPLICATIONS"}
 ,{"name":"APEX_AUTOMATION_LOG","description":"Log of automation executions.","parentview":"APEX_APPL_AUTOMATIONS"}
 ,{"name":"APEX_AUTOMATION_MSG_LOG","description":"Messages of an automation execution.","parentview":"APEX_AUTOMATION_LOG"}
-,{"name":"APEX_APPL_AUTOMATION_ACTIONS","description":"Identifies actions associated with an automation","parentview":"APEX_APPLICATIONS"}
+,{"name":"APEX_APPL_AUTOMATION_ACTIONS","description":"Identifies actions associated with an automation","parentview":"APEX_APPL_AUTOMATIONS"}
 ,{"name":"APEX_APPL_COMPONENT_GROUPS","description":"Identifies a named collection of components which can be bulk copied or subscribed from one application to another.","parentview":"APEX_APPLICATIONS"}
 ,{"name":"APEX_APPL_COMP_GRP_COMPONENTS","description":"Identifies components that are part of a component group.","parentview":"APEX_APPL_COMPONENT_GROUPS"}
 ,{"name":"APEX_APPL_CONCATENATED_FILES","description":"Concatenated files of a user interface","parentview":"APEX_APPLICATIONS"}
@@ -169,11 +171,13 @@
 ,{"name":"APEX_APPL_DATA_PROFILES","description":"Available Data Profiles used for parsing CSV, XLSX, JSON, XML and other data","parentview":"APEX_APPLICATIONS"}
 ,{"name":"APEX_APPL_DATA_PROFILE_COLS","description":"Data Profile columns used for parsing JSON, XML and other data","parentview":"APEX_APPLICATIONS"}
 ,{"name":"APEX_APPL_DEVELOPER_COMMENTS","description":"Developer comments of an application","parentview":"APEX_APPLICATIONS"}
+,{"name":"APEX_APPL_DUALITY_VIEWS","description":"Available Duality View Sources within an application","parentview":"APEX_APPLICATIONS"}
 ,{"name":"APEX_APPL_EMAIL_TEMPLATES","description":"Stores the meta data for the email templates of an application.","parentview":"APEX_APPLICATIONS"}
 ,{"name":"APEX_APPL_INVOKE_API_PARAMS","description":"Invoke API parameter values for individual APEX components","parentview":"APEX_APPLICATIONS"}
+,{"name":"APEX_APPL_JSON_SOURCES","description":"Available JSON Sources within an application","parentview":"APEX_APPLICATIONS"}
 ,{"name":"APEX_APPL_LOAD_TABLES","description":"Identifies Application Legacy Data Loading definitions","parentview":"APEX_APPLICATIONS"}
-,{"name":"APEX_APPL_LOAD_TABLE_LOOKUPS","description":"Identifies a the collection of key lookups of the data loading tables","parentview":"APEX_APPLICATIONS"}
-,{"name":"APEX_APPL_LOAD_TABLE_RULES","description":"Identifies a collection of transformation rules that are to be used on the load tables.","parentview":"APEX_APPLICATIONS"}
+,{"name":"APEX_APPL_LOAD_TABLE_LOOKUPS","description":"Identifies a the collection of key lookups of the data loading tables","parentview":"APEX_APPL_LOAD_TABLES"}
+,{"name":"APEX_APPL_LOAD_TABLE_RULES","description":"Identifies a collection of transformation rules that are to be used on the load tables.","parentview":"APEX_APPL_LOAD_TABLES"}
 ,{"name":"APEX_APPL_MAP_BACKGROUNDS","description":"Map background definitions","parentview":"APEX_APPLICATIONS"}
 ,{"name":"APEX_APPL_PLUGINS","description":"Stores the meta data for the plug-ins of an application.","parentview":"APEX_APPLICATIONS"}
 ,{"name":"APEX_APPL_PLUGIN_ACT_POSITIONS","description":"Stores the meta data for the action positions of a Template Component plug-in.","parentview":"APEX_APPL_PLUGINS"}
@@ -200,10 +204,10 @@
 ,{"name":"APEX_TASK_HISTORY","description":"Stores the task instance history for applications in this workspace","parentview":"APEX_TASKS"}
 ,{"name":"APEX_TASK_PARAMETERS","description":"Stores the task instance parameters for applications in this workspace","parentview":"APEX_TASKS"}
 ,{"name":"APEX_TASK_PARTICIPANTS","description":"Stores the task instance participants for applications in this workspace","parentview":"APEX_TASKS"}
-,{"name":"APEX_APPL_TASKDEF_ACTIONS","description":"Identifies actions associated with a task definition","parentview":"APEX_APPLICATIONS"}
-,{"name":"APEX_APPL_TASKDEF_COMP_PARAMS","description":"Task Definition parameter values for individual APEX components","parentview":"APEX_APPLICATIONS"}
-,{"name":"APEX_APPL_TASKDEF_PARAMS","description":"Parameters for Task Definition Payload","parentview":"APEX_APPLICATIONS"}
-,{"name":"APEX_APPL_TASKDEF_PARTICIPANTS","description":"Task Definition Participants","parentview":"APEX_APPLICATIONS"}
+,{"name":"APEX_APPL_TASKDEF_ACTIONS","description":"Identifies actions associated with a task definition","parentview":"APEX_APPL_TASKDEFS"}
+,{"name":"APEX_APPL_TASKDEF_COMP_PARAMS","description":"Task Definition parameter values for individual APEX components","parentview":"APEX_APPL_TASKDEF_PARAMS"}
+,{"name":"APEX_APPL_TASKDEF_PARAMS","description":"Parameters for Task Definition Payload","parentview":"APEX_APPL_TASKDEFS"}
+,{"name":"APEX_APPL_TASKDEF_PARTICIPANTS","description":"Task Definition Participants","parentview":"APEX_APPL_TASKDEFS"}
 ,{"name":"APEX_APPL_USER_INTERFACES","description":"(Obsolete) User interfaces of an application","parentview":"APEX_APPLICATIONS"}
 ,{"name":"APEX_APPL_WEB_SRC_MODULES","description":"Available REST Data Sources within an application","parentview":"APEX_APPLICATIONS"}
 ,{"name":"APEX_APPL_WEB_SRC_OPERATIONS","description":"Available REST Source Operations","parentview":"APEX_APPL_WEB_SRC_MODULES"}
@@ -223,15 +227,16 @@
 ,{"name":"APEX_WORKFLOW_PARAMETERS","description":"Stores the workflow instance parameters for applications in this workspace","parentview":"APEX_WORKFLOWS"}
 ,{"name":"APEX_WORKFLOW_PARTICIPANTS","description":"Stores the workflow participants for applications in this workspace","parentview":"APEX_WORKFLOWS"}
 ,{"name":"APEX_WORKFLOW_VARIABLES","description":"Stores the workflow instance variables for applications in this workspace","parentview":"APEX_WORKFLOWS"}
-,{"name":"APEX_APPL_WORKFLOW_ACTIVITIES","description":"Stores the workflow activities for applications in this workspace","parentview":"APEX_APPLICATIONS"}
-,{"name":"APEX_APPL_WORKFLOW_ACT_VARS","description":"Stores the workflow activity variables for applications in this workspace","parentview":"APEX_APPLICATIONS"}
-,{"name":"APEX_APPL_WORKFLOW_BRANCHES","description":"Stores the workflow branches for applications in this workspace","parentview":"APEX_APPLICATIONS"}
-,{"name":"APEX_APPL_WORKFLOW_COMP_PARAMS","description":"Workflow parameter values for individual APEX components","parentview":"APEX_APPLICATIONS"}
-,{"name":"APEX_APPL_WORKFLOW_PARAMS","description":"Stores the workflow parameters for applications in this workspace","parentview":"APEX_APPLICATIONS"}
-,{"name":"APEX_APPL_WORKFLOW_PARTICIPANT","description":"Stores the Workflow Participants for applications in this workspace","parentview":"APEX_APPLICATIONS"}
-,{"name":"APEX_APPL_WORKFLOW_TRANSITIONS","description":"Stores the workflow transitions for applications in this workspace","parentview":"APEX_APPLICATIONS"}
-,{"name":"APEX_APPL_WORKFLOW_VARIABLES","description":"Stores the workflow variables for applications in this workspace","parentview":"APEX_APPLICATIONS"}
-,{"name":"APEX_APPL_WORKFLOW_VERSIONS","description":"Stores the workflow versions for applications in this workspace","parentview":"APEX_APPLICATIONS"}
+,{"name":"APEX_APPL_WORKFLOW_ACTIVITIES","description":"Stores the workflow activities for applications in this workspace","parentview":"APEX_APPL_WORKFLOW_VERSIONS"}
+,{"name":"APEX_APPL_WORKFLOW_ACT_VARS","description":"Stores the workflow activity variables for applications in this workspace","parentview":"APEX_APPL_WORKFLOW_ACTIVITIES"}
+,{"name":"APEX_APPL_WORKFLOW_BRANCHES","description":"Stores the workflow branches for applications in this workspace","parentview":"APEX_APPL_WORKFLOW_ACTIVITIES"}
+,{"name":"APEX_APPL_WORKFLOW_COMP_PARAMS","description":"Workflow parameter values for individual APEX components","parentview":"APEX_APPL_WORKFLOW_PARAMS"}
+,{"name":"APEX_APPL_WORKFLOW_PARAMS","description":"Stores the workflow parameters for applications in this workspace","parentview":"APEX_APPL_WORKFLOWS"}
+,{"name":"APEX_APPL_WORKFLOW_PARTICIPANT","description":"Stores the Workflow Participants for applications in this workspace","parentview":"APEX_APPL_WORKFLOW_VERSIONS"}
+,{"name":"APEX_APPL_WORKFLOW_TRANSITIONS","description":"Stores the workflow transitions for applications in this workspace","parentview":"APEX_APPL_WORKFLOW_ACTIVITIES"}
+,{"name":"APEX_APPL_WORKFLOW_VARIABLES","description":"Stores the workflow variables for applications in this workspace","parentview":"APEX_APPL_WORKFLOW_VERSIONS"}
+,{"name":"APEX_APPL_WORKFLOW_VERSIONS","description":"Stores the workflow versions for applications in this workspace","parentview":"APEX_APPL_WORKFLOWS"}
+,{"name":"APEX_SUBSCRIBED_COMPONENTS","description":"List of components subscribed from another applications.","parentview":"APEX_APPLICATIONS"}
 ,{"name":"APEX_USED_DB_OBJECTS","description":"Database object referenced by an application","parentview":"APEX_APPLICATIONS"}
 ,{"name":"APEX_USED_DB_OBJECT_COMP_PROPS","description":"Application code fragment analysed for database object dependencies","parentview":"APEX_APPLICATIONS"}
 ,{"name":"APEX_USED_DB_OBJ_DEPENDENCIES","description":"Database object referenced by an application component","parentview":"APEX_APPLICATIONS"}
@@ -289,4 +294,7 @@
 ,{"name":"APEX_WORKSPACE_SQL_SCRIPTS","description":"Identifies SQL Scripts used to execute SQL and PL\/SQL commands","parentview":"APEX_WORKSPACES"}
 ,{"name":"APEX_WORKSPACE_STATIC_FILES","description":"Stores the files like CSS, images, javascript files, ... of a workspace.","parentview":"APEX_WORKSPACES"}
 ,{"name":"APEX_WORKSPACE_UI_TYPES","description":"(Obsolete) The UI Types identify the available user interface types of a workspace","parentview":"APEX_WORKSPACES"}
+,{"name":"APEX_WORKSPACE_VECTOR_PROVIDER","description":"Vector Providers configured within an application.","parentview":"APEX_WORKSPACES"}
+,{"name":"APEX_MAIL_LOG","description":"Log of APEX mails"}
+,{"name":"APEX_MAIL_QUEUE","description":"Mail queue"}
 ]}]}
