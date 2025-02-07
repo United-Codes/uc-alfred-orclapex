@@ -316,6 +316,26 @@
 			"category": "Color and Status Modifiers"
 		},
 		{
+			"name": "u-shadow-none",
+			"description": "Clears any shadow applied to an element",
+			"category": "Color and Status Modifiers"
+		},
+		{
+			"name": "u-shadow-sm",
+			"description": "Small shadow applied to an element",
+			"category": "Color and Status Modifiers"
+		},
+		{
+			"name": "u-shadow-md",
+			"description": "Medium shadow applied to an element",
+			"category": "Color and Status Modifiers"
+		},
+		{
+			"name": "u-shadow-lg",
+			"description": "Large shadow applied to an element",
+			"category": "Color and Status Modifiers"
+		},
+		{
 			"name": "u-pullLeft",
 			"description": "Float to left",
 			"category": "Layout Modifiers"
@@ -434,6 +454,41 @@
 			"name": "u-order-5",
 			"description": "Set the order to lay out an item in a flex container (order 5)",
 			"category": "Layout Modifiers"
+		},
+		{
+			"name": "u-order-xxs-[0-5]",
+			"description": "Flex order for screen widths 479px and below",
+			"category": "Layout Modifiers / Responsive"
+		},
+		{
+			"name": "u-order-xs-[0-5]",
+			"description": "Flex order for screen widths 480px to 639px",
+			"category": "Layout Modifiers / Responsive"
+		},
+		{
+			"name": "u-order-sm-[0-5]",
+			"description": "Flex order for screen widths 640px to 767px",
+			"category": "Layout Modifiers / Responsive"
+		},
+		{
+			"name": "u-order-md-[0-5]",
+			"description": "Flex order for screen widths 768px to 991px",
+			"category": "Layout Modifiers / Responsive"
+		},
+		{
+			"name": "u-order-lg-[0-5]",
+			"description": "Flex order for screen widths 992px to 1199px",
+			"category": "Layout Modifiers / Responsive"
+		},
+		{
+			"name": "u-order-xl-[0-5]",
+			"description": "Flex order for screen widths 1200px to 1399px",
+			"category": "Layout Modifiers / Responsive"
+		},
+		{
+			"name": "u-order-xxl-[0-5]",
+			"description": "Flex order for screen widths 1400px and above",
+			"category": "Layout Modifiers / Responsive"
 		},
 		{
 			"name": "u-justify-content-flex-start",
@@ -626,11 +681,6 @@
 			"category": "Content Modifiers"
 		},
 		{
-			"name": "u-bold",
-			"description": "Bold text",
-			"category": "Content Modifiers"
-		},
-		{
 			"name": "u-italics",
 			"description": "Italicize text",
 			"category": "Content Modifiers"
@@ -638,11 +688,6 @@
 		{
 			"name": "u-underline",
 			"description": "Underline text",
-			"category": "Content Modifiers"
-		},
-		{
-			"name": "u-fixedFont",
-			"description": "Use a fixed-letter-space font",
 			"category": "Content Modifiers"
 		},
 		{
@@ -688,6 +733,166 @@
 		{
 			"name": "u-VisuallyHidden",
 			"description": "Make text visually hidden, but still accessible for assistive technologies",
+			"category": "Content Modifiers"
+		},
+		{
+			"name": "u-text-heading-2xl",
+			"description": "Largest heading size / Alias: u-text-title-1",
+			"category": "Content Modifiers"
+		},
+		{
+			"name": "u-text-heading-xl",
+			"description": "Extra large heading / Alias: u-text-title-2",
+			"category": "Content Modifiers"
+		},
+		{
+			"name": "u-text-heading-lg",
+			"description": "Large heading / Alias: u-text-title-3",
+			"category": "Content Modifiers"
+		},
+		{
+			"name": "u-text-heading-md",
+			"description": "Medium heading / Alias: u-text-title-4",
+			"category": "Content Modifiers"
+		},
+		{
+			"name": "u-text-heading-sm",
+			"description": "Small heading / Alias: u-text-title-5",
+			"category": "Content Modifiers"
+		},
+		{
+			"name": "u-text-heading-xs",
+			"description": "Extra small heading / Alias: u-text-title-6",
+			"category": "Content Modifiers"
+		},
+		{
+			"name": "u-text-subheading-2xl",
+			"description": "Largest subheading / Alias: u-text-subtitle-1",
+			"category": "Content Modifiers"
+		},
+		{
+			"name": "u-text-subheading-xl",
+			"description": "Extra large subheading / Alias: u-text-subtitle-2",
+			"category": "Content Modifiers"
+		},
+		{
+			"name": "u-text-subheading-lg",
+			"description": "Large subheading / Alias: u-text-subtitle-3",
+			"category": "Content Modifiers"
+		},
+		{
+			"name": "u-text-subheading-md",
+			"description": "Medium subheading / Alias: u-text-subtitle-4",
+			"category": "Content Modifiers"
+		},
+		{
+			"name": "u-text-subheading-sm",
+			"description": "Small subheading / Alias: u-text-subtitle-5",
+			"category": "Content Modifiers"
+		},
+		{
+			"name": "u-text-subheading-xs",
+			"description": "Extra small subheading / Alias: u-text-subtitle-6",
+			"category": "Content Modifiers"
+		},
+		{
+			"name": "u-text-body-xl",
+			"description": "Extra large body text",
+			"category": "Content Modifiers"
+		},
+		{
+			"name": "u-text-body-lg",
+			"description": "Large body text / Alias: u-text-body-1",
+			"category": "Content Modifiers"
+		},
+		{
+			"name": "u-text-body-md",
+			"description": "Medium body text / Alias: u-text-title-2",
+			"category": "Content Modifiers"
+		},
+		{
+			"name": "u-text-body-sm",
+			"description": "Small body text / Alias: u-text-title-3",
+			"category": "Content Modifiers"
+		},
+		{
+			"name": "u-text-caption-1",
+			"description": "Primary caption text / Alias: u-text-subheading-xs",
+			"category": "Content Modifiers"
+		},
+		{
+			"name": "u-text-caption-2",
+			"description": "Secondary caption text / Alias: u-text-subheading-xs",
+			"category": "Content Modifiers"
+		},
+		{
+			"name": "u-text-serif",
+			"description": "Serif font family",
+			"category": "Content Modifiers"
+		},
+		{
+			"name": "u-text-sansserif",
+			"description": "Sans-serif font family / Alias: u-text-sans-serif",
+			"category": "Content Modifiers"
+		},
+		{
+			"name": "u-text-mono",
+			"description": "Monospace font family / Alias: u-fixedFont",
+			"category": "Content Modifiers"
+		},
+		{
+			"name": "u-text-ultralight",
+			"description": "Ultra light font weight / Alias: u-text-lighter",
+			"category": "Content Modifiers"
+		},
+		{
+			"name": "u-text-normal",
+			"description": "Normal font weight",
+			"category": "Content Modifiers"
+		},
+		{
+			"name": "u-text-semibold",
+			"description": "Semi-bold font weight / Alias: u-text-semi-bold",
+			"category": "Content Modifiers"
+		},
+		{
+			"name": "u-text-bold",
+			"description": "Bold font weight / Alias: u-bold",
+			"category": "Content Modifiers"
+		},
+		{
+			"name": "u-text-heavy",
+			"description": "Heavy font weight / Alias: u-text-bolder",
+			"category": "Content Modifiers"
+		},
+		{
+			"name": "u-hyphenate",
+			"description": "Hyphenates long words / Alias: u-hyphen",
+			"category": "Content Modifiers"
+		},
+		{
+			"name": "u-truncate",
+			"description": "Truncates text to single line, similar to u-lineclamp-1",
+			"category": "Content Modifiers"
+		},
+		{
+			"name": "u-text-default-color",
+			"description": "Default text color",
+			"category": "Content Modifiers"
+		},
+		{
+			"name": "u-text-title-color",
+			"description": "Title text color",
+			"category": "Content Modifiers"
+		},
+		{
+			"name": "u-text-subtitle-color",
+			"description": "Subtitle text color",
+			"category": "Content Modifiers"
+		},
+		{
+			"name": "u-text-muted-color",
+			"description": "Muted text color",
 			"category": "Content Modifiers"
 		}
 	]
