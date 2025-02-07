@@ -16,6 +16,7 @@ select url
   from rag_content
  where rag_content_type_id in (2, 3)
    and title not in ('Title and Copyright Information', 'Index')
+   and is_disabled = 'N'
 )
 select x.url
      , x.title
