@@ -7,6 +7,7 @@ This is an [Alfred](https://alfred.app/) workflow for quickly accessing Oracle A
 - APEX Views
 - CSS Classes
 - CSS Variables
+- Substitution Strings
 - Useful Links and Websites
 
 ## Prerequisites
