@@ -21,6 +21,19 @@
 				<false/>
 			</dict>
 		</array>
+		<key>0B0E3B0D-20D3-4A64-8640-AB5438C93D74</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>9A29D9E0-78A1-4657-AFC5-A2E4BCB2153E</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
 		<key>5E8288A0-4459-4880-B584-086C75DCC183</key>
 		<array>
 			<dict>
@@ -733,6 +746,55 @@ end run</string>
 			<key>version</key>
 			<integer>3</integer>
 		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>alfredfiltersresults</key>
+				<false/>
+				<key>alfredfiltersresultsmatchmode</key>
+				<integer>0</integer>
+				<key>argumenttreatemptyqueryasnil</key>
+				<true/>
+				<key>argumenttrimmode</key>
+				<integer>0</integer>
+				<key>argumenttype</key>
+				<integer>1</integer>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>keyword</key>
+				<string>{var:keyword} substitution</string>
+				<key>queuedelaycustom</key>
+				<integer>3</integer>
+				<key>queuedelayimmediatelyinitially</key>
+				<true/>
+				<key>queuedelaymode</key>
+				<integer>0</integer>
+				<key>queuemode</key>
+				<integer>1</integer>
+				<key>runningsubtext</key>
+				<string></string>
+				<key>script</key>
+				<string>./node_modules/.bin/run-node index.js "$1" --mode substitution</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>subtext</key>
+				<string></string>
+				<key>title</key>
+				<string>APEX Substitution Strings</string>
+				<key>type</key>
+				<integer>0</integer>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.scriptfilter</string>
+			<key>uid</key>
+			<string>0B0E3B0D-20D3-4A64-8640-AB5438C93D74</string>
+			<key>version</key>
+			<integer>3</integer>
+		</dict>
 	</array>
 	<key>readme</key>
 	<string>This workflow is for quickly accessing Oracle APEX related resources. These include:
@@ -767,6 +829,13 @@ https://united-codes.com</string>
 			<key>ypos</key>
 			<real>580</real>
 		</dict>
+		<key>0B0E3B0D-20D3-4A64-8640-AB5438C93D74</key>
+		<dict>
+			<key>xpos</key>
+			<real>150</real>
+			<key>ypos</key>
+			<real>1120</real>
+		</dict>
 		<key>5E8288A0-4459-4880-B584-086C75DCC183</key>
 		<dict>
 			<key>xpos</key>
@@ -784,9 +853,9 @@ https://united-codes.com</string>
 		<key>741A9CBC-04B8-4BB6-8EB1-244BFFB7A721</key>
 		<dict>
 			<key>xpos</key>
-			<real>150</real>
+			<real>145</real>
 			<key>ypos</key>
-			<real>885</real>
+			<real>880</real>
 		</dict>
 		<key>9A29D9E0-78A1-4657-AFC5-A2E4BCB2153E</key>
 		<dict>
@@ -798,9 +867,9 @@ https://united-codes.com</string>
 		<key>A5F5BC15-8C3A-42F9-95CD-16B78A12ED53</key>
 		<dict>
 			<key>xpos</key>
-			<real>600</real>
+			<real>580</real>
 			<key>ypos</key>
-			<real>60</real>
+			<real>70</real>
 		</dict>
 		<key>D07A9122-685C-4F46-A66E-EBBE5754EE01</key>
 		<dict>
@@ -872,7 +941,7 @@ https://united-codes.com</string>
 		</dict>
 	</array>
 	<key>version</key>
-	<string>1.24.1</string>
+	<string>1.24.2</string>
 	<key>webaddress</key>
 	<string></string>
 </dict>
