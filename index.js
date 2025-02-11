@@ -1,15 +1,16 @@
 import alfy from "alfy";
 import yargsParser from "yargs-parser";
 import {
-  processAll,
-  processCssClassItems,
-  processCssVarItems,
-  processDocItems,
-  processHTMLSnippets,
-  processIconItems,
-  processIconModifierSnippets,
-  processViewItems,
-  processWebsiteItems,
+	processAll,
+	processCssClassItems,
+	processCssVarItems,
+	processDocItems,
+	processHTMLSnippets,
+	processIconItems,
+	processIconModifierSnippets,
+	processSubstitutionItems,
+	processViewItems,
+	processWebsiteItems,
 } from "./getOptions.js";
 
 async function main(args) {
@@ -46,6 +47,9 @@ async function main(args) {
 			break;
 		case "html-snippets":
 			items = await processHTMLSnippets(input);
+			break;
+		case "substitution":
+			items = await processSubstitutionItems(input);
 			break;
 		default:
 			alfy.error(`Invalid mode: "${args.mode}"`);

@@ -11,6 +11,7 @@ const ICONS_FILE = `${FILE_PREFIX}icons.json`;
 const WEBSITES_FILE = `${FILE_PREFIX}websites.json`;
 const HTML_SNIPPETS = `${FILE_PREFIX}html-snippets.json`;
 const ICON_MODIFIERS = `${FILE_PREFIX}icon-modifiers.json`;
+const SUBSTITUTIONS = `${FILE_PREFIX}substitutions.json`;
 
 const RESULT_SIZE = 50;
 
@@ -31,6 +32,11 @@ async function readJsonFileCache(key) {
 	}
 
 	const data = await readJsonFile(key);
+
+	if (!data) {
+		return [];
+	}
+
 	alfy.cache.set(key, data, {
 		maxAge: 1000 * 60 * 60 * 24, // 24 hours
 	});
@@ -297,6 +303,30 @@ export async function processIconModifierSnippets(input) {
 	return items;
 }
 
+export async function processSubstitutionItems(input) {
+	const data = await readJsonFileCache(SUBSTITUTIONS);
+
+	/**
+	 * @typedef {Object} SubstitutionItem
+	 * @property {string} name
+	 * @property {string} description
+	 */
+
+	/** @type {SubstitutionItem[]} */
+	const subItems = data.data;
+	const fuzzyOptions = getFuzzyOptions(["name", "description"]);
+	const results = fuzzysort.go(input, subItems, fuzzyOptions);
+
+	const items = results.map((el) => ({
+		uid: el.obj.name,
+		title: el.obj.name,
+		subtitle: el.obj.description,
+		arg: el.obj.name,
+	}));
+
+	return items;
+}
+
 export async function processAll(input) {
 	let items = [];
 
@@ -308,6 +338,7 @@ export async function processAll(input) {
 	items = items.concat(await processWebsiteItems(input));
 	items = items.concat(await processHTMLSnippets(input));
 	items = items.concat(await processIconModifierSnippets(input));
+	items = items.concat(await processSubstitutionItems(input));
 
 	const results = fuzzysort.go(input, items, {
 		keys: ["title", "subtitle"],
