@@ -1,174 +1,172 @@
 {
   "data": [
-    [
-      {
-        "name": "APEX_CSP_DISPLAY_NONE",
-        "description": "Ensures safe CSS inline exceptions using a centralized substitution string for display:none"
-      },
-      {
-        "name": "APEX_FILES",
-        "description": "Determines virtual path for images directory (formerly IMAGE_PREFIX)"
-      },
-      {
-        "name": "APEX$ROW_NUM",
-        "description": "References currently processed row number of submitted tabular form data"
-      },
-      {
-        "name": "APEX$ROW_SELECTOR",
-        "description": "References row selector checkbox state in tabular forms"
-      },
-      {
-        "name": "APEX$ROW_STATUS",
-        "description": "References row status (C for created, U for updated, D for deleted) in tabular forms"
-      },
-      {
-        "name": "APP_ID",
-        "description": "Identifies the current application ID"
-      },
-      {
-        "name": "APP_ALIAS",
-        "description": "Alphanumeric name for the current application, unique within a workspace"
-      },
-      {
-        "name": "APP_AJAX_X[01-10]",
-        "description": "Values of AJAX URL parameters used in On Demand AJAX processes"
-      },
-      {
-        "name": "APP_BUILDER_SESSION",
-        "description": "Current session ID of development environment if user is logged in as developer"
-      },
-      {
-        "name": "APP_DATE_TIME_FORMAT",
-        "description": "Application date time format specified in Globalization settings"
-      },
-      {
-        "name": "APP_FILES",
-        "description": "References application-specific uploaded files (formerly APP_IMAGES)"
-      },
-      {
-        "name": "APP_NLS_DATE_FORMAT",
-        "description": "Application date format of the database session"
-      },
-      {
-        "name": "APP_NLS_TIMESTAMP_FORMAT",
-        "description": "Application timestamp format of the database session"
-      },
-      {
-        "name": "APP_NLS_TIMESTAMP_TZ_FORMAT",
-        "description": "Application timestamp timezone format of the database session"
-      },
-      {
-        "name": "APP_PAGE_ALIAS",
-        "description": "Alphanumeric name for the current application page"
-      },
-      {
-        "name": "APP_PAGE_ID",
-        "description": "Current application page ID"
-      },
-      {
-        "name": "APP_REGION_ID",
-        "description": "ID of the current executing region"
-      },
-      {
-        "name": "APP_REGION_STATIC_ID",
-        "description": "Static ID of the current executing region"
-      },
-      {
-        "name": "APP_REQUEST_DATA_HASH",
-        "description": "Hash value of request parameters to detect different browser requests"
-      },
-      {
-        "name": "APP_SESSION",
-        "description": "Current session number for maintaining session state in links"
-      },
-      {
-        "name": "APP_SESSION_VISIBLE",
-        "description": "Similar to APP_SESSION but returns '0' for unauthenticated users with Zero Session ID"
-      },
-      {
-        "name": "APP_TITLE",
-        "description": "Alphanumeric title for the current application"
-      },
-      {
-        "name": "APP_UNIQUE_PAGE_ID",
-        "description": "Unique integer for each page view to prevent duplicate submissions"
-      },
-      {
-        "name": "APP_USER",
-        "description": "Current user running the application"
-      },
-      {
-        "name": "APP_VERSION",
-        "description": "Version number of the application"
-      },
-      {
-        "name": "AUTHENTICATED_URL_PREFIX",
-        "description": "Valid authenticated (logged in) URL prefix"
-      },
-      {
-        "name": "BROWSER_LANGUAGE",
-        "description": "Web browser's current language preference"
-      },
-      {
-        "name": "CURRENT_PARENT_TAB_TEXT",
-        "description": "Label of currently selected parent tab for two-level tab applications"
-      },
-      {
-        "name": "DEBUG",
-        "description": "Flag indicating if debug mode is enabled (Yes/No)"
-      },
-      {
-        "name": "HOME_LINK",
-        "description": "Home page URL of an application"
-      },
-      {
-        "name": "JET_BASE_DIRECTORY",
-        "description": "Base directory of Oracle JavaScript Extension Toolkit"
-      },
-      {
-        "name": "JET_CSS_DIRECTORY",
-        "description": "CSS directory of Oracle JavaScript Extension Toolkit"
-      },
-      {
-        "name": "JET_JS_DIRECTORY",
-        "description": "JavaScript directory of Oracle JavaScript Extension Toolkit"
-      },
-      {
-        "name": "LOGIN_URL",
-        "description": "URL for the login page"
-      },
-      {
-        "name": "LOGOUT_URL",
-        "description": "URL for logging out users"
-      },
-      {
-        "name": "MAIN_APP_ID",
-        "description": "Main application ID for working copies, otherwise current application ID"
-      },
-      {
-        "name": "APP_TEXT$Message_Name",
-        "description": "Access to application defined or system defined text messages"
-      },
-      {
-        "name": "OWNER",
-        "description": "Parsing schema of the APEX application"
-      },
-      {
-        "name": "PRINTER_FRIENDLY",
-        "description": "Indicates if APEX engine is running in print view mode"
-      },
-      {
-        "name": "PROXY_SERVER",
-        "description": "Application attribute for regions with URL sources"
-      },
-      {
-        "name": "PUBLIC_URL_PREFIX",
-        "description": "URL to toggle from logged in mode to public view"
-      },
-      {
-        "name": "REQUEST",
-        "description": "Value set by application buttons for accept processing"
-      }
-    ]
+    {
+      "name": "APEX_CSP_DISPLAY_NONE",
+      "description": "Ensures safe CSS inline exceptions using a centralized substitution string for display:none"
+    },
+    {
+      "name": "APEX_FILES",
+      "description": "Determines virtual path for images directory (formerly IMAGE_PREFIX)"
+    },
+    {
+      "name": "APEX$ROW_NUM",
+      "description": "References currently processed row number of submitted tabular form data"
+    },
+    {
+      "name": "APEX$ROW_SELECTOR",
+      "description": "References row selector checkbox state in tabular forms"
+    },
+    {
+      "name": "APEX$ROW_STATUS",
+      "description": "References row status (C for created, U for updated, D for deleted) in tabular forms"
+    },
+    {
+      "name": "APP_ID",
+      "description": "Identifies the current application ID"
+    },
+    {
+      "name": "APP_ALIAS",
+      "description": "Alphanumeric name for the current application, unique within a workspace"
+    },
+    {
+      "name": "APP_AJAX_X[01-10]",
+      "description": "Values of AJAX URL parameters used in On Demand AJAX processes"
+    },
+    {
+      "name": "APP_BUILDER_SESSION",
+      "description": "Current session ID of development environment if user is logged in as developer"
+    },
+    {
+      "name": "APP_DATE_TIME_FORMAT",
+      "description": "Application date time format specified in Globalization settings"
+    },
+    {
+      "name": "APP_FILES",
+      "description": "References application-specific uploaded files (formerly APP_IMAGES)"
+    },
+    {
+      "name": "APP_NLS_DATE_FORMAT",
+      "description": "Application date format of the database session"
+    },
+    {
+      "name": "APP_NLS_TIMESTAMP_FORMAT",
+      "description": "Application timestamp format of the database session"
+    },
+    {
+      "name": "APP_NLS_TIMESTAMP_TZ_FORMAT",
+      "description": "Application timestamp timezone format of the database session"
+    },
+    {
+      "name": "APP_PAGE_ALIAS",
+      "description": "Alphanumeric name for the current application page"
+    },
+    {
+      "name": "APP_PAGE_ID",
+      "description": "Current application page ID"
+    },
+    {
+      "name": "APP_REGION_ID",
+      "description": "ID of the current executing region"
+    },
+    {
+      "name": "APP_REGION_STATIC_ID",
+      "description": "Static ID of the current executing region"
+    },
+    {
+      "name": "APP_REQUEST_DATA_HASH",
+      "description": "Hash value of request parameters to detect different browser requests"
+    },
+    {
+      "name": "APP_SESSION",
+      "description": "Current session number for maintaining session state in links"
+    },
+    {
+      "name": "APP_SESSION_VISIBLE",
+      "description": "Similar to APP_SESSION but returns '0' for unauthenticated users with Zero Session ID"
+    },
+    {
+      "name": "APP_TITLE",
+      "description": "Alphanumeric title for the current application"
+    },
+    {
+      "name": "APP_UNIQUE_PAGE_ID",
+      "description": "Unique integer for each page view to prevent duplicate submissions"
+    },
+    {
+      "name": "APP_USER",
+      "description": "Current user running the application"
+    },
+    {
+      "name": "APP_VERSION",
+      "description": "Version number of the application"
+    },
+    {
+      "name": "AUTHENTICATED_URL_PREFIX",
+      "description": "Valid authenticated (logged in) URL prefix"
+    },
+    {
+      "name": "BROWSER_LANGUAGE",
+      "description": "Web browser's current language preference"
+    },
+    {
+      "name": "CURRENT_PARENT_TAB_TEXT",
+      "description": "Label of currently selected parent tab for two-level tab applications"
+    },
+    {
+      "name": "DEBUG",
+      "description": "Flag indicating if debug mode is enabled (Yes/No)"
+    },
+    {
+      "name": "HOME_LINK",
+      "description": "Home page URL of an application"
+    },
+    {
+      "name": "JET_BASE_DIRECTORY",
+      "description": "Base directory of Oracle JavaScript Extension Toolkit"
+    },
+    {
+      "name": "JET_CSS_DIRECTORY",
+      "description": "CSS directory of Oracle JavaScript Extension Toolkit"
+    },
+    {
+      "name": "JET_JS_DIRECTORY",
+      "description": "JavaScript directory of Oracle JavaScript Extension Toolkit"
+    },
+    {
+      "name": "LOGIN_URL",
+      "description": "URL for the login page"
+    },
+    {
+      "name": "LOGOUT_URL",
+      "description": "URL for logging out users"
+    },
+    {
+      "name": "MAIN_APP_ID",
+      "description": "Main application ID for working copies, otherwise current application ID"
+    },
+    {
+      "name": "APP_TEXT$Message_Name",
+      "description": "Access to application defined or system defined text messages"
+    },
+    {
+      "name": "OWNER",
+      "description": "Parsing schema of the APEX application"
+    },
+    {
+      "name": "PRINTER_FRIENDLY",
+      "description": "Indicates if APEX engine is running in print view mode"
+    },
+    {
+      "name": "PROXY_SERVER",
+      "description": "Application attribute for regions with URL sources"
+    },
+    {
+      "name": "PUBLIC_URL_PREFIX",
+      "description": "URL to toggle from logged in mode to public view"
+    },
+    {
+      "name": "REQUEST",
+      "description": "Value set by application buttons for accept processing"
+    }
   ]
 }
