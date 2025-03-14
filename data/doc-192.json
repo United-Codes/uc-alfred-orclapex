@@ -1,0 +1,3032 @@
+{
+  "data": [
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/index.html",
+      "title": "API Index"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/APEX_ACL.html",
+      "title": "1 APEX_ACL"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/ADD_USER_ROLE-Procedure-Signature1.html",
+      "title": "1.1 ADD_USER_ROLE Procedure Signature 1"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/ADD_USER_ROLE-Procedure-Signature2.html",
+      "title": "1.2 ADD_USER_ROLE Procedure Signature 2"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/HAS_USER_ANY_ROLES-Function.html",
+      "title": "1.3 HAS_USER_ANY_ROLES Function"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/HAS_USER_ROLE-Function.html",
+      "title": "1.4 HAS_USER_ROLE Function"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/REMOVE_USER_ROLE-Procedure-Signature1.html",
+      "title": "1.5 REMOVE_USER_ROLE Procedure Signature 1"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/REMOVE_USER_ROLE-Procedure-Signature2.html",
+      "title": "1.6 REMOVE_USER_ROLE Procedure Signature 2"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/REPLACE_USER_ROLES-Procedure-Signature1.html",
+      "title": "1.7 REPLACE_USER_ROLES Procedure Signature 1"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/REPLACE_USER_ROLES-Procedure-Signature2.html",
+      "title": "1.8 REPLACE_USER_ROLES Procedure Signature 2"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/REMOVE_ALL_USER_ROLES-Procedure.html",
+      "title": "1.9 REMOVE_ALL_USER_ROLES Procedure"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/APEX_APPLICATION.html",
+      "title": "2 APEX_APPLICATION"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/Global-Variables.html",
+      "title": "2.1 Global Variables"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/Referencing-Arrays.html",
+      "title": "2.2 Referencing Arrays"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/Referencing-Values-Within-an-On-Submit-Process.html",
+      "title": "2.3 Referencing Values Within an On Submit Process"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/Converting-an-Array-to-a-Single-Value.html",
+      "title": "2.4 Converting an Array to a Single Value"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/HELP-Procedure.html",
+      "title": "2.5 HELP Procedure"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/STOP_APEX_ENGINE-Procedure.html",
+      "title": "2.6 STOP_APEX_ENGINE Procedure"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/APEX_APPLICATION_INSTALL.html",
+      "title": "3 APEX_APPLICATION_INSTALL"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/Package-Overview.html",
+      "title": "3.1 Package Overview"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/Attributes-Manipulated-by-APEX_APPLICATION_INSTALL.html",
+      "title": "3.2 Attributes Manipulated by APEX_APPLICATION_INSTALL"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/Import-Data-Types.html",
+      "title": "3.3 Import Data Types"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/Import-Script-Examples.html",
+      "title": "3.4 Import Script Examples"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/CLEAR_ALL-Procedure.html",
+      "title": "3.5 CLEAR_ALL Procedure"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/GENERATE_APPLICATION_ID-Procedure.html",
+      "title": "3.6 GENERATE_APPLICATION_ID Procedure"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/GENERATE_OFFSET-Procedure.html",
+      "title": "3.7 GENERATE_OFFSET Procedure"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/GET_APPLICATION_ALIAS-Function.html",
+      "title": "3.8 GET_APPLICATION_ALIAS Function"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/GET_APPLICATION_ID-Function.html",
+      "title": "3.9 GET_APPLICATION_ID Function"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/GET_APPLICATION_NAME-Function.html",
+      "title": "3.10 GET_APPLICATION_NAME Function"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/GET_AUTHENTICATION_SCHEME-Function.html",
+      "title": "3.11 GET_AUTHENTICATION_SCHEME Function"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/GET_AUTO_INSTALL_SUP_OBJ-Function.html",
+      "title": "3.12 GET_AUTO_INSTALL_SUP_OBJ Function"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/GET_BUILD_STATUS-Function.html",
+      "title": "3.13 GET_BUILD_STATUS Function"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/GET_IMAGE_PREFIX-Function.html",
+      "title": "3.14 GET_IMAGE_PREFIX Function"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/GET_INFO-Function.html",
+      "title": "3.15 GET_INFO Function"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/GET_KEEP_SESSIONS-Function.html",
+      "title": "3.16 GET_KEEP_SESSIONS Function"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/GET_NO_PROXY_DOMAINS-Function.html",
+      "title": "3.17 GET_NO_PROXY_DOMAINS Function"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/GET_OFFSET-Function.html",
+      "title": "3.18 GET_OFFSET Function"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/GET_PROXY-Function.html",
+      "title": "3.19 GET_PROXY Function"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/GET_REMOTE_SERVER_BASE_URL-Function.html",
+      "title": "3.20 GET_REMOTE_SERVER_BASE_URL Function"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/GET_REMOTE_SERVER_HTTPS_HOST-Function.html",
+      "title": "3.21 GET_REMOTE_SERVER_HTTPS_HOST Function"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/GET_SCHEMA-Function.html",
+      "title": "3.22 GET_SCHEMA Function"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/GET_WORKSPACE_ID-Function.html",
+      "title": "3.23 GET_WORKSPACE_ID Function"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/INSTALL-Procedure.html",
+      "title": "3.24 INSTALL Procedure"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/INSTALL_REMOVE_APPLICATION-Procedure.html",
+      "title": "3.25 REMOVE_APPLICATION Procedure"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/SET_APPLICATION_ALIAS-Procedure.html",
+      "title": "3.26 SET_APPLICATION_ALIAS Procedure"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/SET_APPLICATION_ID-Procedure.html",
+      "title": "3.27 SET_APPLICATION_ID Procedure"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/SET_APPLICATION_NAME-Procedure.html",
+      "title": "3.28 SET_APPLICATION_NAME Procedure"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/SET_AUTHENTICATION_SCHEME-Procedure.html",
+      "title": "3.29 SET_AUTHENTICATION_SCHEME Procedure"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/SET_AUTO_INSTALL_SUP_OBJ-Procedure.html",
+      "title": "3.30 SET_AUTO_INSTALL_SUP_OBJ Procedure"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/SET_BUILD_STATUS-Function.html",
+      "title": "3.31 SET_BUILD_STATUS Function"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/SET_IMAGE_PREFIX-Procedure.html",
+      "title": "3.32 SET_IMAGE_PREFIX Procedure"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/SET_KEEP_SESSIONS-Procedure.html",
+      "title": "3.33 SET_KEEP_SESSIONS Procedure"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/SET_OFFSET-Procedure.html",
+      "title": "3.34 SET_OFFSET Procedure"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/SET_PROXY-Procedure.html",
+      "title": "3.35 SET_PROXY Procedure"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/SET_REMOTE_SERVER-Procedure.html",
+      "title": "3.36 SET_REMOTE_SERVER Procedure"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/SET_SCHEMA-Procedure.html",
+      "title": "3.37 SET_SCHEMA Procedure"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/SET_WORKSPACE_ID-Procedure.html",
+      "title": "3.38 SET_WORKSPACE_ID Procedure"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/SET_WORKSPACE_Procedure.html",
+      "title": "3.39 SET_WORKSPACE_Procedure"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/APEX_APP_SETTING.html",
+      "title": "4 APEX_APP_SETTING"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/SET_VALUE-Procedure.html",
+      "title": "4.1 SET_VALUE Procedure"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/GET_VALUE1-Function.html",
+      "title": "4.2 GET_VALUE Function"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/APEX_AUTHENTICATION.html",
+      "title": "5 APEX_AUTHENTICATION"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/Constants.html",
+      "title": "5.1 Constants"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/CALLBACK-Procedure.html",
+      "title": "5.2 CALLBACK Procedure"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/Callback1-Procedure.html",
+      "title": "5.3 CALLBACK 1 Procedure"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/CALLBACK2-Procedure.html",
+      "title": "5.4 CALLBACK 2 Procedure"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/GET_CALLBACK_URL-Function.html",
+      "title": "5.5 GET_CALLBACK_URL Function"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/GET_LOGIN_USERNAME_COOKIE-Function.html",
+      "title": "5.6 GET_LOGIN_USERNAME_COOKIE Function"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/IS_AUTHENTICATED-Function.html",
+      "title": "5.7 IS_AUTHENTICATED Function"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/IS_PUBLIC_USER-Function.html",
+      "title": "5.8 IS_PUBLIC_USER Function"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/LOGIN-Procedure.html",
+      "title": "5.9 LOGIN Procedure"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/LOGOUT-Procedure.html",
+      "title": "5.10 LOGOUT Procedure"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/POST_LOGIN-Procedure.html",
+      "title": "5.11 POST_LOGIN Procedure"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/SEND_LOGIN_USERNAME_COOKIE-Procedure.html",
+      "title": "5.12 SEND_LOGIN_USERNAME_COOKIE Procedure"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/APEX_AUTHORIZATION.html",
+      "title": "6 APEX_AUTHORIZATION"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/ENABLE_DYNAMIC_GROUPS-Procedure.html",
+      "title": "6.1 ENABLE_DYNAMIC_GROUPS Procedure"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/IS_AUTHORIZED-Function.html",
+      "title": "6.2 IS_AUTHORIZED Function"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/RESET_CACHE-Procedure.html",
+      "title": "6.3 RESET_CACHE Procedure"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/APEX_COLLECTION.html",
+      "title": "7 APEX_COLLECTION"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/About-the-APEX_COLLECTION-API.html",
+      "title": "7.1 About the APEX_COLLECTION API"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/Naming-Collections.html",
+      "title": "7.2 Naming Collections"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/Creating-a-Collection.html",
+      "title": "7.3 Creating a Collection"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/About-the-Parameter-p_generate_md5.html",
+      "title": "7.4 About the Parameter p_generate_md5"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/Accessing-a-Collection.html",
+      "title": "7.5 Accessing a Collection"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/Merging-Collections.html",
+      "title": "7.6 Merging Collections"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/Truncating-a-Collection.html",
+      "title": "7.7 Truncating a Collection"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/Deleting-a-Collection.html",
+      "title": "7.8 Deleting a Collection"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/Deleting-All-Collections-for-the-Current-Application.html",
+      "title": "7.9 Deleting All Collections for the Current Application"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/Deleting-All-Collections-in-the-Current-Session.html",
+      "title": "7.10 Deleting All Collections in the Current Session"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/Adding-Members-to-a-Collection.html",
+      "title": "7.11 Adding Members to a Collection"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/About-the-Parameters-p_generate_md5-p_clob001-p_blob001-and-p_xmltype001.html",
+      "title": "7.12 About the Parameters p_generate_md5, p_clob001, p_blob001, and p_xmltype001"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/Updating-Collection-Members.html",
+      "title": "7.13 Updating Collection Members"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/Deleting-Collection-Members.html",
+      "title": "7.14 Deleting Collection Members"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/Obtaining-a-Member-Count.html",
+      "title": "7.15 Obtaining a Member Count"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/Resequencing-a-Collection.html",
+      "title": "7.16 Resequencing a Collection"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/Verifying-Whether-a-Collection-Exists.html",
+      "title": "7.17 Verifying Whether a Collection Exists"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/Adjusting-a-Member-Sequence-ID.html",
+      "title": "7.18 Adjusting a Member Sequence ID"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/Sorting-Collection-Members.html",
+      "title": "7.19 Sorting Collection Members"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/Clearing-Collection-Session-State.html",
+      "title": "7.20 Clearing Collection Session State"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/Determining-Collection-Status.html",
+      "title": "7.21 Determining Collection Status"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/ADD_MEMBER-Procedure.html",
+      "title": "7.22 ADD_MEMBER Procedure"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/ADD_MEMBER-Function.html",
+      "title": "7.23 ADD_MEMBER Function"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/ADD_MEMBERS-Procedure.html",
+      "title": "7.24 ADD_MEMBERS Procedure"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/COLLECTION_EXISTS-Function.html",
+      "title": "7.25 COLLECTION_EXISTS Function"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/COLLECTION_HAS_CHANGED-Function.html",
+      "title": "7.26 COLLECTION_HAS_CHANGED Function"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/COLLECTION_MEMBER_COUNT-Function.html",
+      "title": "7.27 COLLECTION_MEMBER_COUNT Function"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/CREATE_COLLECTION-Procedure.html",
+      "title": "7.28 CREATE_COLLECTION Procedure"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/CREATE_OR_TRUNCATE_COLLECTION-Procedure.html",
+      "title": "7.29 CREATE_OR_TRUNCATE_COLLECTION Procedure"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/CREATE_COLLECTION_FROM_QUERY-Procedure.html",
+      "title": "7.30 CREATE_COLLECTION_FROM_QUERY Procedure"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/CREATE_COLLECTION_FROM_QUERY2-Procedure.html",
+      "title": "7.31 CREATE_COLLECTION_FROM_QUERY2 Procedure"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/CREATE_COLLECTION_FROM_QUERY_B-Procedure.html",
+      "title": "7.32 CREATE_COLLECTION_FROM_QUERY_B Procedure"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/CREATE_COLLECTION_FROM_QUERY_B-Procedure-NBV.html",
+      "title": "7.33 CREATE_COLLECTION_FROM_QUERY_B Procedure (No bind version)"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/CREATE_COLLECTION_FROM_QUERYB2-Procedure.html",
+      "title": "7.34 CREATE_COLLECTION_FROM_QUERYB2 Procedure"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/CREATE_COLLECTION_FROM_QUERYB2-Procedure-NBV.html",
+      "title": "7.35 CREATE_COLLECTION_FROM_QUERYB2 Procedure (No bind version)"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/DELETE_ALL_COLLECTIONS-Procedure.html",
+      "title": "7.36 DELETE_ALL_COLLECTIONS Procedure"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/DELETE_ALL_COLLECTIONS_SESSION-Procedure.html",
+      "title": "7.37 DELETE_ALL_COLLECTIONS_SESSION Procedure"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/DELETE_COLLECTION-Procedure.html",
+      "title": "7.38 DELETE_COLLECTION Procedure"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/DELETE_MEMBER-Procedure.html",
+      "title": "7.39 DELETE_MEMBER Procedure"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/DELETE_MEMBERS-Procedure.html",
+      "title": "7.40 DELETE_MEMBERS Procedure"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/GET_MEMBER_MD5-Function.html",
+      "title": "7.41 GET_MEMBER_MD5 Function"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/MERGE_MEMBERS-Procedure.html",
+      "title": "7.42 MERGE_MEMBERS Procedure"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/MOVE_MEMBER_DOWN-Procedure.html",
+      "title": "7.43 MOVE_MEMBER_DOWN Procedure"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/MOVE_MEMBER_UP-Procedure.html",
+      "title": "7.44 MOVE_MEMBER_UP Procedure"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/RESEQUENCE_COLLECTION-Procedure.html",
+      "title": "7.45 RESEQUENCE_COLLECTION Procedure"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/RESET_COLLECTION_CHANGED-Procedure.html",
+      "title": "7.46 RESET_COLLECTION_CHANGED Procedure"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/RESET_COLLECTION_CHANGED_ALL-Procedure.html",
+      "title": "7.47 RESET_COLLECTION_CHANGED_ALL Procedure"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/SORT_MEMBERS-Procedure.html",
+      "title": "7.48 SORT_MEMBERS Procedure"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/TRUNCATE_COLLECTION-Procedure.html",
+      "title": "7.49 TRUNCATE_COLLECTION Procedure"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/UPDATE_MEMBER-Procedure.html",
+      "title": "7.50 UPDATE_MEMBER Procedure"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/UPDATE_MEMBERS-Procedure.html",
+      "title": "7.51 UPDATE_MEMBERS Procedure"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/UPDATE_MEMBER_ATTRIBUTE-Procedure-Signature-1.html",
+      "title": "7.52 UPDATE_MEMBER_ATTRIBUTE Procedure Signature 1"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/UPDATE_MEMBER_ATTRIBUTE-Procedure-Signature-2.html",
+      "title": "7.53 UPDATE_MEMBER_ATTRIBUTE Procedure Signature 2"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/UPDATE_MEMBER_ATTRIBUTE-Procedure-Signature-3.html",
+      "title": "7.54 UPDATE_MEMBER_ATTRIBUTE Procedure Signature 3"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/UPDATE_MEMBER_ATTRIBUTE-Procedure-Signature-4.html",
+      "title": "7.55 UPDATE_MEMBER_ATTRIBUTE Procedure Signature 4"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/UPDATE_MEMBER_ATTRIBUTE-Procedure-Signature-5.html",
+      "title": "7.56 UPDATE_MEMBER_ATTRIBUTE Procedure Signature 5"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/UPDATE_MEMBER_ATTRIBUTE-Procedure-Signature-6.html",
+      "title": "7.57 UPDATE_MEMBER_ATTRIBUTE Procedure Signature 6"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/APEX_CREDENTIAL.html",
+      "title": "8 APEX_CREDENTIAL"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/CLEAR_TOKENS-Procedure.html",
+      "title": "8.1 CLEAR_TOKENS Procedure"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/SET_PERSISTENT_CREDENTIAL-Procedure-Signature1.html",
+      "title": "8.2 SET_PERSISTENT_CREDENTIALS Procedure Signature 1"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/SET_PERSISTENT_CREDENTIAL-Procedure-Signature2.html",
+      "title": "8.3 SET_PERSISTENT_CREDENTIALS Procedure Signature 2"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/SET_PERSISTENT_TOKEN-Procedure.html",
+      "title": "8.4 SET_PERSISTENT_TOKEN Procedure"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/SET_SESSION_CREDENTIALS-Procedure-Signature1.html",
+      "title": "8.5 SET_SESSION_CREDENTIALS Procedure Signature 1"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/SET_SESSION_CREDENTIALS-Procedure-Signature2.html",
+      "title": "8.6 SET_SESSION_CREDENTIALS Procedure Signature 2"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/SET_SESSION_TOKEN-Procedure.html",
+      "title": "8.7 SET_SESSION_TOKEN Procedure"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/APEX_CSS.html",
+      "title": "9 APEX_CSS"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/ADD-Procedure.html",
+      "title": "9.1 ADD Procedure"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/ADD_3RD_PARTY_LIBRARY_FILE-Procedure.html",
+      "title": "9.2 ADD_3RD_PARTY_LIBRARY_FILE Procedure"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/ADD_FILE-Procedure.html",
+      "title": "9.3 ADD_FILE Procedure"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/APEX_CUSTOM_AUTH.html",
+      "title": "10 APEX_CUSTOM_AUTH"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/APPLICATION_PAGE_ITEM_EXISTS-Function.html",
+      "title": "10.1 APPLICATION_PAGE_ITEM_EXISTS Function"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/CURRENT_PAGE_IS_PUBLIC-Function.html",
+      "title": "10.2 CURRENT_PAGE_IS_PUBLIC Function"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/DEFINE_USER_SESSION-Procedure.html",
+      "title": "10.3 DEFINE_USER_SESSION Procedure"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/GET_COOKIE_PROPS-Procedure.html",
+      "title": "10.4 GET_COOKIE_PROPS Procedure"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/GET_LDAP_PROPS-Procedure.html",
+      "title": "10.5 GET_LDAP_PROPS Procedure"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/GET_NEXT_SESSION_ID-Function.html",
+      "title": "10.6 GET_NEXT_SESSION_ID Function"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/GET_SECURITY_GROUP_ID-Function.html",
+      "title": "10.7 GET_SECURITY_GROUP_ID Function"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/GET_SESSION_ID-Function.html",
+      "title": "10.8 GET_SESSION_ID Function"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/GET_SESSION_ID_FROM_COOKIE-Function.html",
+      "title": "10.9 GET_SESSION_ID_FROM_COOKIE Function"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/GET_USER-Function.html",
+      "title": "10.10 GET_USER Function"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/GET_USERNAME-Function.html",
+      "title": "10.11 GET_USERNAME Function"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/IS_SESSION_VALID-Function.html",
+      "title": "10.12 IS_SESSION_VALID Function"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/LOGIN-Procedure-2.html",
+      "title": "10.13 LOGIN Procedure"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/LOGOUT-Procedure-DEPRECATED.html",
+      "title": "10.14 LOGOUT Procedure [DEPRECATED]"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/POST_LOGIN-Procedure-2.html",
+      "title": "10.15 POST_LOGIN Procedure"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/SESSION_ID_EXISTS-Function.html",
+      "title": "10.16 SESSION_ID_EXISTS Function"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/SET_SESSION_ID-Procedure.html",
+      "title": "10.17 SET_SESSION_ID Procedure"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/SET_SESSION_ID_TO_NEXT_VALUE-Procedure.html",
+      "title": "10.18 SET_SESSION_ID_TO_NEXT_VALUE Procedure"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/SET_USER-Procedure.html",
+      "title": "10.19 SET_USER Procedure"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/APEX_DATA_PARSER.html",
+      "title": "11 APEX_DATA_PARSER"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/Global-Constants.html",
+      "title": "11.1 Global Constants"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/Data-Types.html",
+      "title": "11.2 Data Types"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/DISCOVER-Function.html",
+      "title": "11.3 DISCOVER Function"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/GET_COLUMNS-Function.html",
+      "title": "11.4 GET_COLUMNS Function"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/GET_FILE_PROFILE-Function.html",
+      "title": "11.5 GET_FILE_PROFILE Function"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/GET_FILE_TYPE-Function.html",
+      "title": "11.6 GET_FILE_TYPE Function"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/GET_XLSX_WORKSHEETS-Function.html",
+      "title": "11.7 GET_XLSX_WORKSHEETS Function"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/JSON_TO_PROFILE-Function.html",
+      "title": "11.8 JSON_TO_PROFILE Function"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/PARSE-Function.html",
+      "title": "11.9 PARSE Function"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/APEX_DEBUG.html",
+      "title": "12 APEX_DEBUG"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/Constants-2.html",
+      "title": "12.1 Constants"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/DISABLE-Procedure.html",
+      "title": "12.2 DISABLE Procedure"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/DISABLE_DBMS_OUTPUT-Procedure.html",
+      "title": "12.3 DISABLE_DBMS_OUTPUT Procedure"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/ENABLE-Procedure.html",
+      "title": "12.4 ENABLE Procedure"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/ENTER-Procedure.html",
+      "title": "12.5 ENTER Procedure"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/ENABLE_DBMS_OUTPUT-Procedure.html",
+      "title": "12.6 ENABLE_DBMS_OUTPUT Procedure"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/ERROR-Procedure.html",
+      "title": "12.7 ERROR Procedure"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/INFO-Procedure.html",
+      "title": "12.8 INFO Procedure"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/LOG_DBMS_OUTPUT-Procedure.html",
+      "title": "12.9 LOG_DBMS_OUTPUT Procedure"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/LOG_LONG_MESSAGE-Procedure.html",
+      "title": "12.10 LOG_LONG_MESSAGE Procedure"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/LOG_MESSAGE-Procedure-Deprecated.html",
+      "title": "12.11 LOG_MESSAGE Procedure [Deprecated]"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/LOG_PAGE_SESSION_STATE-Procedure.html",
+      "title": "12.12 LOG_PAGE_SESSION_STATE Procedure"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/MESSAGE-Procedure.html",
+      "title": "12.13 MESSAGE Procedure"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/REMOVE_DEBUG_BY_AGE-Procedure.html",
+      "title": "12.14 REMOVE_DEBUG_BY_AGE Procedure"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/REMOVE_DEBUG_BY_APP-Procedure.html",
+      "title": "12.15 REMOVE_DEBUG_BY_APP Procedure"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/REMOVE_DEBUG_BY_VIEW-Procedure.html",
+      "title": "12.16 REMOVE_DEBUG_BY_VIEW Procedure"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/REMOVE_SESSION_MESSAGES-Procedure.html",
+      "title": "12.17 REMOVE_SESSION_MESSAGES Procedure"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/TOCHAR-Function.html",
+      "title": "12.18 TOCHAR Function"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/TRACE-Procedure.html",
+      "title": "12.19 TRACE Procedure"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/WARN-Procedure.html",
+      "title": "12.20 WARN Procedure"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/APEX_ESCAPE.html",
+      "title": "13 APEX_ESCAPE"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/Constants-3.html",
+      "title": "13.1 Constants"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/HTML-Function.html",
+      "title": "13.2 HTML Function"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/HTML_ATTRIBUTE-Function.html",
+      "title": "13.3 HTML_ATTRIBUTE Function"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/HTML_TRUNC-Function.html",
+      "title": "13.4 HTML_TRUNC Function"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/HTML_WHITELIST-Function.html",
+      "title": "13.5 HTML_WHITELIST Function"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/JS_LITERAL-Function.html",
+      "title": "13.6 JS_LITERAL Function"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/JSON-Function.html",
+      "title": "13.7 JSON Function"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/LDAP_DN-Function.html",
+      "title": "13.8 LDAP_DN Function"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/LDAP_SEARCH_FILTER-Function.html",
+      "title": "13.9 LDAP_SEARCH_FILTER Function"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/NOOP-Function.html",
+      "title": "13.10 NOOP Function"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/REGEXP-Function.html",
+      "title": "13.11 REGEXP Function"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/SET_HTML_ESCAPING_MODE-Procedure.html",
+      "title": "13.12 SET_HTML_ESCAPING_MODE Procedure"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/APEX_ERROR.html",
+      "title": "14 APEX_ERROR"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/Constants-and-Attributes-used-for-Result-Types.html",
+      "title": "14.1 Constants and Attributes Used for Result Types"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/Example-of-an-Error-Handling-Function.html",
+      "title": "14.2 Example of an Error Handling Function"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/ADD_ERROR-Procedure-Signature-1.html",
+      "title": "14.3 ADD_ERROR Procedure Signature 1"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/ADD_ERROR-Procedure-Signature-2.html",
+      "title": "14.4 ADD_ERROR Procedure Signature 2"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/ADD_ERROR-Procedure-Signature-3.html",
+      "title": "14.5 ADD_ERROR Procedure Signature 3"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/ADD_ERROR-Procedure-Signature-4.html",
+      "title": "14.6 ADD_ERROR Procedure Signature 4"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/ADD_ERROR-Procedure-Signature-5.html",
+      "title": "14.7 ADD_ERROR Procedure Signature 5"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/APEX_ERROR.HAVE_ERRORS_OCCURRED-Function.html",
+      "title": "14.8 APEX_ERROR.HAVE_ERRORS_OCCURRED Function"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/AUTO_SET_ASSOCIATED_ITEM-Procedure.html",
+      "title": "14.9 AUTO_SET_ASSOCIATED_ITEM Procedure"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/EXTRACT_CONSTRAINT_NAME-Function.html",
+      "title": "14.10 EXTRACT_CONSTRAINT_NAME Function"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/GET_FIRST_ORA_ERROR_TEXT-Function.html",
+      "title": "14.11 GET_FIRST_ORA_ERROR_TEXT Function"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/INIT_ERROR_RESULT-Function.html",
+      "title": "14.12 INIT_ERROR_RESULT Function"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/APEX_EXEC.html",
+      "title": "15 APEX_EXEC"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/Global-Constants1-APEX_EXEC.html",
+      "title": "15.1 Global Constants"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/Data-Types1_APEX_EXEC.html",
+      "title": "15.2 Data Types"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/ADD_COLUMN-Procedure.html",
+      "title": "15.3 ADD_COLUMN Procedure"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/ADD_DML_ROW-Procedure.html",
+      "title": "15.4 ADD_DML_ROW Procedure"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/ADD_FILTER-Procedure.html",
+      "title": "15.5 ADD_FILTER Procedure"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/ADD_ORDERBY-Procedure.html",
+      "title": "15.6 ADD_ORDER_BY Procedure"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/ADD_ORDER_BY-Procedure.html",
+      "title": "15.7 ADD_PARAMETER Procedure"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/CLEAR_DML_ROWS-Procedure.html",
+      "title": "15.8 CLEAR_DML_ROWS Procedure"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/CLOSE-Procedure.html",
+      "title": "15.9 CLOSE Procedure"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/COPY_DATA-Procedure.html",
+      "title": "15.10 COPY_DATA Procedure"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/EXECUTE_DML-Procedure.html",
+      "title": "15.11 EXECUTE_DML Procedure"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/EXECUTE_PLSQL-Procedure.html",
+      "title": "15.12 EXECUTE_PLSQL Procedure"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/EXECUTE_REMOTE_PLSQL-Procedure.html",
+      "title": "15.13 EXECUTE_REMOTE_PLSQL Procedure"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/EXECUTE_WEB_SOURCE-Procedure.html",
+      "title": "15.14 EXECUTE_WEB_SOURCE Procedure"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/GET-Functions-1.html",
+      "title": "15.15 GET Functions"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/GET_COLUMN-FUNCTION.html",
+      "title": "15.16 GET_COLUMN Function"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/GET_COLUMN_COUNT-FUNCTION.html",
+      "title": "15.17 GET_COLUMN_COUNT Function"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/GET_COLUMN_POSITION-FUNCTION.html",
+      "title": "15.18 GET_COLUMN_POSITION Function"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/GET_DATA_TYPE-Function.html",
+      "title": "15.19 GET_DATA_TYPE Functions"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/GET-Functions.html",
+      "title": "15.20 GET Functions"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/GET_DML_STATUS_CODE-Function.html",
+      "title": "15.21 GET_DML_STATUS_CODE Function"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/GET_DML_STATUS_MESSAGE-Function.html",
+      "title": "15.22 GET_DML_STATUS_MESSAGE Function"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/GET_PARAMETERS-Function.html",
+      "title": "15.23 GET_PARAMETER Functions"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/GET_ROW_VERSION_CHECKSUM-Function.html",
+      "title": "15.24 GET_ROW_VERSION_CHECKSUM Function"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/GET_TOTAL_ROW_COUNT-FUNCTION.html",
+      "title": "15.25 GET_TOTAL_ROW_COUNT Function"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/HAS_ERROR-Function.html",
+      "title": "15.26 HAS_ERROR Function"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/IS_REMOTE_SQL_AUTH_VALID-Function.html",
+      "title": "15.27 IS_REMOTE_SQL_AUTH_VALID Function"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/NEXT_ROW-Function.html",
+      "title": "15.28 NEXT_ROW Function"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/OPEN_LOCAL_DML_CONTEXT-Function.html",
+      "title": "15.29 OPEN_LOCAL_DML_CONTEXT Function"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/OPEN_REMOTE_DML_CONTEXT-Function.html",
+      "title": "15.30 OPEN_REMOTE_DML_CONTEXT Function"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/OPEN_REMOTE_SQL_QUERY-Function.html",
+      "title": "15.31 OPEN_REMOTE_SQL_QUERY Function"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/OPEN_QUERY_CONTEXT-Procedure.html",
+      "title": "15.32 OPEN_QUERY_CONTEXT Procedure"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/OPEN_QUERY_CONTEXT-function.html",
+      "title": "15.33 OPEN_QUERY_CONTEXT Function"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/OPEN_WEB_SOURCE_DML_CONTEXT-Function.html",
+      "title": "15.34 OPEN_WEB__SOURCE_DML_CONTEXT Function"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/OPEN_WEB_SOURCE_QUERY-Function.html",
+      "title": "15.35 OPEN_WEB_SOURCE_QUERY Function"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/PURGE_WEB_SOURCE_CACHE-Procedure.html",
+      "title": "15.36 PURGE_WEB_SOURCE_CACHE Procedure"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/SET_NULL-Procedure.html",
+      "title": "15.37 SET_NULL Procedure"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/SET_VALUE1-Procedure.html",
+      "title": "15.38 SET_VALUE Procedure"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/SET_VALUES-Procedure.html",
+      "title": "15.39 SET_VALUES Procedure"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/SET_ROW_VERSION_CHECKSUM-Procedure.html",
+      "title": "15.40 SET_ROW_VERSION_CHECKSUM Procedure"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/APEX_EXPORT.html",
+      "title": "16 APEX_EXPORT"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/GET_APPLICATION_Function.html",
+      "title": "16.1 GET_APPLICATION Function"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/GET_WORKSPACE.html",
+      "title": "16.2 GET_WORKSPACE _FILES Function"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/GET_FEEDBACK_Function.html",
+      "title": "16.3 GET_FEEDBACK Function"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/GET_WORKSPACE_Function.html",
+      "title": "16.4 GET_WORKSPACE Function"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/APEX_INSTANCE_ADMIN.html",
+      "title": "17 APEX_INSTANCE_ADMIN"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/Available-Parameter-Values.html",
+      "title": "17.1 Available Parameter Values"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/ADD_SCHEMA-Procedure.html",
+      "title": "17.2 ADD_SCHEMA Procedure"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/ADD_WORKSPACE-Procedure.html",
+      "title": "17.3 ADD_WORKSPACE Procedure"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/CREATE_SCHEMA_EXCEPTION-Procedure.html",
+      "title": "17.4 CREATE_SCHEMA_EXCEPTION Procedure"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/DB_SIGNATURE-Function.html",
+      "title": "17.5 DB_SIGNATURE Function"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/FREE_WORKSPACE_APP_IDS-Procedure.html",
+      "title": "17.6 FREE_WORKSPACE_APP_IDS Procedure"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/GET_PARAMETER-Function.html",
+      "title": "17.7 GET_PARAMETER Function"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/GET_SCHEMAS-Function.html",
+      "title": "17.8 GET_SCHEMAS Function"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/GET_WORKSPACE_PARAMETER.html",
+      "title": "17.9 GET_WORKSPACE_PARAMETER"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/IS_DB_SIGNATURE_VALID-Function.html",
+      "title": "17.10 IS_DB_SIGNATURE_VALID Function"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/REMOVE_APPLICATION-Procedure.html",
+      "title": "17.11 REMOVE_APPLICATION Procedure"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/REMOVE_SAVED_REPORT-Procedure.html",
+      "title": "17.12 REMOVE_SAVED_REPORT Procedure"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/REMOVE_SAVED_REPORTS-Procedure.html",
+      "title": "17.13 REMOVE_SAVED_REPORTS Procedure"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/REMOVE_SCHEMA-Procedure.html",
+      "title": "17.14 REMOVE_SCHEMA Procedure"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/REMOVE_SCHEMA_EXCEPTION-Procedure.html",
+      "title": "17.15 REMOVE_SCHEMA_EXCEPTION Procedure"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/REMOVE_SCHEMA_EXCEPTIONS-Procedure.html",
+      "title": "17.16 REMOVE_SCHEMA_EXCEPTIONS Procedure"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/REMOVE_SUBSCRIPTION-Procedure.html",
+      "title": "17.17 REMOVE_SUBSCRIPTION Procedure"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/REMOVE_WORKSPACE-Procedure.html",
+      "title": "17.18 REMOVE_WORKSPACE Procedure"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/REMOVE_WORKSPACE_EXCEPTIONS-Procedure.html",
+      "title": "17.19 REMOVE_WORKSPACE_EXCEPTIONS Procedure"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/RESERVE_WORKSPACE_APP_IDS-Procedure.html",
+      "title": "17.20 RESERVE_WORKSPACE_APP_IDS Procedure"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/RESTRICT_SCHEMA-Procedure.html",
+      "title": "17.21 RESTRICT_SCHEMA Procedure"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/SET_LOG_SWITCH_INTERVAL-Procedure.html",
+      "title": "17.22 SET_LOG_SWITCH_INTERVAL Procedure"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/SET_WORKSPACE_PARAMETER.html",
+      "title": "17.23 SET_WORKSPACE_PARAMETER"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/SET_PARAMETER-Procedure.html",
+      "title": "17.24 SET_PARAMETER Procedure"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/SET_WORKSPACE_CONSUMER_GROUP-Procedure.html",
+      "title": "17.25 SET_WORKSPACE_CONSUMER_GROUP Procedure"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/TRUNCATE_LOG-Procedure.html",
+      "title": "17.26 TRUNCATE_LOG Procedure"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/UNRESTRICT_SCHEMA-Procedure.html",
+      "title": "17.27 UNRESTRICT_SCHEMA Procedure"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/VALIDATE_EMAIL_CONFIG-Procedure.html",
+      "title": "17.28 VALIDATE_EMAIL_CONFIG Procedure"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/APEX_IR.html",
+      "title": "18 APEX_IR"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/ADD_FILTER-Procedure-Signature-1.html",
+      "title": "18.1 ADD_FILTER Procedure Signature 1"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/ADD_FILTER-Procedure-Signature-2.html",
+      "title": "18.2 ADD_FILTER Procedure Signature 2"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/CHANGE_SUBSCRIPTION_EMAIL-Procedure.html",
+      "title": "18.3 CHANGE_SUBSCRIPTION_EMAIL Procedure"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/CHANGE_REPORT_OWNER-Procedure.html",
+      "title": "18.4 CHANGE_REPORT_OWNER Procedure"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/CHANGE_SUBSCRIPTION_EMAIL-Procedure-2.html",
+      "title": "18.5 CHANGE_SUBSCRIPTION_EMAIL Procedure"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/CHANGE_SUBSCRIPTION_LANG-Procedure.html",
+      "title": "18.6 CHANGE_SUBSCRIPTION_LANG Procedure"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/CLEAR_REPORT-Procedure-Signature-1.html",
+      "title": "18.7 CLEAR_REPORT Procedure Signature 1"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/CLEAR_REPORT-Procedure-Signature-2.html",
+      "title": "18.8 CLEAR_REPORT Procedure Signature 2"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/DELETE_REPORT-Procedure.html",
+      "title": "18.9 DELETE_REPORT Procedure"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/DELETE_SUBSCRIPTION-Procedure.html",
+      "title": "18.10 DELETE_SUBSCRIPTION Procedure"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/GET_LAST_VIEWED_REPORT_ID-Function.html",
+      "title": "18.11 GET_LAST_VIEWED_REPORT_ID Function"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/GET_REPORT-Function.html",
+      "title": "18.12 GET_REPORT Function"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/RESET_REPORT-Procedure-Signature-1.html",
+      "title": "18.13 RESET_REPORT Procedure Signature 1"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/RESET_REPORT-Procedure-Signature-2.html",
+      "title": "18.14 RESET_REPORT Procedure Signature 2"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/APEX_ITEM.html",
+      "title": "19 APEX_ITEM"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/CHECKBOX2-Function.html",
+      "title": "19.1 CHECKBOX2 Function"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/DATE_POPUP-Function.html",
+      "title": "19.2 DATE_POPUP Function"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/DATE_POPUP2-Function.html",
+      "title": "19.3 DATE_POPUP2 Function"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/DISPLAY_AND_SAVE-Function.html",
+      "title": "19.4 DISPLAY_AND_SAVE Function"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/HIDDEN-Function.html",
+      "title": "19.5 HIDDEN Function"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/MD5_CHECKSUM-Function.html",
+      "title": "19.6 MD5_CHECKSUM Function"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/MD5_HIDDEN-Function.html",
+      "title": "19.7 MD5_HIDDEN Function"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/POPUP_FROM_LOV-Function.html",
+      "title": "19.8 POPUP_FROM_LOV Function"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/POPUP_FROM_QUERY-Function.html",
+      "title": "19.9 POPUP_FROM_QUERY Function"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/POPUPKEY_FROM_LOV-Function.html",
+      "title": "19.10 POPUPKEY_FROM_LOV Function"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/POPUPKEY_FROM_QUERY-Function.html",
+      "title": "19.11 POPUPKEY_FROM_QUERY Function"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/RADIOGROUP-Function.html",
+      "title": "19.12 RADIOGROUP Function"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/SELECT_LIST-Function.html",
+      "title": "19.13 SELECT_LIST Function"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/SELECT_LIST_FROM_LOV-Function.html",
+      "title": "19.14 SELECT_LIST_FROM_LOV Function"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/SELECT_LIST_FROM_LOV_XL-Function.html",
+      "title": "19.15 SELECT_LIST_FROM_LOV_XL Function"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/SELECT_LIST_FROM_QUERY-Function.html",
+      "title": "19.16 SELECT_LIST_FROM_QUERY Function"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/SELECT_LIST_FROM_QUERY_XL-Function.html",
+      "title": "19.17 SELECT_LIST_FROM_QUERY_XL Function"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/SWITCH-Function.html",
+      "title": "19.18 SWITCH Function"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/TEXT-Function.html",
+      "title": "19.19 TEXT Function"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/TEXTAREA-Function.html",
+      "title": "19.20 TEXTAREA Function"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/TEXT_FROM_LOV-Function.html",
+      "title": "19.21 TEXT_FROM_LOV Function"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/TEXT_FROM_LOV_QUERY-Function.html",
+      "title": "19.22 TEXT_FROM_LOV_QUERY Function"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/APEX_JAVASCRIPT.html",
+      "title": "20 APEX_JAVASCRIPT"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/ADD_3RD_PARTY_LIBRARY_FILE-Procedure-2.html",
+      "title": "20.1 ADD_3RD_PARTY_LIBRARY_FILE Procedure"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/ADD_ATTRIBUTE-Function-Signature-1.html",
+      "title": "20.2 ADD_ATTRIBUTE Function Signature 1"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/ADD_ATTRIBUTE-Function-Signature-2.html",
+      "title": "20.3 ADD_ATTRIBUTE Function Signature 2"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/ADD_ATTRIBUTE-Function-Signature-3.html",
+      "title": "20.4 ADD_ATTRIBUTE Function Signature 3"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/ADD_ATTRIBUTE-Function-Signature-4.html",
+      "title": "20.5 ADD_ATTRIBUTE Function Signature 4"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/ADD_INLINE_CODE-Procedure.html",
+      "title": "20.6 ADD_INLINE_CODE Procedure"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/ADD_LIBRARY-Procedure.html",
+      "title": "20.7 ADD_LIBRARY Procedure"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/ADD_REQUIREJS-Procedure.html",
+      "title": "20.8 ADD_REQUIREJS Procedure"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/ADD_REQUIREJS_DEFINE-Procedure.html",
+      "title": "20.9 ADD_REQUIREJS_DEFINE Procedure"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/ADD_ONLOAD_CODE-Procedure.html",
+      "title": "20.10 ADD_ONLOAD_CODE Procedure"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/ADD_VALUE-Function-Signature-1.html",
+      "title": "20.11 ADD_VALUE Function Signature 1"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/ADD_VALUE-Function-Signature-2.html",
+      "title": "20.12 ADD_VALUE Function Signature 2"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/ADD_VALUE-Function-Signature-3.html",
+      "title": "20.13 ADD_VALUE Function Signature 3"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/ADD_VALUE-Function-Signature-4.html",
+      "title": "20.14 ADD_VALUE Function Signature 4"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/Escape-Function.html",
+      "title": "20.15 Escape Function"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/APEX_JSON.html",
+      "title": "21 APEX_JSON"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/Package-Overview-and-Examples.html",
+      "title": "21.1 Package Overview and Examples"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/Constants-and-Data-Types.html",
+      "title": "21.2 Constants and Data Types"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/CLOSE_ALL-Procedure.html",
+      "title": "21.3 CLOSE_ALL Procedure"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/CLOSE_ARRAY-Procedure.html",
+      "title": "21.4 CLOSE_ARRAY Procedure"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/CLOSE_OBJECT-Procedure.html",
+      "title": "21.5 CLOSE_OBJECT Procedure"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/DOES_EXIST-Function.html",
+      "title": "21.6 DOES_EXIST Function"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/FIND_PATHS_LIKE-Function.html",
+      "title": "21.7 FIND_PATHS_LIKE Function"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/FREE_OUTPUT-Procedure.html",
+      "title": "21.8 FREE_OUTPUT Procedure"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/FLUSH-Procedure.html",
+      "title": "21.9 FLUSH Procedure"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/GET_BOOLEAN-Function.html",
+      "title": "21.10 GET_BOOLEAN Function"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/GET_CLOB_OUTPUT-Function.html",
+      "title": "21.11 GET_CLOB_OUTPUT Function"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/GET_COUNT-Function.html",
+      "title": "21.12 GET_COUNT Function"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/GET_DATE-Function.html",
+      "title": "21.13 GET_DATE Function"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/GET_MEMBERS-Function.html",
+      "title": "21.14 GET_MEMBERS Function"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/GET_NUMBER-Function.html",
+      "title": "21.15 GET_NUMBER Function"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/GET_VALUE-Function.html",
+      "title": "21.16 GET_VALUE Function"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/GET_T_NUMBER-Function.html",
+      "title": "21.17 GET_T_NUMBER Function"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/GET_T_VARCHAR2-Function.html",
+      "title": "21.18 GET_T_VARCHAR2 Function"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/GET_VARCHAR2-Function.html",
+      "title": "21.19 GET_VARCHAR2 Function"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/GET_CLOB-Function.html",
+      "title": "21.20 GET_CLOB Function"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/INITIALIZE_CLOB_OUTPUT-Procedure.html",
+      "title": "21.21 INITIALIZE_CLOB_OUTPUT Procedure"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/INITIALIZE_OUTPUT-Procedure.html",
+      "title": "21.22 INITIALIZE_OUTPUT Procedure"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/OPEN_ARRAY-Procedure.html",
+      "title": "21.23 OPEN_ARRAY Procedure"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/OPEN_OBJECT-Procedure.html",
+      "title": "21.24 OPEN_OBJECT Procedure"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/PARSE-Procedure-Signature-1.html",
+      "title": "21.25 PARSE Procedure Signature 1"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/PARSE-Procedure-Signature-2.html",
+      "title": "21.26 PARSE Procedure Signature 2"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/STRINGIFY-Function-Signature-1.html",
+      "title": "21.27 STRINGIFY Function Signature 1"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/STRINGIFY-Function-Signature-2.html",
+      "title": "21.28 STRINGIFY Function Signature 2"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/STRINGIFY-Function-Signature-3.html",
+      "title": "21.29 STRINGIFY Function Signature 3"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/STRINGIFY-Function-Signature-4.html",
+      "title": "21.30 STRINGIFY Function Signature 4"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/To_MEMBER_NAME-Function.html",
+      "title": "21.31 TO_MEMBER_NAME Function"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/TO_XMLTYPE-Function.html",
+      "title": "21.32 TO_XMLTYPE Function"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/TO_XMLTYPE_SQL-Function.html",
+      "title": "21.33 TO_XMLTYPE_SQL Function"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/WRITE_CONTEXT-Procedure.html",
+      "title": "21.34 WRITE_CONTEXT Procedure"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/WRITE-Procedure-Signature-1.html",
+      "title": "21.35 WRITE Procedure Signature 1"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/WRITE-Procedure-Signature-2.html",
+      "title": "21.36 WRITE Procedure Signature 2"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/WRITE-Procedure-Signature-3.html",
+      "title": "21.37 WRITE Procedure Signature 3"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/WRITE-Procedure-Signature-4.html",
+      "title": "21.38 WRITE Procedure Signature 4"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/WRITE-Procedure-Signature-5.html",
+      "title": "21.39 WRITE Procedure Signature 5"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/WRITE-Procedure-Signature-6.html",
+      "title": "21.40 WRITE Procedure Signature 6"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/WRITE-Procedure-Signature-7.html",
+      "title": "21.41 WRITE Procedure Signature 7"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/WRITE-Procedure-Signature-8.html",
+      "title": "21.42 WRITE Procedure Signature 8"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/WRITE-Procedure-Signature-9.html",
+      "title": "21.43 WRITE Procedure Signature 9"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/WRITE-Procedure-Signature-10.html",
+      "title": "21.44 WRITE Procedure Signature 10"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/WRITE-Procedure-Signature-11.html",
+      "title": "21.45 WRITE Procedure Signature 11"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/WRITE-Procedure-Signature-12.html",
+      "title": "21.46 WRITE Procedure Signature 12"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/WRITE-Procedure-Signature-13.html",
+      "title": "21.47 WRITE Procedure Signature 13"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/WRITE-Procedure-Signature-14.html",
+      "title": "21.48 WRITE Procedure Signature 14"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/WRITE-Procedure-Signature-15.html",
+      "title": "21.49 WRITE Procedure Signature 15"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/WRITE-Procedure-Signature-16.html",
+      "title": "21.50 WRITE Procedure Signature 16"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/WRITE-Procedure-Signature-17.html",
+      "title": "21.51 WRITE Procedure Signature 17"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/WRITE-Procedure-Signature-18.html",
+      "title": "21.52 WRITE Procedure Signature 18"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/WRITE-Procedure-Signature-19.html",
+      "title": "21.53 WRITE Procedure Signature 19"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/APEX_JWT.html",
+      "title": "22 APEX_JWT"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/T_TOKEN.html",
+      "title": "22.1 T_TOKEN"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/ENCODE.html",
+      "title": "22.2 ENCODE Function"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/DECODE.html",
+      "title": "22.3 DECODE Function"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/VALIDATE.html",
+      "title": "22.4 VALIDATE Procedure"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/APEX_LANG.html",
+      "title": "23 APEX_LANG"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/CREATE_MESSAGE-Procedure.html",
+      "title": "23.1 CREATE_MESSAGE Procedure"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/DELETE_MESSAGE-Procedure.html",
+      "title": "23.2 DELETE_MESSAGE Procedure"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/CREATE_LANGUAGE_MAPPING-Procedure.html",
+      "title": "23.3 CREATE_LANGUAGE_MAPPING Procedure"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/DELETE_LANGUAGE_MAPPING-Procedure.html",
+      "title": "23.4 DELETE_LANGUAGE_MAPPING Procedure"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/EMIT_LANGUAGE_SELECTOR_LIST-Procedure.html",
+      "title": "23.5 EMIT_LANGUAGE_SELECTOR_LIST Procedure"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/LANG_Function.html",
+      "title": "23.6 LANG Function"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/MESSAGE-Function.html",
+      "title": "23.7 MESSAGE Function"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/PUBLISH_APPLICATION-Procedure.html",
+      "title": "23.8 PUBLISH_APPLICATION Procedure"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/SEED_TRANSLATIONS-Procedure.html",
+      "title": "23.9 SEED_TRANSLATIONS Procedure"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/UPDATE_LANGUAGE_MAPPING-Procedure.html",
+      "title": "23.10 UPDATE_LANGUAGE_MAPPING Procedure"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/UPDATE_MESSAGE-Procedure.html",
+      "title": "23.11 UPDATE_MESSAGE Procedure"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/UPDATE_TRANSLATED_STRING-Procedure.html",
+      "title": "23.12 UPDATE_TRANSLATED_STRING Procedure"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/APEX_LDAP.html",
+      "title": "24 APEX_LDAP"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/AUTHENTICATE-Function.html",
+      "title": "24.1 AUTHENTICATE Function"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/GET_ALL_USER_ATTRIBUTES-Procedure.html",
+      "title": "24.2 GET_ALL_USER_ATTRIBUTES Procedure"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/GET_USER_ATTRIBUTES-Procedure.html",
+      "title": "24.3 GET_USER_ATTRIBUTES Procedure"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/IS_MEMBER-Function.html",
+      "title": "24.4 IS_MEMBER Function"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/MEMBER_OF-Function.html",
+      "title": "24.5 MEMBER_OF Function"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/MEMBER_OF2-Function.html",
+      "title": "24.6 MEMBER_OF2 Function"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/SEARCH-Function.html",
+      "title": "24.7 SEARCH Function"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/APEX_MAIL.html",
+      "title": "25 APEX_MAIL"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/Configuring-Oracle-Application-Express-to-Send-Email.html",
+      "title": "25.1 Configuring Oracle Application Express to Send Email"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/ADD_ATTACHMENT-Procedure.html",
+      "title": "25.2 ADD_ATTACHMENT Procedure"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/GET_IMAGES_URL-Function.html",
+      "title": "25.3 GET_IMAGES_URL Function"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/GET_INSTANCE_URL-Function.html",
+      "title": "25.4 GET_INSTANCE_URL Function"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/PREPARE_TEMPLATE_Procedure.html",
+      "title": "25.5 PREPARE_TEMPLATE Procedure"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/PUSH_QUEUE-Procedure.html",
+      "title": "25.6 PUSH_QUEUE Procedure"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/SEND-Function-Signature-1.html",
+      "title": "25.7 SEND Function Signature 1"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/SEND-Function-Signature-2.html",
+      "title": "25.8 SEND Function Signature 2"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/SEND-Procedure-Signature-1.html",
+      "title": "25.9 SEND Procedure Signature 1"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/SEND-Procedure-Signature-2.html",
+      "title": "25.10 SEND Procedure Signature 2"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/APEX_PKG_APP_INSTALL.html",
+      "title": "26 APEX_PKG_APP_INSTALL"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/DEINSTALL-Procedure-Signature1.html",
+      "title": "26.1 DEINSTALL Procedure Signature 1"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/DEINSTALL-Procedure-Signature2.html",
+      "title": "26.2 DEINSTALL Procedure Signature 2"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/INSTALL-Function-Signature1.html",
+      "title": "26.3 INSTALL Function Signature 1"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/INSTALL-Function-Signature2.html",
+      "title": "26.4 INSTALL Function Signature 2"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/UPGRADE-Procedure-Signature1.html",
+      "title": "26.5 UPGRADE Procedure Signature 1"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/UPGRADE-Procedure-Signature2.html",
+      "title": "26.6 UPGRADE Procedure Signature 2"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/APEX_PAGE.html",
+      "title": "27 APEX_PAGE"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/Global-Constants2.html",
+      "title": "27.1 Global Constants"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/IS_DESKTOP_UI-Function.html",
+      "title": "27.2 IS_DESKTOP_UI Function"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/IS_JQM_SMARTPHONE_UI-Function.html",
+      "title": "27.3 IS_JQM_SMARTPHONE_UI Function [DEPRECATED]"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/IS_JQM_TABLET_UI-Function.html",
+      "title": "27.4 IS_JQM_TABLET_UI Function [DEPRECATED]"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/GET_UI_TYPE-Function.html",
+      "title": "27.5 GET_UI_TYPE Function"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/IS_READ_ONLY-Function.html",
+      "title": "27.6 IS_READ_ONLY Function"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/GET_PAGE_MODE-Function.html",
+      "title": "27.7 GET_PAGE_MODE Function"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/PURGE_CACHE-Procedure.html",
+      "title": "27.8 PURGE_CACHE Procedure"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/GET_URL-Function.html",
+      "title": "27.9 GET_URL Function"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/APEX_PLUGIN.html",
+      "title": "28 APEX_PLUGIN"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/Data-Types2.html",
+      "title": "28.1 Data Types"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/GET_AJAX_IDENTIFIER-Function.html",
+      "title": "28.2 GET_AJAX_IDENTIFIER Function"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/GET_INPUT_NAME_FOR_PAGE_ITEM-Function.html",
+      "title": "28.3 GET_INPUT_NAME_FOR_PAGE_ITEM Function"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/APEX_PLUGIN_UTIL.html",
+      "title": "29 APEX_PLUGIN_UTIL"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/CLEAR_COMPONENT_VALUES-Procedure.html",
+      "title": "29.1 CLEAR_COMPONENT_VALUES Procedure"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/DEBUG_DYNAMIC-_ACTION-Procedure.html",
+      "title": "29.2 DEBUG_DYNAMIC _ACTION Procedure"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/DEBUG_PAGE_ITEM-Procedure-Signature-1.html",
+      "title": "29.3 DEBUG_PAGE_ITEM Procedure Signature 1"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/DEBUG_PAGE_ITEM-Procedure-Signature-2.html",
+      "title": "29.4 DEBUG_PAGE_ITEM Procedure Signature 2"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/DEBUG_PROCESS-Procedure.html",
+      "title": "29.5 DEBUG_PROCESS Procedure"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/DEBUG_REGION-Procedure-Signature-1.html",
+      "title": "29.6 DEBUG_REGION Procedure Signature 1"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/DEBUG_REGION-Procedure-Signature-2.html",
+      "title": "29.7 DEBUG_REGION Procedure Signature 2"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/ESCAPE-Function-2.html",
+      "title": "29.8 ESCAPE Function"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/EXECUTE_PLSQL_CODE-Procedure.html",
+      "title": "29.9 EXECUTE_PLSQL_CODE Procedure"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/GET_ATTRIBUTE_AS_NUMBER-Function.html",
+      "title": "29.10 GET_ATTRIBUTE_AS_NUMBER Function"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/GET_DATA-Function-Signature-1.html",
+      "title": "29.11 GET_DATA Function Signature 1"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/GET_DATA-Function-Signature-2.html",
+      "title": "29.12 GET_DATA Function Signature 2"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/GET_DATA2-Function-Signature-1.html",
+      "title": "29.13 GET_DATA2 Function Signature 1"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/GET_DATA2-Function-Signature-2.html",
+      "title": "29.14 GET_DATA2 Function Signature 2"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/GET_DISPLAY_DATA-Function-Signature-1.html",
+      "title": "29.15 GET_DISPLAY_DATA Function Signature 1"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/GET_DISPLAY_DATA-Function-Signature-2.html",
+      "title": "29.16 GET_DISPLAY_DATA Function Signature 2"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/GET_ELEMENT_ATTRIBUTES-Function.html",
+      "title": "29.17 GET_ELEMENT_ATTRIBUTES Function"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/GET_PLSQL_EXPRESSION_RESULT-Function.html",
+      "title": "29.18 GET_PLSQL_EXPRESSION_RESULT Function"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/GET_PLSQL_FUNCTION_RESULT-Function.html",
+      "title": "29.19 GET_PLSQL_FUNCTION_RESULT Function"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/GET_POSITION_IN_LIST-Function.html",
+      "title": "29.20 GET_POSITION_IN_LIST Function"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/GET_SEARCH_STRING-Function.html",
+      "title": "29.21 GET_SEARCH_STRING Function"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/GET_VALUE_AS_VARCHAR2-Function.html",
+      "title": "29.22 GET_VALUE_AS_VARCHAR2 Function"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/IS_EQUAL-Function.html",
+      "title": "29.23 IS_EQUAL Function"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/PAGE_ITEM_NAMES_TO_JQUERY-Function.html",
+      "title": "29.24 PAGE_ITEM_NAMES_TO_JQUERY Function"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/PRINT_DISPLAY_ONLY-Procedure.html",
+      "title": "29.25 PRINT_DISPLAY_ONLY Procedure"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/PRINT_ESCAPED_VALUE-Procedure.html",
+      "title": "29.26 PRINT_ESCAPED_VALUE Procedure"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/PRINT_HIDDEN_IF_READONLY-Procedure.html",
+      "title": "29.27 PRINT_HIDDEN_IF_READONLY Procedure"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/PRINT_JSON_HTTP_HEADER-Procedure.html",
+      "title": "29.28 PRINT_JSON_HTTP_HEADER Procedure"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/PRINT_LOV_AS_JSON-Procedure.html",
+      "title": "29.29 PRINT_LOV_AS_JSON Procedure"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/PRINT_OPTION-Procedure.html",
+      "title": "29.30 PRINT_OPTION Procedure"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/REPLACE_SUBSTITUTIONS-Function.html",
+      "title": "29.31 REPLACE_SUBSTITUTIONS Function"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/SET_COMPONENT_VALUES-Procedure.html",
+      "title": "29.32 SET_COMPONENT_VALUES Procedure"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/APEX_REGION.html",
+      "title": "30 APEX_REGION"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/IS_READ_ONLY-Function-2.html",
+      "title": "30.1 IS_READ_ONLY Function"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/OPEN_QUERY_CONTEXT-Function.html",
+      "title": "30.2 OPEN_QUERY_CONTEXT Function"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/PURGE_CACHE-Procedure-2.html",
+      "title": "30.3 PURGE_CACHE Procedure"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/APEX_SESSION.html",
+      "title": "31 APEX_SESSION"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/SET_DEBUG-Procedure.html",
+      "title": "31.1 SET_DEBUG Procedure"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/SET_TRACE-Procedure.html",
+      "title": "31.2 SET_TRACE Procedure"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/CREATE_SESSION-Procedure.html",
+      "title": "31.3 CREATE_SESSION Procedure"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/DELETE_SESSION-Procedure.html",
+      "title": "31.4 DELETE_SESSION Procedure"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/ATTACH-Procedure.html",
+      "title": "31.5 ATTACH Procedure"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/DETACH-Procedure.html",
+      "title": "31.6 DETACH Procedure"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/APEX_SPATIAL.html",
+      "title": "32 APEX_SPATIAL"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/Data-Types-3.html",
+      "title": "32.1 Data Types"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/CHANGE_GEOM_METADATA-Procedure.html",
+      "title": "32.2 CHANGE_GEOM_METADATA Procedure"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/CIRCLE_POLYGON-Function.html",
+      "title": "32.3 CIRCLE_POLYGON Function"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/DELETE_GEOM_METADATA-Procedure.html",
+      "title": "32.4 DELETE_GEOM_METADATA Procedure"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/INSERT_GEOM_METADATA-Procedure.html",
+      "title": "32.5 INSERT_GEOM_METADATA Procedure"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/INSERT_GEOM_METADATA_LONLAT-Procedure.html",
+      "title": "32.6 INSERT_GEOM_METADATA_LONLAT Procedure"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/POINT-Function.html",
+      "title": "32.7 POINT Function"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/RECTANGLE-Function.html",
+      "title": "32.8 RECTANGLE Function"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/APEX_STRING.html",
+      "title": "33 APEX_STRING"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/FORMAT-Function.html",
+      "title": "33.1 FORMAT Function"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/GET_INITIALS-Function.html",
+      "title": "33.2 GET_INITIALS Function"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/GET_SEARCHABLE_PHRASES-Function.html",
+      "title": "33.3 GET_SEARCHABLE_PHRASES Function"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/GREP-Function-Signature-1.html",
+      "title": "33.4 GREP Function Signature 1"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/GREP-Function-Signature-2.html",
+      "title": "33.5 GREP Function Signature 2"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/GREP-Function-Signature-3.html",
+      "title": "33.6 GREP Function Signature 3"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/JOIN_CLOB-Function.html",
+      "title": "33.7 JOIN_CLOB Function"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/JOIN-Function-Signature-1.html",
+      "title": "33.8 JOIN Function Signature 1"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/JOIN-Function-Signature-2.html",
+      "title": "33.9 JOIN Function Signature 2"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/NEXT_CHUNK-Function.html",
+      "title": "33.10 NEXT_CHUNK Function"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/PLIST_DELETE-Procedure.html",
+      "title": "33.11 PLIST_DELETE Procedure"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/PLIST_GET-Function.html",
+      "title": "33.12 PLIST_GET Function"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/PLIST_PUSH-Procedure.html",
+      "title": "33.13 PLIST_PUSH Procedure"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/PLIST_PUT-Function.html",
+      "title": "33.14 PLIST_PUT Function"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/PUSH-Procedure-Signature-1.html",
+      "title": "33.15 PUSH Procedure Signature 1"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/PUSH-Procedure-Signature-2.html",
+      "title": "33.16 PUSH Procedure Signature 2"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/PUSH-Procedure-Signature-3.html",
+      "title": "33.17 PUSH Procedure Signature 3"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/PUSH-Procedure-Signature4.html",
+      "title": "33.18 PUSH Procedure Signature 4"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/SHUFFLE-Function.html",
+      "title": "33.19 SHUFFLE Function"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/SHUFFLE-Procedure.html",
+      "title": "33.20 SHUFFLE Procedure"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/SPLIT-Function-Signature-1.html",
+      "title": "33.21 SPLIT Function Signature 1"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/SPLIT-Function-Signature-2.html",
+      "title": "33.22 SPLIT Function Signature 2"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/SPLIT_NUMBERS-Function.html",
+      "title": "33.23 SPLIT_NUMBERS Function"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/STRING_TO_TABLE-1-Function.html",
+      "title": "33.24 STRING_TO_TABLE Function"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/TABLE_TO_STRING-1-Function.html",
+      "title": "33.25 TABLE_TO_STRING Function"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/APEX_THEME.html",
+      "title": "34 APEX_THEME"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/CLEAR_ALL_USERS_STYLE-Procedure.html",
+      "title": "34.1 CLEAR_ALL_USERS_STYLE Procedure"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/CLEAR_USER_STYLE-Procedure.html",
+      "title": "34.2 CLEAR_USER_STYLE Procedure"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/DISABLE_USER_STYLE-Procedure.html",
+      "title": "34.3 DISABLE_USER_STYLE Procedure"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/ENABLE_USER_STYLE-Procedure.html",
+      "title": "34.4 ENABLE_USER_STYLE Procedure"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/GET_USER_STYLE-Function.html",
+      "title": "34.5 GET_USER_STYLE Function"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/SET_CURRENT_STYLE-Procedure.html",
+      "title": "34.6 SET_CURRENT_STYLE Procedure"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/SET_SESSION_STYLE-Procedure.html",
+      "title": "34.7 SET_SESSION_STYLE Procedure"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/SET_SESSION_STYLE_CSS-Procedure.html",
+      "title": "34.8 SET_SESSION_STYLE_CSS Procedure"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/SET_USER_STYLE-Procedure.html",
+      "title": "34.9 SET_USER_STYLE Procedure"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/APEX_UI_DEFAULT_UPDATE.html",
+      "title": "35 APEX_UI_DEFAULT_UPDATE"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/ADD_AD_COLUMN-Procedure.html",
+      "title": "35.1 ADD_AD_COLUMN Procedure"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/ADD_AD_SYNONYM-Procedure.html",
+      "title": "35.2 ADD_AD_SYNONYM Procedure"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/DEL_AD_COLUMN-Procedure.html",
+      "title": "35.3 DEL_AD_COLUMN Procedure"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/DEL_AD_SYNONYM-Procedure.html",
+      "title": "35.4 DEL_AD_SYNONYM Procedure"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/DEL_COLUMN-Procedure.html",
+      "title": "35.5 DEL_COLUMN Procedure"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/DEL_GROUP-Procedure.html",
+      "title": "35.6 DEL_GROUP Procedure"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/DEL_TABLE-Procedure.html",
+      "title": "35.7 DEL_TABLE Procedure"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/SYNCH_TABLE-Procedure.html",
+      "title": "35.8 SYNCH_TABLE Procedure"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/UPD_AD_COLUMN-Procedure.html",
+      "title": "35.9 UPD_AD_COLUMN Procedure"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/UPD_AD_SYNONYM-Procedure.html",
+      "title": "35.10 UPD_AD_SYNONYM Procedure"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/UPD_COLUMN-Procedure.html",
+      "title": "35.11 UPD_COLUMN Procedure"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/UPD_DISPLAY_IN_FORM-Procedure.html",
+      "title": "35.12 UPD_DISPLAY_IN_FORM Procedure"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/UPD_DISPLAY_IN_REPORT-Procedure.html",
+      "title": "35.13 UPD_DISPLAY_IN_REPORT Procedure"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/UPD_FORM_REGION_TITLE-Procedure.html",
+      "title": "35.14 UPD_FORM_REGION_TITLE Procedure"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/UPD_GROUP-Procedure.html",
+      "title": "35.15 UPD_GROUP Procedure"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/UPD_ITEM_DISPLAY_HEIGHT-Procedure.html",
+      "title": "35.16 UPD_ITEM_DISPLAY_HEIGHT Procedure"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/UPD_ITEM_DISPLAY_WIDTH-Procedure.html",
+      "title": "35.17 UPD_ITEM_DISPLAY_WIDTH Procedure"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/UPD_ITEM_FORMAT_MASK-Procedure.html",
+      "title": "35.18 UPD_ITEM_FORMAT_MASK Procedure"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/UPD_ITEM_HELP-Procedure.html",
+      "title": "35.19 UPD_ITEM_HELP Procedure"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/UPD_LABEL-Procedure.html",
+      "title": "35.20 UPD_LABEL Procedure"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/UPD_REPORT_ALIGNMENT-Procedure.html",
+      "title": "35.21 UPD_REPORT_ALIGNMENT Procedure"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/UPD_REPORT_FORMAT_MASK-Procedure.html",
+      "title": "35.22 UPD_REPORT_FORMAT_MASK Procedure"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/UPD_REPORT_REGION_TITLE-Procedure.html",
+      "title": "35.23 UPD_REPORT_REGION_TITLE Procedure"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/UPD_TABLE-Procedure.html",
+      "title": "35.24 UPD_TABLE Procedure"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/APEX_UTIL.html",
+      "title": "36 APEX_UTIL"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/CACHE_GET_DATE_OF_PAGE_CACHE-Function.html",
+      "title": "36.1 CACHE_GET_DATE_OF_PAGE_CACHE Function"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/CACHE_GET_DATE_OF_REGION_CACHE-Function.html",
+      "title": "36.2 CACHE_GET_DATE_OF_REGION_CACHE Function"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/CACHE_PURGE_BY_APPLICATION-Procedure.html",
+      "title": "36.3 CACHE_PURGE_BY_APPLICATION Procedure"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/CACHE_PURGE_BY_PAGE-Procedure.html",
+      "title": "36.4 CACHE_PURGE_BY_PAGE Procedure"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/CACHE_PURGE_STALE-Procedure.html",
+      "title": "36.5 CACHE_PURGE_STALE Procedure"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/CHANGE_CURRENT_USER_PW-Procedure.html",
+      "title": "36.6 CHANGE_CURRENT_USER_PW Procedure"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/CHANGE_PASSWORD_ON_FIRST_USE-Function.html",
+      "title": "36.7 CHANGE_PASSWORD_ON_FIRST_USE Function"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/CLOSE_OPEN_DB_LINKS-Procedure.html",
+      "title": "36.8 CLOSE_OPEN_DB_LINKS Procedure"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/CLEAR_APP_CACHE-Procedure.html",
+      "title": "36.9 CLEAR_APP_CACHE Procedure"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/CLEAR_PAGE_CACHE-Procedure.html",
+      "title": "36.10 CLEAR_PAGE_CACHE Procedure"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/CLEAR_USER_CACHE-Procedure.html",
+      "title": "36.11 CLEAR_USER_CACHE Procedure"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/COUNT_CLICK-Procedure.html",
+      "title": "36.12 COUNT_CLICK Procedure"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/CREATE_USER-Procedure.html",
+      "title": "36.13 CREATE_USER Procedure"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/CREATE_USER_GROUP-Procedure.html",
+      "title": "36.14 CREATE_USER_GROUP Procedure"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/CURRENT_USER_IN_GROUP-Function.html",
+      "title": "36.15 CURRENT_USER_IN_GROUP Function"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/CUSTOM_CALENDAR-Procedure.html",
+      "title": "36.16 CUSTOM_CALENDAR Procedure"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/DELETE_USER_GROUP-Procedure-Signature-1.html",
+      "title": "36.17 DELETE_USER_GROUP Procedure Signature 1"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/DELETE_USER_GROUP-Procedure-Signature-2.html",
+      "title": "36.18 DELETE_USER_GROUP Procedure Signature 2"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/DOWNLOAD_PRINT_DOCUMENT-Procedure-Signature-1.html",
+      "title": "36.19 DOWNLOAD_PRINT_DOCUMENT Procedure Signature 1"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/DOWNLOAD_PRINT_DOCUMENT-Procedure-Signature-2.html",
+      "title": "36.20 DOWNLOAD_PRINT_DOCUMENT Procedure Signature 2"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/DOWNLOAD_PRINT_DOCUMENT-Procedure-Signature-3.html",
+      "title": "36.21 DOWNLOAD_PRINT_DOCUMENT Procedure Signature 3"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/DOWNLOAD_PRINT_DOCUMENT-Procedure-Signature-4.html",
+      "title": "36.22 DOWNLOAD_PRINT_DOCUMENT Procedure Signature 4"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/EDIT_USER-Procedure.html",
+      "title": "36.23 EDIT_USER Procedure"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/END_USER_ACCOUNT_DAYS_LEFT-Function.html",
+      "title": "36.24 END_USER_ACCOUNT_DAYS_LEFT Function"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/EXPIRE_END_USER_ACCOUNT-Procedure.html",
+      "title": "36.25 EXPIRE_END_USER_ACCOUNT Procedure"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/EXPIRE_WORKSPACE_ACCOUNT-Procedure.html",
+      "title": "36.26 EXPIRE_WORKSPACE_ACCOUNT Procedure"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/EXPORT_USERS-Procedure.html",
+      "title": "36.27 EXPORT_USERS Procedure"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/FETCH_APP_ITEM-Function.html",
+      "title": "36.28 FETCH_APP_ITEM Function"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/FETCH_USER-Procedure-Signature-1.html",
+      "title": "36.29 FETCH_USER Procedure Signature 1"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/FETCH_USER-Procedure-Signature-2.html",
+      "title": "36.30 FETCH_USER Procedure Signature 2"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/FETCH_USER-Procedure-Signature-3.html",
+      "title": "36.31 FETCH_USER Procedure Signature 3"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/FIND_SECURITY_GROUP_ID-Function.html",
+      "title": "36.32 FIND_SECURITY_GROUP_ID Function"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/FIND_WORKSPACE-Function.html",
+      "title": "36.33 FIND_WORKSPACE Function"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/GET_ACCOUNT_LOCKED_STATUS-Function.html",
+      "title": "36.34 GET_ACCOUNT_LOCKED_STATUS Function"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/GET_APPLICATION_STATUS-Function.html",
+      "title": "36.35 GET_APPLICATION_STATUS Function"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/GET_ATTRIBUTE-Function.html",
+      "title": "36.36 GET_ATTRIBUTE Function"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/GET_AUTHENTICATION_RESULT-Function.html",
+      "title": "36.37 GET_AUTHENTICATION_RESULT Function"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/GET_BLOB_FILE_SRC-Function.html",
+      "title": "36.38 GET_BLOB_FILE_SRC Function"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/GET_BUILD_OPTION_STATUS-Function-Signature-1.html",
+      "title": "36.39 GET_BUILD_OPTION_STATUS Function Signature 1"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/GET_BUILD_OPTION_STATUS-Function-Signature-2.html",
+      "title": "36.40 GET_BUILD_OPTION_STATUS Function Signature 2"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/GET_CURRENT_USER_ID-Function.html",
+      "title": "36.41 GET_CURRENT_USER_ID Function"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/GET_DEFAULT_SCHEMA-Function.html",
+      "title": "36.42 GET_DEFAULT_SCHEMA Function"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/GET_EDITION-Function.html",
+      "title": "36.43 GET_EDITION Function"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/GET_EMAIL-Function.html",
+      "title": "36.44 GET_EMAIL Function"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/GET_FEEDBACK_FOLLOW_UP-Function.html",
+      "title": "36.45 GET_FEEDBACK_FOLLOW_UP Function"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/GET_FILE-Procedure.html",
+      "title": "36.46 GET_FILE Procedure"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/GET_FILE_ID-Function.html",
+      "title": "36.47 GET_FILE_ID Function"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/GET_FIRST_NAME-Function.html",
+      "title": "36.48 GET_FIRST_NAME Function"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/GET_GROUPS_USER_BELONGS_TO-Function.html",
+      "title": "36.49 GET_GROUPS_USER_BELONGS_TO Function"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/GET_GROUP_ID-Function.html",
+      "title": "36.50 GET_GROUP_ID Function"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/GET_GROUP_NAME-Function.html",
+      "title": "36.51 GET_GROUP_NAME Function"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/GET_HASH-Function.html",
+      "title": "36.52 GET_HASH Function"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/GET_HIGH_CONTRAST_MODE_TOGGLE-Function.html",
+      "title": "36.53 GET_HIGH_CONTRAST_MODE_TOGGLE Function"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/GET_LAST_NAME-Function.html",
+      "title": "36.54 GET_LAST_NAME Function"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/GET_NUMERIC_SESSION_STATE-Function.html",
+      "title": "36.55 GET_NUMERIC_SESSION_STATE Function"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/GET_PREFERENCE-Function.html",
+      "title": "36.56 GET_PREFERENCE Function"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/GET_GLOBAL_NOTIFICATION-Function.html",
+      "title": "36.57 GET_GLOBAL_NOTIFICATION Function"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/GET_PRINT_DOCUMENT-Function-Signature-1.html",
+      "title": "36.58 GET_PRINT_DOCUMENT Function Signature 1"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/GET_PRINT_DOCUMENT-Function-Signature-2.html",
+      "title": "36.59 GET_PRINT_DOCUMENT Function Signature 2"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/GET_PRINT_DOCUMENT-Function-Signature-3.html",
+      "title": "36.60 GET_PRINT_DOCUMENT Function Signature 3"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/GET_PRINT_DOCUMENT-Function-Signature-4.html",
+      "title": "36.61 GET_PRINT_DOCUMENT Function Signature 4"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/GET_SCREEN_READER_MODE_TOGGLE-Function.html",
+      "title": "36.62 GET_SCREEN_READER_MODE_TOGGLE Function"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/GET_SESSION_LANG-Function.html",
+      "title": "36.63 GET_SESSION_LANG Function"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/GET_SESSION_STATE-Function.html",
+      "title": "36.64 GET_SESSION_STATE Function"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/GET_SESSION_TERRITORY-Function.html",
+      "title": "36.65 GET_SESSION_TERRITORY Function"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/GET_SESSION_TIME_ZONE-Function.html",
+      "title": "36.66 GET_SESSION_TIME_ZONE Function"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/GET_SINCE-Function.html",
+      "title": "36.67 GET_SINCE Function"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/GET_SUPPORTING_OBJECT_SCRIPT-Function.html",
+      "title": "36.68 GET_SUPPORTING_OBJECT_SCRIPT Function"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/GET_SUPPORTING_OBJECT_SCRIPT-Procedure.html",
+      "title": "36.69 GET_SUPPORTING_OBJECT_SCRIPT Procedure"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/GET_USER_ID-Function.html",
+      "title": "36.70 GET_USER_ID Function"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/GET_USER_ROLES-Function.html",
+      "title": "36.71 GET_USER_ROLES Function"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/GET_USERNAME-Function-2.html",
+      "title": "36.72 GET_USERNAME Function"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/HOST_URL-Function.html",
+      "title": "36.73 HOST_URL Function"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/HTML_PCT_GRAPH_MASK-Function.html",
+      "title": "36.74 HTML_PCT_GRAPH_MASK Function"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/INCREMENT_CALENDAR-Procedure.html",
+      "title": "36.75 INCREMENT_CALENDAR Procedure"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/IR_CLEAR-Procedure-DEPRECATED.html",
+      "title": "36.76 IR_CLEAR Procedure [DEPRECATED]"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/IR_DELETE_REPORT-Procedure-DEPRECATED.html",
+      "title": "36.77 IR_DELETE_REPORT Procedure [DEPRECATED]"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/IR_DELETE_SUBSCRIPTION-Procedure-DEPRECATED.html",
+      "title": "36.78 IR_DELETE_SUBSCRIPTION Procedure [DEPRECATED]"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/IR_FILTER-Procedure-DEPRECATED.html",
+      "title": "36.79 IR_FILTER Procedure [DEPRECATED]"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/IR_RESET-Procedure-DEPRECATED.html",
+      "title": "36.80 IR_RESET Procedure [DEPRECATED]"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/IS_HIGH_CONTRAST_SESSION-Function.html",
+      "title": "36.81 IS_HIGH_CONTRAST_SESSION Function"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/IS_HIGH_CONTRAST_SESSION_YN-Function.html",
+      "title": "36.82 IS_HIGH_CONTRAST_SESSION_YN Function"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/IS_LOGIN_PASSWORD_VALID-Function.html",
+      "title": "36.83 IS_LOGIN_PASSWORD_VALID Function"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/IS_SCREEN_READER_SESSION-Function.html",
+      "title": "36.84 IS_SCREEN_READER_SESSION Function"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/IS_SCREEN_READER_SESSION_YN-Function.html",
+      "title": "36.85 IS_SCREEN_READER_SESSION_YN Function"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/IS_USERNAME_UNIQUE-Function.html",
+      "title": "36.86 IS_USERNAME_UNIQUE Function"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/KEYVAL_NUM-Function.html",
+      "title": "36.87 KEYVAL_NUM Function"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/KEYVAL_VC2-Function.html",
+      "title": "36.88 KEYVAL_VC2 Function"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/LOCK_ACCOUNT-Procedure.html",
+      "title": "36.89 LOCK_ACCOUNT Procedure"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/PASSWORD_FIRST_USE_OCCURRED-Function.html",
+      "title": "36.90 PASSWORD_FIRST_USE_OCCURRED Function"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/PREPARE_URL-Function.html",
+      "title": "36.91 PREPARE_URL Function"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/PUBLIC_CHECK_AUTHORIZATION-Function-DEPRECATED.html",
+      "title": "36.92 PUBLIC_CHECK_AUTHORIZATION Function [DEPRECATED]"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/PURGE_REGIONS_BY_APP-Procedure.html",
+      "title": "36.93 PURGE_REGIONS_BY_APP Procedure"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/PURGE_REGIONS_BY_NAME-Procedure.html",
+      "title": "36.94 PURGE_REGIONS_BY_NAME Procedure"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/PURGE_REGIONS_BY_PAGE-Procedure.html",
+      "title": "36.95 PURGE_REGIONS_BY_PAGE Procedure"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/REDIRECT_URL-Procedure.html",
+      "title": "36.96 REDIRECT_URL Procedure"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/REMOVE_PREFERENCE-Procedure.html",
+      "title": "36.97 REMOVE_PREFERENCE Procedure"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/REMOVE_SORT_PREFERENCES-Procedure.html",
+      "title": "36.98 REMOVE_SORT_PREFERENCES Procedure"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/REMOVE_USER-Procedure.html",
+      "title": "36.99 REMOVE_USER Procedure"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/RESET_AUTHORIZATIONS-Procedure-DEPRECATED.html",
+      "title": "36.100 RESET_AUTHORIZATIONS Procedure [DEPRECATED]"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/RESET_PASSWORD-Procedure.html",
+      "title": "36.101 RESET_PASSWORD Procedure"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/RESET_PW-Procedure.html",
+      "title": "36.102 RESET_PW Procedure"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/SAVEKEY_NUM-Function.html",
+      "title": "36.103 SAVEKEY_NUM Function"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/SAVEKEY_VC2-Function.html",
+      "title": "36.104 SAVEKEY_VC2 Function"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/SET_APP_BUILD_STATUS_Procedure.html",
+      "title": "36.105 SET_APP_BUILD_STATUS Procedure"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/SET_APPLICATION_STATUS-Procedure.html",
+      "title": "36.106 SET_APPLICATION_STATUS Procedure"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/SET_ATTRIBUTE-Procedure.html",
+      "title": "36.107 SET_ATTRIBUTE Procedure"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/SET_AUTHENTICATION_RESULT-Procedure.html",
+      "title": "36.108 SET_AUTHENTICATION_RESULT Procedure"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/SET_BUILD_OPTION_STATUS-Procedure.html",
+      "title": "36.109 SET_BUILD_OPTION_STATUS Procedure"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/SET_CURRENT_THEME_STYLE-Procedure.html",
+      "title": "36.110 SET_CURRENT_THEME_STYLE Procedure [DEPRECATED]"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/SET_CUSTOM_AUTH_STATUS-Procedure.html",
+      "title": "36.111 SET_CUSTOM_AUTH_STATUS Procedure"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/SET_EDITION-Procedure.html",
+      "title": "36.112 SET_EDITION Procedure"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/SET_EMAIL-Procedure.html",
+      "title": "36.113 SET_EMAIL Procedure"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/SET_FIRST_NAME-Procedure.html",
+      "title": "36.114 SET_FIRST_NAME Procedure"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/SET_GLOBAL_NOTIFICATION-Procedure.html",
+      "title": "36.115 SET_GLOBAL_NOTIFICATION Procedure"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/SET_GROUP_GROUP_GRANTS-Procedure.html",
+      "title": "36.116 SET_GROUP_GROUP_GRANTS Procedure"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/SET_GROUP_USER_GRANTS-Procedure.html",
+      "title": "36.117 SET_GROUP_USER_GRANTS Procedure"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/SET_LAST_NAME-Procedure.html",
+      "title": "36.118 SET_LAST_NAME Procedure"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/SET_PARSING_SCHEMA_FOR_REQUEST-Procedure.html",
+      "title": "36.119 SET_PARSING_SCHEMA_FOR _REQUEST Procedure"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/SET_PREFERENCE-Procedure.html",
+      "title": "36.120 SET_PREFERENCE Procedure"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/SET_SECURITY_GROUP_ID-Procedure.html",
+      "title": "36.121 SET_SECURITY_GROUP_ID Procedure"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/SET_SESSION_HIGH_CONTRAST_OFF-Procedure.html",
+      "title": "36.122 SET_SESSION_HIGH_CONTRAST_OFF Procedure"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/SET_SESSION_HIGH_CONTRAST_ON-Procedure.html",
+      "title": "36.123 SET_SESSION_HIGH_CONTRAST_ON Procedure"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/SET_SESSION_LANG-Procedure.html",
+      "title": "36.124 SET_SESSION_LANG Procedure"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/SET_SESSION_LIFETIME_SECONDS-Procedure.html",
+      "title": "36.125 SET_SESSION_LIFETIME_SECONDS Procedure"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/SET_SESSION_MAX_IDLE_SECONDS-Procedure.html",
+      "title": "36.126 SET_SESSION_MAX_IDLE_SECONDS Procedure"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/SET_SESSION_SCREEN_READER_OFF-Procedure.html",
+      "title": "36.127 SET_SESSION_SCREEN_READER_OFF Procedure"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/SET_SESSION_SCREEN_READER_ON-Procedure.html",
+      "title": "36.128 SET_SESSION_SCREEN_READER_ON Procedure"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/SET_SESSION_STATE-Procedure.html",
+      "title": "36.129 SET_SESSION_STATE Procedure"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/SET_SESSION_TERRITORY-Procedure.html",
+      "title": "36.130 SET_SESSION_TERRITORY Procedure"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/SET_SESSION_TIME_ZONE-Procedure.html",
+      "title": "36.131 SET_SESSION_TIME_ZONE Procedure"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/SET_USERNAME-Procedure.html",
+      "title": "36.132 SET_USERNAME Procedure"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/SET_WORKSPACE_Procedure-2.html",
+      "title": "36.133 SET_WORKSPACE_Procedure"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/SHOW_HIGH_CONTRAST_MODE_TOGGLE-Procedure.html",
+      "title": "36.134 SHOW_HIGH_CONTRAST_MODE_TOGGLE Procedure"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/SHOW_SCREEN_READER_MODE_TOGGLE-Procedure.html",
+      "title": "36.135 SHOW_SCREEN_READER_MODE_TOGGLE Procedure"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/STRING_TO_TABLE-Function.html",
+      "title": "36.136 STRING_TO_TABLE Function [DEPRECATED]"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/STRONG_PASSWORD_CHECK-Procedure.html",
+      "title": "36.137 STRONG_PASSWORD_CHECK Procedure"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/STRONG_PASSWORD_VALIDATION-Function.html",
+      "title": "36.138 STRONG_PASSWORD_VALIDATION Function"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/SUBMIT_FEEDBACK-Procedure.html",
+      "title": "36.139 SUBMIT_FEEDBACK Procedure"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/SUBMIT_FEEDBACK_FOLLOWUP-Procedure.html",
+      "title": "36.140 SUBMIT_FEEDBACK_FOLLOWUP Procedure"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/TABLE_TO_STRING-Function.html",
+      "title": "36.141 TABLE_TO_STRING Function [DEPRECATED]"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/UNEXPIRE_END_USER_ACCOUNT-Procedure.html",
+      "title": "36.142 UNEXPIRE_END_USER_ACCOUNT Procedure"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/UNEXPIRE_WORKSPACE_ACCOUNT-Procedure.html",
+      "title": "36.143 UNEXPIRE_WORKSPACE_ACCOUNT Procedure"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/UNLOCK_ACCOUNT-Procedure.html",
+      "title": "36.144 UNLOCK_ACCOUNT Procedure"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/URL_ENCODE-Function.html",
+      "title": "36.145 URL_ENCODE Function"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/WORKSPACE_ACCOUNT_DAYS_LEFT-Function.html",
+      "title": "36.146 WORKSPACE_ACCOUNT_DAYS_LEFT Function"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/APEX_WEB_SERVICE.html",
+      "title": "37 APEX_WEB_SERVICE"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/About-the-APEX_WEB_SERVICE-API.html",
+      "title": "37.1 About the APEX_WEB_SERVICE API"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/Invoking-a-SOAP-Style-Web-Service.html",
+      "title": "37.2 Invoking a SOAP Style Web Service"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/Invoking-a-RESTful-Style-Web-Service.html",
+      "title": "37.3 Invoking a RESTful Style Web Service"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/Retrieving-Cookies-and-HTTP-Headers.html",
+      "title": "37.4 Retrieving Cookies and HTTP Headers"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/Setting-Cookies-and-HTTP-Headers.html",
+      "title": "37.5 Setting Cookies and HTTP Headers"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/BLOB2CLOBBASE64-Function.html",
+      "title": "37.6 BLOB2CLOBBASE64 Function"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/CLOBBASE642BLOB-Function.html",
+      "title": "37.7 CLOBBASE642BLOB Function"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/MAKE_REQUEST-Procedure.html",
+      "title": "37.8 MAKE_REQUEST Procedure"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/MAKE_REQUEST-Function.html",
+      "title": "37.9 MAKE_REQUEST Function"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/MAKE_REST_REQUEST-Function.html",
+      "title": "37.10 MAKE_REST_REQUEST Function"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/MAKE_REST_REQUEST_B-Function.html",
+      "title": "37.11 MAKE_REST_REQUEST_B Function"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/OAUTH_AUTHENTICATE-Procedure-Signature-1.html",
+      "title": "37.12 OAUTH_AUTHENTICATE Procedure Signature 1"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/OAUTH_AUTHENTICATE-Procedure-Signature-2.html",
+      "title": "37.13 OAUTH_AUTHENTICATE Procedure Signature 2"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/OAUTH_GET_LAST_TOKEN-Function.html",
+      "title": "37.14 OAUTH_GET_LAST_TOKEN Function"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/OAUTH_SET_TOKEN-Procedure.html",
+      "title": "37.15 OAUTH_SET_TOKEN Procedure"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/PARSE_RESPONSE-Function.html",
+      "title": "37.16 PARSE_RESPONSE Function"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/PARSE_RESPONSE_CLOB-Function.html",
+      "title": "37.17 PARSE_RESPONSE_CLOB Function"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/PARSE_XML-Function.html",
+      "title": "37.18 PARSE_XML Function"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/PARSE_XML_CLOB-Function.html",
+      "title": "37.19 PARSE_XML_CLOB Function"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/APEX_ZIP.html",
+      "title": "38 APEX_ZIP"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/Data-Types-4.html",
+      "title": "38.1 Data Types"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/ADD_FILE-Procedure-2.html",
+      "title": "38.2 ADD_FILE Procedure"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/FINISH-Procedure.html",
+      "title": "38.3 FINISH Procedure"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/GET_FILE_CONTENT-Function.html",
+      "title": "38.4 GET_FILE_CONTENT Function"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/GET_FILES-Function.html",
+      "title": "38.5 GET_FILES Function"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/JavaScript-APIs.html",
+      "title": "39 JavaScript APIs"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/Using-REST-Administration-Interface-API.html",
+      "title": "40 Using REST Administration Interface API"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/Authentication.html",
+      "title": "40.1 Authentication"
+    },
+    {
+      "url": "https://docs.oracle.com/en/database/oracle/application-express/19.2/aeapi/Individual-REST-Services.html",
+      "title": "40.2 Individual REST Services"
+    }
+  ]
+}

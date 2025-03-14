@@ -12,6 +12,7 @@ const WEBSITES_FILE = `${FILE_PREFIX}websites.json`;
 const HTML_SNIPPETS = `${FILE_PREFIX}html-snippets.json`;
 const ICON_MODIFIERS = `${FILE_PREFIX}icon-modifiers.json`;
 const SUBSTITUTIONS = `${FILE_PREFIX}substitutions.json`;
+const APEX_API_192 = `${FILE_PREFIX}doc-192.json`;
 
 const RESULT_SIZE = 50;
 
@@ -350,6 +351,29 @@ export async function processAll(input) {
 		title: el.obj.title,
 		subtitle: el.obj.subtitle,
 		arg: el.obj.arg,
+	}));
+
+	return items;
+}
+
+export async function processApexAPI192Items(input) {
+	const data = await readJsonFileCache(APEX_API_192);
+
+	/**
+	 * @typedef {Object} Doc192Items
+	 * @property {string} url
+	 * @property {string} title
+	 */
+
+	/** @type {SubstitutionItem[]} */
+	const subItems = data.data;
+	const fuzzyOptions = getFuzzyOptions(["title"]);
+	const results = fuzzysort.go(input, subItems, fuzzyOptions);
+
+	const items = results.map((el) => ({
+		uid: el.obj.title,
+		title: el.obj.title,
+		arg: el.obj.url,
 	}));
 
 	return items;

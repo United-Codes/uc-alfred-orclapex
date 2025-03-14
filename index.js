@@ -2,6 +2,7 @@ import alfy from "alfy";
 import yargsParser from "yargs-parser";
 import {
 	processAll,
+	processApexAPI192Items,
 	processCssClassItems,
 	processCssVarItems,
 	processDocItems,
@@ -50,6 +51,9 @@ async function main(args) {
 			break;
 		case "substitution":
 			items = await processSubstitutionItems(input);
+			break;
+		case "api-192":
+			items = await processApexAPI192Items(input);
 			break;
 		default:
 			alfy.error(`Invalid mode: "${args.mode}"`);
