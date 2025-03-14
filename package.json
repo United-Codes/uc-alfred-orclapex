@@ -1,6 +1,6 @@
 {
 	"name": "uc-alfred-orclapex",
-	"version": "1.24.2",
+	"version": "1.25.1",
 	"description": "Oracle APEX utility commands for Alfred",
 	"type": "module",
 	"exports": "./index.js",
