@@ -37,6 +37,10 @@
 			"description": "Shade of the primary palette color"
 		},
 		{
+			"name": "ut-palette-primary-text",
+			"description": "Text color of the primary palette that is readable on the shade"
+		},
+		{
 			"name": "ut-palette-danger",
 			"description": "Danger color in the palette"
 		},
@@ -47,6 +51,10 @@
 		{
 			"name": "ut-palette-danger-shade",
 			"description": "Shade of the danger palette color"
+		},
+		{
+			"name": "ut-palette-danger-text",
+			"description": "Text color of the danger palette that is readable on the shade"
 		},
 		{
 			"name": "ut-palette-warning",
@@ -61,6 +69,10 @@
 			"description": "Shade of the warning palette color"
 		},
 		{
+			"name": "ut-palette-warning-text",
+			"description": "Text color of the warning palette that is readable on the shade"
+		},
+		{
 			"name": "ut-palette-success",
 			"description": "Success color in the palette"
 		},
@@ -73,6 +85,10 @@
 			"description": "Shade of the success palette color"
 		},
 		{
+			"name": "ut-palette-success-text",
+			"description": "Text color of the success palette that is readable on the shade"
+		},
+		{
 			"name": "ut-palette-info",
 			"description": "Info color in the palette"
 		},
@@ -83,6 +99,10 @@
 		{
 			"name": "ut-palette-info-shade",
 			"description": "Shade of the info palette color"
+		},
+		{
+			"name": "ut-palette-info-text",
+			"description": "Text color of the info palette that is readable on the shade"
 		},
 		{
 			"name": "ut-component-background-color",
@@ -167,6 +187,26 @@
 		{
 			"name": "ut-shadow-lg",
 			"description": "Shadow Large"
+		},
+		{
+			"name": "a-base-font-family",
+			"description": "Base Font Family"
+		},
+		{
+			"name": "a-base-font-family-serif",
+			"description": "Serif Base Font Family"
+		},
+		{
+			"name": "a-base-font-family-mono",
+			"description": "Monospace Base Font Family"
+		},
+		{
+			"name": "ut-component-text-title-color",
+			"description": "Component Default Title Color"
+		},
+		{
+			"name": "ut-hero-region-title-font-family",
+			"description": "Hero Region Title Font Family"
 		}
 	]
 }
