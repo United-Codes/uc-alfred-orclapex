@@ -5,6 +5,7 @@ import {
 	processApexAPI192Items,
 	processCssClassItems,
 	processCssVarItems,
+	processDgDomains,
 	processDocItems,
 	processHTMLSnippets,
 	processIconItems,
@@ -51,6 +52,9 @@ async function main(args) {
 			break;
 		case "substitution":
 			items = await processSubstitutionItems(input);
+			break;
+		case "data_generator_domains":
+			items = await processDgDomains(input);
 			break;
 		case "api-192":
 			items = await processApexAPI192Items(input);

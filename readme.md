@@ -8,6 +8,7 @@ This is an [Alfred](https://alfred.app/) workflow for quickly accessing Oracle A
 - CSS Classes
 - CSS Variables
 - Substitution Strings
+- Data Generator Domains
 - Useful Links and Websites
 
 ## Prerequisites

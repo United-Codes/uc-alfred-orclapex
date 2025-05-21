@@ -1,0 +1,987 @@
+{
+  "results": [
+    {
+      "columns": [
+        {
+          "name": "name",
+          "type": "VARCHAR2"
+        },
+        {
+          "name": "category",
+          "type": "VARCHAR2"
+        },
+        {
+          "name": "datatype",
+          "type": "VARCHAR2"
+        }
+      ],
+      "items": [
+        {
+          "name": "2d_shape.domain",
+          "category": "2d_shape",
+          "datatype": "VARCHAR2"
+        },
+        {
+          "name": "2d_shape.name",
+          "category": "2d_shape",
+          "datatype": "VARCHAR2"
+        },
+        {
+          "name": "2d_shape.sides",
+          "category": "2d_shape",
+          "datatype": "NUMBER"
+        },
+        {
+          "name": "3d_shape.domain",
+          "category": "3d_shape",
+          "datatype": "VARCHAR2"
+        },
+        {
+          "name": "3d_shape.edges",
+          "category": "3d_shape",
+          "datatype": "NUMBER"
+        },
+        {
+          "name": "3d_shape.faces",
+          "category": "3d_shape",
+          "datatype": "NUMBER"
+        },
+        {
+          "name": "3d_shape.name",
+          "category": "3d_shape",
+          "datatype": "VARCHAR2"
+        },
+        {
+          "name": "3d_shape.vertices",
+          "category": "3d_shape",
+          "datatype": "NUMBER"
+        },
+        {
+          "name": "airport.airport_type",
+          "category": "airport",
+          "datatype": "VARCHAR2"
+        },
+        {
+          "name": "airport.arp_latitude",
+          "category": "airport",
+          "datatype": "VARCHAR2"
+        },
+        {
+          "name": "airport.arp_latitude_s",
+          "category": "airport",
+          "datatype": "VARCHAR2"
+        },
+        {
+          "name": "airport.arp_longitude",
+          "category": "airport",
+          "datatype": "VARCHAR2"
+        },
+        {
+          "name": "airport.arp_longitude_s",
+          "category": "airport",
+          "datatype": "VARCHAR2"
+        },
+        {
+          "name": "airport.city",
+          "category": "airport",
+          "datatype": "VARCHAR2"
+        },
+        {
+          "name": "airport.county",
+          "category": "airport",
+          "datatype": "VARCHAR2"
+        },
+        {
+          "name": "airport.facility_name",
+          "category": "airport",
+          "datatype": "VARCHAR2"
+        },
+        {
+          "name": "airport.iata_code",
+          "category": "airport",
+          "datatype": "VARCHAR2"
+        },
+        {
+          "name": "airport.owner",
+          "category": "airport",
+          "datatype": "VARCHAR2"
+        },
+        {
+          "name": "airport.owner_address",
+          "category": "airport",
+          "datatype": "VARCHAR2"
+        },
+        {
+          "name": "airport.seeded_data_yn",
+          "category": "airport",
+          "datatype": "VARCHAR2"
+        },
+        {
+          "name": "airport.site_number",
+          "category": "airport",
+          "datatype": "VARCHAR2"
+        },
+        {
+          "name": "airport.state_name",
+          "category": "airport",
+          "datatype": "VARCHAR2"
+        },
+        {
+          "name": "animal.class",
+          "category": "animal",
+          "datatype": "VARCHAR2"
+        },
+        {
+          "name": "animal.common_name",
+          "category": "animal",
+          "datatype": "VARCHAR2"
+        },
+        {
+          "name": "animal.domain",
+          "category": "animal",
+          "datatype": "VARCHAR2"
+        },
+        {
+          "name": "animal.family",
+          "category": "animal",
+          "datatype": "VARCHAR2"
+        },
+        {
+          "name": "animal.genus",
+          "category": "animal",
+          "datatype": "VARCHAR2"
+        },
+        {
+          "name": "animal.kingdom",
+          "category": "animal",
+          "datatype": "VARCHAR2"
+        },
+        {
+          "name": "animal.phylum",
+          "category": "animal",
+          "datatype": "VARCHAR2"
+        },
+        {
+          "name": "animal.seeded_data_yn",
+          "category": "animal",
+          "datatype": "VARCHAR2"
+        },
+        {
+          "name": "industry.title",
+          "category": "industry",
+          "datatype": "VARCHAR2"
+        },
+        {
+          "name": "ipv4.any_address",
+          "category": "ipv4",
+          "datatype": "VARCHAR2"
+        },
+        {
+          "name": "ipv4.unrestricted_address",
+          "category": "ipv4",
+          "datatype": "VARCHAR2"
+        },
+        {
+          "name": "ipv6.any_address",
+          "category": "ipv6",
+          "datatype": "VARCHAR2"
+        },
+        {
+          "name": "island.country",
+          "category": "island",
+          "datatype": "VARCHAR2"
+        },
+        {
+          "name": "island.domain",
+          "category": "island",
+          "datatype": "VARCHAR2"
+        },
+        {
+          "name": "island.name",
+          "category": "island",
+          "datatype": "VARCHAR2"
+        },
+        {
+          "name": "language.domain",
+          "category": "language",
+          "datatype": "VARCHAR2"
+        },
+        {
+          "name": "language.language_id",
+          "category": "language",
+          "datatype": "VARCHAR2"
+        },
+        {
+          "name": "language.language_label",
+          "category": "language",
+          "datatype": "VARCHAR2"
+        },
+        {
+          "name": "language.nls_language",
+          "category": "language",
+          "datatype": "VARCHAR2"
+        },
+        {
+          "name": "language.nls_territory",
+          "category": "language",
+          "datatype": "VARCHAR2"
+        },
+        {
+          "name": "latin_text.domain",
+          "category": "latin_text",
+          "datatype": "VARCHAR2"
+        },
+        {
+          "name": "latin_text.text1024",
+          "category": "latin_text",
+          "datatype": "VARCHAR2"
+        },
+        {
+          "name": "latin_text.text128",
+          "category": "latin_text",
+          "datatype": "VARCHAR2"
+        },
+        {
+          "name": "latin_text.text256",
+          "category": "latin_text",
+          "datatype": "VARCHAR2"
+        },
+        {
+          "name": "latin_text.text32",
+          "category": "latin_text",
+          "datatype": "VARCHAR2"
+        },
+        {
+          "name": "latin_text.text4000",
+          "category": "latin_text",
+          "datatype": "VARCHAR2"
+        },
+        {
+          "name": "latin_text.text64",
+          "category": "latin_text",
+          "datatype": "VARCHAR2"
+        },
+        {
+          "name": "animal.species",
+          "category": "animal",
+          "datatype": "VARCHAR2"
+        },
+        {
+          "name": "animal.the_order",
+          "category": "animal",
+          "datatype": "VARCHAR2"
+        },
+        {
+          "name": "boolean.domain",
+          "category": "boolean",
+          "datatype": "VARCHAR2"
+        },
+        {
+          "name": "boolean.one_zero",
+          "category": "boolean",
+          "datatype": "NUMBER"
+        },
+        {
+          "name": "boolean.true_false",
+          "category": "boolean",
+          "datatype": "VARCHAR2"
+        },
+        {
+          "name": "boolean.y_n",
+          "category": "boolean",
+          "datatype": "VARCHAR2"
+        },
+        {
+          "name": "car.city_mpg",
+          "category": "car",
+          "datatype": "NUMBER"
+        },
+        {
+          "name": "car.driven_wheels",
+          "category": "car",
+          "datatype": "VARCHAR2"
+        },
+        {
+          "name": "car.engine_cylinders",
+          "category": "car",
+          "datatype": "NUMBER"
+        },
+        {
+          "name": "car.engine_fuel_type",
+          "category": "car",
+          "datatype": "VARCHAR2"
+        },
+        {
+          "name": "car.engine_hp",
+          "category": "car",
+          "datatype": "NUMBER"
+        },
+        {
+          "name": "car.highway_mpg",
+          "category": "car",
+          "datatype": "NUMBER"
+        },
+        {
+          "name": "car.make",
+          "category": "car",
+          "datatype": "VARCHAR2"
+        },
+        {
+          "name": "car.market_category",
+          "category": "car",
+          "datatype": "VARCHAR2"
+        },
+        {
+          "name": "car.model",
+          "category": "car",
+          "datatype": "VARCHAR2"
+        },
+        {
+          "name": "car.msrp",
+          "category": "car",
+          "datatype": "NUMBER"
+        },
+        {
+          "name": "car.number_of_doors",
+          "category": "car",
+          "datatype": "NUMBER"
+        },
+        {
+          "name": "car.seeded_data_yn",
+          "category": "car",
+          "datatype": "VARCHAR2"
+        },
+        {
+          "name": "car.transmission_type",
+          "category": "car",
+          "datatype": "VARCHAR2"
+        },
+        {
+          "name": "car.vehicle_size",
+          "category": "car",
+          "datatype": "VARCHAR2"
+        },
+        {
+          "name": "car.vehicle_style",
+          "category": "car",
+          "datatype": "VARCHAR2"
+        },
+        {
+          "name": "car.year",
+          "category": "car",
+          "datatype": "NUMBER"
+        },
+        {
+          "name": "character.guid",
+          "category": "character",
+          "datatype": "VARCHAR2"
+        },
+        {
+          "name": "color.color",
+          "category": "color",
+          "datatype": "VARCHAR2"
+        },
+        {
+          "name": "color.domain",
+          "category": "color",
+          "datatype": "VARCHAR2"
+        },
+        {
+          "name": "color.hex_code",
+          "category": "color",
+          "datatype": "VARCHAR2"
+        },
+        {
+          "name": "color.rgb",
+          "category": "color",
+          "datatype": "VARCHAR2"
+        },
+        {
+          "name": "color.rn",
+          "category": "color",
+          "datatype": "VARCHAR2"
+        },
+        {
+          "name": "company_name.company",
+          "category": "company_name",
+          "datatype": "VARCHAR2"
+        },
+        {
+          "name": "country.area",
+          "category": "country",
+          "datatype": "NUMBER"
+        },
+        {
+          "name": "country.domain",
+          "category": "country",
+          "datatype": "VARCHAR2"
+        },
+        {
+          "name": "country.gdp_per_capita",
+          "category": "country",
+          "datatype": "NUMBER"
+        },
+        {
+          "name": "country.name",
+          "category": "country",
+          "datatype": "VARCHAR2"
+        },
+        {
+          "name": "country.pop_density",
+          "category": "country",
+          "datatype": "NUMBER"
+        },
+        {
+          "name": "country.population",
+          "category": "country",
+          "datatype": "NUMBER"
+        },
+        {
+          "name": "country.region",
+          "category": "country",
+          "datatype": "VARCHAR2"
+        },
+        {
+          "name": "credit_card.card_number",
+          "category": "credit_card",
+          "datatype": "NUMBER"
+        },
+        {
+          "name": "date.date_between_min_and_max",
+          "category": "date",
+          "datatype": "DATE"
+        },
+        {
+          "name": "date.now",
+          "category": "date",
+          "datatype": "DATE"
+        },
+        {
+          "name": "date.random",
+          "category": "date",
+          "datatype": "DATE"
+        },
+        {
+          "name": "date.random_future",
+          "category": "date",
+          "datatype": "DATE"
+        },
+        {
+          "name": "date.random_past",
+          "category": "date",
+          "datatype": "DATE"
+        },
+        {
+          "name": "date.today",
+          "category": "date",
+          "datatype": "DATE"
+        },
+        {
+          "name": "dept.dname",
+          "category": "dept",
+          "datatype": "VARCHAR2"
+        },
+        {
+          "name": "dept.domain",
+          "category": "dept",
+          "datatype": "VARCHAR2"
+        },
+        {
+          "name": "element.atomic_number",
+          "category": "element",
+          "datatype": "NUMBER"
+        },
+        {
+          "name": "element.atomic_weight",
+          "category": "element",
+          "datatype": "NUMBER"
+        },
+        {
+          "name": "element.cas_number",
+          "category": "element",
+          "datatype": "VARCHAR2"
+        },
+        {
+          "name": "element.domain",
+          "category": "element",
+          "datatype": "VARCHAR2"
+        },
+        {
+          "name": "element.electron_configuration",
+          "category": "element",
+          "datatype": "VARCHAR2"
+        },
+        {
+          "name": "element.element_category",
+          "category": "element",
+          "datatype": "VARCHAR2"
+        },
+        {
+          "name": "element.name",
+          "category": "element",
+          "datatype": "VARCHAR2"
+        },
+        {
+          "name": "element.phase",
+          "category": "element",
+          "datatype": "VARCHAR2"
+        },
+        {
+          "name": "element.symbol",
+          "category": "element",
+          "datatype": "VARCHAR2"
+        },
+        {
+          "name": "food.calories",
+          "category": "food",
+          "datatype": "NUMBER"
+        },
+        {
+          "name": "food.category",
+          "category": "food",
+          "datatype": "VARCHAR2"
+        },
+        {
+          "name": "food.domain",
+          "category": "food",
+          "datatype": "VARCHAR2"
+        },
+        {
+          "name": "food.fat",
+          "category": "food",
+          "datatype": "NUMBER"
+        },
+        {
+          "name": "food.food",
+          "category": "food",
+          "datatype": "VARCHAR2"
+        },
+        {
+          "name": "food.grams",
+          "category": "food",
+          "datatype": "NUMBER"
+        },
+        {
+          "name": "food.measure",
+          "category": "food",
+          "datatype": "VARCHAR2"
+        },
+        {
+          "name": "food.protein",
+          "category": "food",
+          "datatype": "NUMBER"
+        },
+        {
+          "name": "generic.code",
+          "category": "generic",
+          "datatype": "VARCHAR2"
+        },
+        {
+          "name": "generic.other",
+          "category": "generic",
+          "datatype": "VARCHAR2"
+        },
+        {
+          "name": "generic.percentage",
+          "category": "generic",
+          "datatype": "NUMBER"
+        },
+        {
+          "name": "generic.varchar2",
+          "category": "generic",
+          "datatype": "VARCHAR2"
+        },
+        {
+          "name": "generic.varchar2.channel",
+          "category": "generic",
+          "datatype": "VARCHAR2"
+        },
+        {
+          "name": "generic.varchar2.gender_long",
+          "category": "generic",
+          "datatype": "VARCHAR2"
+        },
+        {
+          "name": "generic.varchar2.gender_short",
+          "category": "generic",
+          "datatype": "VARCHAR2"
+        },
+        {
+          "name": "generic.varchar2.status_long",
+          "category": "generic",
+          "datatype": "VARCHAR2"
+        },
+        {
+          "name": "generic.varchar2.status_short",
+          "category": "generic",
+          "datatype": "VARCHAR2"
+        },
+        {
+          "name": "generic.varchar2.yn",
+          "category": "generic",
+          "datatype": "VARCHAR2"
+        },
+        {
+          "name": "generic_prod.list_price",
+          "category": "generic_prod",
+          "datatype": "NUMBER"
+        },
+        {
+          "name": "generic_prod.product_name",
+          "category": "generic_prod",
+          "datatype": "VARCHAR2"
+        },
+        {
+          "name": "generic_prod.vc2",
+          "category": "generic_prod",
+          "datatype": "VARCHAR2"
+        },
+        {
+          "name": "icd_diag.code",
+          "category": "icd_diag",
+          "datatype": "VARCHAR2"
+        },
+        {
+          "name": "icd_diag.long_desc",
+          "category": "icd_diag",
+          "datatype": "VARCHAR2"
+        },
+        {
+          "name": "icd_diag.seeded_data_yn",
+          "category": "icd_diag",
+          "datatype": "VARCHAR2"
+        },
+        {
+          "name": "icd_diag.short_desc",
+          "category": "icd_diag",
+          "datatype": "VARCHAR2"
+        },
+        {
+          "name": "icd_proc.code",
+          "category": "icd_proc",
+          "datatype": "VARCHAR2"
+        },
+        {
+          "name": "icd_proc.long_desc",
+          "category": "icd_proc",
+          "datatype": "VARCHAR2"
+        },
+        {
+          "name": "icd_proc.seeded_data_yn",
+          "category": "icd_proc",
+          "datatype": "VARCHAR2"
+        },
+        {
+          "name": "icd_proc.short_desc",
+          "category": "icd_proc",
+          "datatype": "VARCHAR2"
+        },
+        {
+          "name": "industry.description",
+          "category": "industry",
+          "datatype": "VARCHAR2"
+        },
+        {
+          "name": "industry.domain",
+          "category": "industry",
+          "datatype": "VARCHAR2"
+        },
+        {
+          "name": "location.city",
+          "category": "location",
+          "datatype": "VARCHAR2"
+        },
+        {
+          "name": "location.county_fips",
+          "category": "location",
+          "datatype": "NUMBER"
+        },
+        {
+          "name": "location.county_name",
+          "category": "location",
+          "datatype": "VARCHAR2"
+        },
+        {
+          "name": "location.latitude",
+          "category": "location",
+          "datatype": "NUMBER"
+        },
+        {
+          "name": "location.longitude",
+          "category": "location",
+          "datatype": "NUMBER"
+        },
+        {
+          "name": "location.military",
+          "category": "location",
+          "datatype": "VARCHAR2"
+        },
+        {
+          "name": "location.population",
+          "category": "location",
+          "datatype": "NUMBER"
+        },
+        {
+          "name": "location.seeded_data_yn",
+          "category": "location",
+          "datatype": "VARCHAR2"
+        },
+        {
+          "name": "location.state_id",
+          "category": "location",
+          "datatype": "VARCHAR2"
+        },
+        {
+          "name": "location.state_name",
+          "category": "location",
+          "datatype": "VARCHAR2"
+        },
+        {
+          "name": "location.timezone",
+          "category": "location",
+          "datatype": "VARCHAR2"
+        },
+        {
+          "name": "location.zcta",
+          "category": "location",
+          "datatype": "VARCHAR2"
+        },
+        {
+          "name": "location.zip_vc",
+          "category": "location",
+          "datatype": "VARCHAR2"
+        },
+        {
+          "name": "number.guid",
+          "category": "number",
+          "datatype": "NUMBER"
+        },
+        {
+          "name": "number.integer",
+          "category": "number",
+          "datatype": "NUMBER"
+        },
+        {
+          "name": "number.random",
+          "category": "number",
+          "datatype": "NUMBER"
+        },
+        {
+          "name": "occupation.domain",
+          "category": "occupation",
+          "datatype": "VARCHAR2"
+        },
+        {
+          "name": "occupation.mean_wage",
+          "category": "occupation",
+          "datatype": "NUMBER"
+        },
+        {
+          "name": "occupation.title",
+          "category": "occupation",
+          "datatype": "VARCHAR2"
+        },
+        {
+          "name": "person.biological_sex",
+          "category": "person",
+          "datatype": "VARCHAR2"
+        },
+        {
+          "name": "person.email",
+          "category": "person",
+          "datatype": "VARCHAR2"
+        },
+        {
+          "name": "person.first_name",
+          "category": "person",
+          "datatype": "VARCHAR2"
+        },
+        {
+          "name": "person.forward_name",
+          "category": "person",
+          "datatype": "VARCHAR2"
+        },
+        {
+          "name": "person.last_comma_first",
+          "category": "person",
+          "datatype": "VARCHAR2"
+        },
+        {
+          "name": "person.last_name",
+          "category": "person",
+          "datatype": "VARCHAR2"
+        },
+        {
+          "name": "person.upper_full_name",
+          "category": "person",
+          "datatype": "VARCHAR2"
+        },
+        {
+          "name": "pet.domain",
+          "category": "pet",
+          "datatype": "VARCHAR2"
+        },
+        {
+          "name": "pet.pet_name",
+          "category": "pet",
+          "datatype": "VARCHAR2"
+        },
+        {
+          "name": "pet.pet_sub_type",
+          "category": "pet",
+          "datatype": "VARCHAR2"
+        },
+        {
+          "name": "pet.pet_type",
+          "category": "pet",
+          "datatype": "VARCHAR2"
+        },
+        {
+          "name": "phone.us_phone_number",
+          "category": "phone",
+          "datatype": "VARCHAR2"
+        },
+        {
+          "name": "plant.category",
+          "category": "plant",
+          "datatype": "VARCHAR2"
+        },
+        {
+          "name": "plant.class",
+          "category": "plant",
+          "datatype": "VARCHAR2"
+        },
+        {
+          "name": "plant.common_name",
+          "category": "plant",
+          "datatype": "VARCHAR2"
+        },
+        {
+          "name": "plant.division",
+          "category": "plant",
+          "datatype": "VARCHAR2"
+        },
+        {
+          "name": "plant.family",
+          "category": "plant",
+          "datatype": "VARCHAR2"
+        },
+        {
+          "name": "plant.family_common_name",
+          "category": "plant",
+          "datatype": "VARCHAR2"
+        },
+        {
+          "name": "plant.genera_binomial_author",
+          "category": "plant",
+          "datatype": "VARCHAR2"
+        },
+        {
+          "name": "plant.genus",
+          "category": "plant",
+          "datatype": "VARCHAR2"
+        },
+        {
+          "name": "plant.growth_habit",
+          "category": "plant",
+          "datatype": "VARCHAR2"
+        },
+        {
+          "name": "plant.kingdom",
+          "category": "plant",
+          "datatype": "VARCHAR2"
+        },
+        {
+          "name": "plant.scientific_name",
+          "category": "plant",
+          "datatype": "VARCHAR2"
+        },
+        {
+          "name": "plant.seeded_data_yn",
+          "category": "plant",
+          "datatype": "VARCHAR2"
+        },
+        {
+          "name": "plant.species",
+          "category": "plant",
+          "datatype": "VARCHAR2"
+        },
+        {
+          "name": "plant.subclass",
+          "category": "plant",
+          "datatype": "VARCHAR2"
+        },
+        {
+          "name": "plant.taxonomy_order",
+          "category": "plant",
+          "datatype": "VARCHAR2"
+        },
+        {
+          "name": "plant.variety",
+          "category": "plant",
+          "datatype": "VARCHAR2"
+        },
+        {
+          "name": "product_review.domain",
+          "category": "product_review",
+          "datatype": "VARCHAR2"
+        },
+        {
+          "name": "product_review.review",
+          "category": "product_review",
+          "datatype": "VARCHAR2"
+        },
+        {
+          "name": "product_review.stars",
+          "category": "product_review",
+          "datatype": "NUMBER"
+        },
+        {
+          "name": "school.accred_agency",
+          "category": "school",
+          "datatype": "VARCHAR2"
+        },
+        {
+          "name": "school.city",
+          "category": "school",
+          "datatype": "VARCHAR2"
+        },
+        {
+          "name": "school.domain",
+          "category": "school",
+          "datatype": "VARCHAR2"
+        },
+        {
+          "name": "school.institution_name",
+          "category": "school",
+          "datatype": "VARCHAR2"
+        },
+        {
+          "name": "school.insturl",
+          "category": "school",
+          "datatype": "VARCHAR2"
+        },
+        {
+          "name": "school.state",
+          "category": "school",
+          "datatype": "VARCHAR2"
+        },
+        {
+          "name": "status.code",
+          "category": "status",
+          "datatype": "VARCHAR2"
+        },
+        {
+          "name": "status.description",
+          "category": "status",
+          "datatype": "VARCHAR2"
+        },
+        {
+          "name": "status.name",
+          "category": "status",
+          "datatype": "VARCHAR2"
+        }
+      ]
+    }
+  ]
+}

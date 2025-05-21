@@ -12,6 +12,7 @@ const WEBSITES_FILE = `${FILE_PREFIX}websites.json`;
 const HTML_SNIPPETS = `${FILE_PREFIX}html-snippets.json`;
 const ICON_MODIFIERS = `${FILE_PREFIX}icon-modifiers.json`;
 const SUBSTITUTIONS = `${FILE_PREFIX}substitutions.json`;
+const DATA_GENERATOR_DOMAINS = `${FILE_PREFIX}data_generator_domains.json`;
 const APEX_API_192 = `${FILE_PREFIX}doc-192.json`;
 
 const RESULT_SIZE = 50;
@@ -328,6 +329,31 @@ export async function processSubstitutionItems(input) {
 	return items;
 }
 
+export async function processDgDomains(input) {
+	const data = await readJsonFileCache(DATA_GENERATOR_DOMAINS);
+
+	/**
+	 * @typedef {Object} DGDomainItem
+	 * @property {string} name
+	 * @property {string} category
+	 *  @property {string} datatype
+	 */
+
+	/** @type {DGDomainItem[]} */
+	const subItems = data.results[0].items;
+	const fuzzyOptions = getFuzzyOptions(["name", "description"]);
+	const results = fuzzysort.go(input, subItems, fuzzyOptions);
+
+	const items = results.map((el) => ({
+		uid: el.obj.name,
+		title: el.obj.name,
+		subtitle: `${el.obj.category} | ${el.obj.datatype}`,
+		arg: el.obj.name,
+	}));
+
+	return items;
+}
+
 export async function processAll(input) {
 	let items = [];
 
@@ -340,6 +366,7 @@ export async function processAll(input) {
 	items = items.concat(await processHTMLSnippets(input));
 	items = items.concat(await processIconModifierSnippets(input));
 	items = items.concat(await processSubstitutionItems(input));
+	items = items.concat(await processDgDomains(input));
 
 	const results = fuzzysort.go(input, items, {
 		keys: ["title", "subtitle"],
