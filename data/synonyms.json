@@ -1,0 +1,1169 @@
+{
+  "icons": {
+    "fa-plus": [
+      "add",
+      "create",
+      "new"
+    ],
+    "fa-plus-circle": [
+      "add",
+      "create",
+      "new"
+    ],
+    "fa-plus-square": [
+      "add",
+      "create",
+      "new"
+    ],
+    "fa-trash": [
+      "delete",
+      "remove",
+      "bin"
+    ],
+    "fa-trash-o": [
+      "delete",
+      "remove",
+      "bin"
+    ],
+    "fa-pencil": [
+      "edit",
+      "change",
+      "update",
+      "modify"
+    ],
+    "fa-pencil-square": [
+      "edit",
+      "change",
+      "update",
+      "modify"
+    ],
+    "fa-pencil-square-o": [
+      "edit",
+      "change",
+      "update",
+      "modify"
+    ],
+    "fa-search": [
+      "find",
+      "query",
+      "lookup"
+    ],
+    "fa-search-plus": [
+      "zoom in",
+      "magnify"
+    ],
+    "fa-search-minus": [
+      "zoom out",
+      "minify"
+    ],
+    "fa-sign-in": [
+      "login",
+      "log in",
+      "enter",
+      "signin"
+    ],
+    "fa-sign-out": [
+      "logout",
+      "log out",
+      "exit",
+      "leave",
+      "signout"
+    ],
+    "fa-cog": [
+      "settings",
+      "configuration",
+      "preferences",
+      "options",
+      "admin",
+      "setup"
+    ],
+    "fa-cogs": [
+      "settings",
+      "configuration",
+      "preferences",
+      "options",
+      "admin",
+      "setup"
+    ],
+    "fa-user": [
+      "profile",
+      "account",
+      "avatar"
+    ],
+    "fa-users": [
+      "team",
+      "community"
+    ],
+    "fa-user-plus": [
+      "add user",
+      "register",
+      "signup",
+      "invite"
+    ],
+    "fa-home": [
+      "dashboard",
+      "start",
+      "main",
+      "landing"
+    ],
+    "fa-check": [
+      "success",
+      "ok",
+      "done",
+      "apply",
+      "confirm",
+      "tick",
+      "valid",
+      "approved"
+    ],
+    "fa-check-circle": [
+      "success",
+      "ok",
+      "done",
+      "apply",
+      "confirm",
+      "tick",
+      "valid",
+      "approved"
+    ],
+    "fa-check-square": [
+      "success",
+      "ok",
+      "done",
+      "apply",
+      "confirm",
+      "tick",
+      "valid",
+      "checkbox"
+    ],
+    "fa-times": [
+      "close",
+      "cancel",
+      "fail",
+      "error",
+      "reject",
+      "invalid",
+      "x"
+    ],
+    "fa-times-circle": [
+      "close",
+      "cancel",
+      "fail",
+      "error",
+      "reject",
+      "invalid",
+      "x"
+    ],
+    "fa-ban": [
+      "forbidden",
+      "block",
+      "prohibited",
+      "not allowed"
+    ],
+    "fa-info-circle": [
+      "help",
+      "details",
+      "about",
+      "information",
+      "hint",
+      "tip"
+    ],
+    "fa-question-circle": [
+      "help",
+      "faq",
+      "support",
+      "ask"
+    ],
+    "fa-exclamation": [
+      "warning",
+      "alert",
+      "attention",
+      "error",
+      "danger"
+    ],
+    "fa-exclamation-triangle": [
+      "warning",
+      "alert",
+      "attention",
+      "error",
+      "danger",
+      "caution"
+    ],
+    "fa-exclamation-circle": [
+      "warning",
+      "alert",
+      "attention",
+      "error",
+      "danger"
+    ],
+    "fa-bars": [
+      "menu",
+      "hamburger",
+      "navigation",
+      "options"
+    ],
+    "fa-ellipsis-h": [
+      "more",
+      "actions",
+      "menu",
+      "dots"
+    ],
+    "fa-ellipsis-v": [
+      "more",
+      "actions",
+      "menu",
+      "dots"
+    ],
+    "fa-filter": [
+      "refine",
+      "funnel",
+      "sort"
+    ],
+    "fa-sort": [
+      "order",
+      "arrange",
+      "reorder"
+    ],
+    "fa-calendar": [
+      "date",
+      "schedule",
+      "event",
+      "plan"
+    ],
+    "fa-clock-o": [
+      "time",
+      "history",
+      "recent",
+      "schedule",
+      "timer",
+      "duration"
+    ],
+    "fa-envelope": [
+      "mail",
+      "email",
+      "message",
+      "contact",
+      "inbox"
+    ],
+    "fa-envelope-o": [
+      "mail",
+      "email",
+      "message",
+      "contact",
+      "inbox"
+    ],
+    "fa-lock": [
+      "secure",
+      "private",
+      "password",
+      "protect",
+      "encrypted"
+    ],
+    "fa-unlock": [
+      "public",
+      "open",
+      "insecure",
+      "access"
+    ],
+    "fa-unlock-alt": [
+      "public",
+      "open",
+      "insecure",
+      "access"
+    ],
+    "fa-cloud-upload": [
+      "import",
+      "upload",
+      "send",
+      "publish"
+    ],
+    "fa-cloud-download": [
+      "export",
+      "download",
+      "save"
+    ],
+    "fa-file": [
+      "page",
+      "document",
+      "sheet",
+      "new"
+    ],
+    "fa-file-text": [
+      "page",
+      "document",
+      "sheet",
+      "text"
+    ],
+    "fa-file-image-o": [
+      "photo",
+      "picture",
+      "image",
+      "graphic",
+      "media"
+    ],
+    "fa-image": [
+      "photo",
+      "picture",
+      "image",
+      "graphic",
+      "media"
+    ],
+    "fa-camera": [
+      "photo",
+      "picture",
+      "image",
+      "capture",
+      "snapshot"
+    ],
+    "fa-video-camera": [
+      "movie",
+      "film",
+      "record"
+    ],
+    "fa-play": [
+      "start",
+      "run",
+      "execute",
+      "go",
+      "resume"
+    ],
+    "fa-stop": [
+      "halt",
+      "end",
+      "terminate"
+    ],
+    "fa-pause": [
+      "wait",
+      "hold",
+      "suspend"
+    ],
+    "fa-step-forward": [
+      "next",
+      "skip"
+    ],
+    "fa-step-backward": [
+      "previous",
+      "back"
+    ],
+    "fa-refresh": [
+      "reload",
+      "sync",
+      "update",
+      "restart",
+      "refresh"
+    ],
+    "fa-spinner": [
+      "loading",
+      "processing",
+      "waiting",
+      "busy"
+    ],
+    "fa-check-square-o": [
+      "checkbox",
+      "select",
+      "toggle"
+    ],
+    "fa-dot-circle-o": [
+      "radio",
+      "select",
+      "choice",
+      "option"
+    ],
+    "fa-toggle-on": [
+      "switch",
+      "enable",
+      "active"
+    ],
+    "fa-toggle-off": [
+      "switch",
+      "disable",
+      "inactive"
+    ],
+    "fa-bolt": [
+      "flash",
+      "quick",
+      "electricity",
+      "power",
+      "energy"
+    ],
+    "fa-flask": [
+      "experiment",
+      "test",
+      "science",
+      "beta"
+    ],
+    "fa-eye": [
+      "view",
+      "show",
+      "visible",
+      "watch",
+      "see",
+      "preview"
+    ],
+    "fa-eye-slash": [
+      "hide",
+      "invisible",
+      "conceal"
+    ],
+    "fa-download": [
+      "get",
+      "save",
+      "export"
+    ],
+    "fa-upload": [
+      "put",
+      "load",
+      "import"
+    ],
+    "fa-share": [
+      "send",
+      "forward"
+    ],
+    "fa-share-alt": [
+      "social",
+      "network",
+      "connect"
+    ],
+    "fa-reply": [
+      "respond",
+      "back",
+      "answer"
+    ],
+    "fa-history": [
+      "recent",
+      "past",
+      "undo",
+      "restore",
+      "log"
+    ],
+    "fa-external-link": [
+      "new tab",
+      "open",
+      "link"
+    ],
+    "fa-code": [
+      "source",
+      "html",
+      "tag",
+      "develop"
+    ],
+    "fa-terminal": [
+      "console",
+      "command",
+      "prompt",
+      "cli",
+      "shell"
+    ],
+    "fa-bug": [
+      "issue",
+      "problem",
+      "glitch",
+      "debug",
+      "fix"
+    ],
+    "fa-database": [
+      "storage",
+      "data",
+      "sql",
+      "server",
+      "db"
+    ],
+    "fa-table": [
+      "grid",
+      "spreadsheet",
+      "data"
+    ],
+    "fa-list": [
+      "items",
+      "menu"
+    ],
+    "fa-th": [
+      "grid",
+      "matrix",
+      "dashboard",
+      "cards"
+    ],
+    "fa-th-large": [
+      "grid",
+      "matrix",
+      "dashboard",
+      "cards"
+    ],
+    "fa-th-list": [
+      "list",
+      "rows"
+    ],
+    "fa-star": [
+      "favorite",
+      "popular",
+      "rating",
+      "best",
+      "featured"
+    ],
+    "fa-star-o": [
+      "favorite",
+      "popular",
+      "rating",
+      "featured"
+    ],
+    "fa-certificate": [
+      "badge",
+      "verified",
+      "award",
+      "certified"
+    ],
+    "fa-folder": [
+      "directory",
+      "group",
+      "container"
+    ],
+    "fa-folder-open": [
+      "directory",
+      "group",
+      "container"
+    ],
+    "fa-tag": [
+      "label",
+      "category",
+      "keyword"
+    ],
+    "fa-tags": [
+      "labels",
+      "categories",
+      "keywords"
+    ],
+    "fa-bookmark": [
+      "save",
+      "favorite",
+      "remember",
+      "mark"
+    ],
+    "fa-print": [
+      "printer",
+      "copy"
+    ],
+    "fa-keyboard-o": [
+      "input",
+      "type"
+    ],
+    "fa-desktop": [
+      "monitor",
+      "screen",
+      "computer",
+      "pc"
+    ],
+    "fa-laptop": [
+      "computer",
+      "device",
+      "pc"
+    ],
+    "fa-mobile": [
+      "phone",
+      "cell",
+      "device"
+    ],
+    "fa-tablet": [
+      "ipad",
+      "device"
+    ],
+    "fa-wrench": [
+      "tools",
+      "fix",
+      "repair",
+      "settings",
+      "maintain"
+    ],
+    "fa-money": [
+      "cash",
+      "price",
+      "cost",
+      "finance",
+      "dollar",
+      "currency"
+    ],
+    "fa-eur": [
+      "euro",
+      "price",
+      "cost",
+      "currency"
+    ],
+    "fa-usd": [
+      "dollar",
+      "price",
+      "cost",
+      "currency"
+    ],
+    "fa-globe": [
+      "world",
+      "global",
+      "internet",
+      "web"
+    ],
+    "fa-map-marker": [
+      "location",
+      "pin",
+      "place",
+      "geo"
+    ],
+    "fa-location-arrow": [
+      "gps",
+      "navigation",
+      "direction"
+    ],
+    "fa-arrow-left": [
+      "back",
+      "previous",
+      "west"
+    ],
+    "fa-arrow-right": [
+      "forward",
+      "next",
+      "east"
+    ],
+    "fa-arrow-up": [
+      "top",
+      "asc",
+      "north"
+    ],
+    "fa-arrow-down": [
+      "bottom",
+      "desc",
+      "south"
+    ],
+    "fa-chevron-left": [
+      "back",
+      "previous"
+    ],
+    "fa-chevron-right": [
+      "forward",
+      "next"
+    ],
+    "fa-chevron-up": [
+      "top",
+      "collapse"
+    ],
+    "fa-chevron-down": [
+      "bottom",
+      "expand"
+    ],
+    "fa-caret-down": [
+      "dropdown",
+      "expand",
+      "more"
+    ],
+    "fa-caret-right": [
+      "expand",
+      "more"
+    ],
+    "fa-chart-bar": [
+      "graph",
+      "stats",
+      "analytics"
+    ],
+    "fa-chart-pie": [
+      "graph",
+      "stats",
+      "analytics"
+    ],
+    "fa-chart-line": [
+      "graph",
+      "stats",
+      "analytics",
+      "trend"
+    ],
+    "fa-heart": [
+      "love",
+      "like",
+      "favorite"
+    ],
+    "fa-thumbs-up": [
+      "like",
+      "approve",
+      "good"
+    ],
+    "fa-thumbs-down": [
+      "dislike",
+      "disapprove",
+      "bad"
+    ]
+  },
+  "doc": {
+    "https://docs.oracle.com/en/database/oracle/apex/24.2/aeapi/APEX_MAIL.html": [
+      "mail",
+      "email",
+      "smtp"
+    ],
+    "https://docs.oracle.com/en/database/oracle/apex/24.2/aeapi/APEX_COLLECTION.html": [
+      "collections",
+      "store",
+      "temp table",
+      "session state"
+    ],
+    "https://docs.oracle.com/en/database/oracle/apex/24.2/aeapi/APEX_JSON.html": [
+      "json",
+      "parse json",
+      "generate json"
+    ],
+    "https://docs.oracle.com/en/database/oracle/apex/24.2/aeapi/APEX_WEB_SERVICE.html": [
+      "web service",
+      "rest",
+      "soap",
+      "http request",
+      "api call"
+    ],
+    "https://docs.oracle.com/en/database/oracle/apex/24.2/aeapi/APEX_DATA_PARSER.html": [
+      "parser",
+      "csv",
+      "xlsx",
+      "xml",
+      "load data",
+      "import"
+    ],
+    "https://docs.oracle.com/en/database/oracle/apex/24.2/aeapi/APEX_EXEC.html": [
+      "exec",
+      "execute",
+      "dynamic query",
+      "remote sql",
+      "source"
+    ],
+    "https://docs.oracle.com/en/database/oracle/apex/24.2/aeapi/APEX_UTIL.html": [
+      "utilities",
+      "helper",
+      "tools"
+    ],
+    "https://docs.oracle.com/en/database/oracle/apex/24.2/aeapi/APEX_SESSION.html": [
+      "session",
+      "state",
+      "user",
+      "context"
+    ],
+    "https://docs.oracle.com/en/database/oracle/apex/24.2/aeapi/APEX_LANG.html": [
+      "language",
+      "translation",
+      "globalization",
+      "i18n",
+      "l10n",
+      "translate"
+    ],
+    "https://docs.oracle.com/en/database/oracle/apex/24.2/aeapi/APEX_ACL.html": [
+      "access control",
+      "permissions",
+      "security",
+      "roles",
+      "privileges"
+    ],
+    "https://docs.oracle.com/en/database/oracle/apex/24.2/aeapi/APEX_AUTHENTICATION.html": [
+      "auth",
+      "login",
+      "security",
+      "sso",
+      "identity"
+    ],
+    "https://docs.oracle.com/en/database/oracle/apex/24.2/aeapi/APEX_AUTHORIZATION.html": [
+      "authz",
+      "permission",
+      "security",
+      "role",
+      "access"
+    ],
+    "https://docs.oracle.com/en/database/oracle/apex/24.2/aeapi/APEX_ERROR.html": [
+      "error handling",
+      "exception",
+      "debug"
+    ],
+    "https://docs.oracle.com/en/database/oracle/apex/24.2/aeapi/APEX_DEBUG.html": [
+      "debugging",
+      "log",
+      "trace",
+      "instrumentation"
+    ],
+    "https://docs.oracle.com/en/database/oracle/apex/24.2/aeapi/APEX_EXPORT.html": [
+      "export",
+      "backup",
+      "deployment"
+    ],
+    "https://docs.oracle.com/en/database/oracle/apex/24.2/aeapi/APEX_IG.html": [
+      "interactive grid",
+      "grid",
+      "report"
+    ],
+    "https://docs.oracle.com/en/database/oracle/apex/24.2/aeapi/APEX_IR.html": [
+      "interactive report",
+      "report",
+      "filter"
+    ]
+  },
+  "views": {
+    "APEX_APPLICATIONS": [
+      "apps",
+      "modules"
+    ],
+    "APEX_APPLICATION_PAGES": [
+      "pages",
+      "screens",
+      "views"
+    ],
+    "APEX_APPLICATION_PAGE_ITEMS": [
+      "items",
+      "fields",
+      "inputs",
+      "controls"
+    ],
+    "APEX_APPLICATION_PAGE_BUTTONS": [
+      "buttons",
+      "actions",
+      "clicks"
+    ],
+    "APEX_APPLICATION_PAGE_REGIONS": [
+      "regions",
+      "areas",
+      "sections",
+      "containers"
+    ],
+    "APEX_APPLICATION_PAGE_DA": [
+      "dynamic actions",
+      "client side",
+      "events",
+      "javascript"
+    ],
+    "APEX_APPLICATION_PAGE_DA_ACTS": [
+      "dynamic action actions",
+      "da steps"
+    ],
+    "APEX_APPLICATION_PAGE_PROC": [
+      "processes",
+      "server side",
+      "plsql"
+    ],
+    "APEX_APPLICATION_PAGE_VAL": [
+      "validations",
+      "checks",
+      "constraints"
+    ],
+    "APEX_APPLICATION_PAGE_BRANCHES": [
+      "branches",
+      "navigation",
+      "redirects"
+    ],
+    "APEX_APPLICATION_PAGE_COMP": [
+      "computations",
+      "calculations"
+    ],
+    "APEX_APPLICATION_LOVS": [
+      "list of values",
+      "lov",
+      "select list",
+      "dropdown"
+    ],
+    "APEX_APPLICATION_LISTS": [
+      "lists",
+      "navigation menus"
+    ],
+    "APEX_APPLICATION_BREADCRUMBS": [
+      "breadcrumbs",
+      "navigation"
+    ],
+    "APEX_APPLICATION_NAV_BAR": [
+      "navigation bar",
+      "top menu"
+    ],
+    "APEX_APPLICATION_TABS": [
+      "tabs",
+      "navigation"
+    ],
+    "APEX_APPLICATION_AUTH": [
+      "authentication schemes",
+      "login config"
+    ],
+    "APEX_APPL_ACL_USERS": [
+      "access control users",
+      "permissions"
+    ],
+    "APEX_APPLICATION_SUBSTITUTIONS": [
+      "substitution strings",
+      "variables"
+    ],
+    "APEX_APPLICATION_SETTINGS": [
+      "app settings",
+      "config"
+    ],
+    "APEX_APPLICATION_BUILD_OPTIONS": [
+      "build options",
+      "feature flags",
+      "toggles"
+    ],
+    "APEX_THEMES": [
+      "themes",
+      "styles",
+      "ui"
+    ],
+    "APEX_THEME_STYLES": [
+      "theme styles",
+      "variants",
+      "skins"
+    ],
+    "APEX_THEME_TEMPLATES": [
+      "templates",
+      "layouts"
+    ],
+    "APEX_PLUGINS": [
+      "plugins",
+      "extensions",
+      "addons"
+    ]
+  },
+  "cssClasses": {
+    "col-xxs": [
+      "grid",
+      "mobile",
+      "column",
+      "tiny"
+    ],
+    "col-xs": [
+      "grid",
+      "mobile",
+      "column",
+      "extra small"
+    ],
+    "col-sm": [
+      "grid",
+      "tablet",
+      "column",
+      "small"
+    ],
+    "col-md": [
+      "grid",
+      "desktop",
+      "column",
+      "medium"
+    ],
+    "col-lg": [
+      "grid",
+      "desktop",
+      "column",
+      "large"
+    ],
+    "col-xl": [
+      "grid",
+      "desktop",
+      "column",
+      "extra large"
+    ],
+    "hidden-xxs-down": [
+      "responsive",
+      "hide",
+      "visibility",
+      "screen"
+    ],
+    "hidden-xs-down": [
+      "responsive",
+      "hide",
+      "visibility",
+      "screen"
+    ],
+    "hidden-sm-down": [
+      "responsive",
+      "hide",
+      "visibility",
+      "screen"
+    ],
+    "hidden-md-down": [
+      "responsive",
+      "hide",
+      "visibility",
+      "screen"
+    ],
+    "hidden-lg-down": [
+      "responsive",
+      "hide",
+      "visibility",
+      "screen"
+    ],
+    "u-color-1": [
+      "palette",
+      "theme",
+      "primary"
+    ],
+    "u-color-2": [
+      "palette",
+      "theme",
+      "secondary"
+    ],
+    "u-normal": [
+      "status",
+      "state",
+      "standard"
+    ],
+    "u-hot": [
+      "status",
+      "state",
+      "urgent"
+    ],
+    "u-warning": [
+      "status",
+      "state",
+      "alert",
+      "orange"
+    ],
+    "u-danger": [
+      "status",
+      "state",
+      "error",
+      "red",
+      "critical"
+    ],
+    "u-info": [
+      "status",
+      "state",
+      "blue",
+      "information"
+    ],
+    "u-success": [
+      "status",
+      "state",
+      "green",
+      "valid",
+      "ok"
+    ],
+    "u-opacity-50": [
+      "transparent",
+      "alpha",
+      "ghost",
+      "half"
+    ],
+    "u-shadow-sm": [
+      "elevation",
+      "depth",
+      "card",
+      "lifted"
+    ],
+    "u-shadow-md": [
+      "elevation",
+      "depth",
+      "card",
+      "lifted"
+    ],
+    "u-shadow-lg": [
+      "elevation",
+      "depth",
+      "card",
+      "lifted"
+    ],
+    "u-pullLeft": [
+      "float",
+      "align",
+      "position"
+    ],
+    "u-pullRight": [
+      "float",
+      "align",
+      "position"
+    ],
+    "u-flex": [
+      "layout",
+      "container",
+      "box",
+      "flexbox"
+    ],
+    "u-justify-content-center": [
+      "align",
+      "middle",
+      "center"
+    ],
+    "u-align-items-center": [
+      "align",
+      "middle",
+      "center",
+      "vertical"
+    ],
+    "margin-sm": [
+      "spacing",
+      "gap",
+      "outer",
+      "small"
+    ],
+    "margin-md": [
+      "spacing",
+      "gap",
+      "outer",
+      "medium"
+    ],
+    "margin-lg": [
+      "spacing",
+      "gap",
+      "outer",
+      "large"
+    ],
+    "margin-none": [
+      "spacing",
+      "gap",
+      "remove",
+      "reset"
+    ],
+    "padding-sm": [
+      "spacing",
+      "gap",
+      "inner",
+      "small"
+    ],
+    "padding-md": [
+      "spacing",
+      "gap",
+      "inner",
+      "medium"
+    ],
+    "padding-lg": [
+      "spacing",
+      "gap",
+      "inner",
+      "large"
+    ],
+    "padding-none": [
+      "spacing",
+      "gap",
+      "remove",
+      "reset"
+    ],
+    "u-textStart": [
+      "align",
+      "left",
+      "typography"
+    ],
+    "u-textCenter": [
+      "align",
+      "middle",
+      "typography"
+    ],
+    "u-textEnd": [
+      "align",
+      "right",
+      "typography"
+    ],
+    "u-textUpper": [
+      "caps",
+      "capital",
+      "typography",
+      "transform"
+    ],
+    "u-textLower": [
+      "typography",
+      "transform"
+    ],
+    "u-italics": [
+      "style",
+      "emphasis",
+      "typography"
+    ],
+    "u-underline": [
+      "style",
+      "link",
+      "typography"
+    ],
+    "u-VisuallyHidden": [
+      "accessibility",
+      "a11y",
+      "screen reader",
+      "invisible"
+    ]
+  }
+}

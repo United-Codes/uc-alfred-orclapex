@@ -18,6 +18,7 @@
 		"ava": "^6.2.0"
 	},
 	"dependencies": {
+		"@toon-format/toon": "^2.1.0",
 		"alfy": "^2.1.0",
 		"fuzzysort": "^3.1.0",
 		"yargs-parser": "^21.1.1"

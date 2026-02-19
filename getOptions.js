@@ -1,21 +1,15 @@
 import alfy from "alfy";
 import fuzzysort from "fuzzysort";
 import { readFile } from "node:fs/promises";
-
-const FILE_PREFIX = "./data/";
-const DOC_FILE = `${FILE_PREFIX}doc.json`;
-const CSS_VARS_FILE = `${FILE_PREFIX}css-vars.json`;
-const CSS_CLASSES_FILE = `${FILE_PREFIX}css-classes.json`;
-const VIEWS_FILE = `${FILE_PREFIX}views.json`;
-const ICONS_FILE = `${FILE_PREFIX}icons.json`;
-const WEBSITES_FILE = `${FILE_PREFIX}websites.json`;
-const HTML_SNIPPETS = `${FILE_PREFIX}html-snippets.json`;
-const ICON_MODIFIERS = `${FILE_PREFIX}icon-modifiers.json`;
-const SUBSTITUTIONS = `${FILE_PREFIX}substitutions.json`;
-const DATA_GENERATOR_DOMAINS = `${FILE_PREFIX}data_generator_domains.json`;
-const APEX_API_192 = `${FILE_PREFIX}doc-192.json`;
-
-const RESULT_SIZE = 50;
+import { FILES, RESULT_SIZE } from "./lib/constants.js";
+import {
+	getFuzzyOptions,
+	prepareCssClassItems,
+	prepareCssVarItems,
+	prepareDocItems,
+	prepareIconItems,
+	prepareViewItems,
+} from "./lib/core.js";
 
 async function readJsonFile(filePath) {
 	try {
@@ -45,16 +39,12 @@ async function readJsonFileCache(key) {
 	return data;
 }
 
-function getFuzzyOptions(keys) {
-	return {
-		keys,
-		limit: RESULT_SIZE,
-		all: true,
-	};
+async function loadSynonyms() {
+	return await readJsonFileCache(FILES.SYNONYMS);
 }
 
 export async function processDocItems(input) {
-	const data = await readJsonFileCache(DOC_FILE);
+	const data = await readJsonFileCache(FILES.DOC);
 	/**
 	 * @typedef {Object} DocItems
 	 * @property {string} url
@@ -65,18 +55,15 @@ export async function processDocItems(input) {
 	 */
 
 	/** @type {DocItems[]} */
-	const docItems = data.results[0].items;
-
-	for (const item of docItems) {
-		// add title twice for better matching of parent docuents
-		item.submatcher = item.parent_title || item.title;
-		item.parent_title = item.parent_title || "";
-	}
+	const docItems = prepareDocItems(
+		data.results[0].items,
+		(await loadSynonyms()).doc,
+	);
 
 	const results = fuzzysort.go(
 		input,
 		docItems,
-		getFuzzyOptions(["title", "submatcher"]),
+		getFuzzyOptions(["title", "submatcher", "synonyms"]),
 	);
 
 	const items = results.map((el) => ({
@@ -92,7 +79,7 @@ export async function processDocItems(input) {
 }
 
 export async function processCssVarItems(input) {
-	const data = await readJsonFileCache(CSS_VARS_FILE);
+	const data = await readJsonFileCache(FILES.CSS_VARS);
 
 	/**
 	 * @typedef {Object} CssItem
@@ -101,11 +88,7 @@ export async function processCssVarItems(input) {
 	 */
 
 	/** @type {CssItem[]} */
-	const cssItems = data.data;
-
-	for (const item of cssItems) {
-		item.copyValue = `--${item.name}`;
-	}
+	const cssItems = prepareCssVarItems(data.data);
 
 	const results = fuzzysort.go(
 		input,
@@ -124,7 +107,7 @@ export async function processCssVarItems(input) {
 }
 
 export async function processCssClassItems(input) {
-	const data = await readJsonFileCache(CSS_CLASSES_FILE);
+	const data = await readJsonFileCache(FILES.CSS_CLASSES);
 
 	/**
 	 * @typedef {Object} CssItem
@@ -134,12 +117,15 @@ export async function processCssClassItems(input) {
 	 */
 
 	/** @type {CssItem[]} */
-	const cssItems = data.data;
+	const cssItems = prepareCssClassItems(
+		data.data,
+		(await loadSynonyms()).cssClasses,
+	);
 
 	const results = fuzzysort.go(
 		input,
 		cssItems,
-		getFuzzyOptions(["name", "description", "category"]),
+		getFuzzyOptions(["name", "description", "category", "synonyms"]),
 	);
 
 	const items = results.map((el) => ({
@@ -155,7 +141,7 @@ export async function processCssClassItems(input) {
 }
 
 export async function processViewItems(input) {
-	const data = await readJsonFileCache(VIEWS_FILE);
+	const data = await readJsonFileCache(FILES.VIEWS);
 
 	/**
 	 * @typedef {Object} CssItem
@@ -165,12 +151,15 @@ export async function processViewItems(input) {
 	 */
 
 	/** @type {CssItem[]} */
-	const viewItems = data.results[0].items;
+	const viewItems = prepareViewItems(
+		data.results[0].items,
+		(await loadSynonyms()).views,
+	);
 
 	const results = fuzzysort.go(
 		input,
 		viewItems,
-		getFuzzyOptions(["name", "description"]),
+		getFuzzyOptions(["name", "description", "synonyms"]),
 	);
 
 	const items = results.map((el) => ({
@@ -186,7 +175,7 @@ export async function processViewItems(input) {
 }
 
 export async function processIconItems(input) {
-	const data = await readJsonFileCache(ICONS_FILE);
+	const data = await readJsonFileCache(FILES.ICONS);
 
 	/**
 	 * @typedef {Object} CssItem
@@ -196,22 +185,15 @@ export async function processIconItems(input) {
 	 */
 
 	/** @type {CssItem[]} */
-	const iconItems = data.results[0].items;
-
-	for (const item of iconItems) {
-		item.search = item.search || "";
-		item.categoryText = item.category ? `Category: ${item.category}` : "";
-		item.searchCriterias = item.search ? `Criterias: ${item.search}` : "";
-		item.description =
-			item.categoryText && item.searchCriterias
-				? `${item.categoryText} | ${item.searchCriterias}`
-				: item.categoryText || item.searchCriterias;
-	}
+	const iconItems = prepareIconItems(
+		data.results[0].items,
+		(await loadSynonyms()).icons,
+	);
 
 	const results = fuzzysort.go(
 		input,
 		iconItems,
-		getFuzzyOptions(["name", "search"]),
+		getFuzzyOptions(["name", "search", "synonyms"]),
 	);
 
 	const items = results.map((el) => ({
@@ -225,7 +207,7 @@ export async function processIconItems(input) {
 }
 
 export async function processWebsiteItems(input) {
-	const data = await readJsonFileCache(WEBSITES_FILE);
+	const data = await readJsonFileCache(FILES.WEBSITES);
 
 	/**
 	 * @typedef {Object} WebsiteItem
@@ -252,7 +234,7 @@ export async function processWebsiteItems(input) {
 }
 
 export async function processHTMLSnippets(input) {
-	const data = await readJsonFileCache(HTML_SNIPPETS);
+	const data = await readJsonFileCache(FILES.HTML_SNIPPETS);
 
 	/**
 	 * @typedef {Object} HTMLsnippetItem
@@ -279,7 +261,7 @@ export async function processHTMLSnippets(input) {
 }
 
 export async function processIconModifierSnippets(input) {
-	const data = await readJsonFileCache(ICON_MODIFIERS);
+	const data = await readJsonFileCache(FILES.ICON_MODIFIERS);
 
 	/**
 	 * @typedef {Object} IconModItem
@@ -306,7 +288,7 @@ export async function processIconModifierSnippets(input) {
 }
 
 export async function processSubstitutionItems(input) {
-	const data = await readJsonFileCache(SUBSTITUTIONS);
+	const data = await readJsonFileCache(FILES.SUBSTITUTIONS);
 
 	/**
 	 * @typedef {Object} SubstitutionItem
@@ -330,7 +312,7 @@ export async function processSubstitutionItems(input) {
 }
 
 export async function processDgDomains(input) {
-	const data = await readJsonFileCache(DATA_GENERATOR_DOMAINS);
+	const data = await readJsonFileCache(FILES.DATA_GENERATOR_DOMAINS);
 
 	/**
 	 * @typedef {Object} DGDomainItem
@@ -384,7 +366,7 @@ export async function processAll(input) {
 }
 
 export async function processApexAPI192Items(input) {
-	const data = await readJsonFileCache(APEX_API_192);
+	const data = await readJsonFileCache(FILES.APEX_API_192);
 
 	/**
 	 * @typedef {Object} Doc192Items
