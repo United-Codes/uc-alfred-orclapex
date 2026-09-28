@@ -7,6 +7,7 @@ SPOOL icons.json
 select icon_name as "name"
      , icon_filters as "search"
      , icon_category as "category"
-  from APEX_DG_BUILTIN_FONTAPEX;
+   from APEX_DG_BUILTIN_FONTAPEX
+  order by icon_name;
 
 SPOOL OFF

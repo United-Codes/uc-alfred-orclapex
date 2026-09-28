@@ -688,30 +688,30 @@
     ]
   },
   "doc": {
-    "https://docs.oracle.com/en/database/oracle/apex/24.2/aeapi/APEX_MAIL.html": [
+    "https://docs.oracle.com/en/database/oracle/apex/26.1/aeapi/APEX_MAIL.html": [
       "mail",
       "email",
       "smtp"
     ],
-    "https://docs.oracle.com/en/database/oracle/apex/24.2/aeapi/APEX_COLLECTION.html": [
+    "https://docs.oracle.com/en/database/oracle/apex/26.1/aeapi/APEX_COLLECTION.html": [
       "collections",
       "store",
       "temp table",
       "session state"
     ],
-    "https://docs.oracle.com/en/database/oracle/apex/24.2/aeapi/APEX_JSON.html": [
+    "https://docs.oracle.com/en/database/oracle/apex/26.1/aeapi/APEX_JSON.html": [
       "json",
       "parse json",
       "generate json"
     ],
-    "https://docs.oracle.com/en/database/oracle/apex/24.2/aeapi/APEX_WEB_SERVICE.html": [
+    "https://docs.oracle.com/en/database/oracle/apex/26.1/aeapi/APEX_WEB_SERVICE.html": [
       "web service",
       "rest",
       "soap",
       "http request",
       "api call"
     ],
-    "https://docs.oracle.com/en/database/oracle/apex/24.2/aeapi/APEX_DATA_PARSER.html": [
+    "https://docs.oracle.com/en/database/oracle/apex/26.1/aeapi/APEX_DATA_PARSER.html": [
       "parser",
       "csv",
       "xlsx",
@@ -719,25 +719,25 @@
       "load data",
       "import"
     ],
-    "https://docs.oracle.com/en/database/oracle/apex/24.2/aeapi/APEX_EXEC.html": [
+    "https://docs.oracle.com/en/database/oracle/apex/26.1/aeapi/APEX_EXEC.html": [
       "exec",
       "execute",
       "dynamic query",
       "remote sql",
       "source"
     ],
-    "https://docs.oracle.com/en/database/oracle/apex/24.2/aeapi/APEX_UTIL.html": [
+    "https://docs.oracle.com/en/database/oracle/apex/26.1/aeapi/APEX_UTIL.html": [
       "utilities",
       "helper",
       "tools"
     ],
-    "https://docs.oracle.com/en/database/oracle/apex/24.2/aeapi/APEX_SESSION.html": [
+    "https://docs.oracle.com/en/database/oracle/apex/26.1/aeapi/APEX_SESSION.html": [
       "session",
       "state",
       "user",
       "context"
     ],
-    "https://docs.oracle.com/en/database/oracle/apex/24.2/aeapi/APEX_LANG.html": [
+    "https://docs.oracle.com/en/database/oracle/apex/26.1/aeapi/APEX_LANG.html": [
       "language",
       "translation",
       "globalization",
@@ -745,49 +745,49 @@
       "l10n",
       "translate"
     ],
-    "https://docs.oracle.com/en/database/oracle/apex/24.2/aeapi/APEX_ACL.html": [
+    "https://docs.oracle.com/en/database/oracle/apex/26.1/aeapi/APEX_ACL.html": [
       "access control",
       "permissions",
       "security",
       "roles",
       "privileges"
     ],
-    "https://docs.oracle.com/en/database/oracle/apex/24.2/aeapi/APEX_AUTHENTICATION.html": [
+    "https://docs.oracle.com/en/database/oracle/apex/26.1/aeapi/APEX_AUTHENTICATION.html": [
       "auth",
       "login",
       "security",
       "sso",
       "identity"
     ],
-    "https://docs.oracle.com/en/database/oracle/apex/24.2/aeapi/APEX_AUTHORIZATION.html": [
+    "https://docs.oracle.com/en/database/oracle/apex/26.1/aeapi/APEX_AUTHORIZATION.html": [
       "authz",
       "permission",
       "security",
       "role",
       "access"
     ],
-    "https://docs.oracle.com/en/database/oracle/apex/24.2/aeapi/APEX_ERROR.html": [
+    "https://docs.oracle.com/en/database/oracle/apex/26.1/aeapi/APEX_ERROR.html": [
       "error handling",
       "exception",
       "debug"
     ],
-    "https://docs.oracle.com/en/database/oracle/apex/24.2/aeapi/APEX_DEBUG.html": [
+    "https://docs.oracle.com/en/database/oracle/apex/26.1/aeapi/APEX_DEBUG.html": [
       "debugging",
       "log",
       "trace",
       "instrumentation"
     ],
-    "https://docs.oracle.com/en/database/oracle/apex/24.2/aeapi/APEX_EXPORT.html": [
+    "https://docs.oracle.com/en/database/oracle/apex/26.1/aeapi/APEX_EXPORT.html": [
       "export",
       "backup",
       "deployment"
     ],
-    "https://docs.oracle.com/en/database/oracle/apex/24.2/aeapi/APEX_IG.html": [
+    "https://docs.oracle.com/en/database/oracle/apex/26.1/aeapi/APEX_IG.html": [
       "interactive grid",
       "grid",
       "report"
     ],
-    "https://docs.oracle.com/en/database/oracle/apex/24.2/aeapi/APEX_IR.html": [
+    "https://docs.oracle.com/en/database/oracle/apex/26.1/aeapi/APEX_IR.html": [
       "interactive report",
       "report",
       "filter"

@@ -1,14 +1,6 @@
 {
   "data": [
     {
-      "name": "APEX_CSP_DISPLAY_NONE",
-      "description": "Ensures safe CSS inline exceptions using a centralized substitution string for display:none"
-    },
-    {
-      "name": "APEX_FILES",
-      "description": "Determines virtual path for images directory (formerly IMAGE_PREFIX)"
-    },
-    {
       "name": "APEX$ROW_NUM",
       "description": "References currently processed row number of submitted tabular form data"
     },
@@ -21,16 +13,20 @@
       "description": "References row status (C for created, U for updated, D for deleted) in tabular forms"
     },
     {
-      "name": "APP_ID",
-      "description": "Identifies the current application ID"
+      "name": "APEX_CSP_DISPLAY_NONE",
+      "description": "Ensures safe CSS inline exceptions using a centralized substitution string for display:none"
     },
     {
-      "name": "APP_ALIAS",
-      "description": "Alphanumeric name for the current application, unique within a workspace"
+      "name": "APEX_FILES",
+      "description": "Determines virtual path for images directory (formerly IMAGE_PREFIX)"
     },
     {
       "name": "APP_AJAX_X[01-10]",
       "description": "Values of AJAX URL parameters used in On Demand AJAX processes"
+    },
+    {
+      "name": "APP_ALIAS",
+      "description": "Alphanumeric name for the current application, unique within a workspace"
     },
     {
       "name": "APP_BUILDER_SESSION",
@@ -43,6 +39,10 @@
     {
       "name": "APP_FILES",
       "description": "References application-specific uploaded files (formerly APP_IMAGES)"
+    },
+    {
+      "name": "APP_ID",
+      "description": "Identifies the current application ID"
     },
     {
       "name": "APP_NLS_DATE_FORMAT",
@@ -65,6 +65,10 @@
       "description": "Current application page ID"
     },
     {
+      "name": "APP_REGION_DOM_ID",
+      "description": "HTML DOM ID of the current executing region"
+    },
+    {
       "name": "APP_REGION_ID",
       "description": "ID of the current executing region"
     },
@@ -85,8 +89,20 @@
       "description": "Similar to APP_SESSION but returns '0' for unauthenticated users with Zero Session ID"
     },
     {
+      "name": "APP_TEXT$Message_Name",
+      "description": "Access to application defined or system defined text messages"
+    },
+    {
+      "name": "APP_TEXT$Message_Name$Lang",
+      "description": "Access to translated text messages with language parameter"
+    },
+    {
       "name": "APP_TITLE",
       "description": "Alphanumeric title for the current application"
+    },
+    {
+      "name": "APP_TRANSLATION_ID",
+      "description": "Main APP_ID, set only when using a translated app (which have their own APP_ID)"
     },
     {
       "name": "APP_UNIQUE_PAGE_ID",
@@ -117,6 +133,14 @@
       "description": "Flag indicating if debug mode is enabled (Yes/No)"
     },
     {
+      "name": "DEFAULT_THEME_FILES",
+      "description": "References theme files from the virtual web server path in the theme File Prefix"
+    },
+    {
+      "name": "FLOW_OWNER",
+      "description": "Owner of the APEX schema (#FLOW_OWNER# / APEX_APPLICATION.G_FLOW_SCHEMA_OWNER)"
+    },
+    {
       "name": "HOME_LINK",
       "description": "Home page URL of an application"
     },
@@ -145,10 +169,6 @@
       "description": "Main application ID for working copies, otherwise current application ID"
     },
     {
-      "name": "APP_TEXT$Message_Name",
-      "description": "Access to application defined or system defined text messages"
-    },
-    {
       "name": "OWNER",
       "description": "Parsing schema of the APEX application"
     },
@@ -169,8 +189,28 @@
       "description": "Value set by application buttons for accept processing"
     },
     {
-      "name": "APP_TRANSLATION_ID",
-      "description": "Main APP_ID, set only when using a translated app (which have their own APP_ID)"
+      "name": "SQLERRM",
+      "description": "SQL error message text for region error message templates"
+    },
+    {
+      "name": "SYSDATE_YYYYMMDD",
+      "description": "Current database server date with YYYYMMDD format mask applied"
+    },
+    {
+      "name": "THEME_DB_FILES",
+      "description": "References theme files stored in the database regardless of theme File Prefix"
+    },
+    {
+      "name": "THEME_FILES",
+      "description": "References files stored with the theme definition"
+    },
+    {
+      "name": "WORKSPACE_FILES",
+      "description": "References uploaded files shared across applications in a workspace"
+    },
+    {
+      "name": "WORKSPACE_ID",
+      "description": "References the workspace ID"
     }
   ]
 }

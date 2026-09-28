@@ -167,101 +167,6 @@
           "datatype": "VARCHAR2"
         },
         {
-          "name": "industry.title",
-          "category": "industry",
-          "datatype": "VARCHAR2"
-        },
-        {
-          "name": "ipv4.any_address",
-          "category": "ipv4",
-          "datatype": "VARCHAR2"
-        },
-        {
-          "name": "ipv4.unrestricted_address",
-          "category": "ipv4",
-          "datatype": "VARCHAR2"
-        },
-        {
-          "name": "ipv6.any_address",
-          "category": "ipv6",
-          "datatype": "VARCHAR2"
-        },
-        {
-          "name": "island.country",
-          "category": "island",
-          "datatype": "VARCHAR2"
-        },
-        {
-          "name": "island.domain",
-          "category": "island",
-          "datatype": "VARCHAR2"
-        },
-        {
-          "name": "island.name",
-          "category": "island",
-          "datatype": "VARCHAR2"
-        },
-        {
-          "name": "language.domain",
-          "category": "language",
-          "datatype": "VARCHAR2"
-        },
-        {
-          "name": "language.language_id",
-          "category": "language",
-          "datatype": "VARCHAR2"
-        },
-        {
-          "name": "language.language_label",
-          "category": "language",
-          "datatype": "VARCHAR2"
-        },
-        {
-          "name": "language.nls_language",
-          "category": "language",
-          "datatype": "VARCHAR2"
-        },
-        {
-          "name": "language.nls_territory",
-          "category": "language",
-          "datatype": "VARCHAR2"
-        },
-        {
-          "name": "latin_text.domain",
-          "category": "latin_text",
-          "datatype": "VARCHAR2"
-        },
-        {
-          "name": "latin_text.text1024",
-          "category": "latin_text",
-          "datatype": "VARCHAR2"
-        },
-        {
-          "name": "latin_text.text128",
-          "category": "latin_text",
-          "datatype": "VARCHAR2"
-        },
-        {
-          "name": "latin_text.text256",
-          "category": "latin_text",
-          "datatype": "VARCHAR2"
-        },
-        {
-          "name": "latin_text.text32",
-          "category": "latin_text",
-          "datatype": "VARCHAR2"
-        },
-        {
-          "name": "latin_text.text4000",
-          "category": "latin_text",
-          "datatype": "VARCHAR2"
-        },
-        {
-          "name": "latin_text.text64",
-          "category": "latin_text",
-          "datatype": "VARCHAR2"
-        },
-        {
           "name": "animal.species",
           "category": "animal",
           "datatype": "VARCHAR2"
@@ -684,6 +589,101 @@
         {
           "name": "industry.domain",
           "category": "industry",
+          "datatype": "VARCHAR2"
+        },
+        {
+          "name": "industry.title",
+          "category": "industry",
+          "datatype": "VARCHAR2"
+        },
+        {
+          "name": "ipv4.any_address",
+          "category": "ipv4",
+          "datatype": "VARCHAR2"
+        },
+        {
+          "name": "ipv4.unrestricted_address",
+          "category": "ipv4",
+          "datatype": "VARCHAR2"
+        },
+        {
+          "name": "ipv6.any_address",
+          "category": "ipv6",
+          "datatype": "VARCHAR2"
+        },
+        {
+          "name": "island.country",
+          "category": "island",
+          "datatype": "VARCHAR2"
+        },
+        {
+          "name": "island.domain",
+          "category": "island",
+          "datatype": "VARCHAR2"
+        },
+        {
+          "name": "island.name",
+          "category": "island",
+          "datatype": "VARCHAR2"
+        },
+        {
+          "name": "language.domain",
+          "category": "language",
+          "datatype": "VARCHAR2"
+        },
+        {
+          "name": "language.language_id",
+          "category": "language",
+          "datatype": "VARCHAR2"
+        },
+        {
+          "name": "language.language_label",
+          "category": "language",
+          "datatype": "VARCHAR2"
+        },
+        {
+          "name": "language.nls_language",
+          "category": "language",
+          "datatype": "VARCHAR2"
+        },
+        {
+          "name": "language.nls_territory",
+          "category": "language",
+          "datatype": "VARCHAR2"
+        },
+        {
+          "name": "latin_text.domain",
+          "category": "latin_text",
+          "datatype": "VARCHAR2"
+        },
+        {
+          "name": "latin_text.text1024",
+          "category": "latin_text",
+          "datatype": "VARCHAR2"
+        },
+        {
+          "name": "latin_text.text128",
+          "category": "latin_text",
+          "datatype": "VARCHAR2"
+        },
+        {
+          "name": "latin_text.text256",
+          "category": "latin_text",
+          "datatype": "VARCHAR2"
+        },
+        {
+          "name": "latin_text.text32",
+          "category": "latin_text",
+          "datatype": "VARCHAR2"
+        },
+        {
+          "name": "latin_text.text4000",
+          "category": "latin_text",
+          "datatype": "VARCHAR2"
+        },
+        {
+          "name": "latin_text.text64",
+          "category": "latin_text",
           "datatype": "VARCHAR2"
         },
         {
