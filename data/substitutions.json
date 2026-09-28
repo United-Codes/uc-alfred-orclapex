@@ -167,6 +167,10 @@
     {
       "name": "REQUEST",
       "description": "Value set by application buttons for accept processing"
+    },
+    {
+      "name": "APP_TRANSLATION_ID",
+      "description": "Main APP_ID, set only when using a translated app (which have their own APP_ID)"
     }
   ]
 }
