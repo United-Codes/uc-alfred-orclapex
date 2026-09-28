@@ -9,10 +9,6 @@
       "description": "Scale up the icon (up to 5x)"
     },
     {
-      "name": "fa-2x",
-      "description": "Scale up the icon (up to 5x)"
-    },
-    {
       "name": "fa-anim-spin",
       "description": "Animation: Spin"
     },
@@ -151,6 +147,70 @@
     {
       "name": "fam-x",
       "description": "Modifier: X"
+    },
+    {
+      "name": "fam-alarm",
+      "description": "Modifier: Alarm"
+    },
+    {
+      "name": "fam-ban",
+      "description": "Modifier: Ban"
+    },
+    {
+      "name": "fam-bookmark",
+      "description": "Modifier: Bookmark"
+    },
+    {
+      "name": "fam-chart",
+      "description": "Modifier: Chart"
+    },
+    {
+      "name": "fam-edit",
+      "description": "Modifier: Edit"
+    },
+    {
+      "name": "fam-frown",
+      "description": "Modifier: Frown"
+    },
+    {
+      "name": "fam-lock",
+      "description": "Modifier: Lock"
+    },
+    {
+      "name": "fam-magnifying-glass",
+      "description": "Modifier: Magnifying glass"
+    },
+    {
+      "name": "fam-map-marker",
+      "description": "Modifier: Map marker"
+    },
+    {
+      "name": "fam-meh",
+      "description": "Modifier: Meh (neutral face)"
+    },
+    {
+      "name": "fam-pointer",
+      "description": "Modifier: Pointer"
+    },
+    {
+      "name": "fam-smile",
+      "description": "Modifier: Smile"
+    },
+    {
+      "name": "fam-sparkle",
+      "description": "Modifier: Sparkle"
+    },
+    {
+      "name": "fam-star-alt",
+      "description": "Modifier: Star (alternate)"
+    },
+    {
+      "name": "fam-user",
+      "description": "Modifier: User"
+    },
+    {
+      "name": "fam-wrench",
+      "description": "Modifier: Wrench"
     },
     {
       "name": "fam-is-success",

@@ -894,6 +894,166 @@
 			"name": "u-text-muted-color",
 			"description": "Muted text color",
 			"category": "Content Modifiers"
+		},
+		{
+			"name": "u-flex-direction-row",
+			"description": "Align flex items in rows (horizontally) as opposed to columns",
+			"category": "Layout Modifiers"
+		},
+		{
+			"name": "u-flex-direction-row-reverse",
+			"description": "Align flex items in rows, reversing the default row order",
+			"category": "Layout Modifiers"
+		},
+		{
+			"name": "u-flex-direction-column-reverse",
+			"description": "Stack flex items in a column, reversing the default column order",
+			"category": "Layout Modifiers"
+		},
+		{
+			"name": "u-align-content-start",
+			"description": "Group wrapped flex lines together at the top of the container",
+			"category": "Layout Modifiers"
+		},
+		{
+			"name": "u-align-content-end",
+			"description": "Group wrapped flex lines together at the bottom of the container",
+			"category": "Layout Modifiers"
+		},
+		{
+			"name": "u-align-content-center",
+			"description": "Group wrapped flex lines together in the vertical center of the container",
+			"category": "Layout Modifiers"
+		},
+		{
+			"name": "u-align-content-between",
+			"description": "Spread wrapped flex lines evenly with no space at the edges",
+			"category": "Layout Modifiers"
+		},
+		{
+			"name": "u-align-content-around",
+			"description": "Spread wrapped flex lines evenly with half-size space at the edges",
+			"category": "Layout Modifiers"
+		},
+		{
+			"name": "u-align-content-evenly",
+			"description": "Spread wrapped flex lines evenly with equal space at the edges",
+			"category": "Layout Modifiers"
+		},
+		{
+			"name": "u-gap-0",
+			"description": "No gap between flex or grid items (0 px)",
+			"category": "Layout Modifiers"
+		},
+		{
+			"name": "u-gap-px",
+			"description": "Minimal 1 px gap between flex or grid items",
+			"category": "Layout Modifiers"
+		},
+		{
+			"name": "u-gap-0_5",
+			"description": "Extra tight 2 px gap between flex or grid items",
+			"category": "Layout Modifiers"
+		},
+		{
+			"name": "u-gap-1",
+			"description": "Tight 4 px (0.25 rem) gap between flex or grid items",
+			"category": "Layout Modifiers"
+		},
+		{
+			"name": "u-gap-1_5",
+			"description": "6 px gap between flex or grid items",
+			"category": "Layout Modifiers"
+		},
+		{
+			"name": "u-gap-2",
+			"description": "Small 8 px (0.5 rem) gap between flex or grid items",
+			"category": "Layout Modifiers"
+		},
+		{
+			"name": "u-gap-2_5",
+			"description": "10 px gap between flex or grid items",
+			"category": "Layout Modifiers"
+		},
+		{
+			"name": "u-gap-3",
+			"description": "12 px gap between flex or grid items",
+			"category": "Layout Modifiers"
+		},
+		{
+			"name": "u-gap-3_5",
+			"description": "14 px gap between flex or grid items",
+			"category": "Layout Modifiers"
+		},
+		{
+			"name": "u-gap-4",
+			"description": "Medium 16 px (1 rem) gap between flex or grid items",
+			"category": "Layout Modifiers"
+		},
+		{
+			"name": "u-gap-5",
+			"description": "20 px gap between flex or grid items",
+			"category": "Layout Modifiers"
+		},
+		{
+			"name": "u-gap-6",
+			"description": "24 px gap between flex or grid items",
+			"category": "Layout Modifiers"
+		},
+		{
+			"name": "u-gap-7",
+			"description": "28 px gap between flex or grid items",
+			"category": "Layout Modifiers"
+		},
+		{
+			"name": "u-gap-8",
+			"description": "Large 32 px (2 rem) gap between flex or grid items",
+			"category": "Layout Modifiers"
+		},
+		{
+			"name": "u-gap-9",
+			"description": "36 px gap between flex or grid items",
+			"category": "Layout Modifiers"
+		},
+		{
+			"name": "u-gap-10",
+			"description": "Extra large 40 px (2.5 rem) gap between flex or grid items",
+			"category": "Layout Modifiers"
+		},
+		{
+			"name": "u-overflow-auto",
+			"description": "Add scrollbars only when content exceeds the container size",
+			"category": "Layout Modifiers"
+		},
+		{
+			"name": "u-overflow-hidden",
+			"description": "Clip content that exceeds the container so it is hidden",
+			"category": "Layout Modifiers"
+		},
+		{
+			"name": "u-overflow-scroll",
+			"description": "Always show scrollbars so all content can be reached",
+			"category": "Layout Modifiers"
+		},
+		{
+			"name": "u-overflow-x-scroll",
+			"description": "Add horizontal scrollbars (e.g. for wide tables)",
+			"category": "Layout Modifiers"
+		},
+		{
+			"name": "u-overflow-y-scroll",
+			"description": "Add vertical scrollbars (e.g. for fixed-height lists)",
+			"category": "Layout Modifiers"
+		},
+		{
+			"name": "u-overflow-visible",
+			"description": "Let overflowing content spill outside the container and stay visible",
+			"category": "Layout Modifiers"
+		},
+		{
+			"name": "u-overflow-clip",
+			"description": "Hard-clip overflowing content, preventing any scrolling",
+			"category": "Layout Modifiers"
 		}
 	]
 }
