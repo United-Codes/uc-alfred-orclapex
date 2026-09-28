@@ -18,7 +18,7 @@ test("synonym-doc-email", async (t) => {
 	const found = result.find(
 		(item) =>
 			item.uid ===
-			"https://docs.oracle.com/en/database/oracle/apex/24.2/aeapi/APEX_MAIL.html",
+			"https://docs.oracle.com/en/database/oracle/apex/26.1/aeapi/APEX_MAIL.html",
 	);
 	t.truthy(found, "Should find APEX_MAIL when searching for 'email'");
 });

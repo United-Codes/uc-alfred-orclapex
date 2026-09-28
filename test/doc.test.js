@@ -10,7 +10,7 @@ test("APEX_STRING", async (t) => {
 
 	const first = result[0];
 
-	t.deepEqual(first.title, "55 APEX_STRING");
+	t.deepEqual(first.title, "58 APEX_STRING");
 	t.deepEqual(first.subtitle, "PL/SQL");
 });
 
