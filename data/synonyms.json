@@ -69,22 +69,6 @@
       "leave",
       "signout"
     ],
-    "fa-cog": [
-      "settings",
-      "configuration",
-      "preferences",
-      "options",
-      "admin",
-      "setup"
-    ],
-    "fa-cogs": [
-      "settings",
-      "configuration",
-      "preferences",
-      "options",
-      "admin",
-      "setup"
-    ],
     "fa-user": [
       "profile",
       "account",
@@ -655,22 +639,6 @@
       "expand",
       "more"
     ],
-    "fa-chart-bar": [
-      "graph",
-      "stats",
-      "analytics"
-    ],
-    "fa-chart-pie": [
-      "graph",
-      "stats",
-      "analytics"
-    ],
-    "fa-chart-line": [
-      "graph",
-      "stats",
-      "analytics",
-      "trend"
-    ],
     "fa-heart": [
       "love",
       "like",
@@ -685,6 +653,2726 @@
       "dislike",
       "disapprove",
       "bad"
+    ],
+    "fa-4k": [
+      "ultra hd",
+      "video",
+      "resolution",
+      "quality"
+    ],
+    "fa-at": [
+      "email",
+      "mention",
+      "address",
+      "at sign"
+    ],
+    "fa-angle-double-down": [
+      "expand all",
+      "more",
+      "unfold",
+      "show all"
+    ],
+    "fa-angle-double-up": [
+      "collapse all",
+      "less",
+      "fold",
+      "show less"
+    ],
+    "fa-angle-down": [
+      "expand",
+      "dropdown",
+      "more",
+      "chevron"
+    ],
+    "fa-angle-up": [
+      "collapse",
+      "less",
+      "chevron",
+      "scroll top"
+    ],
+    "fa-chevron-circle-up": [
+      "scroll top",
+      "collapse",
+      "back to top"
+    ],
+    "fa-long-arrow-down": [
+      "down",
+      "direction",
+      "move",
+      "scroll"
+    ],
+    "fa-long-arrow-right": [
+      "forward",
+      "continue",
+      "next",
+      "direction"
+    ],
+    "fa-long-arrow-up": [
+      "up",
+      "direction",
+      "move",
+      "scroll"
+    ],
+    "fa-page-first": [
+      "first page",
+      "pagination",
+      "start"
+    ],
+    "fa-page-last": [
+      "last page",
+      "pagination",
+      "end"
+    ],
+    "fa-page-top": [
+      "scroll top",
+      "back to top",
+      "first"
+    ],
+    "fa-page-bottom": [
+      "scroll bottom",
+      "last",
+      "end"
+    ],
+    "fa-box-arrow-in-east": [
+      "login",
+      "sign in",
+      "import",
+      "enter"
+    ],
+    "fa-box-arrow-in-ne": [
+      "login",
+      "sign in",
+      "import",
+      "enter"
+    ],
+    "fa-box-arrow-in-north": [
+      "login",
+      "sign in",
+      "upload",
+      "enter"
+    ],
+    "fa-box-arrow-in-nw": [
+      "login",
+      "sign in",
+      "import",
+      "enter"
+    ],
+    "fa-box-arrow-in-se": [
+      "login",
+      "sign in",
+      "import",
+      "enter"
+    ],
+    "fa-box-arrow-in-south": [
+      "login",
+      "sign in",
+      "import",
+      "enter"
+    ],
+    "fa-box-arrow-in-sw": [
+      "login",
+      "sign in",
+      "import",
+      "enter"
+    ],
+    "fa-box-arrow-in-west": [
+      "login",
+      "sign in",
+      "import",
+      "enter"
+    ],
+    "fa-box-arrow-out-east": [
+      "logout",
+      "sign out",
+      "export",
+      "exit",
+      "leave"
+    ],
+    "fa-box-arrow-out-ne": [
+      "logout",
+      "sign out",
+      "export",
+      "exit"
+    ],
+    "fa-box-arrow-out-north": [
+      "logout",
+      "sign out",
+      "export",
+      "exit"
+    ],
+    "fa-box-arrow-out-nw": [
+      "logout",
+      "sign out",
+      "export",
+      "exit"
+    ],
+    "fa-box-arrow-out-se": [
+      "logout",
+      "sign out",
+      "export",
+      "exit"
+    ],
+    "fa-box-arrow-out-south": [
+      "logout",
+      "sign out",
+      "export",
+      "exit"
+    ],
+    "fa-box-arrow-out-sw": [
+      "logout",
+      "sign out",
+      "export",
+      "exit"
+    ],
+    "fa-box-arrow-out-west": [
+      "logout",
+      "sign out",
+      "export",
+      "exit"
+    ],
+    "fa-circle-arrow-in-east": [
+      "enter",
+      "import",
+      "login",
+      "forward"
+    ],
+    "fa-circle-arrow-in-ne": [
+      "enter",
+      "import",
+      "forward"
+    ],
+    "fa-circle-arrow-in-north": [
+      "up",
+      "enter",
+      "upload"
+    ],
+    "fa-circle-arrow-in-nw": [
+      "enter",
+      "import",
+      "forward"
+    ],
+    "fa-circle-arrow-in-se": [
+      "enter",
+      "import",
+      "forward"
+    ],
+    "fa-circle-arrow-in-south": [
+      "down",
+      "enter",
+      "download"
+    ],
+    "fa-circle-arrow-in-sw": [
+      "enter",
+      "import",
+      "forward"
+    ],
+    "fa-circle-arrow-in-west": [
+      "back",
+      "enter",
+      "import",
+      "previous"
+    ],
+    "fa-circle-arrow-out-east": [
+      "exit",
+      "export",
+      "logout",
+      "forward"
+    ],
+    "fa-circle-arrow-out-ne": [
+      "exit",
+      "export",
+      "share",
+      "open"
+    ],
+    "fa-circle-arrow-out-north": [
+      "up",
+      "exit",
+      "upload"
+    ],
+    "fa-circle-arrow-out-nw": [
+      "exit",
+      "export",
+      "share"
+    ],
+    "fa-circle-arrow-out-se": [
+      "exit",
+      "export",
+      "share"
+    ],
+    "fa-circle-arrow-out-south": [
+      "down",
+      "exit",
+      "download"
+    ],
+    "fa-circle-arrow-out-sw": [
+      "exit",
+      "export",
+      "share"
+    ],
+    "fa-circle-arrow-out-west": [
+      "back",
+      "exit",
+      "export",
+      "previous"
+    ],
+    "fa-arrow-down-alt": [
+      "down",
+      "direction",
+      "move",
+      "sort descending"
+    ],
+    "fa-arrow-up-alt": [
+      "up",
+      "direction",
+      "move",
+      "sort ascending"
+    ],
+    "fa-arrow-left-alt": [
+      "back",
+      "previous",
+      "direction",
+      "west"
+    ],
+    "fa-arrow-right-alt": [
+      "forward",
+      "next",
+      "direction",
+      "east"
+    ],
+    "fa-arrow-down-left-alt": [
+      "diagonal",
+      "direction",
+      "move",
+      "resize"
+    ],
+    "fa-arrow-down-right-alt": [
+      "diagonal",
+      "direction",
+      "move",
+      "resize"
+    ],
+    "fa-arrow-up-left-alt": [
+      "diagonal",
+      "direction",
+      "move",
+      "resize"
+    ],
+    "fa-arrow-up-right-alt": [
+      "diagonal",
+      "direction",
+      "move",
+      "expand",
+      "open"
+    ],
+    "fa-calendar-alarm": [
+      "reminder",
+      "alert",
+      "notification",
+      "schedule"
+    ],
+    "fa-calendar-arrow-down": [
+      "import",
+      "download",
+      "subscribe",
+      "schedule"
+    ],
+    "fa-calendar-arrow-up": [
+      "export",
+      "publish",
+      "share",
+      "schedule"
+    ],
+    "fa-calendar-ban": [
+      "blocked",
+      "unavailable",
+      "holiday",
+      "closed"
+    ],
+    "fa-calendar-chart": [
+      "analytics",
+      "report",
+      "schedule overview"
+    ],
+    "fa-calendar-check-o": [
+      "confirmed",
+      "approved",
+      "available",
+      "done"
+    ],
+    "fa-calendar-day": [
+      "today",
+      "daily",
+      "agenda",
+      "date"
+    ],
+    "fa-calendar-lock": [
+      "booked",
+      "reserved",
+      "private",
+      "busy"
+    ],
+    "fa-calendar-minus-o": [
+      "remove",
+      "cancel",
+      "unavailable",
+      "delete"
+    ],
+    "fa-calendar-month": [
+      "monthly",
+      "overview",
+      "planner"
+    ],
+    "fa-calendar-plus-o": [
+      "add event",
+      "create",
+      "new booking",
+      "schedule"
+    ],
+    "fa-calendar-pointer": [
+      "pick date",
+      "select",
+      "choose",
+      "datepicker"
+    ],
+    "fa-calendar-search": [
+      "find date",
+      "lookup",
+      "query"
+    ],
+    "fa-calendar-times-o": [
+      "cancel",
+      "delete",
+      "decline",
+      "remove"
+    ],
+    "fa-calendar-today": [
+      "today",
+      "current",
+      "now",
+      "date"
+    ],
+    "fa-calendar-user": [
+      "appointment",
+      "booking",
+      "assignee",
+      "meeting"
+    ],
+    "fa-calendar-week": [
+      "weekly",
+      "agenda",
+      "planner"
+    ],
+    "fa-calendar-wrench": [
+      "settings",
+      "configure",
+      "maintenance"
+    ],
+    "fa-bell-slash": [
+      "mute",
+      "silent",
+      "notifications off",
+      "do not disturb"
+    ],
+    "fa-bell-slash-o": [
+      "mute",
+      "silent",
+      "notifications off",
+      "do not disturb"
+    ],
+    "fa-commenting": [
+      "chat",
+      "message",
+      "comment",
+      "feedback",
+      "discussion"
+    ],
+    "fa-commenting-o": [
+      "chat",
+      "message",
+      "comment",
+      "feedback",
+      "discussion"
+    ],
+    "fa-users-chat": [
+      "team chat",
+      "messages",
+      "support",
+      "conversation"
+    ],
+    "fa-contacts": [
+      "address book",
+      "people",
+      "directory",
+      "phone book"
+    ],
+    "fa-button": [
+      "action",
+      "click",
+      "cta",
+      "submit"
+    ],
+    "fa-collapsible": [
+      "accordion",
+      "expand",
+      "collapse",
+      "section"
+    ],
+    "fa-dynamic-content": [
+      "personalize",
+      "placeholder",
+      "variable",
+      "substitution"
+    ],
+    "fa-bomb": [
+      "explode",
+      "danger",
+      "critical",
+      "alert"
+    ],
+    "fa-binoculars": [
+      "explore",
+      "discover",
+      "inspect",
+      "watch",
+      "search"
+    ],
+    "fa-birthday-cake": [
+      "celebrate",
+      "party",
+      "birthday",
+      "anniversary"
+    ],
+    "fa-balance-scale": [
+      "compare",
+      "justice",
+      "legal",
+      "weigh"
+    ],
+    "fa-badge-list": [
+      "checklist",
+      "verified",
+      "achievements"
+    ],
+    "fa-badges": [
+      "awards",
+      "achievements",
+      "certified",
+      "labels"
+    ],
+    "fa-bitcoin": [
+      "crypto",
+      "money",
+      "currency",
+      "payment"
+    ],
+    "fa-btc": [
+      "crypto",
+      "bitcoin",
+      "money",
+      "currency"
+    ],
+    "fa-gbp": [
+      "pound",
+      "sterling",
+      "currency",
+      "money"
+    ],
+    "fa-yen": [
+      "japanese",
+      "currency",
+      "money",
+      "cash"
+    ],
+    "fa-file-arrow-down": [
+      "download",
+      "export",
+      "save"
+    ],
+    "fa-file-arrow-up": [
+      "upload",
+      "import",
+      "send"
+    ],
+    "fa-file-ban": [
+      "blocked",
+      "restricted",
+      "deleted",
+      "invalid"
+    ],
+    "fa-file-bookmark": [
+      "favorite",
+      "saved",
+      "pinned"
+    ],
+    "fa-file-cabinet": [
+      "archive",
+      "records",
+      "filing",
+      "storage",
+      "office"
+    ],
+    "fa-file-chart": [
+      "report",
+      "analytics",
+      "stats",
+      "dashboard"
+    ],
+    "fa-file-check": [
+      "approved",
+      "verified",
+      "done",
+      "signed"
+    ],
+    "fa-file-code-o": [
+      "code",
+      "html",
+      "source",
+      "script"
+    ],
+    "fa-file-cursor": [
+      "select",
+      "template",
+      "choose"
+    ],
+    "fa-file-excel-o": [
+      "excel",
+      "spreadsheet",
+      "xlsx",
+      "data"
+    ],
+    "fa-file-lock": [
+      "secure",
+      "private",
+      "protected",
+      "confidential"
+    ],
+    "fa-file-medical": [
+      "health",
+      "patient",
+      "record",
+      "clinic"
+    ],
+    "fa-file-new": [
+      "new",
+      "create",
+      "blank",
+      "draft"
+    ],
+    "fa-file-pdf-o": [
+      "pdf",
+      "acrobat",
+      "document",
+      "report"
+    ],
+    "fa-file-play": [
+      "preview",
+      "run",
+      "media",
+      "video"
+    ],
+    "fa-file-plus": [
+      "add",
+      "create",
+      "new",
+      "attach"
+    ],
+    "fa-file-pointer": [
+      "select",
+      "choose",
+      "pick",
+      "open"
+    ],
+    "fa-file-powerpoint-o": [
+      "powerpoint",
+      "slides",
+      "presentation",
+      "ppt"
+    ],
+    "fa-file-search": [
+      "find",
+      "inspect",
+      "preview",
+      "lookup"
+    ],
+    "fa-file-sql-o": [
+      "sql",
+      "database",
+      "query",
+      "script"
+    ],
+    "fa-file-user": [
+      "profile",
+      "resume",
+      "cv",
+      "account"
+    ],
+    "fa-file-word-o": [
+      "word",
+      "document",
+      "doc",
+      "letter"
+    ],
+    "fa-file-wrench": [
+      "settings",
+      "configure",
+      "template",
+      "fix"
+    ],
+    "fa-envelope-arrow-down": [
+      "inbox",
+      "receive",
+      "download",
+      "incoming"
+    ],
+    "fa-envelope-arrow-up": [
+      "sent",
+      "send",
+      "upload",
+      "outgoing"
+    ],
+    "fa-envelope-ban": [
+      "spam",
+      "blocked",
+      "bounce",
+      "failed"
+    ],
+    "fa-envelope-bookmark": [
+      "saved",
+      "favorite",
+      "starred"
+    ],
+    "fa-envelope-chart": [
+      "newsletter",
+      "report",
+      "stats",
+      "campaign"
+    ],
+    "fa-envelope-check": [
+      "read",
+      "verified",
+      "done",
+      "confirmed"
+    ],
+    "fa-envelope-cursor": [
+      "select",
+      "template",
+      "compose"
+    ],
+    "fa-envelope-lock": [
+      "secure",
+      "encrypted",
+      "private",
+      "confidential"
+    ],
+    "fa-envelope-open-o": [
+      "read",
+      "opened",
+      "inbox",
+      "seen"
+    ],
+    "fa-envelope-play": [
+      "preview",
+      "media",
+      "play"
+    ],
+    "fa-envelope-plus": [
+      "compose",
+      "new",
+      "create",
+      "write"
+    ],
+    "fa-envelope-pointer": [
+      "select",
+      "track",
+      "click",
+      "open"
+    ],
+    "fa-envelope-search": [
+      "find",
+      "search mail",
+      "lookup"
+    ],
+    "fa-envelope-square": [
+      "newsletter",
+      "bulk",
+      "campaign"
+    ],
+    "fa-envelope-user": [
+      "contact",
+      "subscriber",
+      "profile",
+      "recipient"
+    ],
+    "fa-envelope-wrench": [
+      "settings",
+      "filter",
+      "rules",
+      "configure"
+    ],
+    "fa-cloud-arrow-down": [
+      "download",
+      "save",
+      "sync",
+      "pull"
+    ],
+    "fa-cloud-arrow-up": [
+      "upload",
+      "backup",
+      "sync",
+      "push"
+    ],
+    "fa-cloud-ban": [
+      "offline",
+      "error",
+      "blocked",
+      "disconnected"
+    ],
+    "fa-cloud-bookmark": [
+      "saved",
+      "favorite",
+      "pinned"
+    ],
+    "fa-cloud-chart": [
+      "monitor",
+      "analytics",
+      "metrics"
+    ],
+    "fa-cloud-check": [
+      "synced",
+      "verified",
+      "done",
+      "healthy"
+    ],
+    "fa-cloud-cursor": [
+      "select",
+      "choose"
+    ],
+    "fa-cloud-file": [
+      "document",
+      "storage",
+      "drive",
+      "files"
+    ],
+    "fa-cloud-lock": [
+      "secure",
+      "private",
+      "encrypted"
+    ],
+    "fa-cloud-new": [
+      "create",
+      "add",
+      "new"
+    ],
+    "fa-cloud-play": [
+      "stream",
+      "preview",
+      "media"
+    ],
+    "fa-cloud-plus": [
+      "add",
+      "upload",
+      "create"
+    ],
+    "fa-cloud-pointer": [
+      "select",
+      "choose"
+    ],
+    "fa-cloud-search": [
+      "find",
+      "lookup",
+      "query"
+    ],
+    "fa-cloud-user": [
+      "account",
+      "profile",
+      "share",
+      "collaborate"
+    ],
+    "fa-cloud-wrench": [
+      "settings",
+      "admin",
+      "configure"
+    ],
+    "fa-database-arrow-down": [
+      "export",
+      "backup",
+      "download",
+      "dump"
+    ],
+    "fa-database-arrow-up": [
+      "import",
+      "restore",
+      "upload",
+      "load"
+    ],
+    "fa-database-ban": [
+      "error",
+      "offline",
+      "blocked",
+      "down"
+    ],
+    "fa-database-bookmark": [
+      "saved",
+      "favorite",
+      "pinned query"
+    ],
+    "fa-database-chart": [
+      "analytics",
+      "report",
+      "warehouse"
+    ],
+    "fa-database-check": [
+      "healthy",
+      "connected",
+      "verified",
+      "online"
+    ],
+    "fa-database-cursor": [
+      "query",
+      "select",
+      "sql"
+    ],
+    "fa-database-file": [
+      "backup",
+      "dump",
+      "export",
+      "script"
+    ],
+    "fa-database-lock": [
+      "secure",
+      "encrypted",
+      "restricted"
+    ],
+    "fa-database-new": [
+      "create",
+      "add",
+      "new schema"
+    ],
+    "fa-database-play": [
+      "run",
+      "execute",
+      "start"
+    ],
+    "fa-database-plus": [
+      "add",
+      "create",
+      "insert"
+    ],
+    "fa-database-pointer": [
+      "select",
+      "browse",
+      "inspect"
+    ],
+    "fa-database-search": [
+      "query",
+      "find",
+      "lookup",
+      "sql"
+    ],
+    "fa-database-user": [
+      "owner",
+      "dba",
+      "account",
+      "schema"
+    ],
+    "fa-database-wrench": [
+      "admin",
+      "maintain",
+      "configure",
+      "dba"
+    ],
+    "fa-server": [
+      "backend",
+      "host",
+      "hosting",
+      "infrastructure"
+    ],
+    "fa-server-arrow-down": [
+      "download",
+      "deploy",
+      "pull"
+    ],
+    "fa-server-arrow-up": [
+      "upload",
+      "deploy",
+      "push"
+    ],
+    "fa-server-ban": [
+      "down",
+      "offline",
+      "error",
+      "blocked"
+    ],
+    "fa-server-bookmark": [
+      "saved",
+      "favorite"
+    ],
+    "fa-server-chart": [
+      "monitor",
+      "metrics",
+      "stats",
+      "health"
+    ],
+    "fa-server-check": [
+      "online",
+      "healthy",
+      "running",
+      "up"
+    ],
+    "fa-server-edit": [
+      "configure",
+      "settings",
+      "edit"
+    ],
+    "fa-server-file": [
+      "files",
+      "storage",
+      "config"
+    ],
+    "fa-server-heart": [
+      "health",
+      "favorite",
+      "monitor"
+    ],
+    "fa-server-lock": [
+      "secure",
+      "hardened",
+      "private"
+    ],
+    "fa-server-new": [
+      "provision",
+      "create",
+      "deploy"
+    ],
+    "fa-server-play": [
+      "start",
+      "run",
+      "restart",
+      "boot"
+    ],
+    "fa-server-plus": [
+      "add",
+      "scale",
+      "provision"
+    ],
+    "fa-server-pointer": [
+      "select",
+      "manage"
+    ],
+    "fa-server-search": [
+      "find",
+      "discover",
+      "inventory"
+    ],
+    "fa-server-user": [
+      "admin",
+      "account",
+      "owner"
+    ],
+    "fa-server-wrench": [
+      "maintain",
+      "configure",
+      "admin"
+    ],
+    "fa-table-arrow-down": [
+      "export",
+      "download",
+      "sort descending"
+    ],
+    "fa-table-arrow-up": [
+      "import",
+      "upload",
+      "sort ascending"
+    ],
+    "fa-table-ban": [
+      "empty",
+      "blocked",
+      "no data"
+    ],
+    "fa-table-bookmark": [
+      "saved",
+      "favorite",
+      "pinned"
+    ],
+    "fa-table-chart": [
+      "analytics",
+      "pivot",
+      "report"
+    ],
+    "fa-table-check": [
+      "valid",
+      "verified",
+      "done"
+    ],
+    "fa-table-cursor": [
+      "select",
+      "cell",
+      "row"
+    ],
+    "fa-table-file": [
+      "export",
+      "csv",
+      "spreadsheet"
+    ],
+    "fa-table-lock": [
+      "readonly",
+      "locked",
+      "private"
+    ],
+    "fa-table-new": [
+      "add row",
+      "create",
+      "new"
+    ],
+    "fa-table-play": [
+      "run",
+      "preview",
+      "execute"
+    ],
+    "fa-table-plus": [
+      "add row",
+      "insert",
+      "create"
+    ],
+    "fa-table-pointer": [
+      "select row",
+      "choose",
+      "pick"
+    ],
+    "fa-table-search": [
+      "filter",
+      "find",
+      "query",
+      "search"
+    ],
+    "fa-table-user": [
+      "owner",
+      "assignee",
+      "profile"
+    ],
+    "fa-table-wrench": [
+      "settings",
+      "configure",
+      "columns"
+    ],
+    "fa-folder-arrow-down": [
+      "download",
+      "save",
+      "archive"
+    ],
+    "fa-folder-arrow-up": [
+      "upload",
+      "import",
+      "share"
+    ],
+    "fa-folder-ban": [
+      "restricted",
+      "private",
+      "blocked"
+    ],
+    "fa-folder-bookmark": [
+      "favorite",
+      "starred",
+      "pinned"
+    ],
+    "fa-folder-chart": [
+      "reports",
+      "analytics",
+      "dashboard"
+    ],
+    "fa-folder-check": [
+      "done",
+      "synced",
+      "complete"
+    ],
+    "fa-folder-cloud": [
+      "drive",
+      "sync",
+      "shared",
+      "online"
+    ],
+    "fa-folder-cursor": [
+      "open",
+      "select",
+      "browse"
+    ],
+    "fa-folder-file": [
+      "documents",
+      "files",
+      "contents"
+    ],
+    "fa-folder-lock": [
+      "private",
+      "secure",
+      "restricted",
+      "confidential"
+    ],
+    "fa-folder-network": [
+      "shared",
+      "lan",
+      "nas",
+      "drive"
+    ],
+    "fa-folder-new": [
+      "create",
+      "add",
+      "new folder"
+    ],
+    "fa-folder-o": [
+      "empty",
+      "open",
+      "outline"
+    ],
+    "fa-folder-open-o": [
+      "open",
+      "browse",
+      "outline"
+    ],
+    "fa-folder-play": [
+      "media",
+      "preview",
+      "playlist"
+    ],
+    "fa-folder-plus": [
+      "add",
+      "create",
+      "new folder"
+    ],
+    "fa-folder-pointer": [
+      "open",
+      "select",
+      "browse"
+    ],
+    "fa-folder-search": [
+      "find",
+      "search files",
+      "locate"
+    ],
+    "fa-folder-user": [
+      "personal",
+      "shared",
+      "profile",
+      "home"
+    ],
+    "fa-folder-wrench": [
+      "settings",
+      "manage",
+      "properties"
+    ],
+    "fa-folders": [
+      "directories",
+      "library",
+      "multiple",
+      "archive"
+    ],
+    "fa-window": [
+      "dialog",
+      "popup",
+      "screen",
+      "modal"
+    ],
+    "fa-window-alt": [
+      "dialog",
+      "popup",
+      "screen",
+      "panel"
+    ],
+    "fa-window-alt-2": [
+      "dialog",
+      "popup",
+      "screen",
+      "panel"
+    ],
+    "fa-window-arrow-down": [
+      "minimize",
+      "download",
+      "dock"
+    ],
+    "fa-window-arrow-up": [
+      "maximize",
+      "upload",
+      "restore"
+    ],
+    "fa-window-ban": [
+      "blocked",
+      "popup blocker",
+      "closed"
+    ],
+    "fa-window-bookmark": [
+      "saved",
+      "pinned",
+      "favorite"
+    ],
+    "fa-window-chart": [
+      "dashboard",
+      "analytics",
+      "report"
+    ],
+    "fa-window-check": [
+      "done",
+      "confirmed",
+      "complete"
+    ],
+    "fa-window-cursor": [
+      "select",
+      "focus",
+      "active"
+    ],
+    "fa-window-file": [
+      "document",
+      "preview",
+      "attachment"
+    ],
+    "fa-window-lock": [
+      "secure",
+      "private",
+      "locked"
+    ],
+    "fa-window-maximize": [
+      "maximize",
+      "expand",
+      "fullscreen"
+    ],
+    "fa-window-minimize": [
+      "minimize",
+      "collapse",
+      "dock"
+    ],
+    "fa-window-new": [
+      "new window",
+      "popup",
+      "open",
+      "external"
+    ],
+    "fa-window-play": [
+      "demo",
+      "media",
+      "preview",
+      "present"
+    ],
+    "fa-window-plus": [
+      "new",
+      "add",
+      "open"
+    ],
+    "fa-window-pointer": [
+      "select",
+      "focus",
+      "click"
+    ],
+    "fa-window-restore": [
+      "restore",
+      "resize",
+      "normal"
+    ],
+    "fa-window-search": [
+      "find",
+      "search",
+      "locate"
+    ],
+    "fa-window-user": [
+      "account",
+      "profile",
+      "session"
+    ],
+    "fa-window-wrench": [
+      "settings",
+      "configure",
+      "devtools"
+    ],
+    "fa-user-arrow-down": [
+      "deactivate",
+      "download",
+      "demote",
+      "import"
+    ],
+    "fa-user-arrow-up": [
+      "promote",
+      "upload",
+      "activate",
+      "export"
+    ],
+    "fa-user-ban": [
+      "blocked",
+      "suspended",
+      "reject",
+      "delete"
+    ],
+    "fa-user-chart": [
+      "analytics",
+      "report",
+      "statistics",
+      "profile"
+    ],
+    "fa-user-check": [
+      "verified",
+      "approved",
+      "active",
+      "confirmed"
+    ],
+    "fa-user-circle": [
+      "profile",
+      "account",
+      "avatar",
+      "person"
+    ],
+    "fa-user-circle-o": [
+      "profile",
+      "account",
+      "avatar",
+      "outline"
+    ],
+    "fa-user-cursor": [
+      "select",
+      "assign",
+      "choose"
+    ],
+    "fa-user-graduate": [
+      "education",
+      "student",
+      "training",
+      "alumni"
+    ],
+    "fa-user-headset": [
+      "support",
+      "call center",
+      "service",
+      "helpdesk"
+    ],
+    "fa-user-lock": [
+      "private",
+      "permissions",
+      "secure",
+      "restricted"
+    ],
+    "fa-user-magnifying-glass": [
+      "find user",
+      "search",
+      "lookup",
+      "directory"
+    ],
+    "fa-user-man": [
+      "male",
+      "person",
+      "profile",
+      "guy"
+    ],
+    "fa-user-woman": [
+      "female",
+      "person",
+      "profile"
+    ],
+    "fa-user-play": [
+      "onboard",
+      "demo",
+      "start",
+      "welcome"
+    ],
+    "fa-user-pointer": [
+      "select",
+      "assign",
+      "delegate",
+      "choose"
+    ],
+    "fa-user-wrench": [
+      "admin",
+      "manage",
+      "settings",
+      "configure"
+    ],
+    "fa-user-x": [
+      "remove",
+      "delete",
+      "offboard",
+      "deactivate"
+    ],
+    "fa-lock-check": [
+      "verified",
+      "approved",
+      "secure",
+      "trusted"
+    ],
+    "fa-lock-file": [
+      "encrypted",
+      "confidential",
+      "protected"
+    ],
+    "fa-lock-new": [
+      "create password",
+      "reset",
+      "set"
+    ],
+    "fa-lock-password": [
+      "credentials",
+      "secret",
+      "key",
+      "change password"
+    ],
+    "fa-lock-plus": [
+      "protect",
+      "add",
+      "secure"
+    ],
+    "fa-lock-user": [
+      "permissions",
+      "private account",
+      "access"
+    ],
+    "fa-padlock": [
+      "lock",
+      "secure",
+      "private",
+      "locked"
+    ],
+    "fa-padlock-unlock": [
+      "unlock",
+      "open",
+      "public",
+      "access"
+    ],
+    "fa-bar-chart-horizontal": [
+      "horizontal bar",
+      "compare",
+      "analytics",
+      "stats"
+    ],
+    "fa-box-plot-chart": [
+      "boxplot",
+      "statistics",
+      "distribution",
+      "quartiles"
+    ],
+    "fa-bubble-chart": [
+      "scatter",
+      "correlation",
+      "dots",
+      "analytics"
+    ],
+    "fa-combo-chart": [
+      "combined",
+      "mixed",
+      "bar line",
+      "analytics"
+    ],
+    "fa-dial-gauge-chart": [
+      "gauge",
+      "kpi",
+      "meter",
+      "speed",
+      "target"
+    ],
+    "fa-donut-chart": [
+      "donut",
+      "proportion",
+      "share",
+      "ring"
+    ],
+    "fa-funnel-chart": [
+      "funnel",
+      "pipeline",
+      "conversion",
+      "sales"
+    ],
+    "fa-gantt-chart": [
+      "timeline",
+      "project",
+      "schedule",
+      "plan",
+      "tasks"
+    ],
+    "fa-line-area-chart": [
+      "trend",
+      "area",
+      "growth",
+      "time series"
+    ],
+    "fa-polar-chart": [
+      "polar",
+      "radar",
+      "compare",
+      "cycle"
+    ],
+    "fa-pyramid-chart": [
+      "pyramid",
+      "hierarchy",
+      "funnel",
+      "levels"
+    ],
+    "fa-radar-chart": [
+      "radar",
+      "spider",
+      "skills",
+      "compare"
+    ],
+    "fa-range-chart-area": [
+      "range",
+      "min max",
+      "variance",
+      "band"
+    ],
+    "fa-range-chart-bar": [
+      "range",
+      "floating bar",
+      "variance",
+      "gantt"
+    ],
+    "fa-scatter-chart": [
+      "scatter",
+      "correlation",
+      "dots",
+      "plot"
+    ],
+    "fa-stock-chart": [
+      "stocks",
+      "finance",
+      "trading",
+      "candlestick"
+    ],
+    "fa-x-axis": [
+      "axis",
+      "scale",
+      "horizontal",
+      "chart"
+    ],
+    "fa-y-axis": [
+      "axis",
+      "scale",
+      "vertical",
+      "chart"
+    ],
+    "fa-y1-axis": [
+      "axis",
+      "left axis",
+      "scale",
+      "dual"
+    ],
+    "fa-y2-axis": [
+      "axis",
+      "right axis",
+      "scale",
+      "dual"
+    ],
+    "fa-map": [
+      "map",
+      "location",
+      "area",
+      "world"
+    ],
+    "fa-map-o": [
+      "map",
+      "location",
+      "outline",
+      "area"
+    ],
+    "fa-map-pin": [
+      "pin",
+      "location",
+      "gps",
+      "destination",
+      "marker"
+    ],
+    "fa-map-signs": [
+      "directions",
+      "wayfinding",
+      "guide",
+      "signs"
+    ],
+    "fa-american-sign-language-interpreting": [
+      "sign language",
+      "asl",
+      "deaf",
+      "interpret"
+    ],
+    "fa-asl-interpreting": [
+      "sign language",
+      "asl",
+      "deaf",
+      "interpret"
+    ],
+    "fa-sign-language": [
+      "sign language",
+      "asl",
+      "deaf",
+      "hands"
+    ],
+    "fa-signing": [
+      "sign language",
+      "asl",
+      "deaf",
+      "interpret"
+    ],
+    "fa-assistive-listening-systems": [
+      "hearing",
+      "audio",
+      "accessibility",
+      "a11y"
+    ],
+    "fa-audio-description": [
+      "narration",
+      "describe",
+      "blind",
+      "accessibility"
+    ],
+    "fa-blind": [
+      "blind",
+      "vision",
+      "screen reader",
+      "accessibility"
+    ],
+    "fa-braille": [
+      "blind",
+      "tactile",
+      "read",
+      "accessibility"
+    ],
+    "fa-deaf": [
+      "deaf",
+      "hearing",
+      "a11y",
+      "accessibility"
+    ],
+    "fa-deafness": [
+      "deaf",
+      "hearing",
+      "a11y",
+      "ear"
+    ],
+    "fa-hard-of-hearing": [
+      "hearing",
+      "deaf",
+      "ear",
+      "a11y"
+    ],
+    "fa-low-vision": [
+      "vision",
+      "sight",
+      "glasses",
+      "a11y"
+    ],
+    "fa-universal-access": [
+      "accessibility",
+      "a11y",
+      "inclusive",
+      "wcag",
+      "disability"
+    ],
+    "fa-volume-control-phone": [
+      "volume",
+      "hearing",
+      "phone",
+      "a11y"
+    ],
+    "fa-wheelchair-alt": [
+      "wheelchair",
+      "accessible",
+      "disability",
+      "a11y"
+    ],
+    "fa-tty": [
+      "teletype",
+      "deaf",
+      "phone",
+      "accessibility"
+    ],
+    "fa-sort-alpha-asc": [
+      "a to z",
+      "alphabetical",
+      "order",
+      "sort"
+    ],
+    "fa-sort-alpha-desc": [
+      "z to a",
+      "alphabetical",
+      "order",
+      "sort"
+    ],
+    "fa-sort-amount-asc": [
+      "low to high",
+      "numeric",
+      "price",
+      "order"
+    ],
+    "fa-sort-amount-asc-alt": [
+      "low to high",
+      "numeric",
+      "price",
+      "order"
+    ],
+    "fa-sort-amount-desc": [
+      "high to low",
+      "numeric",
+      "price",
+      "order"
+    ],
+    "fa-sort-amount-desc-alt": [
+      "high to low",
+      "numeric",
+      "price",
+      "order"
+    ],
+    "fa-undo-alt": [
+      "undo",
+      "revert",
+      "back",
+      "restore"
+    ],
+    "fa-undo-arrow": [
+      "undo",
+      "revert",
+      "back",
+      "reply"
+    ],
+    "fa-redo-alt": [
+      "redo",
+      "repeat",
+      "forward",
+      "retry"
+    ],
+    "fa-redo-arrow": [
+      "redo",
+      "repeat",
+      "forward",
+      "share"
+    ],
+    "fa-save-as": [
+      "save copy",
+      "duplicate",
+      "export",
+      "download"
+    ],
+    "fa-bold": [
+      "strong",
+      "heavy",
+      "format",
+      "emphasis"
+    ],
+    "fa-indent": [
+      "tab",
+      "quote",
+      "indent",
+      "format"
+    ],
+    "fa-paragraph": [
+      "text",
+      "pilcrow",
+      "format",
+      "body"
+    ],
+    "fa-strikethrough": [
+      "strike",
+      "delete text",
+      "format",
+      "discount"
+    ],
+    "fa-subscript": [
+      "footnote",
+      "chemical",
+      "small",
+      "format"
+    ],
+    "fa-text-height": [
+      "font size",
+      "taller",
+      "scale",
+      "format"
+    ],
+    "fa-text-width": [
+      "font size",
+      "wider",
+      "scale",
+      "format"
+    ],
+    "fa-underline": [
+      "link style",
+      "emphasis",
+      "format",
+      "underline"
+    ],
+    "fa-tabs": [
+      "browser tabs",
+      "pages",
+      "navigation",
+      "switch"
+    ],
+    "fa-sliders": [
+      "settings",
+      "adjust",
+      "preferences",
+      "tune",
+      "filter"
+    ],
+    "fa-sitemap-horizontal": [
+      "hierarchy",
+      "org chart",
+      "structure",
+      "tree"
+    ],
+    "fa-sitemap-vertical": [
+      "hierarchy",
+      "org chart",
+      "structure",
+      "tree"
+    ],
+    "fa-signal": [
+      "reception",
+      "bars",
+      "connection",
+      "status"
+    ],
+    "fa-wifi": [
+      "wireless",
+      "network",
+      "internet",
+      "connection",
+      "online"
+    ],
+    "fa-plug": [
+      "connect",
+      "power",
+      "integration",
+      "socket"
+    ],
+    "fa-eject": [
+      "remove",
+      "unmount",
+      "media",
+      "dvd"
+    ],
+    "fa-pause-circle": [
+      "pause",
+      "media",
+      "video",
+      "hold"
+    ],
+    "fa-pause-circle-o": [
+      "pause",
+      "media",
+      "video",
+      "outline"
+    ],
+    "fa-play-circle-o": [
+      "play",
+      "start",
+      "video",
+      "outline"
+    ],
+    "fa-stop-circle": [
+      "stop",
+      "end",
+      "media",
+      "video"
+    ],
+    "fa-stop-circle-o": [
+      "stop",
+      "end",
+      "media",
+      "outline"
+    ],
+    "fa-quote-left": [
+      "quote",
+      "testimonial",
+      "citation",
+      "review"
+    ],
+    "fa-quote-right": [
+      "quote",
+      "testimonial",
+      "citation",
+      "review"
+    ],
+    "fa-registered": [
+      "registered",
+      "legal",
+      "brand",
+      "trademark"
+    ],
+    "fa-trademark": [
+      "brand",
+      "tm",
+      "legal",
+      "logo"
+    ],
+    "fa-copyright": [
+      "rights",
+      "legal",
+      "license",
+      "owner"
+    ],
+    "fa-creative-commons": [
+      "open license",
+      "sharing",
+      "cc",
+      "free"
+    ],
+    "fa-sticky-note": [
+      "note",
+      "memo",
+      "reminder",
+      "postit"
+    ],
+    "fa-sticky-note-o": [
+      "note",
+      "memo",
+      "reminder",
+      "outline"
+    ],
+    "fa-inbox": [
+      "incoming",
+      "mail",
+      "tray",
+      "tasks"
+    ],
+    "fa-language": [
+      "translate",
+      "locale",
+      "globe",
+      "i18n",
+      "l10n"
+    ],
+    "fa-layers": [
+      "stack",
+      "levels",
+      "overlay",
+      "tiers"
+    ],
+    "fa-hashtag": [
+      "tag",
+      "topic",
+      "social",
+      "number",
+      "channel"
+    ],
+    "fa-i-cursor": [
+      "caret",
+      "typing",
+      "input",
+      "text",
+      "insert"
+    ],
+    "fa-index": [
+      "contents",
+      "toc",
+      "directory",
+      "list"
+    ],
+    "fa-industry": [
+      "factory",
+      "manufacturing",
+      "plant",
+      "company"
+    ],
+    "fa-magnet": [
+      "attract",
+      "snap",
+      "sticky",
+      "pin"
+    ],
+    "fa-recycle": [
+      "reuse",
+      "green",
+      "eco",
+      "sustainability"
+    ],
+    "fa-hourglass": [
+      "waiting",
+      "pending",
+      "time",
+      "timeout",
+      "loading"
+    ],
+    "fa-hourglass-o": [
+      "waiting",
+      "pending",
+      "time",
+      "outline"
+    ],
+    "fa-calculator": [
+      "math",
+      "compute",
+      "numbers",
+      "finance"
+    ],
+    "fa-fax": [
+      "fax",
+      "office",
+      "send document",
+      "machine"
+    ],
+    "fa-fire-extinguisher": [
+      "safety",
+      "emergency",
+      "fire",
+      "sos"
+    ],
+    "fa-fit-to-height": [
+      "zoom",
+      "fit",
+      "scale",
+      "resize"
+    ],
+    "fa-fit-to-size": [
+      "zoom",
+      "fit",
+      "scale",
+      "resize"
+    ],
+    "fa-fit-to-width": [
+      "zoom",
+      "fit",
+      "scale",
+      "resize"
+    ],
+    "fa-crop": [
+      "trim",
+      "cut",
+      "resize",
+      "image"
+    ],
+    "fa-cube": [
+      "3d",
+      "box",
+      "package",
+      "module"
+    ],
+    "fa-cubes": [
+      "3d",
+      "boxes",
+      "packages",
+      "modules",
+      "stack"
+    ],
+    "fa-cc": [
+      "captions",
+      "subtitles",
+      "video",
+      "closed caption"
+    ],
+    "fa-child": [
+      "kid",
+      "family",
+      "minor",
+      "age"
+    ],
+    "fa-circle-o": [
+      "empty",
+      "radio",
+      "outline",
+      "hollow"
+    ],
+    "fa-circle-thin": [
+      "thin",
+      "light",
+      "outline",
+      "empty"
+    ],
+    "fa-circle-o-notch": [
+      "spinner",
+      "loading",
+      "wait",
+      "refresh"
+    ],
+    "fa-credit-card-alt": [
+      "payment",
+      "checkout",
+      "card",
+      "billing"
+    ],
+    "fa-credit-card-terminal": [
+      "pos",
+      "payment",
+      "checkout",
+      "swipe",
+      "terminal"
+    ],
+    "fa-cart-arrow-up": [
+      "add to cart",
+      "buy",
+      "shop"
+    ],
+    "fa-cart-check": [
+      "checkout",
+      "purchased",
+      "done",
+      "order"
+    ],
+    "fa-cart-empty": [
+      "empty cart",
+      "clear",
+      "basket"
+    ],
+    "fa-cart-full": [
+      "full",
+      "items",
+      "basket",
+      "shop"
+    ],
+    "fa-cart-lock": [
+      "secure checkout",
+      "private",
+      "locked"
+    ],
+    "fa-cart-magnifying-glass": [
+      "find product",
+      "search shop",
+      "browse"
+    ],
+    "fa-cart-times": [
+      "remove",
+      "abandon",
+      "clear",
+      "cancel order"
+    ],
+    "fa-receipt": [
+      "invoice",
+      "bill",
+      "payment",
+      "proof",
+      "order"
+    ],
+    "fa-receipt-x": [
+      "cancel",
+      "refund",
+      "void",
+      "return"
+    ],
+    "fa-signature": [
+      "sign",
+      "approve",
+      "contract",
+      "esign"
+    ],
+    "fa-money-withdrawal": [
+      "atm",
+      "cash",
+      "withdraw",
+      "bank"
+    ],
+    "fa-meeting-room": [
+      "meeting",
+      "conference",
+      "room",
+      "book",
+      "office"
+    ],
+    "fa-projector": [
+      "present",
+      "screen",
+      "meeting",
+      "slides"
+    ],
+    "fa-strategy": [
+      "plan",
+      "goal",
+      "tactics",
+      "roadmap"
+    ],
+    "fa-timeline": [
+      "history",
+      "roadmap",
+      "schedule",
+      "milestone"
+    ],
+    "fa-timeline-arrow": [
+      "progress",
+      "roadmap",
+      "next",
+      "milestone"
+    ],
+    "fa-tree": [
+      "hierarchy",
+      "org chart",
+      "branches",
+      "structure"
+    ],
+    "fa-tree-org": [
+      "org chart",
+      "hierarchy",
+      "team",
+      "structure"
+    ],
+    "fa-trigger": [
+      "fire",
+      "launch",
+      "automation",
+      "webhook"
+    ],
+    "fa-missile": [
+      "rocket",
+      "launch",
+      "fast",
+      "space"
+    ],
+    "fa-tank": [
+      "army",
+      "military",
+      "vehicle",
+      "armor"
+    ],
+    "fa-battleship": [
+      "navy",
+      "ship",
+      "military",
+      "fleet"
+    ],
+    "fa-helicopter": [
+      "flight",
+      "air",
+      "rescue",
+      "chopper"
+    ],
+    "fa-space-shuttle": [
+      "launch",
+      "space",
+      "rocket",
+      "nasa"
+    ],
+    "fa-train": [
+      "rail",
+      "transit",
+      "metro",
+      "travel"
+    ],
+    "fa-subway": [
+      "metro",
+      "transit",
+      "underground",
+      "travel"
+    ],
+    "fa-stethoscope": [
+      "health",
+      "doctor",
+      "medical",
+      "clinic"
+    ],
+    "fa-umbrella": [
+      "protection",
+      "insurance",
+      "rain",
+      "cover"
+    ],
+    "fa-paint-brush": [
+      "paint",
+      "design",
+      "customize",
+      "theme",
+      "style"
+    ],
+    "fa-eyedropper": [
+      "color picker",
+      "sample",
+      "theme",
+      "dropper"
+    ],
+    "fa-eraser": [
+      "clear",
+      "remove",
+      "wipe",
+      "delete"
+    ],
+    "fa-notebook": [
+      "notes",
+      "journal",
+      "diary",
+      "write"
+    ],
+    "fa-object-group": [
+      "group",
+      "combine",
+      "layers",
+      "merge"
+    ],
+    "fa-object-ungroup": [
+      "ungroup",
+      "split",
+      "separate",
+      "layers"
+    ],
+    "fa-mouse-pointer": [
+      "cursor",
+      "click",
+      "select",
+      "pointer"
+    ],
+    "fa-network-hub": [
+      "network",
+      "hub",
+      "topology",
+      "nodes"
+    ],
+    "fa-network-triangle": [
+      "mesh",
+      "nodes",
+      "network",
+      "cluster"
+    ],
+    "fa-neuter": [
+      "neutral",
+      "gender",
+      "none"
+    ],
+    "fa-genderless": [
+      "neutral",
+      "none",
+      "gender",
+      "unisex"
+    ],
+    "fa-mars-double": [
+      "male",
+      "gender",
+      "couple",
+      "men"
+    ],
+    "fa-mars-stroke": [
+      "male",
+      "gender",
+      "man"
+    ],
+    "fa-mars-stroke-h": [
+      "male",
+      "gender",
+      "man"
+    ],
+    "fa-mars-stroke-v": [
+      "male",
+      "gender",
+      "man"
+    ],
+    "fa-venus-double": [
+      "female",
+      "gender",
+      "couple",
+      "women"
+    ],
+    "fa-venus-mars": [
+      "couple",
+      "male female",
+      "gender",
+      "relationship"
+    ],
+    "fa-transgender-alt": [
+      "transgender",
+      "inclusive",
+      "pride",
+      "gender"
+    ],
+    "fa-hand-pointer-o": [
+      "point",
+      "click",
+      "tap",
+      "select",
+      "touch"
+    ],
+    "fa-hand-lizard-o": [
+      "game",
+      "play",
+      "rock paper",
+      "gesture"
+    ],
+    "fa-hand-peace-o": [
+      "peace",
+      "victory",
+      "photo",
+      "gesture"
+    ],
+    "fa-hand-scissors-o": [
+      "cut",
+      "game",
+      "rock paper",
+      "gesture"
+    ],
+    "fa-hand-spock-o": [
+      "trek",
+      "geek",
+      "greet",
+      "gesture"
+    ],
+    "fa-robot": [
+      "ai",
+      "bot",
+      "assistant",
+      "automation",
+      "chatbot"
+    ],
+    "fa-robot-arm": [
+      "ai",
+      "robotics",
+      "automation",
+      "manufacturing"
+    ],
+    "fa-sparkles": [
+      "ai",
+      "generate",
+      "magic",
+      "new",
+      "stars",
+      "enhance"
+    ],
+    "fa-dataset": [
+      "data",
+      "training",
+      "sample",
+      "table",
+      "ai"
+    ],
+    "fa-clipboard-arrow-down": [
+      "paste",
+      "import",
+      "download",
+      "clipboard"
+    ],
+    "fa-clipboard-arrow-up": [
+      "copy",
+      "export",
+      "upload",
+      "clipboard"
+    ],
+    "fa-clipboard-ban": [
+      "blocked",
+      "clear",
+      "empty"
+    ],
+    "fa-clipboard-bookmark": [
+      "saved",
+      "pinned",
+      "favorite"
+    ],
+    "fa-clipboard-chart": [
+      "report",
+      "stats",
+      "analytics"
+    ],
+    "fa-clipboard-check": [
+      "done",
+      "verified",
+      "tasks",
+      "complete"
+    ],
+    "fa-clipboard-check-alt": [
+      "done",
+      "verified",
+      "tasks",
+      "approved"
+    ],
+    "fa-clipboard-clock": [
+      "history",
+      "recent",
+      "pending",
+      "time"
+    ],
+    "fa-clipboard-edit": [
+      "compose",
+      "modify",
+      "write",
+      "draft"
+    ],
+    "fa-clipboard-heart": [
+      "favorite",
+      "liked",
+      "saved"
+    ],
+    "fa-clipboard-list": [
+      "tasks",
+      "todo",
+      "checklist",
+      "steps"
+    ],
+    "fa-clipboard-lock": [
+      "private",
+      "secure",
+      "confidential"
+    ],
+    "fa-clipboard-new": [
+      "create",
+      "blank",
+      "new",
+      "draft"
+    ],
+    "fa-clipboard-plus": [
+      "add",
+      "create",
+      "new item"
+    ],
+    "fa-clipboard-pointer": [
+      "select",
+      "assign",
+      "pick"
+    ],
+    "fa-clipboard-search": [
+      "find",
+      "lookup",
+      "query"
+    ],
+    "fa-clipboard-user": [
+      "assign",
+      "owner",
+      "profile",
+      "assignee"
+    ],
+    "fa-clipboard-wrench": [
+      "settings",
+      "admin",
+      "configure"
+    ],
+    "fa-clipboard-x": [
+      "clear",
+      "remove",
+      "delete",
+      "cancel"
+    ],
+    "fa-download-alt": [
+      "download",
+      "save",
+      "export",
+      "get"
+    ],
+    "fa-upload-alt": [
+      "upload",
+      "send",
+      "backup",
+      "share"
+    ],
+    "fa-ellipsis-h-o": [
+      "more",
+      "menu",
+      "options",
+      "overflow",
+      "outline"
+    ],
+    "fa-ellipsis-v-o": [
+      "more",
+      "menu",
+      "options",
+      "overflow",
+      "outline"
+    ],
+    "fa-podcast": [
+      "audio",
+      "broadcast",
+      "show",
+      "rss",
+      "episode"
+    ],
+    "fa-share2": [
+      "share",
+      "social",
+      "send",
+      "forward"
+    ],
+    "fa-share-alt-square": [
+      "share",
+      "social",
+      "send",
+      "network"
+    ],
+    "fa-shopping-bag": [
+      "shop",
+      "store",
+      "buy",
+      "retail",
+      "cart"
+    ],
+    "fa-shopping-basket": [
+      "shop",
+      "grocery",
+      "buy",
+      "cart",
+      "store"
+    ],
+    "fa-sequence": [
+      "flow",
+      "steps",
+      "order",
+      "diagram",
+      "process"
+    ],
+    "fa-variable": [
+      "math",
+      "formula",
+      "code",
+      "x",
+      "placeholder"
+    ],
+    "fa-percent": [
+      "discount",
+      "sale",
+      "off",
+      "percent",
+      "deal"
+    ],
+    "fa-tiles-2x2": [
+      "tiles",
+      "grid",
+      "dashboard",
+      "apps"
+    ],
+    "fa-tiles-3x3": [
+      "tiles",
+      "grid",
+      "dashboard",
+      "apps"
+    ],
+    "fa-tiles-8": [
+      "tiles",
+      "grid",
+      "layout",
+      "apps"
+    ],
+    "fa-tiles-9": [
+      "tiles",
+      "grid",
+      "layout",
+      "apps"
+    ],
+    "fa-media-list": [
+      "feed",
+      "articles",
+      "list",
+      "news"
+    ],
+    "fa-materialized-view": [
+      "snapshot",
+      "refresh",
+      "sql",
+      "view"
+    ],
+    "fa-design": [
+      "draft",
+      "create",
+      "ui",
+      "pen",
+      "mockup"
+    ],
+    "fa-gear": [
+      "settings",
+      "configuration",
+      "preferences",
+      "options",
+      "admin",
+      "setup"
+    ],
+    "fa-gears": [
+      "settings",
+      "configuration",
+      "preferences",
+      "options",
+      "admin",
+      "setup"
+    ],
+    "fa-bar-chart": [
+      "graph",
+      "stats",
+      "analytics"
+    ],
+    "fa-pie-chart": [
+      "graph",
+      "stats",
+      "analytics"
+    ],
+    "fa-line-chart": [
+      "graph",
+      "stats",
+      "analytics",
+      "trend"
     ]
   },
   "doc": {
@@ -791,6 +3479,342 @@
       "interactive report",
       "report",
       "filter"
+    ],
+    "https://docs.oracle.com/en/database/oracle/apex/26.1/aeapi/APEX_AI.html": [
+      "artificial intelligence",
+      "llm",
+      "genai",
+      "chat",
+      "generate text",
+      "vector"
+    ],
+    "https://docs.oracle.com/en/database/oracle/apex/26.1/aeapi/APEX_APPLICATION.html": [
+      "application",
+      "app id",
+      "alias",
+      "create app"
+    ],
+    "https://docs.oracle.com/en/database/oracle/apex/26.1/aeapi/APEX_APPLICATION_ADMIN.html": [
+      "app admin",
+      "availability",
+      "build status",
+      "parse as"
+    ],
+    "https://docs.oracle.com/en/database/oracle/apex/26.1/aeapi/APEX_APPLICATION_INSTALL.html": [
+      "install",
+      "import app",
+      "deploy",
+      "wizard",
+      "supporting objects"
+    ],
+    "https://docs.oracle.com/en/database/oracle/apex/26.1/aeapi/APEX_APPROVAL.html": [
+      "approval",
+      "approve",
+      "reject",
+      "task",
+      "human task"
+    ],
+    "https://docs.oracle.com/en/database/oracle/apex/26.1/aeapi/APEX_APP_OBJECT_DEPENDENCY.html": [
+      "dependencies",
+      "impact analysis",
+      "used objects",
+      "where used"
+    ],
+    "https://docs.oracle.com/en/database/oracle/apex/26.1/aeapi/APEX_APP_SETTING.html": [
+      "app settings",
+      "configuration",
+      "set value",
+      "secrets"
+    ],
+    "https://docs.oracle.com/en/database/oracle/apex/26.1/aeapi/APEX_AUTOMATION.html": [
+      "automation",
+      "schedule",
+      "poll",
+      "background job",
+      "chain"
+    ],
+    "https://docs.oracle.com/en/database/oracle/apex/26.1/aeapi/APEX_BACKGROUND_PROCESS.html": [
+      "background process",
+      "long running",
+      "async",
+      "progress",
+      "status"
+    ],
+    "https://docs.oracle.com/en/database/oracle/apex/26.1/aeapi/APEX_BARCODE.html": [
+      "barcode",
+      "qr code",
+      "qrcode",
+      "scan"
+    ],
+    "https://docs.oracle.com/en/database/oracle/apex/26.1/aeapi/APEX_CREDENTIAL.html": [
+      "credential",
+      "secret",
+      "oauth",
+      "api key",
+      "wallet",
+      "token"
+    ],
+    "https://docs.oracle.com/en/database/oracle/apex/26.1/aeapi/APEX_CSS.html": [
+      "css",
+      "stylesheet",
+      "style",
+      "inline",
+      "file urls"
+    ],
+    "https://docs.oracle.com/en/database/oracle/apex/26.1/aeapi/APEX_CUSTOM_AUTH.html": [
+      "custom auth",
+      "login",
+      "sentry",
+      "session",
+      "username"
+    ],
+    "https://docs.oracle.com/en/database/oracle/apex/26.1/aeapi/APEX_DATA_EXPORT.html": [
+      "export",
+      "csv",
+      "pdf",
+      "xlsx",
+      "download",
+      "report data"
+    ],
+    "https://docs.oracle.com/en/database/oracle/apex/26.1/aeapi/APEX_DATA_INSTALL.html": [
+      "data install",
+      "sample data",
+      "load",
+      "script"
+    ],
+    "https://docs.oracle.com/en/database/oracle/apex/26.1/aeapi/APEX_DATA_LOADING.html": [
+      "data loading",
+      "load data",
+      "upload csv",
+      "mapping",
+      "transform"
+    ],
+    "https://docs.oracle.com/en/database/oracle/apex/26.1/aeapi/APEX_DB_DICTIONARY.html": [
+      "data dictionary",
+      "metadata",
+      "tables",
+      "columns",
+      "inspect"
+    ],
+    "https://docs.oracle.com/en/database/oracle/apex/26.1/aeapi/APEX_DG_DATA_GEN.html": [
+      "data generator",
+      "sample data",
+      "blueprint",
+      "test data",
+      "datasets"
+    ],
+    "https://docs.oracle.com/en/database/oracle/apex/26.1/aeapi/APEX_ESCAPE.html": [
+      "escape",
+      "encode",
+      "html",
+      "xss",
+      "quote",
+      "strip"
+    ],
+    "https://docs.oracle.com/en/database/oracle/apex/26.1/aeapi/APEX_EXTENSION.html": [
+      "extension",
+      "link",
+      "url",
+      "modal dialog",
+      "popup"
+    ],
+    "https://docs.oracle.com/en/database/oracle/apex/26.1/aeapi/APEX_GENDEV.html": [
+      "gendev",
+      "ai assistant",
+      "generate",
+      "nl2sql"
+    ],
+    "https://docs.oracle.com/en/database/oracle/apex/26.1/aeapi/APEX_HTTP.html": [
+      "http",
+      "request",
+      "headers",
+      "proxy",
+      "rest call"
+    ],
+    "https://docs.oracle.com/en/database/oracle/apex/26.1/aeapi/APEX_HUMAN_TASK.html": [
+      "human task",
+      "approval",
+      "todo",
+      "inbox",
+      "delegate",
+      "participant"
+    ],
+    "https://docs.oracle.com/en/database/oracle/apex/26.1/aeapi/APEX_INSTANCE_ADMIN.html": [
+      "instance admin",
+      "workspace",
+      "provision",
+      "smtp",
+      "wallet"
+    ],
+    "https://docs.oracle.com/en/database/oracle/apex/26.1/aeapi/APEX_INSTANCE_DEBUG.html": [
+      "instance debug",
+      "trace",
+      "log"
+    ],
+    "https://docs.oracle.com/en/database/oracle/apex/26.1/aeapi/APEX_ITEM.html": [
+      "item",
+      "legacy",
+      "page item",
+      "checkbox",
+      "radio"
+    ],
+    "https://docs.oracle.com/en/database/oracle/apex/26.1/aeapi/APEX_JAVASCRIPT.html": [
+      "javascript",
+      "js",
+      "library",
+      "file urls",
+      "add library"
+    ],
+    "https://docs.oracle.com/en/database/oracle/apex/26.1/aeapi/APEX_JWT.html": [
+      "jwt",
+      "token",
+      "encode",
+      "decode",
+      "oauth",
+      "bearer"
+    ],
+    "https://docs.oracle.com/en/database/oracle/apex/26.1/aeapi/APEX_LDAP.html": [
+      "ldap",
+      "directory",
+      "active directory",
+      "authenticate"
+    ],
+    "https://docs.oracle.com/en/database/oracle/apex/26.1/aeapi/APEX_MARKDOWN.html": [
+      "markdown",
+      "md",
+      "render",
+      "convert",
+      "rich text"
+    ],
+    "https://docs.oracle.com/en/database/oracle/apex/26.1/aeapi/APEX_PAGE.html": [
+      "page",
+      "alias",
+      "title",
+      "mode",
+      "protection",
+      "help text"
+    ],
+    "https://docs.oracle.com/en/database/oracle/apex/26.1/aeapi/APEX_PLUGIN.html": [
+      "plugin",
+      "custom component",
+      "region type",
+      "item type",
+      "process type"
+    ],
+    "https://docs.oracle.com/en/database/oracle/apex/26.1/aeapi/APEX_PLUGIN_UTIL.html": [
+      "plugin util",
+      "ajax",
+      "debug",
+      "files",
+      "execute",
+      "timeline"
+    ],
+    "https://docs.oracle.com/en/database/oracle/apex/26.1/aeapi/APEX_PRINT.html": [
+      "print",
+      "report printing",
+      "pdf",
+      "layout",
+      "server"
+    ],
+    "https://docs.oracle.com/en/database/oracle/apex/26.1/aeapi/APEX_PWA.html": [
+      "pwa",
+      "progressive web app",
+      "push notification",
+      "offline",
+      "installable"
+    ],
+    "https://docs.oracle.com/en/database/oracle/apex/26.1/aeapi/APEX_REGION.html": [
+      "region",
+      "title",
+      "template",
+      "display",
+      "column layout"
+    ],
+    "https://docs.oracle.com/en/database/oracle/apex/26.1/aeapi/APEX_REST_SOURCE_SYNC.html": [
+      "rest sync",
+      "synchronization",
+      "web source",
+      "refresh",
+      "schedule"
+    ],
+    "https://docs.oracle.com/en/database/oracle/apex/26.1/aeapi/APEX_SEARCH.html": [
+      "search",
+      "page search",
+      "oracle text",
+      "index",
+      "global search"
+    ],
+    "https://docs.oracle.com/en/database/oracle/apex/26.1/aeapi/APEX_SESSION_STATE.html": [
+      "session state",
+      "page items",
+      "set value",
+      "clear cache",
+      "commit"
+    ],
+    "https://docs.oracle.com/en/database/oracle/apex/26.1/aeapi/APEX_SHARED_COMPONENT.html": [
+      "shared component",
+      "lov",
+      "template",
+      "static file"
+    ],
+    "https://docs.oracle.com/en/database/oracle/apex/26.1/aeapi/APEX_SPATIAL.html": [
+      "spatial",
+      "map",
+      "geometry",
+      "geojson",
+      "coordinates",
+      "sdo"
+    ],
+    "https://docs.oracle.com/en/database/oracle/apex/26.1/aeapi/APEX_STRING.html": [
+      "string",
+      "split",
+      "join",
+      "format",
+      "replace",
+      "list",
+      "shuffle"
+    ],
+    "https://docs.oracle.com/en/database/oracle/apex/26.1/aeapi/APEX_STRING_UTIL.html": [
+      "string util",
+      "find",
+      "search text",
+      "highlight"
+    ],
+    "https://docs.oracle.com/en/database/oracle/apex/26.1/aeapi/APEX_THEME.html": [
+      "theme",
+      "style",
+      "template",
+      "switch",
+      "refresh",
+      "roller"
+    ],
+    "https://docs.oracle.com/en/database/oracle/apex/26.1/aeapi/APEX_T_JAVASCRIPT_OBJECT.html": [
+      "javascript object",
+      "json",
+      "ajax",
+      "dynamic action",
+      "t_jo"
+    ],
+    "https://docs.oracle.com/en/database/oracle/apex/26.1/aeapi/APEX_UI_DEFAULT_UPDATE.html": [
+      "ui defaults",
+      "label",
+      "dictionary",
+      "grid layout"
+    ],
+    "https://docs.oracle.com/en/database/oracle/apex/26.1/aeapi/APEX_WORKFLOW.html": [
+      "workflow",
+      "activity",
+      "transition",
+      "variable",
+      "participant",
+      "process"
+    ],
+    "https://docs.oracle.com/en/database/oracle/apex/26.1/aeapi/APEX_ZIP.html": [
+      "zip",
+      "archive",
+      "compress",
+      "unzip",
+      "download files"
     ]
   },
   "views": {
@@ -897,19 +3921,771 @@
       "styles",
       "ui"
     ],
-    "APEX_THEME_STYLES": [
+    "APEX_APPLICATION_AUTHORIZATION": [
+      "authorization schemes",
+      "access control",
+      "permissions"
+    ],
+    "APEX_APPLICATION_ALL_AUTH": [
+      "auth usage",
+      "where used",
+      "component auth"
+    ],
+    "APEX_APPLICATION_BC_ENTRIES": [
+      "breadcrumb entries",
+      "navigation trail"
+    ],
+    "APEX_APPLICATION_CACHING": [
+      "caching",
+      "cache",
+      "dependencies"
+    ],
+    "APEX_APPLICATION_COMPUTATIONS": [
+      "computations",
+      "calculations",
+      "plsql"
+    ],
+    "APEX_APPLICATION_FILES": [
+      "static files",
+      "css",
+      "js",
+      "images",
+      "uploads"
+    ],
+    "APEX_APPLICATION_STATIC_FILES": [
+      "shared static files",
+      "workspace files"
+    ],
+    "APEX_APPLICATION_THEME_FILES": [
+      "theme files",
+      "css",
+      "js",
+      "templates"
+    ],
+    "APEX_APPLICATION_GROUPS": [
+      "application groups",
+      "grouping"
+    ],
+    "APEX_APPLICATION_ITEMS": [
+      "application items",
+      "global items",
+      "session state"
+    ],
+    "APEX_APPLICATION_LIST_ENTRIES": [
+      "list entries",
+      "navigation menu",
+      "submenu"
+    ],
+    "APEX_APPLICATION_LOCKED_PAGES": [
+      "locked pages",
+      "lock",
+      "read only"
+    ],
+    "APEX_APPLICATION_LOV_COLS": [
+      "lov columns",
+      "return value",
+      "display"
+    ],
+    "APEX_APPLICATION_LOV_ENTRIES": [
+      "lov entries",
+      "static values",
+      "select options"
+    ],
+    "APEX_APPLICATION_PAGE_CHARTS": [
+      "page charts",
+      "graphs",
+      "series"
+    ],
+    "APEX_APPLICATION_PAGE_CHART_S": [
+      "chart series",
+      "data",
+      "labels"
+    ],
+    "APEX_APPLICATION_PAGE_GROUPS": [
+      "page groups",
+      "organize"
+    ],
+    "APEX_APPLICATION_PAGE_DB_ITEMS": [
+      "database items",
+      "source",
+      "session state"
+    ],
+    "APEX_APPLICATION_PAGE_IR": [
+      "page interactive reports",
+      "ir",
+      "saved reports"
+    ],
+    "APEX_APPLICATION_PAGE_IR_COL": [
+      "ir columns",
+      "headings",
+      "sort"
+    ],
+    "APEX_APPLICATION_PAGE_IR_RPT": [
+      "ir saved reports",
+      "private",
+      "public"
+    ],
+    "APEX_APPLICATION_PAGE_RPT": [
+      "classic reports",
+      "sql",
+      "layout"
+    ],
+    "APEX_APPLICATION_PAGE_RPT_COLS": [
+      "report columns",
+      "headings",
+      "format"
+    ],
+    "APEX_APPLICATION_PAGE_TREES": [
+      "page trees",
+      "hierarchy",
+      "nodes"
+    ],
+    "APEX_APPLICATION_TREES": [
+      "trees",
+      "shared",
+      "hierarchy"
+    ],
+    "APEX_APPLICATION_PARENT_TABS": [
+      "parent tabs",
+      "navigation",
+      "standard tabs"
+    ],
+    "APEX_APPLICATION_PROCESSES": [
+      "application processes",
+      "plsql",
+      "on load",
+      "ajax"
+    ],
+    "APEX_APPLICATION_RPT_QUERIES": [
+      "report queries",
+      "shared",
+      "sql"
+    ],
+    "APEX_APPLICATION_RPT_LAYOUTS": [
+      "report layouts",
+      "rtf",
+      "print"
+    ],
+    "APEX_APPLICATION_SHORTCUTS": [
+      "shortcuts",
+      "links",
+      "urls"
+    ],
+    "APEX_APPLICATION_SUPP_OBJECTS": [
+      "supporting objects",
+      "install scripts",
+      "prerequisites"
+    ],
+    "APEX_APPLICATION_TEMPLATES": [
+      "templates",
+      "page",
+      "region",
+      "button",
+      "list",
+      "layouts"
+    ],
+    "APEX_APPLICATION_TRANSLATIONS": [
+      "translations",
+      "language",
+      "xlf",
+      "globalization"
+    ],
+    "APEX_APPLICATION_TRANS_DYNAMIC": [
+      "dynamic translations",
+      "text messages"
+    ],
+    "APEX_APPLICATION_WEB_SERVICES": [
+      "web services",
+      "rest reference",
+      "soap",
+      "reference"
+    ],
+    "APEX_APPL_ACL_ROLES": [
+      "acl roles",
+      "access control",
+      "admin"
+    ],
+    "APEX_APPL_ACL_USER_ROLES": [
+      "user roles",
+      "assign",
+      "permissions"
+    ],
+    "APEX_APPL_AI_AGENTS": [
+      "ai agents",
+      "genai",
+      "assistant",
+      "chatbot"
+    ],
+    "APEX_APPL_AI_CONFIGS": [
+      "ai configs",
+      "llm",
+      "provider",
+      "service"
+    ],
+    "APEX_APPL_AI_CONFIG_RAG_SRCS": [
+      "rag sources",
+      "vector",
+      "knowledge base"
+    ],
+    "APEX_APPL_AUTOMATIONS": [
+      "automations",
+      "scheduled",
+      "poll",
+      "background"
+    ],
+    "APEX_APPL_AUTOMATION_ACTIONS": [
+      "automation actions",
+      "plsql",
+      "notify"
+    ],
+    "APEX_APPL_COMPONENT_GROUPS": [
+      "component groups",
+      "export",
+      "dependencies"
+    ],
+    "APEX_APPL_DATA_LOADS": [
+      "data loads",
+      "upload",
+      "mapping",
+      "tables"
+    ],
+    "APEX_APPL_DATA_PROFILES": [
+      "data profiles",
+      "csv columns",
+      "mapping"
+    ],
+    "APEX_APPL_DEVELOPER_COMMENTS": [
+      "developer comments",
+      "notes",
+      "todo"
+    ],
+    "APEX_APPL_DUALITY_VIEWS": [
+      "json duality",
+      "dual views",
+      "rest",
+      "documents"
+    ],
+    "APEX_APPL_EMAIL_TEMPLATES": [
+      "email templates",
+      "notifications",
+      "placeholders"
+    ],
+    "APEX_APPL_EXPORT_COMPS": [
+      "export components",
+      "deployment",
+      "backup"
+    ],
+    "APEX_APPL_JSON_SOURCES": [
+      "json sources",
+      "rest data",
+      "web source",
+      "external"
+    ],
+    "APEX_APPL_PAGE_BG_PROC_STATUS": [
+      "background process status",
+      "progress",
+      "log"
+    ],
+    "APEX_APPL_PAGE_CALENDARS": [
+      "calendars",
+      "events",
+      "schedule",
+      "agenda"
+    ],
+    "APEX_APPL_PAGE_CARDS": [
+      "cards",
+      "layout",
+      "grid",
+      "media"
+    ],
+    "APEX_APPL_PAGE_FACETS": [
+      "facets",
+      "filters",
+      "faceted search"
+    ],
+    "APEX_APPL_PAGE_FILTERS": [
+      "filters",
+      "smart filters",
+      "where clause"
+    ],
+    "APEX_APPL_PAGE_IGS": [
+      "interactive grids",
+      "editable grid",
+      "master detail"
+    ],
+    "APEX_APPL_PAGE_IG_COLUMNS": [
+      "ig columns",
+      "editable",
+      "lov",
+      "validation"
+    ],
+    "APEX_APPL_PAGE_IG_RPTS": [
+      "ig saved reports",
+      "private",
+      "public",
+      "primary"
+    ],
+    "APEX_APPL_PAGE_MAPS": [
+      "page maps",
+      "layers",
+      "spatial",
+      "geo"
+    ],
+    "APEX_APPL_PAGE_MENU_ENTRIES": [
+      "menu entries",
+      "navigation menu",
+      "hamburger"
+    ],
+    "APEX_APPL_PAGE_META_TAGS": [
+      "meta tags",
+      "seo",
+      "header",
+      "viewport"
+    ],
+    "APEX_APPL_PAGE_PROC": [
+      "page processes",
+      "plsql",
+      "submit",
+      "ajax"
+    ],
+    "APEX_APPL_PAGE_SEARCH_SOURCES": [
+      "search sources",
+      "global search",
+      "index"
+    ],
+    "APEX_APPL_PAGE_ITEM_GROUPS": [
+      "item groups",
+      "layout",
+      "fieldset"
+    ],
+    "APEX_APPL_PLUGINS": [
+      "plugins",
+      "custom components",
+      "gallery",
+      "extensions",
+      "addons"
+    ],
+    "APEX_APPL_PLUGIN_ATTRIBUTES": [
+      "plugin attributes",
+      "settings",
+      "custom"
+    ],
+    "APEX_APPL_PLUGIN_EVENTS": [
+      "plugin events",
+      "dynamic actions",
+      "trigger"
+    ],
+    "APEX_APPL_PLUGIN_FILES": [
+      "plugin files",
+      "js",
+      "css",
+      "assets"
+    ],
+    "APEX_APPL_PUSH_SUBSCRIPTIONS": [
+      "push subscriptions",
+      "pwa",
+      "notifications"
+    ],
+    "APEX_APPL_PWA_SHORTCUTS": [
+      "pwa shortcuts",
+      "installable",
+      "icons"
+    ],
+    "APEX_APPL_RPT_QRY_SOURCES": [
+      "report query sources",
+      "sql",
+      "shared"
+    ],
+    "APEX_APPL_SEARCH_CONFIGS": [
+      "search configs",
+      "global search",
+      "oracle text"
+    ],
+    "APEX_APPL_TASKDEFS": [
+      "task definitions",
+      "approvals",
+      "human tasks"
+    ],
+    "APEX_APPL_TASKDEF_PARTICIPANTS": [
+      "task participants",
+      "assignees",
+      "approvers"
+    ],
+    "APEX_APPL_TEMPLATE_OPTIONS": [
+      "template options",
+      "css classes",
+      "style presets"
+    ],
+    "APEX_APPL_USER_INTERFACES": [
+      "user interfaces",
+      "desktop",
+      "mobile",
+      "theme style"
+    ],
+    "APEX_APPL_WEB_SRC_MODULES": [
+      "web source modules",
+      "rest api",
+      "remote",
+      "base url"
+    ],
+    "APEX_APPL_WEB_SRC_OPERATIONS": [
+      "web source operations",
+      "get",
+      "post",
+      "endpoint"
+    ],
+    "APEX_APPL_WEB_SRC_SYNC_STEPS": [
+      "sync steps",
+      "refresh",
+      "merge",
+      "schedule"
+    ],
+    "APEX_APPL_WORKFLOWS": [
+      "workflows",
+      "definition",
+      "version",
+      "diagram"
+    ],
+    "APEX_APPL_WORKFLOW_ACTIVITIES": [
+      "workflow activities",
+      "tasks",
+      "gateways",
+      "events"
+    ],
+    "APEX_APPL_WORKFLOW_PARAMS": [
+      "workflow parameters",
+      "variables",
+      "input"
+    ],
+    "APEX_ACTIVITY_LOG": [
+      "activity log",
+      "audit",
+      "usage",
+      "page views"
+    ],
+    "APEX_DEVELOPER_ACTIVITY_LOG": [
+      "developer activity",
+      "builder log",
+      "changes"
+    ],
+    "APEX_COLLECTIONS": [
+      "collections",
+      "temporary data",
+      "session",
+      "shopping cart"
+    ],
+    "APEX_DEBUG_MESSAGES": [
+      "debug messages",
+      "trace",
+      "log",
+      "instrumentation"
+    ],
+    "APEX_DG_BLUEPRINTS": [
+      "data generator blueprints",
+      "sample data",
+      "test data"
+    ],
+    "APEX_DG_BUILTINS": [
+      "data generator builtins",
+      "sample datasets",
+      "domains"
+    ],
+    "APEX_TEAM_FEEDBACK": [
+      "team feedback",
+      "comments",
+      "ratings",
+      "review"
+    ],
+    "APEX_FEEDBACK_TYPES": [
+      "feedback types",
+      "labels",
+      "categories"
+    ],
+    "APEX_ISSUES": [
+      "issues",
+      "bug tracker",
+      "tickets",
+      "milestones"
+    ],
+    "APEX_ISSUE_MILESTONES": [
+      "milestones",
+      "releases",
+      "sprints",
+      "due dates"
+    ],
+    "APEX_ISSUE_LABELS": [
+      "labels",
+      "tags",
+      "categories"
+    ],
+    "APEX_MAIL_LOG": [
+      "mail log",
+      "sent email",
+      "smtp",
+      "audit"
+    ],
+    "APEX_MAIL_QUEUE": [
+      "mail queue",
+      "outbox",
+      "pending",
+      "scheduled"
+    ],
+    "APEX_MAIL_ATTACHMENTS": [
+      "mail attachments",
+      "files",
+      "email"
+    ],
+    "APEX_REST_RESOURCE_MODULES": [
+      "rest modules",
+      "ords",
+      "endpoints",
+      "uri"
+    ],
+    "APEX_REST_RESOURCE_HANDLERS": [
+      "rest handlers",
+      "get",
+      "post",
+      "plsql"
+    ],
+    "APEX_REST_RESOURCE_TEMPLATES": [
+      "rest templates",
+      "uri patterns",
+      "routes"
+    ],
+    "APEX_REST_CATALOGS": [
+      "rest catalog",
+      "discovery",
+      "remote servers"
+    ],
+    "APEX_REST_SOURCE_SYNC_LOG": [
+      "rest sync log",
+      "refresh history",
+      "errors"
+    ],
+    "APEX_SCHEDULER_JOBS": [
+      "scheduler jobs",
+      "dbms_scheduler",
+      "background",
+      "cron"
+    ],
+    "APEX_STANDARD_CONDITIONS": [
+      "conditions",
+      "server condition",
+      "authorization",
+      "plsql expression"
+    ],
+    "APEX_SUBSCRIBED_COMPONENTS": [
+      "subscribed components",
+      "master",
+      "refresh",
+      "theme"
+    ],
+    "APEX_TASKS": [
+      "unified tasks",
+      "todo",
+      "approvals",
+      "inbox"
+    ],
+    "APEX_TASK_PARTICIPANTS": [
+      "task participants",
+      "assignees",
+      "potential owners"
+    ],
+    "APEX_TASK_HISTORY": [
+      "task history",
+      "audit",
+      "trail",
+      "comments"
+    ],
+    "APEX_UI_DEFAULTS_TABLES": [
+      "ui defaults tables",
+      "labels",
+      "reports"
+    ],
+    "APEX_UI_DEFAULTS_COLUMNS": [
+      "ui defaults columns",
+      "headings",
+      "format masks"
+    ],
+    "APEX_USED_DB_OBJECTS": [
+      "used db objects",
+      "dependencies",
+      "impact",
+      "parse"
+    ],
+    "APEX_USER_ACCESS_LOG": [
+      "access log",
+      "logins",
+      "audit",
+      "activity"
+    ],
+    "APEX_WEBSERVICE_LOG": [
+      "webservice log",
+      "rest calls",
+      "soap",
+      "history"
+    ],
+    "APEX_WEB_ENTRY_POINTS": [
+      "web entry points",
+      "callbacks",
+      "urls",
+      "rest",
+      "ajax"
+    ],
+    "APEX_WORKFLOWS": [
+      "workflow runtime",
+      "instances",
+      "state",
+      "monitor"
+    ],
+    "APEX_WORKFLOW_ACTIVITIES": [
+      "workflow activity instances",
+      "tasks",
+      "status"
+    ],
+    "APEX_WORKFLOW_AUDIT": [
+      "workflow audit",
+      "history",
+      "trail"
+    ],
+    "APEX_WORKSPACES": [
+      "workspaces",
+      "admin",
+      "provision",
+      "overview"
+    ],
+    "APEX_WORKSPACE_DEVELOPERS": [
+      "developers",
+      "users",
+      "accounts",
+      "privileges"
+    ],
+    "APEX_WORKSPACE_APEX_USERS": [
+      "apex users",
+      "end users",
+      "accounts"
+    ],
+    "APEX_WORKSPACE_GROUPS": [
+      "user groups",
+      "teams",
+      "permissions"
+    ],
+    "APEX_WORKSPACE_SCHEMAS": [
+      "schemas",
+      "parsing schema",
+      "rest enable",
+      "workspace"
+    ],
+    "APEX_WORKSPACE_SESSIONS": [
+      "sessions",
+      "active users",
+      "kill",
+      "monitor"
+    ],
+    "APEX_WORKSPACE_SQL_SCRIPTS": [
+      "sql scripts",
+      "sql workshop",
+      "history",
+      "saved"
+    ],
+    "APEX_WORKSPACE_STATIC_FILES": [
+      "workspace static files",
+      "shared",
+      "cdn"
+    ],
+    "APEX_WORKSPACE_CREDENTIALS": [
+      "credentials",
+      "secrets",
+      "oauth",
+      "wallets"
+    ],
+    "APEX_WORKSPACE_REMOTE_SERVERS": [
+      "remote servers",
+      "rest",
+      "endpoints",
+      "wallet"
+    ],
+    "APEX_WORKSPACE_PRINT_SERVERS": [
+      "print server",
+      "report printing",
+      "pdf",
+      "ords"
+    ],
+    "APEX_WORKSPACE_AI_SERVICES": [
+      "ai services",
+      "llm",
+      "genai",
+      "provider"
+    ],
+    "APEX_WORKSPACE_VECTOR_PROVIDER": [
+      "vector provider",
+      "embeddings",
+      "rag",
+      "search"
+    ],
+    "APEX_WORKSPACE_LOG_SUMMARY": [
+      "log summary",
+      "activity",
+      "reports",
+      "page views"
+    ],
+    "APEX_WORKSPACE_PREFERENCES": [
+      "workspace preferences",
+      "settings",
+      "announcement"
+    ],
+    "APEX_PUSH_NOTIFICATIONS_QUEUE": [
+      "push notifications",
+      "pwa",
+      "mobile",
+      "queue"
+    ],
+    "APEX_AUTOMATION_LOG": [
+      "automation log",
+      "runs",
+      "history",
+      "errors"
+    ],
+    "APEX_RELEASE": [
+      "release",
+      "version",
+      "patch",
+      "build"
+    ],
+    "APEX_PATCHES": [
+      "patches",
+      "applied",
+      "updates",
+      "fixes"
+    ],
+    "APEX_APPL_CONCATENATED_FILES": [
+      "concatenated files",
+      "minified",
+      "js",
+      "css",
+      "bundle"
+    ],
+    "APEX_APPL_PAGE_COMP_ACTIONS": [
+      "component actions",
+      "menu",
+      "dynamic actions"
+    ],
+    "APEX_WORKSPACE_UI_TYPES": [
+      "ui types",
+      "desktop",
+      "mobile",
+      "pwa"
+    ],
+    "APEX_APPLICATION_THEME_STYLES": [
       "theme styles",
       "variants",
       "skins"
     ],
-    "APEX_THEME_TEMPLATES": [
-      "templates",
-      "layouts"
-    ],
-    "APEX_PLUGINS": [
-      "plugins",
-      "extensions",
-      "addons"
+    "APEX_APPLICATION_THEMES": [
+      "themes",
+      "styles",
+      "variants",
+      "look and feel"
     ]
   },
   "cssClasses": {
@@ -1164,6 +4940,832 @@
       "a11y",
       "screen reader",
       "invisible"
+    ],
+    "col-xxl": [
+      "grid",
+      "desktop",
+      "column",
+      "extra extra large"
+    ],
+    "hidden-xxs-up": [
+      "responsive",
+      "hide",
+      "visibility",
+      "screen"
+    ],
+    "hidden-xs-up": [
+      "responsive",
+      "hide",
+      "visibility",
+      "screen"
+    ],
+    "hidden-sm-up": [
+      "responsive",
+      "hide",
+      "visibility",
+      "screen"
+    ],
+    "hidden-md-up": [
+      "responsive",
+      "hide",
+      "visibility",
+      "screen"
+    ],
+    "hidden-lg-up": [
+      "responsive",
+      "hide",
+      "visibility",
+      "screen"
+    ],
+    "u-color-3": [
+      "palette",
+      "theme",
+      "tertiary"
+    ],
+    "u-opacity-10": [
+      "transparent",
+      "alpha",
+      "opacity",
+      "faded"
+    ],
+    "u-opacity-20": [
+      "transparent",
+      "alpha",
+      "opacity",
+      "faded"
+    ],
+    "u-opacity-30": [
+      "transparent",
+      "alpha",
+      "opacity",
+      "ghost"
+    ],
+    "u-opacity-40": [
+      "transparent",
+      "alpha",
+      "opacity",
+      "ghost"
+    ],
+    "u-opacity-60": [
+      "transparent",
+      "alpha",
+      "opacity",
+      "solid"
+    ],
+    "u-opacity-70": [
+      "transparent",
+      "alpha",
+      "opacity",
+      "solid"
+    ],
+    "u-opacity-80": [
+      "transparent",
+      "alpha",
+      "opacity",
+      "solid"
+    ],
+    "u-opacity-90": [
+      "transparent",
+      "alpha",
+      "opacity",
+      "nearly solid"
+    ],
+    "u-opacity-100": [
+      "opaque",
+      "solid",
+      "full",
+      "reset"
+    ],
+    "u-shadow-none": [
+      "flat",
+      "no shadow",
+      "remove",
+      "reset"
+    ],
+    "u-flex-item": [
+      "grow",
+      "shrink",
+      "item",
+      "flexible"
+    ],
+    "u-flex-direction-row": [
+      "horizontal",
+      "toolbar",
+      "row",
+      "layout"
+    ],
+    "u-flex-direction-row-reverse": [
+      "horizontal",
+      "reverse",
+      "right to left"
+    ],
+    "u-flex-direction-column": [
+      "vertical",
+      "stack",
+      "sidebar",
+      "column"
+    ],
+    "u-flex-direction-column-reverse": [
+      "vertical",
+      "reverse",
+      "timeline",
+      "newest first"
+    ],
+    "u-flex-wrap": [
+      "multiline",
+      "wrap",
+      "grid",
+      "flow"
+    ],
+    "u-flex-wrap-nowrap": [
+      "single line",
+      "no wrap",
+      "scroll",
+      "truncate"
+    ],
+    "u-flex-basis-auto": [
+      "width",
+      "content size",
+      "auto"
+    ],
+    "u-flex-basis-100": [
+      "full width",
+      "fill",
+      "stretch",
+      "100 percent"
+    ],
+    "u-flex-basis-0": [
+      "collapse",
+      "zero",
+      "hide",
+      "shrink"
+    ],
+    "u-flex-grow-1": [
+      "expand",
+      "fill space",
+      "flexible",
+      "stretch"
+    ],
+    "u-flex-grow-0": [
+      "fixed",
+      "no grow",
+      "shrink",
+      "compact"
+    ],
+    "u-flex-shrink-1": [
+      "shrink",
+      "flexible",
+      "fit",
+      "compress"
+    ],
+    "u-flex-shrink-0": [
+      "fixed",
+      "no shrink",
+      "overflow",
+      "keep size"
+    ],
+    "u-align-content-start": [
+      "top",
+      "align",
+      "multiline",
+      "pack"
+    ],
+    "u-align-content-end": [
+      "bottom",
+      "align",
+      "multiline",
+      "pack"
+    ],
+    "u-align-content-center": [
+      "middle",
+      "align",
+      "multiline",
+      "center"
+    ],
+    "u-align-content-between": [
+      "spread",
+      "justify",
+      "multiline",
+      "edges"
+    ],
+    "u-align-content-around": [
+      "spread",
+      "justify",
+      "multiline",
+      "even"
+    ],
+    "u-align-content-evenly": [
+      "spread",
+      "justify",
+      "multiline",
+      "equal"
+    ],
+    "u-justify-content-flex-start": [
+      "left",
+      "start",
+      "align",
+      "justify"
+    ],
+    "u-justify-content-flex-end": [
+      "right",
+      "end",
+      "align",
+      "justify"
+    ],
+    "u-justify-content-space-between": [
+      "spread",
+      "edges",
+      "justify",
+      "distribute"
+    ],
+    "u-justify-content-space-around": [
+      "spread",
+      "even",
+      "justify",
+      "distribute"
+    ],
+    "u-justify-content-stretch": [
+      "fill",
+      "stretch",
+      "justify",
+      "equal"
+    ],
+    "u-align-items-flex-start": [
+      "top",
+      "align",
+      "vertical",
+      "start"
+    ],
+    "u-align-items-flex-end": [
+      "bottom",
+      "align",
+      "vertical",
+      "end"
+    ],
+    "u-align-items-start": [
+      "top",
+      "align",
+      "vertical",
+      "pack"
+    ],
+    "u-align-items-end": [
+      "bottom",
+      "align",
+      "vertical",
+      "pack"
+    ],
+    "u-align-self-flex-start": [
+      "top",
+      "align",
+      "single item",
+      "override"
+    ],
+    "u-align-self-flex-end": [
+      "bottom",
+      "align",
+      "single item",
+      "override"
+    ],
+    "u-align-self-start": [
+      "top",
+      "align",
+      "single item",
+      "pack"
+    ],
+    "u-align-self-center": [
+      "middle",
+      "center",
+      "single item",
+      "align"
+    ],
+    "u-align-self-end": [
+      "bottom",
+      "align",
+      "single item",
+      "pack"
+    ],
+    "u-align-self-stretch": [
+      "fill",
+      "stretch",
+      "single item",
+      "height"
+    ],
+    "u-alignTop": [
+      "top",
+      "align",
+      "vertical",
+      "baseline"
+    ],
+    "u-alignMiddle": [
+      "middle",
+      "center",
+      "align",
+      "vertical"
+    ],
+    "u-alignBaseline": [
+      "baseline",
+      "text",
+      "align",
+      "vertical"
+    ],
+    "u-alignBottom": [
+      "bottom",
+      "align",
+      "vertical",
+      "baseline"
+    ],
+    "u-order-0": [
+      "first",
+      "order",
+      "flex",
+      "sequence"
+    ],
+    "u-order-1": [
+      "order",
+      "flex",
+      "sequence",
+      "position"
+    ],
+    "u-order-2": [
+      "order",
+      "flex",
+      "sequence",
+      "position"
+    ],
+    "u-order-3": [
+      "order",
+      "flex",
+      "sequence",
+      "position"
+    ],
+    "u-order-4": [
+      "order",
+      "flex",
+      "sequence",
+      "position"
+    ],
+    "u-order-5": [
+      "last",
+      "order",
+      "flex",
+      "sequence"
+    ],
+    "margin-auto": [
+      "center",
+      "align",
+      "auto margins",
+      "middle"
+    ],
+    "w[10-800]": [
+      "width",
+      "pixels",
+      "size",
+      "fixed"
+    ],
+    "w[5-100]p": [
+      "width",
+      "percent",
+      "responsive",
+      "fluid"
+    ],
+    "mnw[10-800]": [
+      "min width",
+      "pixels",
+      "responsive",
+      "limit"
+    ],
+    "mxw[10-800]": [
+      "max width",
+      "pixels",
+      "responsive",
+      "limit"
+    ],
+    "h[10-800]": [
+      "height",
+      "pixels",
+      "size",
+      "fixed"
+    ],
+    "mxh[10-800]": [
+      "max height",
+      "pixels",
+      "limit",
+      "scroll"
+    ],
+    "u-gap-0": [
+      "spacing",
+      "gap",
+      "flex",
+      "grid",
+      "gutter"
+    ],
+    "u-gap-px": [
+      "spacing",
+      "gap",
+      "flex",
+      "grid",
+      "gutter"
+    ],
+    "u-gap-0_5": [
+      "spacing",
+      "gap",
+      "flex",
+      "grid",
+      "gutter"
+    ],
+    "u-gap-1": [
+      "spacing",
+      "gap",
+      "flex",
+      "grid",
+      "gutter"
+    ],
+    "u-gap-1_5": [
+      "spacing",
+      "gap",
+      "flex",
+      "grid",
+      "gutter"
+    ],
+    "u-gap-2": [
+      "spacing",
+      "gap",
+      "flex",
+      "grid",
+      "gutter"
+    ],
+    "u-gap-2_5": [
+      "spacing",
+      "gap",
+      "flex",
+      "grid",
+      "gutter"
+    ],
+    "u-gap-3": [
+      "spacing",
+      "gap",
+      "flex",
+      "grid",
+      "gutter"
+    ],
+    "u-gap-3_5": [
+      "spacing",
+      "gap",
+      "flex",
+      "grid",
+      "gutter"
+    ],
+    "u-gap-4": [
+      "spacing",
+      "gap",
+      "flex",
+      "grid",
+      "gutter"
+    ],
+    "u-gap-5": [
+      "spacing",
+      "gap",
+      "flex",
+      "grid",
+      "gutter"
+    ],
+    "u-gap-6": [
+      "spacing",
+      "gap",
+      "flex",
+      "grid",
+      "gutter"
+    ],
+    "u-gap-7": [
+      "spacing",
+      "gap",
+      "flex",
+      "grid",
+      "gutter"
+    ],
+    "u-gap-8": [
+      "spacing",
+      "gap",
+      "flex",
+      "grid",
+      "gutter"
+    ],
+    "u-gap-9": [
+      "spacing",
+      "gap",
+      "flex",
+      "grid",
+      "gutter"
+    ],
+    "u-gap-10": [
+      "spacing",
+      "gap",
+      "flex",
+      "grid",
+      "gutter"
+    ],
+    "u-overflow-auto": [
+      "scroll",
+      "scrollable",
+      "overflow",
+      "content",
+      "log"
+    ],
+    "u-overflow-hidden": [
+      "clip",
+      "hide",
+      "crop",
+      "avatar",
+      "mask"
+    ],
+    "u-overflow-scroll": [
+      "scrollbar",
+      "scroll",
+      "always",
+      "overflow"
+    ],
+    "u-overflow-x-scroll": [
+      "horizontal scroll",
+      "wide table",
+      "overflow",
+      "swipe"
+    ],
+    "u-overflow-y-scroll": [
+      "vertical scroll",
+      "list",
+      "picklist",
+      "overflow"
+    ],
+    "u-overflow-visible": [
+      "visible",
+      "spill",
+      "show",
+      "overflow",
+      "tooltip"
+    ],
+    "u-overflow-clip": [
+      "clip",
+      "crop",
+      "no scroll",
+      "overflow",
+      "preview"
+    ],
+    "u-textInitCap": [
+      "capitalize",
+      "title case",
+      "transform",
+      "proper case"
+    ],
+    "u-hidden": [
+      "hide",
+      "invisible",
+      "gone",
+      "display none",
+      "conditional"
+    ],
+    "u-visible": [
+      "show",
+      "visible",
+      "display",
+      "reveal"
+    ],
+    "u-nowrap": [
+      "single line",
+      "no wrap",
+      "truncate",
+      "oneline"
+    ],
+    "u-lineclamp-1": [
+      "truncate",
+      "ellipsis",
+      "one line",
+      "clamp",
+      "limit"
+    ],
+    "u-lineclamp-2": [
+      "truncate",
+      "ellipsis",
+      "two lines",
+      "clamp",
+      "limit"
+    ],
+    "u-lineclamp-3": [
+      "truncate",
+      "ellipsis",
+      "multiline",
+      "clamp",
+      "limit"
+    ],
+    "u-lineclamp-4": [
+      "truncate",
+      "ellipsis",
+      "multiline",
+      "clamp",
+      "limit"
+    ],
+    "u-lineclamp-5": [
+      "truncate",
+      "ellipsis",
+      "multiline",
+      "clamp",
+      "limit"
+    ],
+    "u-truncate": [
+      "ellipsis",
+      "single line",
+      "overflow",
+      "cut off"
+    ],
+    "u-text-heading-2xl": [
+      "heading",
+      "title",
+      "largest",
+      "font size",
+      "hero"
+    ],
+    "u-text-heading-xl": [
+      "heading",
+      "title",
+      "large",
+      "font size"
+    ],
+    "u-text-heading-lg": [
+      "heading",
+      "title",
+      "font size",
+      "section"
+    ],
+    "u-text-heading-md": [
+      "heading",
+      "title",
+      "font size",
+      "subtitle"
+    ],
+    "u-text-heading-sm": [
+      "heading",
+      "title",
+      "small",
+      "font size"
+    ],
+    "u-text-heading-xs": [
+      "heading",
+      "title",
+      "tiny",
+      "font size"
+    ],
+    "u-text-subheading-2xl": [
+      "subheading",
+      "subtitle",
+      "large",
+      "font size"
+    ],
+    "u-text-subheading-xl": [
+      "subheading",
+      "subtitle",
+      "font size"
+    ],
+    "u-text-subheading-lg": [
+      "subheading",
+      "subtitle",
+      "font size"
+    ],
+    "u-text-subheading-md": [
+      "subheading",
+      "subtitle",
+      "font size"
+    ],
+    "u-text-subheading-sm": [
+      "subheading",
+      "subtitle",
+      "small",
+      "font size"
+    ],
+    "u-text-subheading-xs": [
+      "subheading",
+      "subtitle",
+      "tiny",
+      "font size"
+    ],
+    "u-text-body-xl": [
+      "body",
+      "paragraph",
+      "large text",
+      "font size"
+    ],
+    "u-text-body-lg": [
+      "body",
+      "paragraph",
+      "text",
+      "font size"
+    ],
+    "u-text-body-md": [
+      "body",
+      "paragraph",
+      "text",
+      "font size"
+    ],
+    "u-text-body-sm": [
+      "body",
+      "paragraph",
+      "small text",
+      "font size"
+    ],
+    "u-text-caption-1": [
+      "caption",
+      "small",
+      "muted",
+      "hint",
+      "label"
+    ],
+    "u-text-caption-2": [
+      "caption",
+      "secondary",
+      "muted",
+      "hint",
+      "label"
+    ],
+    "u-text-serif": [
+      "serif",
+      "font",
+      "typeface",
+      "times",
+      "elegant"
+    ],
+    "u-text-sansserif": [
+      "sans",
+      "sans-serif",
+      "font",
+      "typeface",
+      "modern"
+    ],
+    "u-text-mono": [
+      "monospace",
+      "code",
+      "fixed width",
+      "font",
+      "console"
+    ],
+    "u-text-ultralight": [
+      "thin",
+      "light",
+      "font weight",
+      "delicate"
+    ],
+    "u-text-normal": [
+      "regular",
+      "font weight",
+      "normal",
+      "400"
+    ],
+    "u-text-semibold": [
+      "semi bold",
+      "font weight",
+      "600",
+      "emphasis"
+    ],
+    "u-text-bold": [
+      "bold",
+      "strong",
+      "font weight",
+      "700",
+      "emphasis"
+    ],
+    "u-text-heavy": [
+      "black",
+      "heavy",
+      "font weight",
+      "900",
+      "extra bold"
+    ],
+    "u-hyphenate": [
+      "hyphen",
+      "break words",
+      "wrap",
+      "justify"
+    ],
+    "u-text-default-color": [
+      "text color",
+      "default",
+      "theme",
+      "body"
+    ],
+    "u-text-title-color": [
+      "heading color",
+      "title",
+      "theme",
+      "dark"
+    ],
+    "u-text-subtitle-color": [
+      "subtitle color",
+      "theme",
+      "secondary"
+    ],
+    "u-text-muted-color": [
+      "muted",
+      "gray",
+      "hint",
+      "secondary",
+      "placeholder"
     ]
   }
 }
