@@ -11,7 +11,7 @@ test("align-center (all)", async (t) => {
   for (const res of result) {
     t.regex(
       res.title,
-      /fa-align-center|u-align-items-center|u-align-self-center/i,
+      /fa-align-center|u-align-items-center|u-align-self-center|u-align-content-center/i,
     );
   }
 });
