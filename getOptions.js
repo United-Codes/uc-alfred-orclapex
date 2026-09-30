@@ -323,7 +323,7 @@ export async function processDgDomains(input) {
 
 	/** @type {DGDomainItem[]} */
 	const subItems = data.results[0].items;
-	const fuzzyOptions = getFuzzyOptions(["name", "description"]);
+	const fuzzyOptions = getFuzzyOptions(["name", "category", "datatype"]);
 	const results = fuzzysort.go(input, subItems, fuzzyOptions);
 
 	const items = results.map((el) => ({
